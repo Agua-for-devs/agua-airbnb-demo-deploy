@@ -1,12 +1,12 @@
 import React from 'react';
 import { Routes, Route } from 'react-router';
-import Screen from '../pages/screen/screen';
+import Home from '../pages/home/home';
 
 function RoutingApp() {
     return (
         <Routes>
-            <Route path="/" element={<Screen />} />
-<Route path="/Screen" element={<Screen />} />
+            <Route path="/" element={<Home />} />
+<Route path="/Home" element={<Home />} />
 
         </Routes>
     );
