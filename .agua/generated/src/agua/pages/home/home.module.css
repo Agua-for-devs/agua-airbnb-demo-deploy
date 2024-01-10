@@ -60,8 +60,8 @@ display: var(--9f660e71cfb9441c8a1c3dc675bbc54c_visible) ;
 }
 .imageview-1-74754a4e53884e8a9e3b5f5795ca6cf4[custom-agua-item="imageView"] {
     
-height: 50px ;min-height: 50px ;
-width: 102px ;min-width: 102px ;
+height: 35px ;min-height: 35px ;
+width: 100px ;min-width: 100px ;
 }
 section.layer-10-702b95a6dc164360bd3c571c86f8ca40[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -951,11 +951,2264 @@ min-height: var(--min-homecontent_valueheight) ;
 height: var(--homecontent_valueheight); 
 }
 section.hombebody[custom-agua-item="layer"] {
-    
+    flex-direction: row ;
 
-height: 100px ;min-height: 100px ;
+padding-bottom: 15px ;
+padding-left: 75px ;
+padding-right: 75px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
 min-width: unset;
 width: 100%;
+
+flex-wrap: wrap ;justify-content: var(--hombebody_horizontalAlignment) ; 
+}
+section.layer-145-dba48d0d38f2443ca0597d6a44faaec2[custom-agua-item="layer"] {
+    
+
+margin-top: 15px ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: relative;
+}
+section.layer-152-b5fd4305cef14db89f938518186b284d[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+}
+p.text-195-53f2368cbc2245c6b3ce8aa6c1b452a3[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-146-e6d1e341f0f044f0afd5ca0c02e8bb93[custom-agua-item="layer"] {
+    flex-direction: row ;
+border-radius: 15px ;overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150-29102a1b62a24c1cbbe95d5779a89980[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_1.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-151-b7083b2273c24f49833653a083b0d1af[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_2.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1502-a3d9aa8a1a1f4fa99cc435205a8251d8[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_3.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1503-26d5eb9615494cc5896e7c60eebadb75[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_4.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1504-e310cb24fa964034b2986f6555045293[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_5.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-147-368ebcec99944660b90a185a1ea4722c[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-193-37eba9342ae94681a52e50cf2b821f83[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+section.layer-149-74a8d6c9ed2047918098ffaffa214890[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-53-bbf06de271f64ca8afa3d11305002c25[custom-agua-item="icon"] {
+    
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-194-8d38b0de7bc14a2e91b104dd158ce180[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+p.text-189-ceb8204fc540471cb5382486ae3bab97[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 2px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+p.text-190-35d09b240d8e4f369aebecb4762700d8[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+section.layer-148-1c146b920fa34b008972816af630f2b1[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-191-7ea53797b3eb412aa17b34dce70f805f[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+
+
+}
+p.text-192-c7c2911f2b6e4a89aed26c3d6e718e91[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-left: 5px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-1452-b51a652c18654f67ab43d5844ec2c753[custom-agua-item="layer"] {
+    
+
+margin-top: 15px ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: relative;
+}
+section.layer-1522-3a6b11fca2754f76a01a1b7f0ed142b1[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+}
+p.text-1952-0352711aa3c34ce2961304d6cb2c7359[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-1462-30e8b8ccd80d4eedb13ca6d341ca3e81[custom-agua-item="layer"] {
+    flex-direction: row ;
+border-radius: 15px ;overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1505-a7799463d1b24c3b8cec37a9214a19ea[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay2/Stay2_1.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1512-c87dd50735334762a91ca66caea9fe2b[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay2/Stay2_2.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-15022-38f2013f6d254c4ca19152a4c8e2a707[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay2/Stay2_3.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-15032-ce0bbdd31001488ba78b5af2c0bea363[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay2/Stay2_4.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-15042-394e9312ef984a1cb857d9566ea27775[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay2/Stay2_5.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1472-43d05ba561c0442493c38d5cdde2bb53[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-1932-3ac44c06ae224d34b305b97f3e8dbf5c[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+section.layer-1492-fee73dd52f354f0f83ae01d38b24565a[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-532-934437f142f245248f32c71d6b76e2e4[custom-agua-item="icon"] {
+    
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-1942-94ef9ee338ac4243be28085db48283cd[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+p.text-1892-63b395c0b1614b1984ef5ff7d148a359[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 2px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+p.text-1902-8f3cfa478a734bdaa850b313aefb703e[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+section.layer-1482-0ec0fcaf13644aad86082babbfcef12b[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-1912-191b6ea11d8c4fb4a45a931094a82825[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+
+
+}
+p.text-19212-28fe0b060e2b42f0bdeade73223e6926[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-left: 5px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-14522-05ee7a9187cb455bb82d2581176eae96[custom-agua-item="layer"] {
+    
+
+margin-top: 15px ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: relative;
+}
+section.layer-15222-31355a4b67d847bba96fcdcd8d2a026d[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+}
+p.text-19522-beb6e3bef9584922847ffc0023b34735[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-14622-d25e891470ff45a7906d27549277d9fe[custom-agua-item="layer"] {
+    flex-direction: row ;
+border-radius: 15px ;overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-15052-fa8fbe6b83ef4e38b8d508d95e3e84b3[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay3/Stay3_1.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-15122-bfbef03ba9684ae6a47f1c8b9605e3ba[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay3/Stay3_2.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150222-87846b13a8ca4817a26f84fc1bd64cab[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay3/Stay3_3.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150322-7c66a04bebdb402682bbcbbbd3b9d529[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay3/Stay3_4.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150422-661f673a38ca4906934b70f6975d50a7[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay3/Stay3_5.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-14722-f45c84fa4cdd4c9ea04c5061f66b999b[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-19322-3c4912c91a5b4505be603d504705a4ea[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+section.layer-14922-29be5512eafd4ca59aa39d63c845d9b2[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-5322-5ea1d5a3963e4dffb8dd790982f9b29d[custom-agua-item="icon"] {
+    
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-19422-120a1368b4ea47a6b0c6849d328f4072[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+p.text-18922-bc9986e9f6b54f93822f5b45b80a7c03[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 2px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+p.text-19022-2ee50ca1afad4a849494a09e0a52caca[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+section.layer-14822-f4d9db0246ef481e85ffea864c45f2bd[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-19122-6b49164220f04fc1a76af65afcfe66aa[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+
+
+}
+p.text-192122-780f71f12bb34af193dcd02b9eab6f51[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-left: 5px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-14523-97b81d68a6d54312bf1f88febcd51af2[custom-agua-item="layer"] {
+    
+
+margin-top: 15px ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: relative;
+}
+section.layer-15223-829dcd6d39834bfeb28f231393f881f4[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+}
+p.text-19523-55462c9474ed4ea289bc6d348bdefb1f[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-14623-d9ae52815520405db0a6a5d048803b50[custom-agua-item="layer"] {
+    flex-direction: row ;
+border-radius: 15px ;overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-15053-5ff7e2cb8ad948cdab3f37259b739f10[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay4/Stay4_1.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-15123-b251b1c25a644a0da8caa7aa75ec2858[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay4/Stay4_2.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150223-949331cd626148f388be8415d2bc4d6b[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay4/Stay4_3.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150323-733118497760465db11f19290122f151[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay4/Stay4_4.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150423-dab63b7384b541f6899b020f5111b299[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay4/Stay4_5.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-14723-86be9cd66cbb4e2c9f6643057385eb1b[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-19323-44a9c59a907746728f69e3e97923dc08[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+section.layer-14923-03ef504e751d433ebe871e3d5e289bca[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-5323-edc59efe395248299b4b21a36563636b[custom-agua-item="icon"] {
+    
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-19423-46ace3f00f63416c8f01e60c7b6b63d1[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+p.text-18923-b0d13488a67d45119f649d13e36fca93[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 2px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+p.text-19023-1038060ea7a8405bb1e5a741d9e5864f[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+section.layer-14823-fefa4811cf8f422eb3bee1efb1945c32[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-19123-f9723f15875145aaa9f0359b6d917dcf[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+
+
+}
+p.text-192123-1a4c2e53260948e1ad93bdbbcdf1a8d5[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-left: 5px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-14524-6e76e00b00064969a0399365a3e64563[custom-agua-item="layer"] {
+    
+
+margin-top: 15px ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: relative;
+}
+section.layer-15224-25435ff51b8e4b0f9f261388b388eadd[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+display: none ;
+}
+p.text-19524-2f65e89038884aabae65d6b20f9603ac[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-14624-5efc73b25c864d9792becba7203e3f78[custom-agua-item="layer"] {
+    flex-direction: row ;
+border-radius: 15px ;overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-15054-d1d7fb0ff8b343c4b1753b776a59b8a5[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay5/Stay5_1.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-15124-44434cd048d847388630b3f6f3ee2ff2[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay5/Stay5_2.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150224-23a2f5972b1d48b18be0e3ed761d07d7[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay5/Stay5_3.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150324-aa845cee473c4fa2abfce5f8dbb98f6b[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay5/Stay5_4.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150424-d4ae54f3a5814516b0344c42fc8888a4[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay5/Stay5_5.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-14724-f9cad10e3a374390bbd631ef109f13fe[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-19324-74d2f4af3bf44a1fb7b73280650e30b1[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+section.layer-14924-70cf23e2c7a045d0aa5624e536733167[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-5324-1bba6cc455494fc38e6031ffbdfb6e3c[custom-agua-item="icon"] {
+    
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-19424-aab582bc6ab14ea9b6d1ea13afc51239[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+p.text-18924-3a20c08b72b6430fb5594a78f3bd67aa[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 2px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+p.text-19024-218ce96bbed84e6e9633df9acc566280[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+section.layer-14824-18061516e0e14ebdae2d813c9c62b973[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-19124-866e8e114a7842cfb5a795fc709ff6d4[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+
+
+}
+p.text-192124-3f329693d47a44efb234bb24556f138c[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-left: 5px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-145242-ba92a776d1a44a65a1d74a2d68e809bd[custom-agua-item="layer"] {
+    
+
+margin-top: 15px ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: relative;
+}
+section.layer-152242-01e864d2e9a740618c2bd52956159782[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+}
+p.text-195242-946191105ea64aaba1f77c0d282b71d9[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-146242-a3ab0c388443478e99bc623247985279[custom-agua-item="layer"] {
+    flex-direction: row ;
+border-radius: 15px ;overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150542-ab00717cbf0240dd9b8739e10d0d6f97[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay6/Stay6_1.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-151242-a4fb98c1462a4b128db2f796944dea4a[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay6/Stay6_2.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1502242-820a11e40dac44a69826b2090d39feea[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay6/Stay6_3.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1503242-ead3b77de35f40f1ad3a441b75c1dbf6[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay6/Stay6_4.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1504242-9de5053f0c4c4e328ab0c763d5c514aa[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay6/Stay6_5.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-147242-ae67899ed24d4b578a949617f6382afc[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-193242-081e447c35f343f095687f232e655c2a[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+section.layer-149242-1573cb5be54449018598bce5bda4678d[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-53242-289a40f82a6a41f8abde6a5ea1242fa8[custom-agua-item="icon"] {
+    
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-194242-21c6671ee80846bbbad4f243e0b1a7c3[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+p.text-189242-4d3f5d8123ea457ab1f70e28cd81b53e[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 2px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+p.text-190242-43b7ddf384524ea7b9eb47cbcbc5f244[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+section.layer-148242-af4fdb8cdc5f4e16b45a89bc3bd42649[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-191242-892e3aeb48054aa18893ce12887e5307[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+
+
+}
+p.text-1921242-af5dc210aa5c4a7382efb40fb373144c[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-left: 5px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-145243-71b3069146404eb1bdf27a67ba0a3988[custom-agua-item="layer"] {
+    
+
+margin-top: 15px ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: relative;
+}
+section.layer-152243-6fecac3eaba24a12a603fc19d030695d[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+}
+p.text-195243-2ad0714043124be08b2b239a5f63933e[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-146243-5334edb09f0948038dc6853ca4c5b2f2[custom-agua-item="layer"] {
+    flex-direction: row ;
+border-radius: 15px ;overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150543-57b5732a731c4da3b75db2be70d8e832[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay7/Stay7_1.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-151243-ca327f26ae70408fa4b1f68b9f33957a[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay7/Stay7_2.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1502243-fb6cce5428e7423aaea89e0b54794c63[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay7/Stay7_3.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1503243-2f462c7f820547a29fd5d8af4998d86e[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay7/Stay7_4.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1504243-2c338d26d7114049aed6e28092166234[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay7/Stay7_5.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-147243-f14fdba336ca447cb46ef5fd40e9cbdb[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-193243-af1cc2dc366546a586be9030df245515[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+section.layer-149243-89b76d7bb3f64648b17dbf3088abe457[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-53243-d5197867e7ce40f3b8ebb569f3c3405b[custom-agua-item="icon"] {
+    
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-194243-771937546f5a4cd1961ccf0bb693b81d[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+p.text-189243-f48cc53ac4fa41a4a2681ecf20251995[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 2px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+p.text-190243-17c2b3308642431a94c2ac82efb9f0c1[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+section.layer-148243-e17ab2cfe291422cb8680f282810d3d8[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-191243-1f78a0c2896e4479a83fe6af6e0bde97[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+
+
+}
+p.text-1921243-0948b8bcc99c4c3180cc8771c393149d[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-left: 5px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-145244-b4f7d2197bd24c9baabc1f919aea1785[custom-agua-item="layer"] {
+    
+
+margin-top: 15px ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: relative;
+}
+section.layer-152244-fcee3289729a46d980d913df38aa3ee4[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+}
+p.text-195244-4e46bd3eda9a4938a1d38c8b4b841da0[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-146244-19d0d94c0f0d4526915ed5d2fd681234[custom-agua-item="layer"] {
+    flex-direction: row ;
+border-radius: 15px ;overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150544-05c5681d2c81406db6d09b277711eb60[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay8/Stay8_1.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-151244-4dbc5b183e41485694c8717644b872ea[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay8/Stay8_2.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1502244-8432fab6957b4559aa9d78136171f0fe[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay8/Stay8_3.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1503244-3365ed4d6b56420fb1b81f6a23c6c787[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay8/Stay8_4.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1504244-6d878a9110294bdab19df8f688e842ac[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay8/Stay8_5.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-147244-548b72e10d9b43dfad193cfb9b65b36f[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-193244-410e59098d1c4ba7b82ab5fb40ca87df[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+section.layer-149244-bf75cdcd61984055bf32950f9864fe22[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-53244-ea6e5ae118d74c9abd836bd9b8b245ea[custom-agua-item="icon"] {
+    
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-194244-4b06d311102a40f4b48bbbc83bc8973e[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+p.text-189244-9e95b7c9618943ed8bec2f9fff324bff[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 2px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+p.text-190244-94a7dc1fd51c46a8a93d1f164f285ea5[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+section.layer-148244-b7fcc35712024e5d98ac42017b516811[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-191244-66a5a32e6c764d9db873010bcb122b42[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+
+
+}
+p.text-1921244-f57038b4b34c4a70863a30e7d5d99070[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-left: 5px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-145245-30626ad6c2514d3db17b570166ab50ba[custom-agua-item="layer"] {
+    
+
+margin-top: 15px ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: relative;
+}
+section.layer-152245-82891657d030413cb7155935b8d3da85[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+}
+p.text-195245-13df94a664394ccbbfb1a2913f4cf18c[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-146245-7bc09368dd57456c850ae8f9eeb4f7aa[custom-agua-item="layer"] {
+    flex-direction: row ;
+border-radius: 15px ;overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150545-900610749b554795ba2462bc2e4997ed[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay9/Stay9_1.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-151245-a3c6a6fa87a543988db1aedea519af47[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay9/Stay9_2.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1502245-d3daf81babac45d7afcdce68ac9ee441[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay9/Stay9_3.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1503245-e78278e87de847599d6650d687744cb6[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay9/Stay9_4.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1504245-c640684759a0442dbdce641ea23e3adc[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay9/Stay9_5.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-147245-5218bfbe733b406f9586777e1a10099a[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-193245-a4a0f63d266d4bf88b49abe57056b963[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+section.layer-149245-5a4f9db488f54cf3bcea810e5875cc5b[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-53245-3ed320cfcea442a19217c1ad038b3f0e[custom-agua-item="icon"] {
+    
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-194245-4374fbaef876481c95ecbfc25f7ac7c4[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+p.text-189245-58f2e7ca51b14ce6a5bfa59a8b3d4f99[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 2px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+p.text-190245-327fd71e13a849b28c747b955f7ee49f[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+section.layer-148245-4ad88520587b499c9961ff3ff9dec220[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-191245-535f441e77eb4c5da57392475917d4a9[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+
+
+}
+p.text-1921245-dab68fc61d6f4130909e4eedea14648d[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-left: 5px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-145246-6dc6bddde0a04f31bd34c8f21ffed755[custom-agua-item="layer"] {
+    
+
+margin-top: 15px ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: relative;
+}
+section.layer-152246-7e2cb28c5be448ebbc699ade7adc784f[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+display: none ;
+}
+p.text-195246-3ddc22ef222a4f559a52afdb6ffc5a61[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-146246-ac85a249af334730a02bd04be3f74cc9[custom-agua-item="layer"] {
+    flex-direction: row ;
+border-radius: 15px ;overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150546-15574bb152e7419289b5ea606e8718b3[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay10/Stay10_1.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-151246-74148a9ef9244aecbb26bd77b0102b19[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay10/Stay10_2.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1502246-ace0668c577244ea963520ffba478670[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay10/Stay10_3.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1503246-44d09d2b61f94f1288bf5611a5c71e29[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay10/Stay10_4.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1504246-821758efb0f041a0a935c8ba81ea4e81[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay10/Stay10_5.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-147246-00e07806647f4c17a18c8ce3b10967d2[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-193246-8ca70933cd644f16a83a584e70d061b7[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+section.layer-149246-62248107c73c4a2fbb18062e46f1a9f3[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-53246-da249ced647b4f82b2b63a47ea4c6193[custom-agua-item="icon"] {
+    
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-194246-da89d076d813404d98e3bf627b74d77d[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+p.text-189246-d2b3f6167fb649b992bf68ee43626125[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 2px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+p.text-190246-6d941d0ee7bd4ba3a07ad1d51c9c3b47[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+section.layer-148246-e09dc93d713248f8b07602aa300ba4d6[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-191246-19b30d1070974bc8a94b76a8f6a215d3[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+
+
+}
+p.text-1921246-93318552faa54b50bc9c0a6bbb83cff1[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-left: 5px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-145247-0a6371605421496299650952f450fa6a[custom-agua-item="layer"] {
+    
+
+margin-top: 15px ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: relative;
+}
+section.layer-152247-5f79155f640c4e5da9f5fc037fc3a715[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+display: none ;
+}
+p.text-195247-ee393b359bc646b09c841035e558047d[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-146247-b8c9ceaac35140249cd74a1297b57bfe[custom-agua-item="layer"] {
+    flex-direction: row ;
+border-radius: 15px ;overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150547-f2e86ea4d06c42bdbbeb9c42e3fc14d8[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay11/Stay11_1.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-151247-2729a12db2c842bbae3484249f156847[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay11/Stay11_2.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1502247-dd3e8fdc06354d3b9873d98aeac8e69b[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay11/Stay11_3.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1503247-f2c1133434f74f27b5b03a2d304fd226[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay11/Stay11_4.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1504247-9b89c81104e448e69afa417baeb3f0e4[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay11/Stay11_5.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-147247-44b0199a99e24e5f8cf7d12dcff396fa[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-193247-e57543c7022b43df80f686bc3a50abc9[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+section.layer-149247-acf223702aa5423f9d4a020abaf4333e[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-53247-0bd2bd9e4fe44fbcb362966a91c2fa84[custom-agua-item="icon"] {
+    
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-194247-f1cb8a070de246e3891abb698cb129b9[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+p.text-189247-60194d19b02e440e8f70179ef3dd2515[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 2px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+p.text-190247-c8fe2f931fc64224ab53d7dd61ca61c9[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+section.layer-148247-76f49f21b1df4bbdb79e891f34e17963[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-191247-2876d4f7673d4b32a73e1360064b5840[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+
+
+}
+p.text-1921247-2b3601d061bc403fbeee3abe3a41978c[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-left: 5px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-145248-63a648209b714006b7278cc684502c07[custom-agua-item="layer"] {
+    
+
+margin-top: 15px ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: relative;
+}
+section.layer-152248-1a154909a6fa40d6811be67da5d03ed6[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+position: absolute;
+top: 15px;
+left: 15px;
+z-index: 1;
+display: none ;
+}
+p.text-195248-50f15ee0d5944476b9635fe4b151623c[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-146248-8e97a5fbfe8c4b64a5fe59c826412401[custom-agua-item="layer"] {
+    flex-direction: row ;
+border-radius: 15px ;overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-bottom: 15px ;
+box-sizing: border-box ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-150548-8f294a7218c6481c9ea81710c55dae4b[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay12/Stay12_1.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-151248-0ebebe916dbe4bffa95093328b47a337[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay12/Stay12_2.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1502248-eff94650ce0d475695fc6f7660d27124[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay12/Stay12_3.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1503248-28a3b3549bba4e1dbce3e2b40af18681[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay12/Stay12_4.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-1504248-028b2f7056a144019e29ed58b8afe7dc[custom-agua-item="layer"] {
+    
+border-radius: 0px ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay12/Stay12_5.png') ;
+height: 270px ;min-height: 270px ;
+width: 280px ;min-width: 280px ;
+}
+section.layer-147248-80b3fd1c40b24f2d9faf50918869c2c8[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-193248-0f487ddb1ab5440d8f5c3b22f1ce64ae[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+section.layer-149248-6bbdd484fa7046f29fd47bda8848bc5a[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-53248-caa94f3d5c48481687302347d547fd69[custom-agua-item="icon"] {
+    
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-194248-a974ca6b0ef648adbf8ac89436038843[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+
+
+}
+p.text-189248-167217d71a424e74989681fcf63aa29c[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 2px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+p.text-190248-581b951a2e8b4ad589d7980b9c2c656f[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-bottom: 5px ;
+box-sizing: border-box ;
+background: #717171 ;
+
+
+}
+section.layer-148248-4f555d27b9db414cad55d70d828c7826[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-191248-ff8b9ee136104eec96cde88052c21a8d[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+
+
+}
+p.text-1921248-b2ba8ad0e2dc4d5da6fa87230e183281[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-left: 5px ;
+box-sizing: border-box ;
+
 
 }
 section.homefooter[custom-agua-item="layer"] {
@@ -1008,11 +3261,11 @@ width: 100%;
 p.text-192-f0266e911b3141f694466a566acaba57[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 margin-right: 15px ;
 box-sizing: border-box ;
-background: #616161 ;
+background: #717171 ;
 font-size: var(--f0266e911b3141f694466a566acaba57_fontSize) ; 
 min-width: var(--min-f0266e911b3141f694466a566acaba57_valuewidth) ; 
 width: var(--f0266e911b3141f694466a566acaba57_valuewidth); 
@@ -1020,12 +3273,12 @@ width: var(--f0266e911b3141f694466a566acaba57_valuewidth);
 p.text-193-3c6bf379755646d987e04bae9d24a1d6[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 margin-left: 15px ;
 margin-right: 15px ;
 box-sizing: border-box ;
-background: #616161 ;
+background: #717171 ;
 font-size: var(--3c6bf379755646d987e04bae9d24a1d6_fontSize) ; 
 min-width: var(--min-3c6bf379755646d987e04bae9d24a1d6_valuewidth) ; 
 width: var(--3c6bf379755646d987e04bae9d24a1d6_valuewidth); 
@@ -1033,48 +3286,48 @@ width: var(--3c6bf379755646d987e04bae9d24a1d6_valuewidth);
 p.text-199-3894c4b82cef41ca9538d67395ee2ba6[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 margin-left: 15px ;
 margin-right: 15px ;
 box-sizing: border-box ;
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--3894c4b82cef41ca9538d67395ee2ba6_fontSize) ; 
 }
 p.text-194-646a575dae1848b1b1f5812f0007c512[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 margin-left: 15px ;
 margin-right: 15px ;
 box-sizing: border-box ;
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--646a575dae1848b1b1f5812f0007c512_fontSize) ; 
 }
 p.text-195-463507e256034884b6374ae2c8872ea3[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 margin-left: 15px ;
 margin-right: 15px ;
 box-sizing: border-box ;
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--463507e256034884b6374ae2c8872ea3_fontSize) ; 
 }
 p.text-196-d192530879f5489ea7933f515f582d18[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 margin-left: 15px ;
 margin-right: 15px ;
 box-sizing: border-box ;
-background: #616161 ;
+background: #717171 ;
 font-size: var(--d192530879f5489ea7933f515f582d18_fontSize) ; 
 min-width: var(--min-d192530879f5489ea7933f515f582d18_valuewidth) ; 
 width: var(--d192530879f5489ea7933f515f582d18_valuewidth); 
@@ -1093,12 +3346,12 @@ font-size: var(--bcb8cf1429664b07a8dcd0bd59712035_fontSize) ;
 p.text-198-62497240c5e34f76bb4e1b78841c3b74[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 margin-left: 15px ;
 margin-right: 15px ;
 box-sizing: border-box ;
-background: #616161 ;
+background: #717171 ;
 font-size: var(--62497240c5e34f76bb4e1b78841c3b74_fontSize) ; 
 min-width: var(--min-62497240c5e34f76bb4e1b78841c3b74_valuewidth) ; 
 width: var(--62497240c5e34f76bb4e1b78841c3b74_valuewidth); 
@@ -1106,11 +3359,11 @@ width: var(--62497240c5e34f76bb4e1b78841c3b74_valuewidth);
 p.text-200-62a43305a1774968bf56edf27d0d2aa4[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 margin-left: 15px ;
 box-sizing: border-box ;
-background: #616161 ;
+background: #717171 ;
 font-size: var(--62a43305a1774968bf56edf27d0d2aa4_fontSize) ; 
 min-width: var(--min-62a43305a1774968bf56edf27d0d2aa4_valuewidth) ; 
 width: var(--62a43305a1774968bf56edf27d0d2aa4_valuewidth); 
@@ -1146,7 +3399,7 @@ min-width:  unset ;width: fit-content ;
 p.text-276-26a9ec16ec144004b1f80854293563c9[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-26a9ec16ec144004b1f80854293563c9_valuewidth) ; 
 width: var(--26a9ec16ec144004b1f80854293563c9_valuewidth); 
@@ -1155,7 +3408,7 @@ font-size: var(--26a9ec16ec144004b1f80854293563c9_fontSize) ;
 p.text-277-f03cd92759f248bca54d2cc05f057ec5[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-f03cd92759f248bca54d2cc05f057ec5_valuewidth) ; 
 width: var(--f03cd92759f248bca54d2cc05f057ec5_valuewidth); 
@@ -1173,7 +3426,7 @@ min-width:  unset ;width: fit-content ;
 p.text-2762-a23a22f98c3c42dfa97534dda8b1ec1d[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-a23a22f98c3c42dfa97534dda8b1ec1d_valuewidth) ; 
 width: var(--a23a22f98c3c42dfa97534dda8b1ec1d_valuewidth); 
@@ -1182,7 +3435,7 @@ font-size: var(--a23a22f98c3c42dfa97534dda8b1ec1d_fontSize) ;
 p.text-2772-0df1abd2a1284c4facae6feac427280b[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-0df1abd2a1284c4facae6feac427280b_valuewidth) ; 
 width: var(--0df1abd2a1284c4facae6feac427280b_valuewidth); 
@@ -1200,7 +3453,7 @@ min-width:  unset ;width: fit-content ;
 p.text-2763-afc738b9602846b2876210212e00027c[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-afc738b9602846b2876210212e00027c_valuewidth) ; 
 width: var(--afc738b9602846b2876210212e00027c_valuewidth); 
@@ -1209,7 +3462,7 @@ font-size: var(--afc738b9602846b2876210212e00027c_fontSize) ;
 p.text-2773-64322d180c0b44a5916328a7f14e8a6e[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-64322d180c0b44a5916328a7f14e8a6e_valuewidth) ; 
 width: var(--64322d180c0b44a5916328a7f14e8a6e_valuewidth); 
@@ -1235,7 +3488,7 @@ min-width:  unset ;width: fit-content ;
 p.text-2764-aaee67b3573d46859ecd2f59f5f3c112[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-aaee67b3573d46859ecd2f59f5f3c112_valuewidth) ; 
 width: var(--aaee67b3573d46859ecd2f59f5f3c112_valuewidth); 
@@ -1244,7 +3497,7 @@ font-size: var(--aaee67b3573d46859ecd2f59f5f3c112_fontSize) ;
 p.text-2774-89ab0369ef3c4aafb787a794adcaddb2[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-89ab0369ef3c4aafb787a794adcaddb2_valuewidth) ; 
 width: var(--89ab0369ef3c4aafb787a794adcaddb2_valuewidth); 
@@ -1262,7 +3515,7 @@ min-width:  unset ;width: fit-content ;
 p.text-27622-5149ffc4f03b4f81a117ca9c1fbe3f5c[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-5149ffc4f03b4f81a117ca9c1fbe3f5c_valuewidth) ; 
 width: var(--5149ffc4f03b4f81a117ca9c1fbe3f5c_valuewidth); 
@@ -1271,7 +3524,7 @@ font-size: var(--5149ffc4f03b4f81a117ca9c1fbe3f5c_fontSize) ;
 p.text-27722-23e1d50da3564889b778b45a7c70101b[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-23e1d50da3564889b778b45a7c70101b_valuewidth) ; 
 width: var(--23e1d50da3564889b778b45a7c70101b_valuewidth); 
@@ -1289,7 +3542,7 @@ min-width:  unset ;width: fit-content ;
 p.text-27632-26e835c47fa84c908e1f0941a566be8d[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-26e835c47fa84c908e1f0941a566be8d_valuewidth) ; 
 width: var(--26e835c47fa84c908e1f0941a566be8d_valuewidth); 
@@ -1298,7 +3551,7 @@ font-size: var(--26e835c47fa84c908e1f0941a566be8d_fontSize) ;
 p.text-27732-14e49b7d620f43d3b8237a6e8b195110[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-14e49b7d620f43d3b8237a6e8b195110_valuewidth) ; 
 width: var(--14e49b7d620f43d3b8237a6e8b195110_valuewidth); 
@@ -1324,7 +3577,7 @@ min-width:  unset ;width: fit-content ;
 p.text-2765-4b88b245f21f432498d181a8baf15ee9[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-4b88b245f21f432498d181a8baf15ee9_valuewidth) ; 
 width: var(--4b88b245f21f432498d181a8baf15ee9_valuewidth); 
@@ -1333,7 +3586,7 @@ font-size: var(--4b88b245f21f432498d181a8baf15ee9_fontSize) ;
 p.text-2775-7740b51558d841a584a1a5042fe00159[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-7740b51558d841a584a1a5042fe00159_valuewidth) ; 
 width: var(--7740b51558d841a584a1a5042fe00159_valuewidth); 
@@ -1351,7 +3604,7 @@ min-width:  unset ;width: fit-content ;
 p.text-27623-971cb485faa942e49caa0c3a97a0dc83[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-971cb485faa942e49caa0c3a97a0dc83_valuewidth) ; 
 width: var(--971cb485faa942e49caa0c3a97a0dc83_valuewidth); 
@@ -1360,7 +3613,7 @@ font-size: var(--971cb485faa942e49caa0c3a97a0dc83_fontSize) ;
 p.text-27723-1172e135dca24c269825cfffc37fce52[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-1172e135dca24c269825cfffc37fce52_valuewidth) ; 
 width: var(--1172e135dca24c269825cfffc37fce52_valuewidth); 
@@ -1378,20 +3631,11 @@ min-width:  unset ;width: fit-content ;
 p.text-27633-828ef2ea42b94b7c851529ee8e5626b8[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 min-width: var(--min-828ef2ea42b94b7c851529ee8e5626b8_valuewidth) ; 
 width: var(--828ef2ea42b94b7c851529ee8e5626b8_valuewidth); 
 font-size: var(--828ef2ea42b94b7c851529ee8e5626b8_fontSize) ; 
-}
-p.text-27733-52ce74560fb54fb39af7c2a215ce4bff[custom-agua-item="text"] {
-     
-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-size: 15px ;
-font-weight: bold ;
-
-min-width: var(--min-52ce74560fb54fb39af7c2a215ce4bff_valuewidth) ; 
-width: var(--52ce74560fb54fb39af7c2a215ce4bff_valuewidth); 
 }
 section.layer-213-6be24c0bb0064bb6a88a32abbac66514[custom-agua-item="layer"] {
     
@@ -1409,8 +3653,8 @@ flex-direction: var(--6be24c0bb0064bb6a88a32abbac66514_orientation) ;
 section.layer-215-440097adf19b49fe8321cd4c99852599[custom-agua-item="layer"] {
     
 
-min-height:  unset ;height: fit-content ;
-width: 460px ;min-width: 460px ;
+min-height:  unset ;height: fit-content ;min-width: var(--min-440097adf19b49fe8321cd4c99852599_valuewidth) ; 
+width: var(--440097adf19b49fe8321cd4c99852599_valuewidth); 
 }
 p.text-170-b3445468b0fc4613bccbea4d1a55b550[custom-agua-item="text"] {
      
@@ -1429,6 +3673,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--67e4e7710f1049828b67d1fefc28032d_fontSize) ; 
 }
@@ -1439,6 +3684,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--54e6e98dc03a4bef9c3e8ea42368663f_fontSize) ; 
 }
@@ -1449,6 +3695,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--28833623ad7b48289f05eed23342cacd_fontSize) ; 
 }
@@ -1459,6 +3706,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--4fda4799ce684e2eaddd87ee6be0732b_fontSize) ; 
 }
@@ -1469,6 +3717,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--99b35fe8b6dd422fa763d9db299fa539_fontSize) ; 
 }
@@ -1480,14 +3729,15 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 margin-top: 15px ;
 margin-bottom: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--fc8c04f6dbf5499a8f3690373a20170b_fontSize) ; 
 }
 section.layer-216-1bf446f3816c454f9f99c313f5c6c325[custom-agua-item="layer"] {
     
 
-min-height:  unset ;height: fit-content ;
-width: 460px ;min-width: 460px ;
+min-height:  unset ;height: fit-content ;min-width: var(--min-1bf446f3816c454f9f99c313f5c6c325_valuewidth) ; 
+width: var(--1bf446f3816c454f9f99c313f5c6c325_valuewidth); 
 }
 p.text-177-b37681cc5d25469aaae425e20d809d34[custom-agua-item="text"] {
      
@@ -1506,6 +3756,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--f7717c577be04ef8b5109dae18fbd87d_fontSize) ; 
 }
@@ -1516,6 +3767,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--68e6e8dbe87c43158d99b0f8e9adf142_fontSize) ; 
 }
@@ -1526,6 +3778,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--7d24fa72ed7c4196a2e0228e6ad2d25c_fontSize) ; 
 }
@@ -1536,6 +3789,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--591607704f034c9695d2f23f5a3da6d1_fontSize) ; 
 }
@@ -1546,6 +3800,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--04d40566f99744bea766caa0616bdb59_fontSize) ; 
 }
@@ -1557,6 +3812,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 margin-top: 15px ;
 margin-bottom: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--16b4396c19b7477c88c15bbaeb21195c_fontSize) ; 
 }
@@ -1564,7 +3820,7 @@ section.layer-217-ffb96241f77243d0b4fc27cdebdb00ea[custom-agua-item="layer"] {
     
 
 min-height:  unset ;height: fit-content ;
-width: 460px ;min-width: 460px ;
+min-width:  unset ;width: fit-content ;
 }
 p.text-184-28e7d5f569d54a11a7e5d4fd8dd9e264[custom-agua-item="text"] {
      
@@ -1583,6 +3839,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--fa7703600246466594c14a330f7017da_fontSize) ; 
 }
@@ -1593,6 +3850,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--6b9592b86bc542dbb409de335d74b4e4_fontSize) ; 
 }
@@ -1603,6 +3861,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--26c39c8832f9407caab271a9be28fbaa_fontSize) ; 
 }
@@ -1613,6 +3872,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--c144e9c3a2f34876a6f0befec46fead7_fontSize) ; 
 }
@@ -1623,6 +3883,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-top: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--7478177a90b145559f73e5ea7b3ee5c2_fontSize) ; 
 }
@@ -1634,6 +3895,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 margin-top: 15px ;
 margin-bottom: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--2cd3a197b6c94c67b98ba9533a6426d6_fontSize) ; 
 }
@@ -1674,6 +3936,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-2062-5b5156ae69c248ec8712be72def06e58[custom-agua-item="icon"] {
     
+background: #222222 ;
 height: 18px ;min-height: 18px ;
 width: 18px ;min-width: 18px ; font-size: 18px ;
 }
@@ -1685,6 +3948,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 margin-left: 5px ;
 margin-right: 10px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--8c628332d27842f08785a589f09857c2_fontSize) ; 
 }
@@ -1696,6 +3960,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 margin-left: 10px ;
 margin-right: 10px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--3357c4bd82c842259a4b9c80e7e0688b_fontSize) ; 
 }
@@ -1756,6 +4021,7 @@ margin-top: 15px ;
 margin-bottom: 15px ;
 margin-right: 10px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--81e79fdd8a8c4dabb52eb545139877c2_fontSize) ; 
 }
@@ -1785,6 +4051,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-right: 10px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--3667e38ff0494df79499215ed17e83b5_fontSize) ; 
 margin-left: var(--3667e38ff0494df79499215ed17e83b5_margin-left) ; 
@@ -1797,6 +4064,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 margin-left: 10px ;
 margin-right: 10px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--ed49dc0edbe74d11a44a7a8194d50e34_fontSize) ; 
 }
@@ -1808,6 +4076,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 margin-left: 10px ;
 margin-right: 10px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 font-size: var(--b7a2a97516d6429584f9271a6f004e6d_fontSize) ; 
 }
@@ -1818,6 +4087,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 margin-bottom: 15px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 margin-top: var(--a19ab795c8224a5ebd5bd57b730463d0_margin-top) ; 
 font-size: var(--a19ab795c8224a5ebd5bd57b730463d0_fontSize) ; 
@@ -1836,30 +4106,33 @@ min-width:  unset ;width: fit-content ;display: var(--10437ef33f94414d9e79df52f2
 }
 .icon-206-62d7956483b747f08add7414568346a4[custom-agua-item="icon"] {
     
+background: #222222 ;
 height: 18px ;min-height: 18px ;
 width: 18px ;min-width: 18px ; font-size: 18px ;
 }
 p.text-520-01cee3d168b54931ac90538fe257b3d2[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-size: 15px ;
+font-size: 14px ;
 
 
 margin-left: 5px ;
 margin-right: 10px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 
 }
 p.text-521-2fc232faf28a42ac940a26c0df14287f[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-size: 15px ;
+font-size: 14px ;
 
 
 margin-left: 10px ;
 margin-right: 10px ;
 box-sizing: border-box ;
+background: #222222 ;
 
 
 }
@@ -1874,23 +4147,23 @@ min-width:  unset ;width: fit-content ;
 margin-left: 10px ;
 margin-right: 5px ;
 box-sizing: border-box ;
-height: 25px ;min-height: 25px ;
-width: 25px ;min-width: 25px ;
+height: 20px ;min-height: 20px ;
+width: 20px ;min-width: 20px ;
 }
 .imageview-12-174e869c8dae444aae00248f5b03e7fd[custom-agua-item="imageView"] {
     
 margin-left: 5px ;
 margin-right: 5px ;
 box-sizing: border-box ;
-height: 25px ;min-height: 25px ;
-width: 25px ;min-width: 25px ;
+height: 20px ;min-height: 20px ;
+width: 20px ;min-width: 20px ;
 }
 .imageview-13-fec44917293049aba8e78cc38c8d6588[custom-agua-item="imageView"] {
     
 margin-left: 5px ;
 box-sizing: border-box ;
-height: 25px ;min-height: 25px ;
-width: 25px ;min-width: 25px ;
+height: 20px ;min-height: 20px ;
+width: 20px ;min-width: 20px ;
 }
 section.homemobilemenu[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1926,7 +4199,7 @@ background: #FF385C ;
 p.text-5-42b265e9d2bb40399dc5e983a6015fd5[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-size: 15px ;
+font-size: 12px ;
 
 
 background: #FF385C ;
@@ -1948,7 +4221,7 @@ min-width:  unset ;width: fit-content ;
 p.text-6-b4fb883a329c4e01ba0fab348b16a051[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-size: 15px ;
+font-size: 12px ;
 
 
 
@@ -1969,7 +4242,7 @@ min-width:  unset ;width: fit-content ;
 p.text-7-128f82a0b83e4983a18afe8089412680[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-size: 15px ;
+font-size: 12px ;
 
 
 
@@ -2129,8 +4402,6 @@ justify-content: var(--horizontalAxis-4d379f86be3340d7bea38b46abb6b26c) ;
 	--1172e135dca24c269825cfffc37fce52_valuewidth: 170px;
 	--min-828ef2ea42b94b7c851529ee8e5626b8_valuewidth: 170px;
 	--828ef2ea42b94b7c851529ee8e5626b8_valuewidth: 170px;
-	--min-52ce74560fb54fb39af7c2a215ce4bff_valuewidth: 170px;
-	--52ce74560fb54fb39af7c2a215ce4bff_valuewidth: 170px;
 	--6be24c0bb0064bb6a88a32abbac66514_orientation: column;
 	--min-f0266e911b3141f694466a566acaba57_fontSize: 12px;
 	--f0266e911b3141f694466a566acaba57_fontSize: 12px;
@@ -2276,6 +4547,12 @@ justify-content: var(--horizontalAxis-4d379f86be3340d7bea38b46abb6b26c) ;
 	--3667e38ff0494df79499215ed17e83b5_margin-left: 0px;
 	--min-58d143ed16ca4e2fbe171be416ec898e_fontSize: 18px;
 	--58d143ed16ca4e2fbe171be416ec898e_fontSize: 18px;
+	--min-440097adf19b49fe8321cd4c99852599_valuewidth: unset;
+	--440097adf19b49fe8321cd4c99852599_valuewidth: fit-content;
+	--min-1bf446f3816c454f9f99c313f5c6c325_valuewidth: unset;
+	--1bf446f3816c454f9f99c313f5c6c325_valuewidth: fit-content;
+	--hombebody_horizontalAlignment: center ;;
+	--74754a4e53884e8a9e3b5f5795ca6cf4_src: url(Assets/Airbnb_logo.png);
 
 }
 
@@ -2400,63 +4677,61 @@ height: var(--homecontent_valueheight);
 	--6be24c0bb0064bb6a88a32abbac66514_padding-left: 75px;
 	--min-6be24c0bb0064bb6a88a32abbac66514_padding-right: 75px;
 	--6be24c0bb0064bb6a88a32abbac66514_padding-right: 75px;
-	--min-26a9ec16ec144004b1f80854293563c9_valuewidth: 230px;
-	--26a9ec16ec144004b1f80854293563c9_valuewidth: 230px;
-	--min-f03cd92759f248bca54d2cc05f057ec5_valuewidth: 230px;
-	--f03cd92759f248bca54d2cc05f057ec5_valuewidth: 230px;
-	--min-a23a22f98c3c42dfa97534dda8b1ec1d_valuewidth: 230px;
-	--a23a22f98c3c42dfa97534dda8b1ec1d_valuewidth: 230px;
-	--min-0df1abd2a1284c4facae6feac427280b_valuewidth: 230px;
-	--0df1abd2a1284c4facae6feac427280b_valuewidth: 230px;
-	--min-afc738b9602846b2876210212e00027c_valuewidth: 230px;
-	--afc738b9602846b2876210212e00027c_valuewidth: 230px;
-	--min-64322d180c0b44a5916328a7f14e8a6e_valuewidth: 230px;
-	--64322d180c0b44a5916328a7f14e8a6e_valuewidth: 230px;
+	--min-26a9ec16ec144004b1f80854293563c9_valuewidth: 250px;
+	--26a9ec16ec144004b1f80854293563c9_valuewidth: 250px;
+	--min-f03cd92759f248bca54d2cc05f057ec5_valuewidth: 250px;
+	--f03cd92759f248bca54d2cc05f057ec5_valuewidth: 250px;
+	--min-a23a22f98c3c42dfa97534dda8b1ec1d_valuewidth: 250px;
+	--a23a22f98c3c42dfa97534dda8b1ec1d_valuewidth: 250px;
+	--min-0df1abd2a1284c4facae6feac427280b_valuewidth: 250px;
+	--0df1abd2a1284c4facae6feac427280b_valuewidth: 250px;
+	--min-afc738b9602846b2876210212e00027c_valuewidth: 250px;
+	--afc738b9602846b2876210212e00027c_valuewidth: 250px;
+	--min-64322d180c0b44a5916328a7f14e8a6e_valuewidth: unset;
+	--64322d180c0b44a5916328a7f14e8a6e_valuewidth: fit-content;
 	--b17fc4454a604f18bfe60927ae2af13a_orientation: row;
-	--min-aaee67b3573d46859ecd2f59f5f3c112_valuewidth: 230px;
-	--aaee67b3573d46859ecd2f59f5f3c112_valuewidth: 230px;
-	--min-89ab0369ef3c4aafb787a794adcaddb2_valuewidth: 230px;
-	--89ab0369ef3c4aafb787a794adcaddb2_valuewidth: 230px;
-	--min-5149ffc4f03b4f81a117ca9c1fbe3f5c_valuewidth: 230px;
-	--5149ffc4f03b4f81a117ca9c1fbe3f5c_valuewidth: 230px;
-	--min-23e1d50da3564889b778b45a7c70101b_valuewidth: 230px;
-	--23e1d50da3564889b778b45a7c70101b_valuewidth: 230px;
-	--min-26e835c47fa84c908e1f0941a566be8d_valuewidth: 230px;
-	--26e835c47fa84c908e1f0941a566be8d_valuewidth: 230px;
-	--min-14e49b7d620f43d3b8237a6e8b195110_valuewidth: 230px;
-	--14e49b7d620f43d3b8237a6e8b195110_valuewidth: 230px;
+	--min-aaee67b3573d46859ecd2f59f5f3c112_valuewidth: 250px;
+	--aaee67b3573d46859ecd2f59f5f3c112_valuewidth: 250px;
+	--min-89ab0369ef3c4aafb787a794adcaddb2_valuewidth: 250px;
+	--89ab0369ef3c4aafb787a794adcaddb2_valuewidth: 250px;
+	--min-5149ffc4f03b4f81a117ca9c1fbe3f5c_valuewidth: 250px;
+	--5149ffc4f03b4f81a117ca9c1fbe3f5c_valuewidth: 250px;
+	--min-23e1d50da3564889b778b45a7c70101b_valuewidth: 250px;
+	--23e1d50da3564889b778b45a7c70101b_valuewidth: 250px;
+	--min-26e835c47fa84c908e1f0941a566be8d_valuewidth: 250px;
+	--26e835c47fa84c908e1f0941a566be8d_valuewidth: 250px;
+	--min-14e49b7d620f43d3b8237a6e8b195110_valuewidth: unset;
+	--14e49b7d620f43d3b8237a6e8b195110_valuewidth: fit-content;
 	--c33dec6d857a44d88e9ac2fc9ec68133_orientation: row;
-	--min-4b88b245f21f432498d181a8baf15ee9_valuewidth: 230px;
-	--4b88b245f21f432498d181a8baf15ee9_valuewidth: 230px;
-	--min-7740b51558d841a584a1a5042fe00159_valuewidth: 230px;
-	--7740b51558d841a584a1a5042fe00159_valuewidth: 230px;
-	--min-971cb485faa942e49caa0c3a97a0dc83_valuewidth: 230px;
-	--971cb485faa942e49caa0c3a97a0dc83_valuewidth: 230px;
-	--min-1172e135dca24c269825cfffc37fce52_valuewidth: 230px;
-	--1172e135dca24c269825cfffc37fce52_valuewidth: 230px;
-	--min-828ef2ea42b94b7c851529ee8e5626b8_valuewidth: 230px;
-	--828ef2ea42b94b7c851529ee8e5626b8_valuewidth: 230px;
-	--min-52ce74560fb54fb39af7c2a215ce4bff_valuewidth: 230px;
-	--52ce74560fb54fb39af7c2a215ce4bff_valuewidth: 230px;
+	--min-4b88b245f21f432498d181a8baf15ee9_valuewidth: 250px;
+	--4b88b245f21f432498d181a8baf15ee9_valuewidth: 250px;
+	--min-7740b51558d841a584a1a5042fe00159_valuewidth: 250px;
+	--7740b51558d841a584a1a5042fe00159_valuewidth: 250px;
+	--min-971cb485faa942e49caa0c3a97a0dc83_valuewidth: 250px;
+	--971cb485faa942e49caa0c3a97a0dc83_valuewidth: 250px;
+	--min-1172e135dca24c269825cfffc37fce52_valuewidth: 250px;
+	--1172e135dca24c269825cfffc37fce52_valuewidth: 250px;
+	--min-828ef2ea42b94b7c851529ee8e5626b8_valuewidth: 250px;
+	--828ef2ea42b94b7c851529ee8e5626b8_valuewidth: 250px;
 	--6be24c0bb0064bb6a88a32abbac66514_orientation: row;
-	--min-f0266e911b3141f694466a566acaba57_fontSize: 15px;
-	--f0266e911b3141f694466a566acaba57_fontSize: 15px;
-	--min-3c6bf379755646d987e04bae9d24a1d6_fontSize: 15px;
-	--3c6bf379755646d987e04bae9d24a1d6_fontSize: 15px;
-	--min-3894c4b82cef41ca9538d67395ee2ba6_fontSize: 15px;
-	--3894c4b82cef41ca9538d67395ee2ba6_fontSize: 15px;
-	--min-646a575dae1848b1b1f5812f0007c512_fontSize: 15px;
-	--646a575dae1848b1b1f5812f0007c512_fontSize: 15px;
-	--min-463507e256034884b6374ae2c8872ea3_fontSize: 15px;
-	--463507e256034884b6374ae2c8872ea3_fontSize: 15px;
-	--min-d192530879f5489ea7933f515f582d18_fontSize: 15px;
-	--d192530879f5489ea7933f515f582d18_fontSize: 15px;
-	--min-bcb8cf1429664b07a8dcd0bd59712035_fontSize: 15px;
-	--bcb8cf1429664b07a8dcd0bd59712035_fontSize: 15px;
-	--min-62497240c5e34f76bb4e1b78841c3b74_fontSize: 15px;
-	--62497240c5e34f76bb4e1b78841c3b74_fontSize: 15px;
-	--min-62a43305a1774968bf56edf27d0d2aa4_fontSize: 15px;
-	--62a43305a1774968bf56edf27d0d2aa4_fontSize: 15px;
+	--min-f0266e911b3141f694466a566acaba57_fontSize: 14px;
+	--f0266e911b3141f694466a566acaba57_fontSize: 14px;
+	--min-3c6bf379755646d987e04bae9d24a1d6_fontSize: 14px;
+	--3c6bf379755646d987e04bae9d24a1d6_fontSize: 14px;
+	--min-3894c4b82cef41ca9538d67395ee2ba6_fontSize: 14px;
+	--3894c4b82cef41ca9538d67395ee2ba6_fontSize: 14px;
+	--min-646a575dae1848b1b1f5812f0007c512_fontSize: 14px;
+	--646a575dae1848b1b1f5812f0007c512_fontSize: 14px;
+	--min-463507e256034884b6374ae2c8872ea3_fontSize: 14px;
+	--463507e256034884b6374ae2c8872ea3_fontSize: 14px;
+	--min-d192530879f5489ea7933f515f582d18_fontSize: 14px;
+	--d192530879f5489ea7933f515f582d18_fontSize: 14px;
+	--min-bcb8cf1429664b07a8dcd0bd59712035_fontSize: 14px;
+	--bcb8cf1429664b07a8dcd0bd59712035_fontSize: 14px;
+	--min-62497240c5e34f76bb4e1b78841c3b74_fontSize: 14px;
+	--62497240c5e34f76bb4e1b78841c3b74_fontSize: 14px;
+	--min-62a43305a1774968bf56edf27d0d2aa4_fontSize: 14px;
+	--62a43305a1774968bf56edf27d0d2aa4_fontSize: 14px;
 	--min-f0266e911b3141f694466a566acaba57_valuewidth: unset;
 	--f0266e911b3141f694466a566acaba57_valuewidth: fit-content;
 	--min-3c6bf379755646d987e04bae9d24a1d6_valuewidth: unset;
@@ -2467,82 +4742,82 @@ height: var(--homecontent_valueheight);
 	--62497240c5e34f76bb4e1b78841c3b74_valuewidth: fit-content;
 	--min-62a43305a1774968bf56edf27d0d2aa4_valuewidth: unset;
 	--62a43305a1774968bf56edf27d0d2aa4_valuewidth: fit-content;
-	--min-26a9ec16ec144004b1f80854293563c9_fontSize: 15px;
-	--26a9ec16ec144004b1f80854293563c9_fontSize: 15px;
-	--min-f03cd92759f248bca54d2cc05f057ec5_fontSize: 15px;
-	--f03cd92759f248bca54d2cc05f057ec5_fontSize: 15px;
-	--min-a23a22f98c3c42dfa97534dda8b1ec1d_fontSize: 15px;
-	--a23a22f98c3c42dfa97534dda8b1ec1d_fontSize: 15px;
-	--min-0df1abd2a1284c4facae6feac427280b_fontSize: 15px;
-	--0df1abd2a1284c4facae6feac427280b_fontSize: 15px;
-	--min-afc738b9602846b2876210212e00027c_fontSize: 15px;
-	--afc738b9602846b2876210212e00027c_fontSize: 15px;
-	--min-64322d180c0b44a5916328a7f14e8a6e_fontSize: 15px;
-	--64322d180c0b44a5916328a7f14e8a6e_fontSize: 15px;
-	--min-aaee67b3573d46859ecd2f59f5f3c112_fontSize: 15px;
-	--aaee67b3573d46859ecd2f59f5f3c112_fontSize: 15px;
-	--min-89ab0369ef3c4aafb787a794adcaddb2_fontSize: 15px;
-	--89ab0369ef3c4aafb787a794adcaddb2_fontSize: 15px;
-	--min-5149ffc4f03b4f81a117ca9c1fbe3f5c_fontSize: 15px;
-	--5149ffc4f03b4f81a117ca9c1fbe3f5c_fontSize: 15px;
-	--min-23e1d50da3564889b778b45a7c70101b_fontSize: 15px;
-	--23e1d50da3564889b778b45a7c70101b_fontSize: 15px;
-	--min-26e835c47fa84c908e1f0941a566be8d_fontSize: 15px;
-	--26e835c47fa84c908e1f0941a566be8d_fontSize: 15px;
-	--min-14e49b7d620f43d3b8237a6e8b195110_fontSize: 15px;
-	--14e49b7d620f43d3b8237a6e8b195110_fontSize: 15px;
-	--min-4b88b245f21f432498d181a8baf15ee9_fontSize: 15px;
-	--4b88b245f21f432498d181a8baf15ee9_fontSize: 15px;
-	--min-7740b51558d841a584a1a5042fe00159_fontSize: 15px;
-	--7740b51558d841a584a1a5042fe00159_fontSize: 15px;
-	--min-971cb485faa942e49caa0c3a97a0dc83_fontSize: 15px;
-	--971cb485faa942e49caa0c3a97a0dc83_fontSize: 15px;
-	--min-1172e135dca24c269825cfffc37fce52_fontSize: 15px;
-	--1172e135dca24c269825cfffc37fce52_fontSize: 15px;
-	--min-828ef2ea42b94b7c851529ee8e5626b8_fontSize: 15px;
-	--828ef2ea42b94b7c851529ee8e5626b8_fontSize: 15px;
-	--min-b3445468b0fc4613bccbea4d1a55b550_fontSize: 15px;
-	--b3445468b0fc4613bccbea4d1a55b550_fontSize: 15px;
-	--min-67e4e7710f1049828b67d1fefc28032d_fontSize: 15px;
-	--67e4e7710f1049828b67d1fefc28032d_fontSize: 15px;
-	--min-54e6e98dc03a4bef9c3e8ea42368663f_fontSize: 15px;
-	--54e6e98dc03a4bef9c3e8ea42368663f_fontSize: 15px;
-	--min-28833623ad7b48289f05eed23342cacd_fontSize: 15px;
-	--28833623ad7b48289f05eed23342cacd_fontSize: 15px;
-	--min-4fda4799ce684e2eaddd87ee6be0732b_fontSize: 15px;
-	--4fda4799ce684e2eaddd87ee6be0732b_fontSize: 15px;
-	--min-99b35fe8b6dd422fa763d9db299fa539_fontSize: 15px;
-	--99b35fe8b6dd422fa763d9db299fa539_fontSize: 15px;
-	--min-fc8c04f6dbf5499a8f3690373a20170b_fontSize: 15px;
-	--fc8c04f6dbf5499a8f3690373a20170b_fontSize: 15px;
-	--min-b37681cc5d25469aaae425e20d809d34_fontSize: 15px;
-	--b37681cc5d25469aaae425e20d809d34_fontSize: 15px;
-	--min-f7717c577be04ef8b5109dae18fbd87d_fontSize: 15px;
-	--f7717c577be04ef8b5109dae18fbd87d_fontSize: 15px;
-	--min-68e6e8dbe87c43158d99b0f8e9adf142_fontSize: 15px;
-	--68e6e8dbe87c43158d99b0f8e9adf142_fontSize: 15px;
-	--min-7d24fa72ed7c4196a2e0228e6ad2d25c_fontSize: 15px;
-	--7d24fa72ed7c4196a2e0228e6ad2d25c_fontSize: 15px;
-	--min-591607704f034c9695d2f23f5a3da6d1_fontSize: 15px;
-	--591607704f034c9695d2f23f5a3da6d1_fontSize: 15px;
-	--min-04d40566f99744bea766caa0616bdb59_fontSize: 15px;
-	--04d40566f99744bea766caa0616bdb59_fontSize: 15px;
-	--min-16b4396c19b7477c88c15bbaeb21195c_fontSize: 15px;
-	--16b4396c19b7477c88c15bbaeb21195c_fontSize: 15px;
-	--min-28e7d5f569d54a11a7e5d4fd8dd9e264_fontSize: 15px;
-	--28e7d5f569d54a11a7e5d4fd8dd9e264_fontSize: 15px;
-	--min-fa7703600246466594c14a330f7017da_fontSize: 15px;
-	--fa7703600246466594c14a330f7017da_fontSize: 15px;
-	--min-6b9592b86bc542dbb409de335d74b4e4_fontSize: 15px;
-	--6b9592b86bc542dbb409de335d74b4e4_fontSize: 15px;
-	--min-26c39c8832f9407caab271a9be28fbaa_fontSize: 15px;
-	--26c39c8832f9407caab271a9be28fbaa_fontSize: 15px;
-	--min-c144e9c3a2f34876a6f0befec46fead7_fontSize: 15px;
-	--c144e9c3a2f34876a6f0befec46fead7_fontSize: 15px;
-	--min-7478177a90b145559f73e5ea7b3ee5c2_fontSize: 15px;
-	--7478177a90b145559f73e5ea7b3ee5c2_fontSize: 15px;
-	--min-2cd3a197b6c94c67b98ba9533a6426d6_fontSize: 15px;
-	--2cd3a197b6c94c67b98ba9533a6426d6_fontSize: 15px;
+	--min-26a9ec16ec144004b1f80854293563c9_fontSize: 14px;
+	--26a9ec16ec144004b1f80854293563c9_fontSize: 14px;
+	--min-f03cd92759f248bca54d2cc05f057ec5_fontSize: 14px;
+	--f03cd92759f248bca54d2cc05f057ec5_fontSize: 14px;
+	--min-a23a22f98c3c42dfa97534dda8b1ec1d_fontSize: 14px;
+	--a23a22f98c3c42dfa97534dda8b1ec1d_fontSize: 14px;
+	--min-0df1abd2a1284c4facae6feac427280b_fontSize: 14px;
+	--0df1abd2a1284c4facae6feac427280b_fontSize: 14px;
+	--min-afc738b9602846b2876210212e00027c_fontSize: 14px;
+	--afc738b9602846b2876210212e00027c_fontSize: 14px;
+	--min-64322d180c0b44a5916328a7f14e8a6e_fontSize: 14px;
+	--64322d180c0b44a5916328a7f14e8a6e_fontSize: 14px;
+	--min-aaee67b3573d46859ecd2f59f5f3c112_fontSize: 14px;
+	--aaee67b3573d46859ecd2f59f5f3c112_fontSize: 14px;
+	--min-89ab0369ef3c4aafb787a794adcaddb2_fontSize: 14px;
+	--89ab0369ef3c4aafb787a794adcaddb2_fontSize: 14px;
+	--min-5149ffc4f03b4f81a117ca9c1fbe3f5c_fontSize: 14px;
+	--5149ffc4f03b4f81a117ca9c1fbe3f5c_fontSize: 14px;
+	--min-23e1d50da3564889b778b45a7c70101b_fontSize: 14px;
+	--23e1d50da3564889b778b45a7c70101b_fontSize: 14px;
+	--min-26e835c47fa84c908e1f0941a566be8d_fontSize: 14px;
+	--26e835c47fa84c908e1f0941a566be8d_fontSize: 14px;
+	--min-14e49b7d620f43d3b8237a6e8b195110_fontSize: 14px;
+	--14e49b7d620f43d3b8237a6e8b195110_fontSize: 14px;
+	--min-4b88b245f21f432498d181a8baf15ee9_fontSize: 14px;
+	--4b88b245f21f432498d181a8baf15ee9_fontSize: 14px;
+	--min-7740b51558d841a584a1a5042fe00159_fontSize: 14px;
+	--7740b51558d841a584a1a5042fe00159_fontSize: 14px;
+	--min-971cb485faa942e49caa0c3a97a0dc83_fontSize: 14px;
+	--971cb485faa942e49caa0c3a97a0dc83_fontSize: 14px;
+	--min-1172e135dca24c269825cfffc37fce52_fontSize: 14px;
+	--1172e135dca24c269825cfffc37fce52_fontSize: 14px;
+	--min-828ef2ea42b94b7c851529ee8e5626b8_fontSize: 14px;
+	--828ef2ea42b94b7c851529ee8e5626b8_fontSize: 14px;
+	--min-b3445468b0fc4613bccbea4d1a55b550_fontSize: 14px;
+	--b3445468b0fc4613bccbea4d1a55b550_fontSize: 14px;
+	--min-67e4e7710f1049828b67d1fefc28032d_fontSize: 14px;
+	--67e4e7710f1049828b67d1fefc28032d_fontSize: 14px;
+	--min-54e6e98dc03a4bef9c3e8ea42368663f_fontSize: 14px;
+	--54e6e98dc03a4bef9c3e8ea42368663f_fontSize: 14px;
+	--min-28833623ad7b48289f05eed23342cacd_fontSize: 14px;
+	--28833623ad7b48289f05eed23342cacd_fontSize: 14px;
+	--min-4fda4799ce684e2eaddd87ee6be0732b_fontSize: 14px;
+	--4fda4799ce684e2eaddd87ee6be0732b_fontSize: 14px;
+	--min-99b35fe8b6dd422fa763d9db299fa539_fontSize: 14px;
+	--99b35fe8b6dd422fa763d9db299fa539_fontSize: 14px;
+	--min-fc8c04f6dbf5499a8f3690373a20170b_fontSize: 14px;
+	--fc8c04f6dbf5499a8f3690373a20170b_fontSize: 14px;
+	--min-b37681cc5d25469aaae425e20d809d34_fontSize: 14px;
+	--b37681cc5d25469aaae425e20d809d34_fontSize: 14px;
+	--min-f7717c577be04ef8b5109dae18fbd87d_fontSize: 14px;
+	--f7717c577be04ef8b5109dae18fbd87d_fontSize: 14px;
+	--min-68e6e8dbe87c43158d99b0f8e9adf142_fontSize: 14px;
+	--68e6e8dbe87c43158d99b0f8e9adf142_fontSize: 14px;
+	--min-7d24fa72ed7c4196a2e0228e6ad2d25c_fontSize: 14px;
+	--7d24fa72ed7c4196a2e0228e6ad2d25c_fontSize: 14px;
+	--min-591607704f034c9695d2f23f5a3da6d1_fontSize: 14px;
+	--591607704f034c9695d2f23f5a3da6d1_fontSize: 14px;
+	--min-04d40566f99744bea766caa0616bdb59_fontSize: 14px;
+	--04d40566f99744bea766caa0616bdb59_fontSize: 14px;
+	--min-16b4396c19b7477c88c15bbaeb21195c_fontSize: 14px;
+	--16b4396c19b7477c88c15bbaeb21195c_fontSize: 14px;
+	--min-28e7d5f569d54a11a7e5d4fd8dd9e264_fontSize: 14px;
+	--28e7d5f569d54a11a7e5d4fd8dd9e264_fontSize: 14px;
+	--min-fa7703600246466594c14a330f7017da_fontSize: 14px;
+	--fa7703600246466594c14a330f7017da_fontSize: 14px;
+	--min-6b9592b86bc542dbb409de335d74b4e4_fontSize: 14px;
+	--6b9592b86bc542dbb409de335d74b4e4_fontSize: 14px;
+	--min-26c39c8832f9407caab271a9be28fbaa_fontSize: 14px;
+	--26c39c8832f9407caab271a9be28fbaa_fontSize: 14px;
+	--min-c144e9c3a2f34876a6f0befec46fead7_fontSize: 14px;
+	--c144e9c3a2f34876a6f0befec46fead7_fontSize: 14px;
+	--min-7478177a90b145559f73e5ea7b3ee5c2_fontSize: 14px;
+	--7478177a90b145559f73e5ea7b3ee5c2_fontSize: 14px;
+	--min-2cd3a197b6c94c67b98ba9533a6426d6_fontSize: 14px;
+	--2cd3a197b6c94c67b98ba9533a6426d6_fontSize: 14px;
 	--0ddd1ba13dcc44809373b19b07580396_visible: none;
 	--10437ef33f94414d9e79df52f2c614cf_visible: flex;
 	--5d86b29940f943e6bb1702172fcc7e32_orientation: row;
@@ -2566,16 +4841,16 @@ height: var(--homecontent_valueheight);
 	--8c628332d27842f08785a589f09857c2_fontSize: 15px;
 	--min-3357c4bd82c842259a4b9c80e7e0688b_fontSize: 15px;
 	--3357c4bd82c842259a4b9c80e7e0688b_fontSize: 15px;
-	--min-81e79fdd8a8c4dabb52eb545139877c2_fontSize: 15px;
-	--81e79fdd8a8c4dabb52eb545139877c2_fontSize: 15px;
-	--min-3667e38ff0494df79499215ed17e83b5_fontSize: 15px;
-	--3667e38ff0494df79499215ed17e83b5_fontSize: 15px;
-	--min-ed49dc0edbe74d11a44a7a8194d50e34_fontSize: 15px;
-	--ed49dc0edbe74d11a44a7a8194d50e34_fontSize: 15px;
-	--min-b7a2a97516d6429584f9271a6f004e6d_fontSize: 15px;
-	--b7a2a97516d6429584f9271a6f004e6d_fontSize: 15px;
-	--min-a19ab795c8224a5ebd5bd57b730463d0_fontSize: 15px;
-	--a19ab795c8224a5ebd5bd57b730463d0_fontSize: 15px;
+	--min-81e79fdd8a8c4dabb52eb545139877c2_fontSize: 14px;
+	--81e79fdd8a8c4dabb52eb545139877c2_fontSize: 14px;
+	--min-3667e38ff0494df79499215ed17e83b5_fontSize: 14px;
+	--3667e38ff0494df79499215ed17e83b5_fontSize: 14px;
+	--min-ed49dc0edbe74d11a44a7a8194d50e34_fontSize: 14px;
+	--ed49dc0edbe74d11a44a7a8194d50e34_fontSize: 14px;
+	--min-b7a2a97516d6429584f9271a6f004e6d_fontSize: 14px;
+	--b7a2a97516d6429584f9271a6f004e6d_fontSize: 14px;
+	--min-a19ab795c8224a5ebd5bd57b730463d0_fontSize: 14px;
+	--a19ab795c8224a5ebd5bd57b730463d0_fontSize: 14px;
 	--5d86b29940f943e6bb1702172fcc7e32_horizontalAlignment: center ;;
 	--min-a19ab795c8224a5ebd5bd57b730463d0_margin-left: 10px;
 	--a19ab795c8224a5ebd5bd57b730463d0_margin-left: 10px;
@@ -2583,6 +4858,12 @@ height: var(--homecontent_valueheight);
 	--3667e38ff0494df79499215ed17e83b5_margin-left: 10px;
 	--min-58d143ed16ca4e2fbe171be416ec898e_fontSize: 20px;
 	--58d143ed16ca4e2fbe171be416ec898e_fontSize: 20px;
+	--min-440097adf19b49fe8321cd4c99852599_valuewidth: 500px;
+	--440097adf19b49fe8321cd4c99852599_valuewidth: 500px;
+	--min-1bf446f3816c454f9f99c313f5c6c325_valuewidth: 500px;
+	--1bf446f3816c454f9f99c313f5c6c325_valuewidth: 500px;
+	--hombebody_horizontalAlignment: space-between ;;
+	--74754a4e53884e8a9e3b5f5795ca6cf4_src: url(Assets/Airbnb_logo.png);
 
 }
 
@@ -2739,8 +5020,6 @@ justify-content: var(--horizontalAxis-4d379f86be3340d7bea38b46abb6b26c) ;
 	--1172e135dca24c269825cfffc37fce52_valuewidth: 230px;
 	--min-828ef2ea42b94b7c851529ee8e5626b8_valuewidth: 340px;
 	--828ef2ea42b94b7c851529ee8e5626b8_valuewidth: 340px;
-	--min-52ce74560fb54fb39af7c2a215ce4bff_valuewidth: 230px;
-	--52ce74560fb54fb39af7c2a215ce4bff_valuewidth: 230px;
 	--6be24c0bb0064bb6a88a32abbac66514_orientation: column;
 	--min-f0266e911b3141f694466a566acaba57_fontSize: 15px;
 	--f0266e911b3141f694466a566acaba57_fontSize: 15px;
@@ -2886,6 +5165,12 @@ justify-content: var(--horizontalAxis-4d379f86be3340d7bea38b46abb6b26c) ;
 	--3667e38ff0494df79499215ed17e83b5_margin-left: 10px;
 	--min-58d143ed16ca4e2fbe171be416ec898e_fontSize: 20px;
 	--58d143ed16ca4e2fbe171be416ec898e_fontSize: 20px;
+	--min-440097adf19b49fe8321cd4c99852599_valuewidth: 500px;
+	--440097adf19b49fe8321cd4c99852599_valuewidth: 500px;
+	--min-1bf446f3816c454f9f99c313f5c6c325_valuewidth: 500px;
+	--1bf446f3816c454f9f99c313f5c6c325_valuewidth: 500px;
+	--hombebody_horizontalAlignment: space-between ;;
+	--74754a4e53884e8a9e3b5f5795ca6cf4_src: url(Assets/Airbnb_logo_icon.png);
 
 }
 

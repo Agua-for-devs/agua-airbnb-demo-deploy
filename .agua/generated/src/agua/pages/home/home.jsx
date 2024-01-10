@@ -1,6 +1,10 @@
 import React from 'react';
 
 
+import image_imageview_1 from '../../../Assets/Airbnb_logo.png';
+import image_imageview_1_phone from '../../../Assets/Airbnb_logo.png';
+import image_imageview_1tablet from '../../../Assets/Airbnb_logo_icon.png';
+import image_imageview_1desktop from '../../../Assets/Airbnb_logo.png';
 import styles from './home.module.css';
 
 /**
@@ -23,7 +27,12 @@ const Home = () =>{
 </section>
 <header custom-agua-item="layer" className={styles.homeheader}   >
 <section custom-agua-item="layer" className={styles['layer-9-9f660e71cfb9441c8a1c3dc675bbc54c']}   >
-<img custom-agua-item="imageView" className={styles['imageview-1-74754a4e53884e8a9e3b5f5795ca6cf4']}  alt="imageview-1" src='https://i.ibb.co/5ndGgWv/image-43.png'  />
+<picture>
+<source srcSet={ image_imageview_1_phone } media="(max-width: 480px)" />
+<source srcSet={ image_imageview_1tablet } media="(max-width: 1019px) and (min-width: 481px)" />
+<source srcSet={ image_imageview_1desktop } media="min-width: 1020px)" />
+<img custom-agua-item="imageView" className={styles['imageview-1-74754a4e53884e8a9e3b5f5795ca6cf4']}  alt="imageview-1" src={ image_imageview_1 }  />
+</picture>
 <section custom-agua-item="layer" className={styles['layer-10-702b95a6dc164360bd3c571c86f8ca40']}   >
 <p custom-agua-item="text" className={styles['text-2-b3a9e3a440134d8b95d8003298e61957']}   >Stays</p>
 <p custom-agua-item="text" className={styles['text-3-942541c0bdd84a7b81d2b06688309a02']}   >Experiences</p>
@@ -148,7 +157,312 @@ const Home = () =>{
 </section>
 </header>
 <section custom-agua-item="layer" className={styles.homecontent}   >
-<section custom-agua-item="layer" className={styles.hombebody}   ></section>
+<section custom-agua-item="layer" className={styles.hombebody}   >
+<section custom-agua-item="layer" className={styles['layer-145-dba48d0d38f2443ca0597d6a44faaec2']}   >
+<section custom-agua-item="layer" className={styles['layer-152-b5fd4305cef14db89f938518186b284d']}   >
+<p custom-agua-item="text" className={styles['text-195-53f2368cbc2245c6b3ce8aa6c1b452a3']}   >Guest favorite</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-146-e6d1e341f0f044f0afd5ca0c02e8bb93']}   >
+<section custom-agua-item="layer" className={styles['layer-150-29102a1b62a24c1cbbe95d5779a89980']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-151-b7083b2273c24f49833653a083b0d1af']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1502-a3d9aa8a1a1f4fa99cc435205a8251d8']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1503-26d5eb9615494cc5896e7c60eebadb75']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1504-e310cb24fa964034b2986f6555045293']}   ></section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-147-368ebcec99944660b90a185a1ea4722c']}   >
+<p custom-agua-item="text" className={styles['text-193-37eba9342ae94681a52e50cf2b821f83']}   >Milford, Pennsylvania</p>
+<section custom-agua-item="layer" className={styles['layer-149-74a8d6c9ed2047918098ffaffa214890']}   >
+<span custom-agua-item="icon" className={styles['icon-53-bbf06de271f64ca8afa3d11305002c25']}  >star</span>
+<p custom-agua-item="text" className={styles['text-194-8d38b0de7bc14a2e91b104dd158ce180']}   >4.94</p>
+</section>
+</section>
+<p custom-agua-item="text" className={styles['text-189-ceb8204fc540471cb5382486ae3bab97']}   >61 miles away</p>
+<p custom-agua-item="text" className={styles['text-190-35d09b240d8e4f369aebecb4762700d8']}   >Jan 22 - 28</p>
+<section custom-agua-item="layer" className={styles['layer-148-1c146b920fa34b008972816af630f2b1']}   >
+<p custom-agua-item="text" className={styles['text-191-7ea53797b3eb412aa17b34dce70f805f']}   >$350</p>
+<p custom-agua-item="text" className={styles['text-192-c7c2911f2b6e4a89aed26c3d6e718e91']}   > night</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-1452-b51a652c18654f67ab43d5844ec2c753']}   >
+<section custom-agua-item="layer" className={styles['layer-1522-3a6b11fca2754f76a01a1b7f0ed142b1']}   >
+<p custom-agua-item="text" className={styles['text-1952-0352711aa3c34ce2961304d6cb2c7359']}   >Guest favorite</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-1462-30e8b8ccd80d4eedb13ca6d341ca3e81']}   >
+<section custom-agua-item="layer" className={styles['layer-1505-a7799463d1b24c3b8cec37a9214a19ea']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1512-c87dd50735334762a91ca66caea9fe2b']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-15022-38f2013f6d254c4ca19152a4c8e2a707']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-15032-ce0bbdd31001488ba78b5af2c0bea363']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-15042-394e9312ef984a1cb857d9566ea27775']}   ></section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-1472-43d05ba561c0442493c38d5cdde2bb53']}   >
+<p custom-agua-item="text" className={styles['text-1932-3ac44c06ae224d34b305b97f3e8dbf5c']}   >Warwick, New York</p>
+<section custom-agua-item="layer" className={styles['layer-1492-fee73dd52f354f0f83ae01d38b24565a']}   >
+<span custom-agua-item="icon" className={styles['icon-532-934437f142f245248f32c71d6b76e2e4']}  >star</span>
+<p custom-agua-item="text" className={styles['text-1942-94ef9ee338ac4243be28085db48283cd']}   >4.97</p>
+</section>
+</section>
+<p custom-agua-item="text" className={styles['text-1892-63b395c0b1614b1984ef5ff7d148a359']}   >44 miles away</p>
+<p custom-agua-item="text" className={styles['text-1902-8f3cfa478a734bdaa850b313aefb703e']}   >Jan 21 - 26</p>
+<section custom-agua-item="layer" className={styles['layer-1482-0ec0fcaf13644aad86082babbfcef12b']}   >
+<p custom-agua-item="text" className={styles['text-1912-191b6ea11d8c4fb4a45a931094a82825']}   >$283</p>
+<p custom-agua-item="text" className={styles['text-19212-28fe0b060e2b42f0bdeade73223e6926']}   > night</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-14522-05ee7a9187cb455bb82d2581176eae96']}   >
+<section custom-agua-item="layer" className={styles['layer-15222-31355a4b67d847bba96fcdcd8d2a026d']}   >
+<p custom-agua-item="text" className={styles['text-19522-beb6e3bef9584922847ffc0023b34735']}   >Guest favorite</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-14622-d25e891470ff45a7906d27549277d9fe']}   >
+<section custom-agua-item="layer" className={styles['layer-15052-fa8fbe6b83ef4e38b8d508d95e3e84b3']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-15122-bfbef03ba9684ae6a47f1c8b9605e3ba']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-150222-87846b13a8ca4817a26f84fc1bd64cab']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-150322-7c66a04bebdb402682bbcbbbd3b9d529']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-150422-661f673a38ca4906934b70f6975d50a7']}   ></section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-14722-f45c84fa4cdd4c9ea04c5061f66b999b']}   >
+<p custom-agua-item="text" className={styles['text-19322-3c4912c91a5b4505be603d504705a4ea']}   >Frenchtown, New Jersey</p>
+<section custom-agua-item="layer" className={styles['layer-14922-29be5512eafd4ca59aa39d63c845d9b2']}   >
+<span custom-agua-item="icon" className={styles['icon-5322-5ea1d5a3963e4dffb8dd790982f9b29d']}  >star</span>
+<p custom-agua-item="text" className={styles['text-19422-120a1368b4ea47a6b0c6849d328f4072']}   >5.0</p>
+</section>
+</section>
+<p custom-agua-item="text" className={styles['text-18922-bc9986e9f6b54f93822f5b45b80a7c03']}   >57 miles away</p>
+<p custom-agua-item="text" className={styles['text-19022-2ee50ca1afad4a849494a09e0a52caca']}   >Jan 12 - 17</p>
+<section custom-agua-item="layer" className={styles['layer-14822-f4d9db0246ef481e85ffea864c45f2bd']}   >
+<p custom-agua-item="text" className={styles['text-19122-6b49164220f04fc1a76af65afcfe66aa']}   >$295</p>
+<p custom-agua-item="text" className={styles['text-192122-780f71f12bb34af193dcd02b9eab6f51']}   > night</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-14523-97b81d68a6d54312bf1f88febcd51af2']}   >
+<section custom-agua-item="layer" className={styles['layer-15223-829dcd6d39834bfeb28f231393f881f4']}   >
+<p custom-agua-item="text" className={styles['text-19523-55462c9474ed4ea289bc6d348bdefb1f']}   >Guest favorite</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-14623-d9ae52815520405db0a6a5d048803b50']}   >
+<section custom-agua-item="layer" className={styles['layer-15053-5ff7e2cb8ad948cdab3f37259b739f10']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-15123-b251b1c25a644a0da8caa7aa75ec2858']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-150223-949331cd626148f388be8415d2bc4d6b']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-150323-733118497760465db11f19290122f151']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-150423-dab63b7384b541f6899b020f5111b299']}   ></section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-14723-86be9cd66cbb4e2c9f6643057385eb1b']}   >
+<p custom-agua-item="text" className={styles['text-19323-44a9c59a907746728f69e3e97923dc08']}   >Pine Bush, New York</p>
+<section custom-agua-item="layer" className={styles['layer-14923-03ef504e751d433ebe871e3d5e289bca']}   >
+<span custom-agua-item="icon" className={styles['icon-5323-edc59efe395248299b4b21a36563636b']}  >star</span>
+<p custom-agua-item="text" className={styles['text-19423-46ace3f00f63416c8f01e60c7b6b63d1']}   >4.89</p>
+</section>
+</section>
+<p custom-agua-item="text" className={styles['text-18923-b0d13488a67d45119f649d13e36fca93']}   >62 miles away</p>
+<p custom-agua-item="text" className={styles['text-19023-1038060ea7a8405bb1e5a741d9e5864f']}   >Jan 21 - 26</p>
+<section custom-agua-item="layer" className={styles['layer-14823-fefa4811cf8f422eb3bee1efb1945c32']}   >
+<p custom-agua-item="text" className={styles['text-19123-f9723f15875145aaa9f0359b6d917dcf']}   >$620</p>
+<p custom-agua-item="text" className={styles['text-192123-1a4c2e53260948e1ad93bdbbcdf1a8d5']}   > night</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-14524-6e76e00b00064969a0399365a3e64563']}   >
+<section custom-agua-item="layer" className={styles['layer-15224-25435ff51b8e4b0f9f261388b388eadd']}   >
+<p custom-agua-item="text" className={styles['text-19524-2f65e89038884aabae65d6b20f9603ac']}   >Guest favorite</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-14624-5efc73b25c864d9792becba7203e3f78']}   >
+<section custom-agua-item="layer" className={styles['layer-15054-d1d7fb0ff8b343c4b1753b776a59b8a5']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-15124-44434cd048d847388630b3f6f3ee2ff2']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-150224-23a2f5972b1d48b18be0e3ed761d07d7']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-150324-aa845cee473c4fa2abfce5f8dbb98f6b']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-150424-d4ae54f3a5814516b0344c42fc8888a4']}   ></section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-14724-f9cad10e3a374390bbd631ef109f13fe']}   >
+<p custom-agua-item="text" className={styles['text-19324-74d2f4af3bf44a1fb7b73280650e30b1']}   >Middletown, New York</p>
+<section custom-agua-item="layer" className={styles['layer-14924-70cf23e2c7a045d0aa5624e536733167']}   >
+<span custom-agua-item="icon" className={styles['icon-5324-1bba6cc455494fc38e6031ffbdfb6e3c']}  >star</span>
+<p custom-agua-item="text" className={styles['text-19424-aab582bc6ab14ea9b6d1ea13afc51239']}   >4.9</p>
+</section>
+</section>
+<p custom-agua-item="text" className={styles['text-18924-3a20c08b72b6430fb5594a78f3bd67aa']}   >55 miles away</p>
+<p custom-agua-item="text" className={styles['text-19024-218ce96bbed84e6e9633df9acc566280']}   >Jan 9 - 14</p>
+<section custom-agua-item="layer" className={styles['layer-14824-18061516e0e14ebdae2d813c9c62b973']}   >
+<p custom-agua-item="text" className={styles['text-19124-866e8e114a7842cfb5a795fc709ff6d4']}   >$178</p>
+<p custom-agua-item="text" className={styles['text-192124-3f329693d47a44efb234bb24556f138c']}   > night</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-145242-ba92a776d1a44a65a1d74a2d68e809bd']}   >
+<section custom-agua-item="layer" className={styles['layer-152242-01e864d2e9a740618c2bd52956159782']}   >
+<p custom-agua-item="text" className={styles['text-195242-946191105ea64aaba1f77c0d282b71d9']}   >Guest favorite</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-146242-a3ab0c388443478e99bc623247985279']}   >
+<section custom-agua-item="layer" className={styles['layer-150542-ab00717cbf0240dd9b8739e10d0d6f97']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-151242-a4fb98c1462a4b128db2f796944dea4a']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1502242-820a11e40dac44a69826b2090d39feea']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1503242-ead3b77de35f40f1ad3a441b75c1dbf6']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1504242-9de5053f0c4c4e328ab0c763d5c514aa']}   ></section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-147242-ae67899ed24d4b578a949617f6382afc']}   >
+<p custom-agua-item="text" className={styles['text-193242-081e447c35f343f095687f232e655c2a']}   >Narrowsburg, New York</p>
+<section custom-agua-item="layer" className={styles['layer-149242-1573cb5be54449018598bce5bda4678d']}   >
+<span custom-agua-item="icon" className={styles['icon-53242-289a40f82a6a41f8abde6a5ea1242fa8']}  >star</span>
+<p custom-agua-item="text" className={styles['text-194242-21c6671ee80846bbbad4f243e0b1a7c3']}   >4.96</p>
+</section>
+</section>
+<p custom-agua-item="text" className={styles['text-189242-4d3f5d8123ea457ab1f70e28cd81b53e']}   >76 miles away</p>
+<p custom-agua-item="text" className={styles['text-190242-43b7ddf384524ea7b9eb47cbcbc5f244']}   >Jan 9 - 14</p>
+<section custom-agua-item="layer" className={styles['layer-148242-af4fdb8cdc5f4e16b45a89bc3bd42649']}   >
+<p custom-agua-item="text" className={styles['text-191242-892e3aeb48054aa18893ce12887e5307']}   >$345</p>
+<p custom-agua-item="text" className={styles['text-1921242-af5dc210aa5c4a7382efb40fb373144c']}   > night</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-145243-71b3069146404eb1bdf27a67ba0a3988']}   >
+<section custom-agua-item="layer" className={styles['layer-152243-6fecac3eaba24a12a603fc19d030695d']}   >
+<p custom-agua-item="text" className={styles['text-195243-2ad0714043124be08b2b239a5f63933e']}   >Guest favorite</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-146243-5334edb09f0948038dc6853ca4c5b2f2']}   >
+<section custom-agua-item="layer" className={styles['layer-150543-57b5732a731c4da3b75db2be70d8e832']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-151243-ca327f26ae70408fa4b1f68b9f33957a']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1502243-fb6cce5428e7423aaea89e0b54794c63']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1503243-2f462c7f820547a29fd5d8af4998d86e']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1504243-2c338d26d7114049aed6e28092166234']}   ></section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-147243-f14fdba336ca447cb46ef5fd40e9cbdb']}   >
+<p custom-agua-item="text" className={styles['text-193243-af1cc2dc366546a586be9030df245515']}   >Eldred, New York</p>
+<section custom-agua-item="layer" className={styles['layer-149243-89b76d7bb3f64648b17dbf3088abe457']}   >
+<span custom-agua-item="icon" className={styles['icon-53243-d5197867e7ce40f3b8ebb569f3c3405b']}  >star</span>
+<p custom-agua-item="text" className={styles['text-194243-771937546f5a4cd1961ccf0bb693b81d']}   >4.94</p>
+</section>
+</section>
+<p custom-agua-item="text" className={styles['text-189243-f48cc53ac4fa41a4a2681ecf20251995']}   >72 miles away</p>
+<p custom-agua-item="text" className={styles['text-190243-17c2b3308642431a94c2ac82efb9f0c1']}   >Jan 15 - 20</p>
+<section custom-agua-item="layer" className={styles['layer-148243-e17ab2cfe291422cb8680f282810d3d8']}   >
+<p custom-agua-item="text" className={styles['text-191243-1f78a0c2896e4479a83fe6af6e0bde97']}   >$400</p>
+<p custom-agua-item="text" className={styles['text-1921243-0948b8bcc99c4c3180cc8771c393149d']}   > night</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-145244-b4f7d2197bd24c9baabc1f919aea1785']}   >
+<section custom-agua-item="layer" className={styles['layer-152244-fcee3289729a46d980d913df38aa3ee4']}   >
+<p custom-agua-item="text" className={styles['text-195244-4e46bd3eda9a4938a1d38c8b4b841da0']}   >Guest favorite</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-146244-19d0d94c0f0d4526915ed5d2fd681234']}   >
+<section custom-agua-item="layer" className={styles['layer-150544-05c5681d2c81406db6d09b277711eb60']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-151244-4dbc5b183e41485694c8717644b872ea']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1502244-8432fab6957b4559aa9d78136171f0fe']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1503244-3365ed4d6b56420fb1b81f6a23c6c787']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1504244-6d878a9110294bdab19df8f688e842ac']}   ></section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-147244-548b72e10d9b43dfad193cfb9b65b36f']}   >
+<p custom-agua-item="text" className={styles['text-193244-410e59098d1c4ba7b82ab5fb40ca87df']}   >Pine Bush, New York</p>
+<section custom-agua-item="layer" className={styles['layer-149244-bf75cdcd61984055bf32950f9864fe22']}   >
+<span custom-agua-item="icon" className={styles['icon-53244-ea6e5ae118d74c9abd836bd9b8b245ea']}  >star</span>
+<p custom-agua-item="text" className={styles['text-194244-4b06d311102a40f4b48bbbc83bc8973e']}   >4.87</p>
+</section>
+</section>
+<p custom-agua-item="text" className={styles['text-189244-9e95b7c9618943ed8bec2f9fff324bff']}   >61 miles away</p>
+<p custom-agua-item="text" className={styles['text-190244-94a7dc1fd51c46a8a93d1f164f285ea5']}   >Jan 8 - 13</p>
+<section custom-agua-item="layer" className={styles['layer-148244-b7fcc35712024e5d98ac42017b516811']}   >
+<p custom-agua-item="text" className={styles['text-191244-66a5a32e6c764d9db873010bcb122b42']}   >$185</p>
+<p custom-agua-item="text" className={styles['text-1921244-f57038b4b34c4a70863a30e7d5d99070']}   > night</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-145245-30626ad6c2514d3db17b570166ab50ba']}   >
+<section custom-agua-item="layer" className={styles['layer-152245-82891657d030413cb7155935b8d3da85']}   >
+<p custom-agua-item="text" className={styles['text-195245-13df94a664394ccbbfb1a2913f4cf18c']}   >Guest favorite</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-146245-7bc09368dd57456c850ae8f9eeb4f7aa']}   >
+<section custom-agua-item="layer" className={styles['layer-150545-900610749b554795ba2462bc2e4997ed']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-151245-a3c6a6fa87a543988db1aedea519af47']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1502245-d3daf81babac45d7afcdce68ac9ee441']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1503245-e78278e87de847599d6650d687744cb6']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1504245-c640684759a0442dbdce641ea23e3adc']}   ></section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-147245-5218bfbe733b406f9586777e1a10099a']}   >
+<p custom-agua-item="text" className={styles['text-193245-a4a0f63d266d4bf88b49abe57056b963']}   >Narrowsburg, New York</p>
+<section custom-agua-item="layer" className={styles['layer-149245-5a4f9db488f54cf3bcea810e5875cc5b']}   >
+<span custom-agua-item="icon" className={styles['icon-53245-3ed320cfcea442a19217c1ad038b3f0e']}  >star</span>
+<p custom-agua-item="text" className={styles['text-194245-4374fbaef876481c95ecbfc25f7ac7c4']}   >4.93
+</p>
+</section>
+</section>
+<p custom-agua-item="text" className={styles['text-189245-58f2e7ca51b14ce6a5bfa59a8b3d4f99']}   >79 miles away
+</p>
+<p custom-agua-item="text" className={styles['text-190245-327fd71e13a849b28c747b955f7ee49f']}   >Jan 8 - 13
+</p>
+<section custom-agua-item="layer" className={styles['layer-148245-4ad88520587b499c9961ff3ff9dec220']}   >
+<p custom-agua-item="text" className={styles['text-191245-535f441e77eb4c5da57392475917d4a9']}   >$260</p>
+<p custom-agua-item="text" className={styles['text-1921245-dab68fc61d6f4130909e4eedea14648d']}   > night</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-145246-6dc6bddde0a04f31bd34c8f21ffed755']}   >
+<section custom-agua-item="layer" className={styles['layer-152246-7e2cb28c5be448ebbc699ade7adc784f']}   >
+<p custom-agua-item="text" className={styles['text-195246-3ddc22ef222a4f559a52afdb6ffc5a61']}   >Guest favorite</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-146246-ac85a249af334730a02bd04be3f74cc9']}   >
+<section custom-agua-item="layer" className={styles['layer-150546-15574bb152e7419289b5ea606e8718b3']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-151246-74148a9ef9244aecbb26bd77b0102b19']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1502246-ace0668c577244ea963520ffba478670']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1503246-44d09d2b61f94f1288bf5611a5c71e29']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1504246-821758efb0f041a0a935c8ba81ea4e81']}   ></section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-147246-00e07806647f4c17a18c8ce3b10967d2']}   >
+<p custom-agua-item="text" className={styles['text-193246-8ca70933cd644f16a83a584e70d061b7']}   >Warwick, New York</p>
+<section custom-agua-item="layer" className={styles['layer-149246-62248107c73c4a2fbb18062e46f1a9f3']}   >
+<span custom-agua-item="icon" className={styles['icon-53246-da249ced647b4f82b2b63a47ea4c6193']}  >star</span>
+<p custom-agua-item="text" className={styles['text-194246-da89d076d813404d98e3bf627b74d77d']}   >4.92</p>
+</section>
+</section>
+<p custom-agua-item="text" className={styles['text-189246-d2b3f6167fb649b992bf68ee43626125']}   >43 miles away</p>
+<p custom-agua-item="text" className={styles['text-190246-6d941d0ee7bd4ba3a07ad1d51c9c3b47']}   >Jan 8 - 13</p>
+<section custom-agua-item="layer" className={styles['layer-148246-e09dc93d713248f8b07602aa300ba4d6']}   >
+<p custom-agua-item="text" className={styles['text-191246-19b30d1070974bc8a94b76a8f6a215d3']}   >$936</p>
+<p custom-agua-item="text" className={styles['text-1921246-93318552faa54b50bc9c0a6bbb83cff1']}   > night</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-145247-0a6371605421496299650952f450fa6a']}   >
+<section custom-agua-item="layer" className={styles['layer-152247-5f79155f640c4e5da9f5fc037fc3a715']}   >
+<p custom-agua-item="text" className={styles['text-195247-ee393b359bc646b09c841035e558047d']}   >Guest favorite</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-146247-b8c9ceaac35140249cd74a1297b57bfe']}   >
+<section custom-agua-item="layer" className={styles['layer-150547-f2e86ea4d06c42bdbbeb9c42e3fc14d8']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-151247-2729a12db2c842bbae3484249f156847']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1502247-dd3e8fdc06354d3b9873d98aeac8e69b']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1503247-f2c1133434f74f27b5b03a2d304fd226']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1504247-9b89c81104e448e69afa417baeb3f0e4']}   ></section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-147247-44b0199a99e24e5f8cf7d12dcff396fa']}   >
+<p custom-agua-item="text" className={styles['text-193247-e57543c7022b43df80f686bc3a50abc9']}   >Bellport, New York</p>
+<section custom-agua-item="layer" className={styles['layer-149247-acf223702aa5423f9d4a020abaf4333e']}   >
+<span custom-agua-item="icon" className={styles['icon-53247-0bd2bd9e4fe44fbcb362966a91c2fa84']}  >star</span>
+<p custom-agua-item="text" className={styles['text-194247-f1cb8a070de246e3891abb698cb129b9']}   >4.9</p>
+</section>
+</section>
+<p custom-agua-item="text" className={styles['text-189247-60194d19b02e440e8f70179ef3dd2515']}   >55 miles away</p>
+<p custom-agua-item="text" className={styles['text-190247-c8fe2f931fc64224ab53d7dd61ca61c9']}   >Jan 9 - 14</p>
+<section custom-agua-item="layer" className={styles['layer-148247-76f49f21b1df4bbdb79e891f34e17963']}   >
+<p custom-agua-item="text" className={styles['text-191247-2876d4f7673d4b32a73e1360064b5840']}   >$599</p>
+<p custom-agua-item="text" className={styles['text-1921247-2b3601d061bc403fbeee3abe3a41978c']}   > night</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-145248-63a648209b714006b7278cc684502c07']}   >
+<section custom-agua-item="layer" className={styles['layer-152248-1a154909a6fa40d6811be67da5d03ed6']}   >
+<p custom-agua-item="text" className={styles['text-195248-50f15ee0d5944476b9635fe4b151623c']}   >Guest favorite</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-146248-8e97a5fbfe8c4b64a5fe59c826412401']}   >
+<section custom-agua-item="layer" className={styles['layer-150548-8f294a7218c6481c9ea81710c55dae4b']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-151248-0ebebe916dbe4bffa95093328b47a337']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1502248-eff94650ce0d475695fc6f7660d27124']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1503248-28a3b3549bba4e1dbce3e2b40af18681']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1504248-028b2f7056a144019e29ed58b8afe7dc']}   ></section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-147248-80b3fd1c40b24f2d9faf50918869c2c8']}   >
+<p custom-agua-item="text" className={styles['text-193248-0f487ddb1ab5440d8f5c3b22f1ce64ae']}   >Philipstown, New York</p>
+<section custom-agua-item="layer" className={styles['layer-149248-6bbdd484fa7046f29fd47bda8848bc5a']}   >
+<span custom-agua-item="icon" className={styles['icon-53248-caa94f3d5c48481687302347d547fd69']}  >star</span>
+<p custom-agua-item="text" className={styles['text-194248-a974ca6b0ef648adbf8ac89436038843']}   >4.76
+</p>
+</section>
+</section>
+<p custom-agua-item="text" className={styles['text-189248-167217d71a424e74989681fcf63aa29c']}   >41 miles away</p>
+<p custom-agua-item="text" className={styles['text-190248-581b951a2e8b4ad589d7980b9c2c656f']}   >Jan 15 - 20</p>
+<section custom-agua-item="layer" className={styles['layer-148248-4f555d27b9db414cad55d70d828c7826']}   >
+<p custom-agua-item="text" className={styles['text-191248-ff8b9ee136104eec96cde88052c21a8d']}   >$436</p>
+<p custom-agua-item="text" className={styles['text-1921248-b2ba8ad0e2dc4d5da6fa87230e183281']}   > night</p>
+</section>
+</section>
+</section>
 <section custom-agua-item="layer" className={styles.homefooter}   >
 <section custom-agua-item="layer" className={styles['layer-212-d3389f3288924f3cbc9e12a0f77e8eaf']}   >
 <p custom-agua-item="text" className={styles['text-191-58d143ed16ca4e2fbe171be416ec898e']}   >Inspiration for future getaways</p>
@@ -205,7 +519,6 @@ const Home = () =>{
 </section>
 <section custom-agua-item="layer" className={styles['layer-28233-e85273f6ce7943ee8c3fea646cc25bce']}   >
 <p custom-agua-item="text" className={styles['text-27633-828ef2ea42b94b7c851529ee8e5626b8']}   >Luxe</p>
-<p custom-agua-item="text" className={styles['text-27733-52ce74560fb54fb39af7c2a215ce4bff']}   ></p>
 </section>
 </section>
 </section>
