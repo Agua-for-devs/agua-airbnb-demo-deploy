@@ -58,10 +58,23 @@ min-width: unset;
 width: 100%;
 display: var(--9f660e71cfb9441c8a1c3dc675bbc54c_visible) ; 
 }
-.imageview-1-74754a4e53884e8a9e3b5f5795ca6cf4[custom-agua-item="imageView"] {
+section.layer-613-3deb974500fb472594ab03909ac2b58a[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.imageview-15-d68528a593764b8da49b98dbd0684696[custom-agua-item="imageView"] {
     
 height: 35px ;min-height: 35px ;
-width: 100px ;min-width: 100px ;
+width: 100px ;min-width: 100px ;display: var(--d68528a593764b8da49b98dbd0684696_visible) ; 
+}
+.imageview-23-ff74b1ced6a2437a9e0afb390abb653c[custom-agua-item="imageView"] {
+    
+height: 35px ;min-height: 35px ;
+width: 100px ;min-width: 100px ;display: var(--ff74b1ced6a2437a9e0afb390abb653c_visible) ; 
 }
 section.layer-10-702b95a6dc164360bd3c571c86f8ca40[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -4552,7 +4565,8 @@ justify-content: var(--horizontalAxis-4d379f86be3340d7bea38b46abb6b26c) ;
 	--min-1bf446f3816c454f9f99c313f5c6c325_valuewidth: unset;
 	--1bf446f3816c454f9f99c313f5c6c325_valuewidth: fit-content;
 	--hombebody_horizontalAlignment: center ;;
-	--74754a4e53884e8a9e3b5f5795ca6cf4_src: url(Assets/Airbnb_logo.png);
+	--ff74b1ced6a2437a9e0afb390abb653c_visible: none;
+	--d68528a593764b8da49b98dbd0684696_visible: flex;
 
 }
 
@@ -4863,7 +4877,8 @@ height: var(--homecontent_valueheight);
 	--min-1bf446f3816c454f9f99c313f5c6c325_valuewidth: 500px;
 	--1bf446f3816c454f9f99c313f5c6c325_valuewidth: 500px;
 	--hombebody_horizontalAlignment: space-between ;;
-	--74754a4e53884e8a9e3b5f5795ca6cf4_src: url(Assets/Airbnb_logo.png);
+	--ff74b1ced6a2437a9e0afb390abb653c_visible: none;
+	--d68528a593764b8da49b98dbd0684696_visible: flex;
 
 }
 
@@ -5170,7 +5185,8 @@ justify-content: var(--horizontalAxis-4d379f86be3340d7bea38b46abb6b26c) ;
 	--min-1bf446f3816c454f9f99c313f5c6c325_valuewidth: 500px;
 	--1bf446f3816c454f9f99c313f5c6c325_valuewidth: 500px;
 	--hombebody_horizontalAlignment: space-between ;;
-	--74754a4e53884e8a9e3b5f5795ca6cf4_src: url(Assets/Airbnb_logo_icon.png);
+	--ff74b1ced6a2437a9e0afb390abb653c_visible: flex;
+	--d68528a593764b8da49b98dbd0684696_visible: none;
 
 }
 
