@@ -26,8 +26,9 @@ p.text-1-116f85e28fbe44e1ac1ed842a812aec1[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 font-size: 16px ;
-font-weight: bold ;
 
+
+cursor: pointer;
 
 
 }
@@ -44,7 +45,7 @@ width: 100%;
 
 position: sticky;
 top: 1px;
-z-index: 2;padding-left: var(--homeheader_padding-left) ; 
+z-index: 4;padding-left: var(--homeheader_padding-left) ; 
 padding-right: var(--homeheader_padding-right) ; 
 padding-top: var(--homeheader_padding-top) ; 
 padding-bottom: var(--homeheader_padding-bottom) ; 
@@ -115,6 +116,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 font-size: 16px ;
 
 
+cursor: pointer;
 margin-left: 15px ;
 margin-right: 15px ;
 box-sizing: border-box ;
@@ -156,6 +158,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 font-size: 16px ;
 font-weight: bold ;
 
+cursor: pointer;
 margin-left: 10px ;
 margin-right: 10px ;
 box-sizing: border-box ;
@@ -251,6 +254,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
+cursor: pointer;
 margin-left: 15px ;
 margin-right: 15px ;
 box-sizing: border-box ;
@@ -562,7 +566,7 @@ p.text-922-c58f4e153e2b4e3c9a3863fec02bd0ac[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 font-size: 16px ;
-font-weight: bold ;
+
 
 margin-top: 1px ;
 margin-bottom: 1px ;
@@ -582,7 +586,7 @@ p.text-1122-8be58e80d8654afda0c41fe2edd086a1[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 font-size: 16px ;
-font-weight: bold ;
+
 
 margin-top: 1px ;
 margin-bottom: 1px ;
@@ -607,6 +611,7 @@ font-size: 16px ;
 margin-top: 1px ;
 margin-bottom: 1px ;
 box-sizing: border-box ;
+background: #717171 ;
 
 
 }
@@ -827,8 +832,9 @@ z-index: 1;
 p.text-822-6e85b875756a404e8658da3a2d6ef94b[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
 
+
+cursor: pointer;
 font-size: var(--6e85b875756a404e8658da3a2d6ef94b_fontSize) ; 
 min-width: var(--min-6e85b875756a404e8658da3a2d6ef94b_valuewidth) ; 
 width: var(--6e85b875756a404e8658da3a2d6ef94b_valuewidth); 
@@ -918,7 +924,7 @@ min-width:  unset ;width: fit-content ;
 p.text-19-a0abc8d7c89e4a77ba50cd38bc5dc995[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 
 font-size: var(--a0abc8d7c89e4a77ba50cd38bc5dc995_fontSize) ; 
@@ -938,7 +944,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-102-9cfe6279da104949834afcf842147378[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -947,7 +953,7 @@ p.text-192-e7ae13d99754420486d96b925b2e9671[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 width: 90px ;min-width: 90px ;font-size: var(--e7ae13d99754420486d96b925b2e9671_fontSize) ; 
 }
@@ -966,7 +972,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-1022-3ed310389f0d4b058dc180685aaf2f05[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -975,7 +981,7 @@ p.text-1922-1645ba35e4c54727875c775a5bfa2582[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 width: 90px ;min-width: 90px ;font-size: var(--1645ba35e4c54727875c775a5bfa2582_fontSize) ; 
 }
@@ -994,7 +1000,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-1023-080e43afa6bb400d954ccbf5e35197c8[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -1003,7 +1009,7 @@ p.text-1923-710d1a5799ca478dabd5baa08fb536d5[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--710d1a5799ca478dabd5baa08fb536d5_fontSize) ; 
 }
@@ -1022,7 +1028,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-1024-0c7377166dd1488081df1ee9a4af1ecd[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -1031,7 +1037,7 @@ p.text-1924-6d12ec3e2d004e5c83e39b8b331ee18e[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--6d12ec3e2d004e5c83e39b8b331ee18e_fontSize) ; 
 }
@@ -1050,7 +1056,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-1025-9fb563dd00ca4980bd5e05af748e2fd5[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -1059,7 +1065,7 @@ p.text-1925-434ba05c6055414e8f1ba7049fa587c0[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--434ba05c6055414e8f1ba7049fa587c0_fontSize) ; 
 }
@@ -1078,7 +1084,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-1026-fe28a2caac0b4f93b6bff96eb53ece47[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -1087,7 +1093,7 @@ p.text-1926-c5001aa5d61c49a58b8d1e5079d97202[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 width: 70px ;min-width: 70px ;font-size: var(--c5001aa5d61c49a58b8d1e5079d97202_fontSize) ; 
 }
@@ -1106,7 +1112,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-1027-2e6f22069f6d4d7c94133be8828e71d7[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -1115,7 +1121,7 @@ p.text-1927-2110d630a8b0455ab068d56549f03a04[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--2110d630a8b0455ab068d56549f03a04_fontSize) ; 
 }
@@ -1134,7 +1140,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-1028-ecca65cb605e4dc2ad1dd378f81e7cb7[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -1143,7 +1149,7 @@ p.text-1928-09e7c8e97d7f4dffa69c39c921840d2f[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--09e7c8e97d7f4dffa69c39c921840d2f_fontSize) ; 
 }
@@ -1162,7 +1168,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-1029-736096e6fc684e628b0deb67b5fad136[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -1171,7 +1177,7 @@ p.text-1929-013929bb008d4b35b4c82b3adbc0a4d7[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--013929bb008d4b35b4c82b3adbc0a4d7_fontSize) ; 
 }
@@ -1190,7 +1196,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-10210-fd583feba03f4187af11f098272108b6[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -1199,7 +1205,7 @@ p.text-19210-151bd6f18a144a72aa02d5ebae5339bb[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--151bd6f18a144a72aa02d5ebae5339bb_fontSize) ; 
 }
@@ -1218,7 +1224,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-10211-44c3cad2e1f541009cd939c43dec89f9[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -1227,7 +1233,7 @@ p.text-19211-f2b81e2bea0047f9a80e5ad75ebda671[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--f2b81e2bea0047f9a80e5ad75ebda671_fontSize) ; 
 }
@@ -1246,7 +1252,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-102112-69956c0a31794de7b7f0ee40d4c32dae[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -1255,7 +1261,7 @@ p.text-192112-5888a2d0cb3645089ab41621661d4b42[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--5888a2d0cb3645089ab41621661d4b42_fontSize) ; 
 }
@@ -1274,7 +1280,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-102113-d3655fe314be4d188d90495e5b39b4b3[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -1283,7 +1289,7 @@ p.text-192113-1882a0410a154c8dadfc37c258aaaef5[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 font-size: var(--1882a0410a154c8dadfc37c258aaaef5_fontSize) ; 
 }
@@ -1301,7 +1307,7 @@ min-width:  unset ;width: fit-content ;
 }
 .icon-102114-8e4614d06b6c4eb18f24034a483014af[custom-agua-item="icon"] {
     
-background: #616161 ;
+background: #717171 ;
 
 
 }
@@ -1310,7 +1316,7 @@ p.text-192114-ffabb913cf624601880eda5c40969883[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-background: #616161 ;
+background: #717171 ;
 
 width: 92px ;min-width: 92px ;font-size: var(--ffabb913cf624601880eda5c40969883_fontSize) ; 
 }
@@ -1343,7 +1349,7 @@ p.text-21-f041394eb2df4fd0a7c9679817e3a679[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 font-size: 12px ;
-font-weight: bold ;
+
 
 margin-left: 4px ;
 box-sizing: border-box ;
@@ -1369,7 +1375,7 @@ p.text-20-e8ed2d2b2d654a5795f870c9e4e83627[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 font-size: 12px ;
-font-weight: bold ;
+
 
 margin-right: 4px ;
 box-sizing: border-box ;
@@ -1452,7 +1458,7 @@ border-radius: 24px ;
 padding-left: 19px ;
 padding-right: 19px ;
 box-sizing: border-box ;
-background-color: #000000 ;
+background-color: #222222 ;
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 position: absolute;
@@ -1487,7 +1493,7 @@ border-radius: 24px ;
 padding-left: 19px ;
 padding-right: 19px ;
 box-sizing: border-box ;
-background-color: #000000 ;
+background-color: #222222 ;
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 position: absolute;
@@ -3734,7 +3740,7 @@ padding-left: 24px ;
 padding-right: 24px ;
 margin-top: 16px ;
 box-sizing: border-box ;
-background-color: #000000 ;
+background-color: #222222 ;
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
@@ -3763,8 +3769,8 @@ padding-bottom: var(--homefooter_padding-bottom) ;
 section.layer-212-d3389f3288924f3cbc9e12a0f77e8eaf[custom-agua-item="layer"] {
     
 
-padding-top: 18px ;
-padding-bottom: 18px ;
+padding-top: 48px ;
+padding-bottom: 48px ;
 box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width: unset;
@@ -3777,8 +3783,7 @@ p.text-191-58d143ed16ca4e2fbe171be416ec898e[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 font-weight: bold ;
 
-margin-top: 15px ;
-margin-bottom: 15px ;
+margin-bottom: 8px ;
 box-sizing: border-box ;
 
 font-size: var(--58d143ed16ca4e2fbe171be416ec898e_fontSize) ; 
@@ -3789,8 +3794,8 @@ align-items: center ;
 overflow-x: scroll ;
 scrollbar-width: none ;
 -ms-overflow-style: none ;
-padding-top: 15px ;
-padding-bottom: 15px ;
+padding-top: 16px ;
+padding-bottom: 16px ;
 box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width: unset;
@@ -3874,7 +3879,7 @@ width: var(--d192530879f5489ea7933f515f582d18_valuewidth);
 p.text-197-bcb8cf1429664b07a8dcd0bd59712035[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-weight: bold ;
+
 
 margin-left: 15px ;
 margin-right: 15px ;
@@ -3910,8 +3915,7 @@ width: var(--62a43305a1774968bf56edf27d0d2aa4_valuewidth);
 section.layer-219-5589ec5df5bd4b5581e3647dd306c833[custom-agua-item="layer"] {
     
 
-padding-top: 15px ;
-padding-bottom: 15px ;
+padding-top: 16px ;
 box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width: unset;
@@ -3940,6 +3944,7 @@ p.text-276-26a9ec16ec144004b1f80854293563c9[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-26a9ec16ec144004b1f80854293563c9_valuewidth) ; 
 width: var(--26a9ec16ec144004b1f80854293563c9_valuewidth); 
 font-size: var(--26a9ec16ec144004b1f80854293563c9_fontSize) ; 
@@ -3949,6 +3954,7 @@ p.text-277-f03cd92759f248bca54d2cc05f057ec5[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-f03cd92759f248bca54d2cc05f057ec5_valuewidth) ; 
 width: var(--f03cd92759f248bca54d2cc05f057ec5_valuewidth); 
 font-size: var(--f03cd92759f248bca54d2cc05f057ec5_fontSize) ; 
@@ -3967,6 +3973,7 @@ p.text-2762-a23a22f98c3c42dfa97534dda8b1ec1d[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-a23a22f98c3c42dfa97534dda8b1ec1d_valuewidth) ; 
 width: var(--a23a22f98c3c42dfa97534dda8b1ec1d_valuewidth); 
 font-size: var(--a23a22f98c3c42dfa97534dda8b1ec1d_fontSize) ; 
@@ -3976,6 +3983,7 @@ p.text-2772-0df1abd2a1284c4facae6feac427280b[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-0df1abd2a1284c4facae6feac427280b_valuewidth) ; 
 width: var(--0df1abd2a1284c4facae6feac427280b_valuewidth); 
 font-size: var(--0df1abd2a1284c4facae6feac427280b_fontSize) ; 
@@ -3994,6 +4002,7 @@ p.text-2763-afc738b9602846b2876210212e00027c[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-afc738b9602846b2876210212e00027c_valuewidth) ; 
 width: var(--afc738b9602846b2876210212e00027c_valuewidth); 
 font-size: var(--afc738b9602846b2876210212e00027c_fontSize) ; 
@@ -4003,6 +4012,7 @@ p.text-2773-64322d180c0b44a5916328a7f14e8a6e[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-64322d180c0b44a5916328a7f14e8a6e_valuewidth) ; 
 width: var(--64322d180c0b44a5916328a7f14e8a6e_valuewidth); 
 font-size: var(--64322d180c0b44a5916328a7f14e8a6e_fontSize) ; 
@@ -4029,6 +4039,7 @@ p.text-2764-aaee67b3573d46859ecd2f59f5f3c112[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-aaee67b3573d46859ecd2f59f5f3c112_valuewidth) ; 
 width: var(--aaee67b3573d46859ecd2f59f5f3c112_valuewidth); 
 font-size: var(--aaee67b3573d46859ecd2f59f5f3c112_fontSize) ; 
@@ -4038,6 +4049,7 @@ p.text-2774-89ab0369ef3c4aafb787a794adcaddb2[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-89ab0369ef3c4aafb787a794adcaddb2_valuewidth) ; 
 width: var(--89ab0369ef3c4aafb787a794adcaddb2_valuewidth); 
 font-size: var(--89ab0369ef3c4aafb787a794adcaddb2_fontSize) ; 
@@ -4056,6 +4068,7 @@ p.text-27622-5149ffc4f03b4f81a117ca9c1fbe3f5c[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-5149ffc4f03b4f81a117ca9c1fbe3f5c_valuewidth) ; 
 width: var(--5149ffc4f03b4f81a117ca9c1fbe3f5c_valuewidth); 
 font-size: var(--5149ffc4f03b4f81a117ca9c1fbe3f5c_fontSize) ; 
@@ -4065,6 +4078,7 @@ p.text-27722-23e1d50da3564889b778b45a7c70101b[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-23e1d50da3564889b778b45a7c70101b_valuewidth) ; 
 width: var(--23e1d50da3564889b778b45a7c70101b_valuewidth); 
 font-size: var(--23e1d50da3564889b778b45a7c70101b_fontSize) ; 
@@ -4083,6 +4097,7 @@ p.text-27632-26e835c47fa84c908e1f0941a566be8d[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-26e835c47fa84c908e1f0941a566be8d_valuewidth) ; 
 width: var(--26e835c47fa84c908e1f0941a566be8d_valuewidth); 
 font-size: var(--26e835c47fa84c908e1f0941a566be8d_fontSize) ; 
@@ -4092,6 +4107,7 @@ p.text-27732-14e49b7d620f43d3b8237a6e8b195110[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-14e49b7d620f43d3b8237a6e8b195110_valuewidth) ; 
 width: var(--14e49b7d620f43d3b8237a6e8b195110_valuewidth); 
 font-size: var(--14e49b7d620f43d3b8237a6e8b195110_fontSize) ; 
@@ -4118,6 +4134,7 @@ p.text-2765-4b88b245f21f432498d181a8baf15ee9[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-4b88b245f21f432498d181a8baf15ee9_valuewidth) ; 
 width: var(--4b88b245f21f432498d181a8baf15ee9_valuewidth); 
 font-size: var(--4b88b245f21f432498d181a8baf15ee9_fontSize) ; 
@@ -4127,6 +4144,7 @@ p.text-2775-7740b51558d841a584a1a5042fe00159[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-7740b51558d841a584a1a5042fe00159_valuewidth) ; 
 width: var(--7740b51558d841a584a1a5042fe00159_valuewidth); 
 font-size: var(--7740b51558d841a584a1a5042fe00159_fontSize) ; 
@@ -4145,6 +4163,7 @@ p.text-27623-971cb485faa942e49caa0c3a97a0dc83[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-971cb485faa942e49caa0c3a97a0dc83_valuewidth) ; 
 width: var(--971cb485faa942e49caa0c3a97a0dc83_valuewidth); 
 font-size: var(--971cb485faa942e49caa0c3a97a0dc83_fontSize) ; 
@@ -4154,6 +4173,7 @@ p.text-27723-1172e135dca24c269825cfffc37fce52[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-1172e135dca24c269825cfffc37fce52_valuewidth) ; 
 width: var(--1172e135dca24c269825cfffc37fce52_valuewidth); 
 font-size: var(--1172e135dca24c269825cfffc37fce52_fontSize) ; 
@@ -4172,6 +4192,7 @@ p.text-27633-828ef2ea42b94b7c851529ee8e5626b8[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 min-width: var(--min-828ef2ea42b94b7c851529ee8e5626b8_valuewidth) ; 
 width: var(--828ef2ea42b94b7c851529ee8e5626b8_valuewidth); 
 font-size: var(--828ef2ea42b94b7c851529ee8e5626b8_fontSize) ; 
@@ -4179,8 +4200,8 @@ font-size: var(--828ef2ea42b94b7c851529ee8e5626b8_fontSize) ;
 section.layer-213-6be24c0bb0064bb6a88a32abbac66514[custom-agua-item="layer"] {
     
 
-padding-top: 18px ;
-padding-bottom: 18px ;
+padding-top: 48px ;
+padding-bottom: 48px ;
 box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width: unset;
@@ -4210,6 +4231,7 @@ p.text-171-67e4e7710f1049828b67d1fefc28032d[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4221,6 +4243,7 @@ p.text-172-54e6e98dc03a4bef9c3e8ea42368663f[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4232,6 +4255,7 @@ p.text-173-28833623ad7b48289f05eed23342cacd[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4243,6 +4267,7 @@ p.text-174-4fda4799ce684e2eaddd87ee6be0732b[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4254,6 +4279,7 @@ p.text-175-99b35fe8b6dd422fa763d9db299fa539[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4265,6 +4291,7 @@ p.text-176-fc8c04f6dbf5499a8f3690373a20170b[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 margin-bottom: 15px ;
 box-sizing: border-box ;
@@ -4293,6 +4320,7 @@ p.text-178-f7717c577be04ef8b5109dae18fbd87d[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4304,6 +4332,7 @@ p.text-179-68e6e8dbe87c43158d99b0f8e9adf142[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4315,6 +4344,7 @@ p.text-180-7d24fa72ed7c4196a2e0228e6ad2d25c[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4326,6 +4356,7 @@ p.text-181-591607704f034c9695d2f23f5a3da6d1[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4337,6 +4368,7 @@ p.text-182-04d40566f99744bea766caa0616bdb59[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4348,6 +4380,7 @@ p.text-183-16b4396c19b7477c88c15bbaeb21195c[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 margin-bottom: 15px ;
 box-sizing: border-box ;
@@ -4376,6 +4409,7 @@ p.text-185-fa7703600246466594c14a330f7017da[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4387,6 +4421,7 @@ p.text-186-6b9592b86bc542dbb409de335d74b4e4[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4398,6 +4433,7 @@ p.text-187-26c39c8832f9407caab271a9be28fbaa[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4409,6 +4445,7 @@ p.text-188-c144e9c3a2f34876a6f0befec46fead7[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4420,6 +4457,7 @@ p.text-189-7478177a90b145559f73e5ea7b3ee5c2[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4431,6 +4469,7 @@ p.text-190-2cd3a197b6c94c67b98ba9533a6426d6[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-top: 15px ;
 margin-bottom: 15px ;
 box-sizing: border-box ;
@@ -4514,6 +4553,7 @@ min-width:  unset ;width: fit-content ;display: var(--8bb434cd142e465093a56c26b5
     
 margin-left: 10px ;
 margin-right: 5px ;
+cursor: pointer;
 box-sizing: border-box ;
 height: 25px ;min-height: 25px ;
 width: 25px ;min-width: 25px ;
@@ -4522,6 +4562,7 @@ width: 25px ;min-width: 25px ;
     
 margin-left: 5px ;
 margin-right: 5px ;
+cursor: pointer;
 box-sizing: border-box ;
 height: 25px ;min-height: 25px ;
 width: 25px ;min-width: 25px ;
@@ -4529,6 +4570,7 @@ width: 25px ;min-width: 25px ;
 .imageview-132-77794b9a0e774831bb9e47673d7f083c[custom-agua-item="imageView"] {
     
 margin-left: 5px ;
+cursor: pointer;
 box-sizing: border-box ;
 height: 25px ;min-height: 25px ;
 width: 25px ;min-width: 25px ;
@@ -4589,6 +4631,7 @@ p.text-516-3667e38ff0494df79499215ed17e83b5[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-right: 10px ;
 box-sizing: border-box ;
 background: #222222 ;
@@ -4601,6 +4644,7 @@ p.text-517-ed49dc0edbe74d11a44a7a8194d50e34[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-left: 10px ;
 margin-right: 10px ;
 box-sizing: border-box ;
@@ -4613,6 +4657,7 @@ p.text-518-b7a2a97516d6429584f9271a6f004e6d[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+cursor: pointer;
 margin-left: 10px ;
 margin-right: 10px ;
 box-sizing: border-box ;
@@ -4686,6 +4731,7 @@ min-width:  unset ;width: fit-content ;
     
 margin-left: 10px ;
 margin-right: 5px ;
+cursor: pointer;
 box-sizing: border-box ;
 height: 20px ;min-height: 20px ;
 width: 20px ;min-width: 20px ;
@@ -4694,6 +4740,7 @@ width: 20px ;min-width: 20px ;
     
 margin-left: 5px ;
 margin-right: 5px ;
+cursor: pointer;
 box-sizing: border-box ;
 height: 20px ;min-height: 20px ;
 width: 20px ;min-width: 20px ;
@@ -4701,6 +4748,7 @@ width: 20px ;min-width: 20px ;
 .imageview-13-fec44917293049aba8e78cc38c8d6588[custom-agua-item="imageView"] {
     
 margin-left: 5px ;
+cursor: pointer;
 box-sizing: border-box ;
 height: 20px ;min-height: 20px ;
 width: 20px ;min-width: 20px ;

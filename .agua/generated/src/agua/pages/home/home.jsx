@@ -5,6 +5,12 @@ import image_imageview_15 from '../../../Assets/Airbnb_logo.png';
 import image_imageview_23 from '../../../Assets/Airbnb_logo_icon.png';
 import image_imageview_1522 from '../../../Assets/Airbnb_logo.png';
 import image_imageview_2322 from '../../../Assets/Airbnb_logo_icon.png';
+import image_imageview_112 from '../../../Assets/facebook.png';
+import image_imageview_122 from '../../../Assets/twitter.png';
+import image_imageview_132 from '../../../Assets/instagram.png';
+import image_imageview_11 from '../../../Assets/facebook.png';
+import image_imageview_12 from '../../../Assets/twitter.png';
+import image_imageview_13 from '../../../Assets/instagram.png';
 import styles from './home.module.css';
 
 /**
@@ -16,14 +22,16 @@ import styles from './home.module.css';
  */
 const Home = () =>{
     
-    
+    const openInNewTab = url => {
+    window.open(url, '_blank', 'noopener,noreferrer');
+};
     
     function aguaRender() {
         return(
             <main custom-agua-item="screen"  className={styles.Home}>
                 
 <section custom-agua-item="layer" className={styles.homebanner}   >
-<p custom-agua-item="text" className={styles['text-1-116f85e28fbe44e1ac1ed842a812aec1']}   >Learn about Guest Favorites, the most loved homes on Airbnb</p>
+<p custom-agua-item="text" className={styles['text-1-116f85e28fbe44e1ac1ed842a812aec1']}   onClick={() => openInNewTab("https://www.airbnb.com/release")}>Learn about Guest Favorites, the most loved homes on Airbnb</p>
 </section>
 <header custom-agua-item="layer" className={styles.homeheader}   >
 <section custom-agua-item="layer" className={styles['layer-425-132e7036c3714189ac1e428e8aec4bc4']}   >
@@ -31,14 +39,14 @@ const Home = () =>{
 <section custom-agua-item="layer" className={styles['layer-10-702b95a6dc164360bd3c571c86f8ca40']}   >
 <p custom-agua-item="text" className={styles['text-2-b3a9e3a440134d8b95d8003298e61957']}   >Stays</p>
 <p custom-agua-item="text" className={styles['text-3-942541c0bdd84a7b81d2b06688309a02']}   >Experiences</p>
-<p custom-agua-item="text" className={styles['text-4-0ca6424f823b43cbb3dbc3eb84bd4aeb']}   >Online Experiences</p>
+<p custom-agua-item="text" className={styles['text-4-0ca6424f823b43cbb3dbc3eb84bd4aeb']}   onClick={() => openInNewTab("https://www.airbnb.com/s/experiences/online")}>Online Experiences</p>
 </section>
 <section custom-agua-item="layer" className={styles['layer-613-3deb974500fb472594ab03909ac2b58a']}   >
-<img custom-agua-item="imageView" className={styles['imageview-15-d68528a593764b8da49b98dbd0684696']}  alt="imageview-15" src={ image_imageview_15}  />
-<img custom-agua-item="imageView" className={styles['imageview-23-ff74b1ced6a2437a9e0afb390abb653c']}  alt="imageview-23" src={ image_imageview_23}  />
+<Link to="/Home"><img custom-agua-item="imageView" className={styles['imageview-15-d68528a593764b8da49b98dbd0684696']}  alt="imageview-15" src={ image_imageview_15}  /></Link>
+<Link to="/Home"><img custom-agua-item="imageView" className={styles['imageview-23-ff74b1ced6a2437a9e0afb390abb653c']}  alt="imageview-23" src={ image_imageview_23}  /></Link>
 </section>
 <section custom-agua-item="layer" className={styles['layer-11-9b3db02e627c4e9994937aef76c19951']}   >
-<p custom-agua-item="text" className={styles['text-8-e29ef2680931422289fbae1185b97d9e']}   >Airbnb your home</p>
+<p custom-agua-item="text" className={styles['text-8-e29ef2680931422289fbae1185b97d9e']}   onClick={() => openInNewTab("https://www.airbnb.com/host/homes")}>Airbnb your home</p>
 <span custom-agua-item="icon" className={styles['icon-4-3f63daa9579744dba431ee9a1e3355cb']}  >language</span>
 <section custom-agua-item="layer" className={styles['layer-17-2c7322572780409a87d90faa895b7a6f']}   >
 <span custom-agua-item="icon" className={styles['icon-5-8a77b1e8fd7b43359be93d9a7409e384']}  >menu</span>
@@ -50,7 +58,7 @@ const Home = () =>{
 <section custom-agua-item="layer" className={styles['layer-102-adc851aa4761462cb884c87f57051202']}   >
 <p custom-agua-item="text" className={styles['text-22-e1ede0e4adf4491a9d2b5cb7110e92ef']}   >Stays</p>
 <p custom-agua-item="text" className={styles['text-32-98bd8963a1f1489c82e85d343df0ad4f']}   >Experiences</p>
-<p custom-agua-item="text" className={styles['text-42-545f0f46a07d40d692466f9f5c174286']}   >Online Experiences</p>
+<p custom-agua-item="text" className={styles['text-42-545f0f46a07d40d692466f9f5c174286']}   onClick={() => openInNewTab("https://www.airbnb.com/s/experiences/online")}>Online Experiences</p>
 </section>
 </section>
 <section custom-agua-item="layer" className={styles['layer-18-ddf1a705824845d5ae25c5a7e3a0aaac']}   >
@@ -115,8 +123,8 @@ const Home = () =>{
 </section>
 </section>
 <Link to="/Home"><section custom-agua-item="layer" className={styles['layer-61322-87778284bd0f4575a7e76139d335663d']}   >
-<img custom-agua-item="imageView" className={styles['imageview-1522-fcfe7058744b4953969e31b99771c7ad']}  alt="imageview-1522" src={ image_imageview_1522}  />
-<img custom-agua-item="imageView" className={styles['imageview-2322-bcc90889185a47db9fcc6aa63ad976bc']}  alt="imageview-2322" src={ image_imageview_2322}  />
+<Link to="/Home"><img custom-agua-item="imageView" className={styles['imageview-1522-fcfe7058744b4953969e31b99771c7ad']}  alt="imageview-1522" src={ image_imageview_1522}  /></Link>
+<Link to="/Home"><img custom-agua-item="imageView" className={styles['imageview-2322-bcc90889185a47db9fcc6aa63ad976bc']}  alt="imageview-2322" src={ image_imageview_2322}  /></Link>
 </section></Link>
 <section custom-agua-item="layer" className={styles['layer-19222-2b2d76c279dd48aea3b49867c94825a8']}   >
 <section custom-agua-item="layer" className={styles['layer-21222-8f9d841f57574bf9b69428d874a8108d']}   >
@@ -133,7 +141,7 @@ const Home = () =>{
 </section>
 </section>
 <section custom-agua-item="layer" className={styles['layer-1122-120f3f39fcc740dfb9a0ef1c2855d8a1']}   >
-<p custom-agua-item="text" className={styles['text-822-6e85b875756a404e8658da3a2d6ef94b']}   >Airbnb your home</p>
+<p custom-agua-item="text" className={styles['text-822-6e85b875756a404e8658da3a2d6ef94b']}   onClick={() => openInNewTab("https://www.airbnb.com/host/homes")}>Airbnb your home</p>
 <span custom-agua-item="icon" className={styles['icon-422-1e1958cf909f435ab0da649a1c6461fe']}  >language</span>
 <section custom-agua-item="layer" className={styles['layer-1722-42681755bf4c4fa99fd7f67f9f2a0caa']}   >
 <span custom-agua-item="icon" className={styles['icon-522-47e8ef253ac5408d8f5d76b80e199127']}  >menu</span>
@@ -561,45 +569,45 @@ const Home = () =>{
 <section custom-agua-item="layer" className={styles['layer-219-5589ec5df5bd4b5581e3647dd306c833']}   >
 <section custom-agua-item="layer" className={`${styles['layer-281-bfd89c7c9d5e47f3b4cb6fe63acfa829-orientation']} ${styles['layer-281-bfd89c7c9d5e47f3b4cb6fe63acfa829']}`}   >
 <section custom-agua-item="layer" className={styles['layer-282-9877c76d3a5d41c587f97c81dbb57078']}   >
-<p custom-agua-item="text" className={styles['text-276-26a9ec16ec144004b1f80854293563c9']}   >Amazing pools</p>
-<p custom-agua-item="text" className={styles['text-277-f03cd92759f248bca54d2cc05f057ec5']}   >Arctic</p>
+<p custom-agua-item="text" className={styles['text-276-26a9ec16ec144004b1f80854293563c9']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/amazing-pools")}>Amazing pools</p>
+<p custom-agua-item="text" className={styles['text-277-f03cd92759f248bca54d2cc05f057ec5']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/arctic")}>Arctic</p>
 </section>
 <section custom-agua-item="layer" className={styles['layer-2822-2eb9322dd1ef479e9c005210d2e53f92']}   >
-<p custom-agua-item="text" className={styles['text-2762-a23a22f98c3c42dfa97534dda8b1ec1d']}   >Camping</p>
-<p custom-agua-item="text" className={styles['text-2772-0df1abd2a1284c4facae6feac427280b']}   >Campers</p>
+<p custom-agua-item="text" className={styles['text-2762-a23a22f98c3c42dfa97534dda8b1ec1d']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/camping")}>Camping</p>
+<p custom-agua-item="text" className={styles['text-2772-0df1abd2a1284c4facae6feac427280b']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/campers")}>Campers</p>
 </section>
 <section custom-agua-item="layer" className={styles['layer-2823-5d22568e59124898a67142f207c0e06c']}   >
-<p custom-agua-item="text" className={styles['text-2763-afc738b9602846b2876210212e00027c']}   >Castles</p>
-<p custom-agua-item="text" className={styles['text-2773-64322d180c0b44a5916328a7f14e8a6e']}   >Containers</p>
+<p custom-agua-item="text" className={styles['text-2763-afc738b9602846b2876210212e00027c']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/castles")}>Castles</p>
+<p custom-agua-item="text" className={styles['text-2773-64322d180c0b44a5916328a7f14e8a6e']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/containers")}>Containers</p>
 </section>
 </section>
 <section custom-agua-item="layer" className={`${styles['layer-2812-b17fc4454a604f18bfe60927ae2af13a-orientation']} ${styles['layer-2812-b17fc4454a604f18bfe60927ae2af13a']}`}   >
 <section custom-agua-item="layer" className={styles['layer-2824-840c032517b140f2ba42df7c3512b4c4']}   >
-<p custom-agua-item="text" className={styles['text-2764-aaee67b3573d46859ecd2f59f5f3c112']}   >Countryside</p>
-<p custom-agua-item="text" className={styles['text-2774-89ab0369ef3c4aafb787a794adcaddb2']}   >Design</p>
+<p custom-agua-item="text" className={styles['text-2764-aaee67b3573d46859ecd2f59f5f3c112']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/countryside")}>Countryside</p>
+<p custom-agua-item="text" className={styles['text-2774-89ab0369ef3c4aafb787a794adcaddb2']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/design")}>Design</p>
 </section>
 <section custom-agua-item="layer" className={styles['layer-28222-6aaf7c5c18214aab98203756f26145b4']}   >
-<p custom-agua-item="text" className={styles['text-27622-5149ffc4f03b4f81a117ca9c1fbe3f5c']}   >Earth homes
+<p custom-agua-item="text" className={styles['text-27622-5149ffc4f03b4f81a117ca9c1fbe3f5c']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/earth-homes")}>Earth homes
 </p>
-<p custom-agua-item="text" className={styles['text-27722-23e1d50da3564889b778b45a7c70101b']}   >Farms</p>
+<p custom-agua-item="text" className={styles['text-27722-23e1d50da3564889b778b45a7c70101b']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/farms")}>Farms</p>
 </section>
 <section custom-agua-item="layer" className={styles['layer-28232-b43a1f49f19e4f35b116bfdb5677ba56']}   >
-<p custom-agua-item="text" className={styles['text-27632-26e835c47fa84c908e1f0941a566be8d']}   >National parks
+<p custom-agua-item="text" className={styles['text-27632-26e835c47fa84c908e1f0941a566be8d']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/national-parks")}>National parks
 </p>
-<p custom-agua-item="text" className={styles['text-27732-14e49b7d620f43d3b8237a6e8b195110']}   >Vineyards</p>
+<p custom-agua-item="text" className={styles['text-27732-14e49b7d620f43d3b8237a6e8b195110']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/vineyards")}>Vineyards</p>
 </section>
 </section>
 <section custom-agua-item="layer" className={`${styles['layer-2813-c33dec6d857a44d88e9ac2fc9ec68133-orientation']} ${styles['layer-2813-c33dec6d857a44d88e9ac2fc9ec68133']}`}   >
 <section custom-agua-item="layer" className={styles['layer-2825-a373021fccff4fcaa8515c489e251b57']}   >
-<p custom-agua-item="text" className={styles['text-2765-4b88b245f21f432498d181a8baf15ee9']}   >OMG!</p>
-<p custom-agua-item="text" className={styles['text-2775-7740b51558d841a584a1a5042fe00159']}   >Tiny homes</p>
+<p custom-agua-item="text" className={styles['text-2765-4b88b245f21f432498d181a8baf15ee9']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/omg")}>OMG!</p>
+<p custom-agua-item="text" className={styles['text-2775-7740b51558d841a584a1a5042fe00159']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/tiny-homes")}>Tiny homes</p>
 </section>
 <section custom-agua-item="layer" className={styles['layer-28223-285eafde6b5544519238bb8040dc08e3']}   >
-<p custom-agua-item="text" className={styles['text-27623-971cb485faa942e49caa0c3a97a0dc83']}   >Towers</p>
-<p custom-agua-item="text" className={styles['text-27723-1172e135dca24c269825cfffc37fce52']}   >Windmills</p>
+<p custom-agua-item="text" className={styles['text-27623-971cb485faa942e49caa0c3a97a0dc83']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/towers")}>Towers</p>
+<p custom-agua-item="text" className={styles['text-27723-1172e135dca24c269825cfffc37fce52']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/towers")}>Windmills</p>
 </section>
 <section custom-agua-item="layer" className={styles['layer-28233-e85273f6ce7943ee8c3fea646cc25bce']}   >
-<p custom-agua-item="text" className={styles['text-27633-828ef2ea42b94b7c851529ee8e5626b8']}   >Luxe</p>
+<p custom-agua-item="text" className={styles['text-27633-828ef2ea42b94b7c851529ee8e5626b8']}   onClick={() => openInNewTab("https://www.airbnb.com/stays/luxury")}>Luxe</p>
 </section>
 </section>
 </section>
@@ -607,42 +615,42 @@ const Home = () =>{
 <section custom-agua-item="layer" className={`${styles['layer-213-6be24c0bb0064bb6a88a32abbac66514-orientation']} ${styles['layer-213-6be24c0bb0064bb6a88a32abbac66514']}`}   >
 <section custom-agua-item="layer" className={styles['layer-215-440097adf19b49fe8321cd4c99852599']}   >
 <p custom-agua-item="text" className={styles['text-170-b3445468b0fc4613bccbea4d1a55b550']}   >Support</p>
-<p custom-agua-item="text" className={styles['text-171-67e4e7710f1049828b67d1fefc28032d']}   >Help Center</p>
-<p custom-agua-item="text" className={styles['text-172-54e6e98dc03a4bef9c3e8ea42368663f']}   >AirCover</p>
-<p custom-agua-item="text" className={styles['text-173-28833623ad7b48289f05eed23342cacd']}   >Anti-discrimination
+<p custom-agua-item="text" className={styles['text-171-67e4e7710f1049828b67d1fefc28032d']}   onClick={() => openInNewTab("https://www.airbnb.com/help/home")}>Help Center</p>
+<p custom-agua-item="text" className={styles['text-172-54e6e98dc03a4bef9c3e8ea42368663f']}   onClick={() => openInNewTab("https://www.airbnb.com/aircover")}>AirCover</p>
+<p custom-agua-item="text" className={styles['text-173-28833623ad7b48289f05eed23342cacd']}   onClick={() => openInNewTab("https://www.airbnb.com/against-discrimination")}>Anti-discrimination
 </p>
-<p custom-agua-item="text" className={styles['text-174-4fda4799ce684e2eaddd87ee6be0732b']}   >Disability support
+<p custom-agua-item="text" className={styles['text-174-4fda4799ce684e2eaddd87ee6be0732b']}   onClick={() => openInNewTab("https://www.airbnb.com/accessibility")}>Disability support
 </p>
-<p custom-agua-item="text" className={styles['text-175-99b35fe8b6dd422fa763d9db299fa539']}   >Cancellation options
+<p custom-agua-item="text" className={styles['text-175-99b35fe8b6dd422fa763d9db299fa539']}   onClick={() => openInNewTab("https://www.airbnb.com/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19")}>Cancellation options
 </p>
-<p custom-agua-item="text" className={styles['text-176-fc8c04f6dbf5499a8f3690373a20170b']}   >Report neighborhood concern</p>
+<p custom-agua-item="text" className={styles['text-176-fc8c04f6dbf5499a8f3690373a20170b']}   onClick={() => openInNewTab("https://www.airbnb.com/neighbors")}>Report neighborhood concern</p>
 </section>
 <section custom-agua-item="layer" className={styles['layer-216-1bf446f3816c454f9f99c313f5c6c325']}   >
 <p custom-agua-item="text" className={styles['text-177-b37681cc5d25469aaae425e20d809d34']}   >Hosting</p>
-<p custom-agua-item="text" className={styles['text-178-f7717c577be04ef8b5109dae18fbd87d']}   >Airbnb your home
+<p custom-agua-item="text" className={styles['text-178-f7717c577be04ef8b5109dae18fbd87d']}   onClick={() => openInNewTab("https://www.airbnb.com/host/homes")}>Airbnb your home
 </p>
-<p custom-agua-item="text" className={styles['text-179-68e6e8dbe87c43158d99b0f8e9adf142']}   >AirCover for Hosts
+<p custom-agua-item="text" className={styles['text-179-68e6e8dbe87c43158d99b0f8e9adf142']}   onClick={() => openInNewTab("https://www.airbnb.com/aircover-for-hosts")}>AirCover for Hosts
 </p>
-<p custom-agua-item="text" className={styles['text-180-7d24fa72ed7c4196a2e0228e6ad2d25c']}   >Hosting resources
+<p custom-agua-item="text" className={styles['text-180-7d24fa72ed7c4196a2e0228e6ad2d25c']}   onClick={() => openInNewTab("https://www.airbnb.com/resources")}>Hosting resources
 </p>
-<p custom-agua-item="text" className={styles['text-181-591607704f034c9695d2f23f5a3da6d1']}   >Community forum
+<p custom-agua-item="text" className={styles['text-181-591607704f034c9695d2f23f5a3da6d1']}   onClick={() => openInNewTab("https://www.airbnb.com/help/community")}>Community forum
 </p>
-<p custom-agua-item="text" className={styles['text-182-04d40566f99744bea766caa0616bdb59']}   >Hosting responsibly
+<p custom-agua-item="text" className={styles['text-182-04d40566f99744bea766caa0616bdb59']}   onClick={() => openInNewTab("https://www.airbnb.com/help/responsible-hosting")}>Hosting responsibly
 </p>
-<p custom-agua-item="text" className={styles['text-183-16b4396c19b7477c88c15bbaeb21195c']}   >Airbnb-friendly apartments
+<p custom-agua-item="text" className={styles['text-183-16b4396c19b7477c88c15bbaeb21195c']}   onClick={() => openInNewTab("https://www.airbnb.com/airbnb-friendly")}>Airbnb-friendly apartments
 </p>
 </section>
 <section custom-agua-item="layer" className={styles['layer-217-ffb96241f77243d0b4fc27cdebdb00ea']}   >
 <p custom-agua-item="text" className={styles['text-184-28e7d5f569d54a11a7e5d4fd8dd9e264']}   >Airbnb</p>
-<p custom-agua-item="text" className={styles['text-185-fa7703600246466594c14a330f7017da']}   >Newsroom
+<p custom-agua-item="text" className={styles['text-185-fa7703600246466594c14a330f7017da']}   onClick={() => openInNewTab("https://www.airbnb.com/press/news")}>Newsroom
 </p>
-<p custom-agua-item="text" className={styles['text-186-6b9592b86bc542dbb409de335d74b4e4']}   >New features
+<p custom-agua-item="text" className={styles['text-186-6b9592b86bc542dbb409de335d74b4e4']}   onClick={() => openInNewTab("https://www.airbnb.com/release")}>New features
 </p>
-<p custom-agua-item="text" className={styles['text-187-26c39c8832f9407caab271a9be28fbaa']}   >Careers</p>
-<p custom-agua-item="text" className={styles['text-188-c144e9c3a2f34876a6f0befec46fead7']}   >Investors</p>
-<p custom-agua-item="text" className={styles['text-189-7478177a90b145559f73e5ea7b3ee5c2']}   >Gift cards
+<p custom-agua-item="text" className={styles['text-187-26c39c8832f9407caab271a9be28fbaa']}   onClick={() => openInNewTab("https://www.airbnb.com/careers")}>Careers</p>
+<p custom-agua-item="text" className={styles['text-188-c144e9c3a2f34876a6f0befec46fead7']}   onClick={() => openInNewTab("https://investors.airbnb.com/")}>Investors</p>
+<p custom-agua-item="text" className={styles['text-189-7478177a90b145559f73e5ea7b3ee5c2']}   onClick={() => openInNewTab("https://www.airbnb.com/giftcards")}>Gift cards
 </p>
-<p custom-agua-item="text" className={styles['text-190-2cd3a197b6c94c67b98ba9533a6426d6']}   >Airbnb.org emergency stays
+<p custom-agua-item="text" className={styles['text-190-2cd3a197b6c94c67b98ba9533a6426d6']}   onClick={() => openInNewTab("https://www.airbnb.org/")}>Airbnb.org emergency stays
 </p>
 </section>
 </section>
@@ -653,9 +661,9 @@ const Home = () =>{
 <p custom-agua-item="text" className={styles['text-5202-8c628332d27842f08785a589f09857c2']}   >English (US)</p>
 <p custom-agua-item="text" className={styles['text-5212-3357c4bd82c842259a4b9c80e7e0688b']}   >$USD</p>
 <section custom-agua-item="layer" className={styles['layer-4632-8bb434cd142e465093a56c26b52f404d']}   >
-<img custom-agua-item="imageView" className={styles['imageview-112-f0baacdd660342aea0d4bf01746e3924']}  alt="imageview-112" src='https://i.ibb.co/5ndGgWv/image-43.png'  />
-<img custom-agua-item="imageView" className={styles['imageview-122-b8a95034c59148f69447ba66f2a9baea']}  alt="imageview-122" src='https://i.ibb.co/5ndGgWv/image-43.png'  />
-<img custom-agua-item="imageView" className={styles['imageview-132-77794b9a0e774831bb9e47673d7f083c']}  alt="imageview-132" src='https://i.ibb.co/5ndGgWv/image-43.png'  />
+<img custom-agua-item="imageView" className={styles['imageview-112-f0baacdd660342aea0d4bf01746e3924']}  alt="imageview-112" src={ image_imageview_112}  onClick={() => openInNewTab("https://www.facebook.com/airbnb")}/>
+<img custom-agua-item="imageView" className={styles['imageview-122-b8a95034c59148f69447ba66f2a9baea']}  alt="imageview-122" src={ image_imageview_122}  onClick={() => openInNewTab("https://twitter.com/airbnb")}/>
+<img custom-agua-item="imageView" className={styles['imageview-132-77794b9a0e774831bb9e47673d7f083c']}  alt="imageview-132" src={ image_imageview_132}  onClick={() => openInNewTab("https://instagram.com/airbnb")}/>
 </section>
 </section>
 </section>
@@ -664,9 +672,9 @@ const Home = () =>{
 <p custom-agua-item="text" className={styles['text-515-81e79fdd8a8c4dabb52eb545139877c2']}   >© 2024 Airbnb, Inc.</p>
 <section custom-agua-item="layer" className={`${styles['layer-464-4e20ec68faa44addb9de6f4a659c0405-orientation']} ${styles['layer-464-4e20ec68faa44addb9de6f4a659c0405']}`}   >
 <section custom-agua-item="layer" className={`${styles['layer-462-4d379f86be3340d7bea38b46abb6b26c-orientation']} ${styles['layer-462-4d379f86be3340d7bea38b46abb6b26c']}`}   >
-<p custom-agua-item="text" className={styles['text-516-3667e38ff0494df79499215ed17e83b5']}   >Terms</p>
-<p custom-agua-item="text" className={styles['text-517-ed49dc0edbe74d11a44a7a8194d50e34']}   >Sitemap</p>
-<p custom-agua-item="text" className={styles['text-518-b7a2a97516d6429584f9271a6f004e6d']}   >Privacy</p>
+<p custom-agua-item="text" className={styles['text-516-3667e38ff0494df79499215ed17e83b5']}   onClick={() => openInNewTab("https://www.airbnb.com/terms")}>Terms</p>
+<p custom-agua-item="text" className={styles['text-517-ed49dc0edbe74d11a44a7a8194d50e34']}   onClick={() => openInNewTab("https://www.airbnb.com/sitemaps/v2")}>Sitemap</p>
+<p custom-agua-item="text" className={styles['text-518-b7a2a97516d6429584f9271a6f004e6d']}   onClick={() => openInNewTab("https://www.airbnb.com/terms/privacy_policy")}>Privacy</p>
 </section>
 <p custom-agua-item="text" className={styles['text-519-a19ab795c8224a5ebd5bd57b730463d0']}   >Your Privacy Choices</p>
 </section>
@@ -676,9 +684,9 @@ const Home = () =>{
 <p custom-agua-item="text" className={styles['text-520-01cee3d168b54931ac90538fe257b3d2']}   >English (US)</p>
 <p custom-agua-item="text" className={styles['text-521-2fc232faf28a42ac940a26c0df14287f']}   >$USD</p>
 <section custom-agua-item="layer" className={styles['layer-463-7fed61b09db54a8e8889f481a72dca79']}   >
-<img custom-agua-item="imageView" className={styles['imageview-11-1bcb4cd8534147e99d8fc0fbbdae47fc']}  alt="imageview-11" src='https://i.ibb.co/5ndGgWv/image-43.png'  />
-<img custom-agua-item="imageView" className={styles['imageview-12-174e869c8dae444aae00248f5b03e7fd']}  alt="imageview-12" src='https://i.ibb.co/5ndGgWv/image-43.png'  />
-<img custom-agua-item="imageView" className={styles['imageview-13-fec44917293049aba8e78cc38c8d6588']}  alt="imageview-13" src='https://i.ibb.co/5ndGgWv/image-43.png'  />
+<img custom-agua-item="imageView" className={styles['imageview-11-1bcb4cd8534147e99d8fc0fbbdae47fc']}  alt="imageview-11" src={ image_imageview_11}  onClick={() => openInNewTab("https://www.facebook.com/airbnb")}/>
+<img custom-agua-item="imageView" className={styles['imageview-12-174e869c8dae444aae00248f5b03e7fd']}  alt="imageview-12" src={ image_imageview_12}  onClick={() => openInNewTab("https://twitter.com/airbnb")}/>
+<img custom-agua-item="imageView" className={styles['imageview-13-fec44917293049aba8e78cc38c8d6588']}  alt="imageview-13" src={ image_imageview_13}  onClick={() => openInNewTab("https://instagram.com/airbnb")}/>
 </section>
 </section>
 </section>
