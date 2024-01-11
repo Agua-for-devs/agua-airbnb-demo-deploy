@@ -10,30 +10,92 @@ header.homeheader2[custom-agua-item="layer"] {
 justify-content: center ;
 align-items: center ;
 
-padding-top: 15px ;
-padding-left: 75px ;
-padding-right: 75px ;
+padding-left: 80px ;
+padding-right: 80px ;
 box-sizing: border-box ;
+background-color: #FFFFFF ;
 min-height:  unset ;height: fit-content ;flex-shrink: 0;
 
 min-width: unset;
 width: 100%;
-padding-bottom: var(--homeheader_padding-bottom) ; 
+
+position: sticky;
+top: 1px;
+z-index: 2;padding-bottom: var(--homeheader_padding-bottom) ; 
 }
-section.layer-92-50ff35a88eb84c78a38b4763d3876886[custom-agua-item="layer"] {
+section.layer-4252-588c5c7c4fd1412d9324e49614e05308[custom-agua-item="layer"] {
+    
+
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+display: var(--588c5c7c4fd1412d9324e49614e05308_visible) ; 
+}
+section.layer-92-14ea60a1e5394fd3b64f241987796183[custom-agua-item="layer"] {
     flex-direction: row ;
 align-items: center ;
 justify-content: space-between ;
 
-padding-top: 15px ;
-padding-bottom: 15px ;
+padding-top: 18px ;
+padding-bottom: 18px ;
 box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width: unset;
 width: 100%;
-display: var(--50ff35a88eb84c78a38b4763d3876886_visible) ; 
+
+position: relative;display: var(--14ea60a1e5394fd3b64f241987796183_visible) ; 
 }
-section.layer-6132-1ddc33603c99485ab9857a5523159f12[custom-agua-item="layer"] {
+section.layer-102-2b89c5b4f4a340d4b02dc16f7fa9ef7c[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height: unset;
+height: 100%;
+
+min-width: unset;
+width: 100%;
+
+position: absolute;
+z-index: 0;display: var(--2b89c5b4f4a340d4b02dc16f7fa9ef7c_visible) ; 
+}
+p.text-22-c4fe197cdaf043cf96993831bab3cbb2[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+margin-left: 15px ;
+margin-right: 15px ;
+box-sizing: border-box ;
+
+
+}
+p.text-32-2efaedfd8c9e45ad9f312aae1d6f9a8f[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+margin-left: 15px ;
+margin-right: 15px ;
+box-sizing: border-box ;
+
+
+}
+p.text-42-2024a9fbf73147419a27cca973e2ce13[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+margin-left: 15px ;
+margin-right: 15px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-6132-f7d428c25c804411894ec8877f97ae19[custom-agua-item="layer"] {
     flex-direction: row ;
 cursor: pointer;
 align-items: center ;
@@ -41,208 +103,31 @@ justify-content: center ;
 
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
+z-index: 1;
 }
-.imageview-152-ac097c14da654cec94ac4fcc45c7d6fb[custom-agua-item="imageView"] {
+.imageview-152-8e223583fce740af9ab41b5207172eb9[custom-agua-item="imageView"] {
     
-height: 35px ;min-height: 35px ;
-width: 100px ;min-width: 100px ;display: var(--ac097c14da654cec94ac4fcc45c7d6fb_visible) ; 
+height: 30px ;min-height: 30px ;
+width: 100px ;min-width: 100px ;display: var(--8e223583fce740af9ab41b5207172eb9_visible) ; 
 }
-.imageview-232-1b8a39828f554858ba9ec8f7ca94ffe2[custom-agua-item="imageView"] {
+.imageview-232-89655f6545c24de7a5c55170287c2e60[custom-agua-item="imageView"] {
     
-height: 35px ;min-height: 35px ;
-width: 35px ;min-width: 35px ;display: var(--1b8a39828f554858ba9ec8f7ca94ffe2_visible) ; 
+height: 30px ;min-height: 30px ;
+width: 30px ;min-width: 30px ;display: var(--89655f6545c24de7a5c55170287c2e60_visible) ; 
 }
-section.layer-182-02a78c1af3c94d6ca981b2580c943c28[custom-agua-item="layer"] {
-    flex-direction: row ;
-align-items: center ;
-justify-content: center ;
-
-padding-top: 15px ;
-padding-bottom: 15px ;
-box-sizing: border-box ;
-min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
-}
-section.layer-192-7f3d80ddd52449a6b95a201c2f4c1420[custom-agua-item="layer"] {
-    flex-direction: row ;
-align-items: center ;
-justify-content: center ;
-border: 1px solid #E0E0E0;
-border-radius: 50px ;
-box-shadow: 0px 0px 5px #E0E0E0 ;
-padding-top: 6px ;
-padding-bottom: 6px ;
-padding-left: 6px ;
-padding-right: 6px ;
-margin-left: 10px ;
-margin-right: 10px ;
-box-sizing: border-box ;
-min-height:  unset ;height: fit-content ;display: var(--7f3d80ddd52449a6b95a201c2f4c1420_visible) ; 
-min-width: var(--min-7f3d80ddd52449a6b95a201c2f4c1420_valuewidth) ; 
-width: var(--7f3d80ddd52449a6b95a201c2f4c1420_valuewidth); 
-}
-section.layer-212-34bcaa723184410a90651b51d1e554d8[custom-agua-item="layer"] {
-    
-
-min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;margin-left: var(--34bcaa723184410a90651b51d1e554d8_margin-left) ; 
-margin-right: var(--34bcaa723184410a90651b51d1e554d8_margin-right) ; 
-}
-p.text-92-cd043547902b475abe199c9d935fe4b3[custom-agua-item="text"] {
-     
-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-size: 15px ;
-font-weight: bold ;
-
-margin-top: 1px ;
-margin-bottom: 1px ;
-box-sizing: border-box ;
-
-
-}
-section.layer-232-ae76d2b644d545dcb58d67c85844e03d[custom-agua-item="layer"] {
-    
-
-min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;margin-right: var(--ae76d2b644d545dcb58d67c85844e03d_margin-right) ; 
-margin-left: var(--ae76d2b644d545dcb58d67c85844e03d_margin-left) ; 
-}
-p.text-112-5eb16f86f047491bbe53668abd502a9d[custom-agua-item="text"] {
-     
-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-size: 15px ;
-font-weight: bold ;
-
-margin-top: 1px ;
-margin-bottom: 1px ;
-box-sizing: border-box ;
-
-
-}
-section.layer-242-ee6303d5a9934195a7ead2573a82a568[custom-agua-item="layer"] {
-    
-
-min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;margin-left: var(--ee6303d5a9934195a7ead2573a82a568_margin-left) ; 
-margin-right: var(--ee6303d5a9934195a7ead2573a82a568_margin-right) ; 
-}
-p.text-162-184add3552fb4d53a6887930213d24af[custom-agua-item="text"] {
-     
-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-size: 15px ;
-
-
-margin-top: 1px ;
-margin-bottom: 1px ;
-box-sizing: border-box ;
-
-
-}
-section.layer-252-162abce11d8f4711926f33e30cb4524e[custom-agua-item="layer"] {
-    
-border-radius: 25px ;
-padding-top: 8px ;
-padding-bottom: 8px ;
-padding-left: 8px ;
-padding-right: 8px ;
-box-sizing: border-box ;
-background-color: #FF385C ;
-min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;margin-left: var(--162abce11d8f4711926f33e30cb4524e_margin-left) ; 
-}
-.icon-82-0529c34769dc40408803297276bc6cbd[custom-agua-item="icon"] {
-    
-background: #F5F5F5 ;
-height: 20px ;min-height: 20px ;
-width: 20px ;min-width: 20px ; font-size: 20px ;
-}
-section.layer-262-9c5fd20557da4daca833b113c7edb806[custom-agua-item="layer"] {
-    flex-direction: row ;
-align-items: center ;
-border-radius: 35px ;
-box-shadow: 0px 0px 5px #E0E0E0 ;
-padding-top: 6px ;
-padding-bottom: 6px ;
-padding-left: 6px ;
-padding-right: 6px ;
-box-sizing: border-box ;
-min-height:  unset ;height: fit-content ;
-min-width: unset;
-width: 100%;
-display: var(--9c5fd20557da4daca833b113c7edb806_visible) ; 
-}
-.icon-92-89cbae7d8345424cba26404d6783ce3c[custom-agua-item="icon"] {
-    
-margin-left: 14px ;
-margin-right: 5px ;
-box-sizing: border-box ;
-height: 25px ;min-height: 25px ;
-width: 25px ;min-width: 25px ; font-size: 25px ;
-}
-section.layer-272-15064c8994b043f9b583f02e9fee3862[custom-agua-item="layer"] {
-    
-
-margin-left: 5px ;
-margin-right: 14px ;
-box-sizing: border-box ;
-min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
-}
-p.text-172-2e8ac2f634c447a389b47993a374931e[custom-agua-item="text"] {
-     
-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-size: 12px ;
-font-weight: bold ;
-
-margin-top: 1px ;
-margin-bottom: 1px ;
-box-sizing: border-box ;
-
-
-}
-p.text-182-f0997902f9c84d298ec3dcb5c2156f42[custom-agua-item="text"] {
-     
-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-size: 12px ;
-
-
-margin-top: 1px ;
-margin-bottom: 1px ;
-box-sizing: border-box ;
-
-
-}
-section.layer-202-83962c4a653c4532b9106ff871336bbd[custom-agua-item="layer"] {
-    
-border: 1px solid #BDBDBD;
-border-radius: 20px ;
-padding-top: 5px ;
-padding-bottom: 5px ;
-padding-left: 5px ;
-padding-right: 5px ;
-margin-left: 10px ;
-margin-right: 10px ;
-box-sizing: border-box ;
-min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;display: var(--83962c4a653c4532b9106ff871336bbd_visible) ; 
-}
-.icon-72-813f1986a3094211a1181d675b472a0d[custom-agua-item="icon"] {
-    
-height: 20px ;min-height: 20px ;
-width: 20px ;min-width: 20px ; font-size: 20px ;
-}
-section.layer-112-4c2461dfa89441b4bda26eef025ac4fd[custom-agua-item="layer"] {
+section.layer-112-3d03b0d8a74746938f7c5ff758974a44[custom-agua-item="layer"] {
     flex-direction: row ;
 align-items: center ;
 justify-content: center ;
 
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
+z-index: 1;
 }
-p.text-82-283b4db81d35456b84e643a6b25c2bcb[custom-agua-item="text"] {
+p.text-82-86db9917a4054e3a8a079169da88ec43[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-font-size: 15px ;
+font-size: 16px ;
 font-weight: bold ;
 
 margin-left: 10px ;
@@ -251,15 +136,15 @@ box-sizing: border-box ;
 
 
 }
-.icon-42-b4b52c86158a44ac87dbbf4b1d74235c[custom-agua-item="icon"] {
+.icon-42-43348cdc601541ae940728e14d483053[custom-agua-item="icon"] {
     
 margin-left: 10px ;
 margin-right: 10px ;
 box-sizing: border-box ;
-height: 25px ;min-height: 25px ;
-width: 25px ;min-width: 25px ; font-size: 25px ;
+height: 24px ;min-height: 24px ;
+width: 24px ;min-width: 24px ; font-size: 24px ;
 }
-section.layer-172-b926fd1277024406b5384670eae0b7ad[custom-agua-item="layer"] {
+section.layer-172-d579139de1d149979221b05fd885fe51[custom-agua-item="layer"] {
     flex-direction: row ;
 align-items: center ;
 justify-content: center ;
@@ -273,105 +158,1453 @@ box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
-.icon-52-5f74321f0e2645959832f450688f2798[custom-agua-item="icon"] {
+.icon-52-25f6aea25322445796b944aa0dc016f4[custom-agua-item="icon"] {
     
 margin-left: 10px ;
 margin-right: 4px ;
 box-sizing: border-box ;
-height: 25px ;min-height: 25px ;
-width: 25px ;min-width: 25px ; font-size: 25px ;
+height: 24px ;min-height: 24px ;
+width: 24px ;min-width: 24px ; font-size: 24px ;
 }
-.icon-62-dc3052e4b9ce4e2e89f28224ab5ac060[custom-agua-item="icon"] {
+.icon-62-c072f203c98044a59bf5a874274182b4[custom-agua-item="icon"] {
     
 margin-left: 4px ;
 margin-right: 10px ;
 box-sizing: border-box ;
+height: 28px ;min-height: 28px ;
+width: 28px ;min-width: 28px ; font-size: 28px ;
+}
+section.layer-1672-99dc8d3ac0524561b4b9fb2457230fdf[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+padding-top: 15px ;
+padding-bottom: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+display: var(--99dc8d3ac0524561b4b9fb2457230fdf_visible) ; 
+}
+section.layer-1022-2d106df261844b08b305a6086c150d42[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;display: var(--2d106df261844b08b305a6086c150d42_visible) ; 
+}
+p.text-222-369658abfce04b9c84bca7e07f27509a[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 18px ;
+font-weight: bold ;
+
+margin-left: 15px ;
+margin-right: 15px ;
+box-sizing: border-box ;
 
 
 }
+p.text-322-2bb5d47e16bf4d22838ff99f5e70d19c[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
+
+
+margin-left: 15px ;
+margin-right: 15px ;
+box-sizing: border-box ;
+
+
+}
+p.text-422-c323c1c3f92545b19ecfd703a88fec63[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+
+margin-left: 15px ;
+margin-right: 15px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-182-e580eac062bb4f52bd951e2c1582ff44[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+padding-top: 18px ;
+padding-bottom: 18px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+section.layer-192-04f30793750a4d819d2522fd3ec65096[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+border: 1px solid #E0E0E0;
+border-radius: 50px ;
+box-shadow: 0px 0px 5px #E0E0E0 ;
+padding-top: 10px ;
+padding-bottom: 10px ;
+padding-left: 6px ;
+padding-right: 6px ;
+margin-left: 10px ;
+margin-right: 10px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;display: var(--04f30793750a4d819d2522fd3ec65096_visible) ; 
+min-width: var(--min-04f30793750a4d819d2522fd3ec65096_valuewidth) ; 
+width: var(--04f30793750a4d819d2522fd3ec65096_valuewidth); 
+}
+section.layer-212-af32518f09594fbc8b5f6ed6906880c0[custom-agua-item="layer"] {
+    
+
+margin-right: 65px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-left: var(--af32518f09594fbc8b5f6ed6906880c0_margin-left) ; 
+}
+p.text-92-77f836fa9fb04bba9800a4f0a9c301cd[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+font-weight: bold ;
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+p.text-142-5273446f2ac34b86bf914888e8139d16[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-222-91e2ecae338f4ae099000088afd505e9[custom-agua-item="layer"] {
+    
+
+margin-left: 65px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-right: var(--91e2ecae338f4ae099000088afd505e9_margin-right) ; 
+}
+p.text-102-bb99e70295e140998d1f77cbfb9b61d3[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+font-weight: bold ;
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+p.text-132-e269a9be80e04fb081e9462b379aa178[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-232-daa79b10554648999609c352de8adfa3[custom-agua-item="layer"] {
+    
+
+margin-left: 45px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-right: var(--daa79b10554648999609c352de8adfa3_margin-right) ; 
+}
+p.text-112-3ec13389028b4938a62887b952f1452f[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+font-weight: bold ;
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+p.text-152-64697e009c2b4d2b911371a129c696af[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-242-b8051c3320444987bb498f55d0f16f89[custom-agua-item="layer"] {
+    
+
+margin-right: 65px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-left: var(--b8051c3320444987bb498f55d0f16f89_margin-left) ; 
+}
+p.text-122-b4ea4d696e7b4697be639707f2a0e413[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+font-weight: bold ;
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+p.text-162-16bb20de2b76489aa43f5888ea8fc83e[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-252-2d595ea778c44ab59be83b582d4c0f1f[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 8px ;
+padding-bottom: 8px ;
+padding-left: 8px ;
+padding-right: 8px ;
+box-sizing: border-box ;
+background-color: #FF385C ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-left: var(--2d595ea778c44ab59be83b582d4c0f1f_margin-left) ; 
+}
+.icon-82-f6adcc04e4454255ae7569aee7a475dc[custom-agua-item="icon"] {
+    
+background: #F5F5F5 ;
+height: 28px ;min-height: 28px ;
+width: 28px ;min-width: 28px ; font-size: 28px ;
+}
+section.layer-262-06ceac522d384b268f184682a8d637c8[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+border-radius: 35px ;
+box-shadow: 0px 0px 5px #E0E0E0 ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+display: var(--06ceac522d384b268f184682a8d637c8_visible) ; 
+}
+.icon-92-73a9637a37ef4c5ea3a303530bc98b3d[custom-agua-item="icon"] {
+    
+margin-left: 14px ;
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 25px ;min-height: 25px ;
+width: 25px ;min-width: 25px ; font-size: 25px ;
+}
+section.layer-272-2d030bb273ab43cab8272183e5d1ebad[custom-agua-item="layer"] {
+    
+
+margin-left: 5px ;
+margin-right: 14px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-172-135aa3917b284d7da38a7abdde604fcb[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 12px ;
+font-weight: bold ;
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+p.text-182-17bb4680b9d746c58a490a16375a5bc0[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 12px ;
+
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-202-47c86274e3aa43b79dc772af0aae837c[custom-agua-item="layer"] {
+    
+border: 1px solid #BDBDBD;
+border-radius: 20px ;
+padding-top: 5px ;
+padding-bottom: 5px ;
+padding-left: 5px ;
+padding-right: 5px ;
+margin-left: 10px ;
+margin-right: 10px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;display: var(--47c86274e3aa43b79dc772af0aae837c_visible) ; 
+}
+.icon-72-b8968af781714eafa6b41bcc6b42b5d9[custom-agua-item="icon"] {
+    
+height: 20px ;min-height: 20px ;
+width: 20px ;min-width: 20px ; font-size: 20px ;
+}
+section.layer-9222-438e189315364b1b8c961a04f4837a4a[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+padding-top: 18px ;
+padding-bottom: 18px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+position: relative;
+z-index: 0;display: var(--438e189315364b1b8c961a04f4837a4a_visible) ; 
+}
+section.layer-18222-581f759f11794464830e950e1ec2ac63[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+position: absolute;
+z-index: 0;display: var(--581f759f11794464830e950e1ec2ac63_visible) ; 
+}
+section.layer-19222-781e52cc221d46e9bf687efaa65cb9bb[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+border: 1px solid #E0E0E0;
+border-radius: 50px ;
+box-shadow: 0px 0px 5px #E0E0E0 ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+margin-left: 10px ;
+margin-right: 10px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;display: var(--781e52cc221d46e9bf687efaa65cb9bb_visible) ; 
+min-width: var(--min-781e52cc221d46e9bf687efaa65cb9bb_valuewidth) ; 
+width: var(--781e52cc221d46e9bf687efaa65cb9bb_valuewidth); 
+}
+section.layer-21222-836816fc503e4d69b45fad71de027608[custom-agua-item="layer"] {
+    
+
+margin-left: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-right: var(--836816fc503e4d69b45fad71de027608_margin-right) ; 
+}
+p.text-9222-59532f862d9c4fe08e9489e67301cd74[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-23222-401b42f6c8f8482a888a20bc09769b4e[custom-agua-item="layer"] {
+    
+
+margin-right: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-left: var(--401b42f6c8f8482a888a20bc09769b4e_margin-left) ; 
+}
+p.text-11222-6fb1aea62a0e47fcaaea421221f37ff1[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-24222-8e074c5a3c874c85a6864333ea524223[custom-agua-item="layer"] {
+    
+
+margin-left: 15px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-right: var(--8e074c5a3c874c85a6864333ea524223_margin-right) ; 
+}
+p.text-16222-6b9cdb234eb0470cbb3dee2ca014d297[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-25222-2c841cffe8714a459ed59eda112c3085[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 8px ;
+padding-bottom: 8px ;
+padding-left: 8px ;
+padding-right: 8px ;
+box-sizing: border-box ;
+background-color: #FF385C ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-left: var(--2c841cffe8714a459ed59eda112c3085_margin-left) ; 
+}
+.icon-8222-4fa6530f569847e98a02d578dcdbc1db[custom-agua-item="icon"] {
+    
+background: #F5F5F5 ;
+height: 20px ;min-height: 20px ;
+width: 20px ;min-width: 20px ; font-size: 20px ;
+}
+section.layer-26222-1a3daa203a3743a8aec22598742a67db[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+border-radius: 35px ;
+box-shadow: 0px 0px 5px #E0E0E0 ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+display: var(--1a3daa203a3743a8aec22598742a67db_visible) ; 
+}
+.icon-9222-8b5fcad203164821b940d07229f91d3e[custom-agua-item="icon"] {
+    
+margin-left: 14px ;
+margin-right: 5px ;
+box-sizing: border-box ;
+height: 25px ;min-height: 25px ;
+width: 25px ;min-width: 25px ; font-size: 25px ;
+}
+section.layer-27222-27258413347e4280bb671ac14a311536[custom-agua-item="layer"] {
+    
+
+margin-left: 5px ;
+margin-right: 14px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+p.text-17222-e8273cc4a534488bbc446a9258fd6e5a[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 12px ;
+font-weight: bold ;
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+p.text-18222-309370b664a8401bb5f043df3e359205[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 12px ;
+
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-20222-1bd7c4475a694e0a96fb3f8f42ca38bf[custom-agua-item="layer"] {
+    
+border: 1px solid #BDBDBD;
+border-radius: 20px ;
+padding-top: 5px ;
+padding-bottom: 5px ;
+padding-left: 5px ;
+padding-right: 5px ;
+margin-left: 10px ;
+margin-right: 10px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;display: var(--1bd7c4475a694e0a96fb3f8f42ca38bf_visible) ; 
+}
+.icon-7222-82ff27abae34498083bd272d785d7f3e[custom-agua-item="icon"] {
+    
+height: 20px ;min-height: 20px ;
+width: 20px ;min-width: 20px ; font-size: 20px ;
+}
+section.layer-613222-04290fce696540b2a975cdeb17d16744[custom-agua-item="layer"] {
+    flex-direction: row ;
+cursor: pointer;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+z-index: 1;
+}
+.imageview-15222-275d4ffb4e5947ce8b20ff2c27a814cc[custom-agua-item="imageView"] {
+    
+height: 30px ;min-height: 30px ;
+width: 100px ;min-width: 100px ;display: var(--275d4ffb4e5947ce8b20ff2c27a814cc_visible) ; 
+}
+.imageview-23222-2454b2ddce4c4efaa2f228626a57aaa8[custom-agua-item="imageView"] {
+    
+height: 30px ;min-height: 30px ;
+width: 30px ;min-width: 30px ;display: var(--2454b2ddce4c4efaa2f228626a57aaa8_visible) ; 
+}
+section.layer-192222-dbb9a8b89ea049db9243b2caf58e8bd2[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+border: 1px solid #E0E0E0;
+border-radius: 50px ;
+box-shadow: 0px 0px 5px #E0E0E0 ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 6px ;
+padding-right: 6px ;
+margin-left: 10px ;
+margin-right: 10px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;display: var(--dbb9a8b89ea049db9243b2caf58e8bd2_visible) ; 
+min-width: var(--min-dbb9a8b89ea049db9243b2caf58e8bd2_valuewidth) ; 
+width: var(--dbb9a8b89ea049db9243b2caf58e8bd2_valuewidth); 
+}
+section.layer-212222-7feccf43b6654ed58df9a522e754a01d[custom-agua-item="layer"] {
+    
+
+margin-right: 10px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-left: var(--7feccf43b6654ed58df9a522e754a01d_margin-left) ; 
+}
+p.text-92222-eecc558197f343a387f38a07ef7f2846[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+
+font-size: var(--eecc558197f343a387f38a07ef7f2846_fontSize) ; 
+}
+section.layer-232222-f7acd7fa52f845a78969026b25593e18[custom-agua-item="layer"] {
+    
+
+margin-left: 10px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-right: var(--f7acd7fa52f845a78969026b25593e18_margin-right) ; 
+}
+p.text-112222-9f2bb3a0f2824606ac843169dc1489ce[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+font-size: var(--9f2bb3a0f2824606ac843169dc1489ce_fontSize) ; 
+min-width: var(--min-9f2bb3a0f2824606ac843169dc1489ce_valuewidth) ; 
+width: var(--9f2bb3a0f2824606ac843169dc1489ce_valuewidth); 
+}
+section.layer-242222-41cc87881ffc4acaaaa4a0cb522d2271[custom-agua-item="layer"] {
+    
+
+margin-right: 10px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-left: var(--41cc87881ffc4acaaaa4a0cb522d2271_margin-left) ; 
+}
+p.text-162222-0d7b7d64dece4991b04b5ce504b3feea[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+margin-top: 1px ;
+margin-bottom: 1px ;
+box-sizing: border-box ;
+font-size: var(--0d7b7d64dece4991b04b5ce504b3feea_fontSize) ; 
+min-width: var(--min-0d7b7d64dece4991b04b5ce504b3feea_valuewidth) ; 
+width: var(--0d7b7d64dece4991b04b5ce504b3feea_valuewidth); 
+}
+section.layer-252222-8c1376d66c8743a9be3be4f670207926[custom-agua-item="layer"] {
+    
+border-radius: 25px ;
+padding-top: 8px ;
+padding-bottom: 8px ;
+padding-left: 8px ;
+padding-right: 8px ;
+box-sizing: border-box ;
+background-color: #FF385C ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;margin-left: var(--8c1376d66c8743a9be3be4f670207926_margin-left) ; 
+}
+.icon-82222-2775844ea1514b8486a444331d0c478b[custom-agua-item="icon"] {
+    
+background: #F5F5F5 ;
+height: 20px ;min-height: 20px ;
+width: 20px ;min-width: 20px ; font-size: 20px ;
+}
+section.layer-11222-27663c7403cf4f1cad2f6acda08244ca[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+z-index: 1;
+}
+p.text-8222-b22d1a72069044468d2af44451c11dfc[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
+
+margin-left: 10px ;
+box-sizing: border-box ;
+font-size: var(--b22d1a72069044468d2af44451c11dfc_fontSize) ; 
+min-width: var(--min-b22d1a72069044468d2af44451c11dfc_valuewidth) ; 
+width: var(--b22d1a72069044468d2af44451c11dfc_valuewidth); 
+
+--margin-right: var(--b22d1a72069044468d2af44451c11dfc_margin-right);
+margin-right: var(--margin-right) ;
+}
+.icon-4222-4aec1795d0b943f799e8384f0c7d2cca[custom-agua-item="icon"] {
+    
+margin-left: 10px ;
+box-sizing: border-box ;
+height: 24px ;min-height: 24px ;
+width: 24px ;min-width: 24px ; font-size: 24px ;margin-right: var(--4aec1795d0b943f799e8384f0c7d2cca_margin-right) ; 
+}
+section.layer-17222-5da5415d55b344708a10a2885a646b1d[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+border: 1px solid #E0E0E0;
+border-radius: 25px ;
+box-shadow: 0px 0px 0px #000000 ;
+padding-top: 8px ;
+padding-bottom: 8px ;
+margin-left: 10px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-5222-4411c1ee7d614db7958882487541c6e7[custom-agua-item="icon"] {
+    
+margin-left: 10px ;
+margin-right: 4px ;
+box-sizing: border-box ;
+height: 24px ;min-height: 24px ;
+width: 24px ;min-width: 24px ; font-size: 24px ;
+}
+.icon-6222-83517f9455f543e58e2c69360c418642[custom-agua-item="icon"] {
+    
+margin-left: 4px ;
+margin-right: 10px ;
+box-sizing: border-box ;
+height: 28px ;min-height: 28px ;
+width: 28px ;min-width: 28px ; font-size: 28px ;
+}
+section.layer-282-08a64b79d89049a48829ce8649a891b2[custom-agua-item="layer"] {
+    
+--verticalAxis-08a64b79d89049a48829ce8649a891b2: center;
+--horizontalAxis-08a64b79d89049a48829ce8649a891b2: space-between;
+
+padding-top: 18px ;
+padding-bottom: 18px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+flex-direction: var(--08a64b79d89049a48829ce8649a891b2_orientation) ; 
+}
+section.layer-302-0085cf1d09104c1b8a4c028fd121379e[custom-agua-item="layer"] {
+    flex-direction: row ;
+overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+margin-right: 10px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width: unset;
+width: calc(100% - 10px);
+
+}
+section.layer-292-6b9f3bc823264bf88925307572489e08[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+margin-right: 20px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;
+}
+
+p.text-192-99206100fe6042abbab5055788d2155e[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
+
+
+font-size: var(--99206100fe6042abbab5055788d2155e_fontSize) ; 
+}
+section.layer-2922-2a87591183db45f58c4cbc460f01c40d[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+margin-left: 20px ;
+margin-right: 20px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;
+}
+.icon-1022-82fdd906203c4cab80df5bc3f2911c0f[custom-agua-item="icon"] {
+    
+background: #616161 ;
+
+
+}
+p.text-1922-6fee72ced52346d9b3bc6d2af197ff23[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+background: #616161 ;
+
+width: 90px ;min-width: 90px ;font-size: var(--6fee72ced52346d9b3bc6d2af197ff23_fontSize) ; 
+}
+section.layer-29222-28346085cc004ca3aab5b352f6f1c354[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+margin-left: 20px ;
+margin-right: 20px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;
+}
+.icon-10222-03791c0b208740a982188c2fbd735034[custom-agua-item="icon"] {
+    
+background: #616161 ;
+
+
+}
+p.text-19222-0bc2060702ea4cd29abe8b13b5f6b62a[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+background: #616161 ;
+
+width: 90px ;min-width: 90px ;font-size: var(--0bc2060702ea4cd29abe8b13b5f6b62a_fontSize) ; 
+}
+section.layer-29232-855eba1577d74621b0f1d49cedec8e7b[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+margin-left: 20px ;
+margin-right: 20px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;
+}
+.icon-10232-b108648a54584c5cb704d0650027c5f3[custom-agua-item="icon"] {
+    
+background: #616161 ;
+
+
+}
+p.text-19232-0a48dda0eda54e8391c3264d6aa21c17[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+background: #616161 ;
+
+font-size: var(--0a48dda0eda54e8391c3264d6aa21c17_fontSize) ; 
+}
+section.layer-29242-8f8088e481074e3da15058a070a6363f[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+margin-left: 20px ;
+margin-right: 20px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;
+}
+.icon-10242-e692db0aebaf4a20b56fa45b7ac7cba9[custom-agua-item="icon"] {
+    
+background: #616161 ;
+
+
+}
+p.text-19242-cf218ea1776544eb846915fe9461a0ad[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+background: #616161 ;
+
+font-size: var(--cf218ea1776544eb846915fe9461a0ad_fontSize) ; 
+}
+section.layer-29252-90422b88e09941eb964079bb26de6b7d[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+margin-left: 20px ;
+margin-right: 20px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;
+}
+.icon-10252-5abe6faad7d543bdb9afdfd93fcac83b[custom-agua-item="icon"] {
+    
+background: #616161 ;
+
+
+}
+p.text-19252-d60b75a3b71144389c182414d9637811[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+background: #616161 ;
+
+font-size: var(--d60b75a3b71144389c182414d9637811_fontSize) ; 
+}
+section.layer-29262-e696d848086947a89344bd202c1a8a9a[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+margin-left: 20px ;
+margin-right: 20px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;
+}
+.icon-10262-d01852db0979432f82b011f9dd0846af[custom-agua-item="icon"] {
+    
+background: #616161 ;
+
+
+}
+p.text-19262-ee33ab22dfb548c8ba0ddb546b370528[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+background: #616161 ;
+
+width: 70px ;min-width: 70px ;font-size: var(--ee33ab22dfb548c8ba0ddb546b370528_fontSize) ; 
+}
+section.layer-29272-16505282e2874744986ef928651bb040[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+margin-left: 20px ;
+margin-right: 20px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;
+}
+.icon-10272-8fe8496b0d5e454db4a407df261e89ac[custom-agua-item="icon"] {
+    
+background: #616161 ;
+
+
+}
+p.text-19272-8bd747505ba94912832b3f4de22d9fa6[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+background: #616161 ;
+
+font-size: var(--8bd747505ba94912832b3f4de22d9fa6_fontSize) ; 
+}
+section.layer-29282-4d885a4035c44bcab4588ea585b4f085[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+margin-left: 20px ;
+margin-right: 20px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;
+}
+.icon-10282-96b5c704dcc744ccad5493607e1d0ee3[custom-agua-item="icon"] {
+    
+background: #616161 ;
+
+
+}
+p.text-19282-74b76beb323b40adb626d4200d022fa6[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+background: #616161 ;
+
+font-size: var(--74b76beb323b40adb626d4200d022fa6_fontSize) ; 
+}
+section.layer-29292-5e74639334e448daa591d791d61910ae[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+margin-left: 20px ;
+margin-right: 20px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;
+}
+.icon-10292-887fa15b52e14845bd9cb218b8e2bab3[custom-agua-item="icon"] {
+    
+background: #616161 ;
+
+
+}
+p.text-19292-e676a0791f9a44dc9a780f4153bdc0ca[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+background: #616161 ;
+
+font-size: var(--e676a0791f9a44dc9a780f4153bdc0ca_fontSize) ; 
+}
+section.layer-292102-a1b0bd03fd6541d7bc95b8fb5c20e228[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+margin-left: 20px ;
+margin-right: 20px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;
+}
+.icon-102102-9479998d0d5b494f9c54c49730fe1148[custom-agua-item="icon"] {
+    
+background: #616161 ;
+
+
+}
+p.text-192102-6aa71ae359f04fca86987a6b72c7ff18[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+background: #616161 ;
+
+font-size: var(--6aa71ae359f04fca86987a6b72c7ff18_fontSize) ; 
+}
+section.layer-292112-0bf46cfae2044dc9a5713292f0bd1853[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+margin-left: 20px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;
+}
+.icon-102112-e75667faee3b4d10856563a406ef2871[custom-agua-item="icon"] {
+    
+background: #616161 ;
+
+
+}
+p.text-192112-24716c02c34d4a6cb718c33291143df3[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+
+
+background: #616161 ;
+
+font-size: var(--24716c02c34d4a6cb718c33291143df3_fontSize) ; 
+}
+section.layer-312-a1033c2f2c794aa9adebe4f6b3f7395b[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+border: 1px solid #E0E0E0;
+border-radius: 12px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 10px ;
+padding-right: 10px ;
+margin-left: 10px ;
+margin-right: 10px ;
+box-sizing: border-box ;
+min-height: unset;
+height: 100%;
+
+min-width:  unset ;width: fit-content ;display: var(--a1033c2f2c794aa9adebe4f6b3f7395b_visible) ; 
+}
+.icon-122-30d6be5e013d4ee8a2d2d1e074a7575c[custom-agua-item="icon"] {
+    
+margin-right: 4px ;
+box-sizing: border-box ;
+height: 20px ;min-height: 20px ;
+width: 20px ;min-width: 20px ; font-size: 20px ;
+}
+p.text-212-27026b39057b459da9c414b9e59ac183[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 12px ;
+font-weight: bold ;
+
+margin-left: 4px ;
+box-sizing: border-box ;
+
+
+}
+section.layer-322-f253d3f8914c4f18b72b320a58cdb9f5[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: center ;
+border: 1px solid #E0E0E0;
+border-radius: 12px ;
+padding-top: 6px ;
+padding-bottom: 6px ;
+padding-left: 10px ;
+padding-right: 10px ;
+margin-left: 10px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;display: var(--f253d3f8914c4f18b72b320a58cdb9f5_visible) ; 
+}
+p.text-202-47f7bea7bd784e4d98e972e514d1f7c1[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 12px ;
+font-weight: bold ;
+
+margin-right: 4px ;
+box-sizing: border-box ;
+
+width: 166px ;min-width: 166px ;
+}
+.icon-112-a7b06a8ff1e14c178ed3f0b2cfea4adb[custom-agua-item="icon"] {
+    
+margin-left: 4px ;
+box-sizing: border-box ;
+height: 40px ;min-height: 40px ;
+width: 40px ;min-width: 40px ; font-size: 40px ;
+}
+
+
+section.layer-282-08a64b79d89049a48829ce8649a891b2-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-08a64b79d89049a48829ce8649a891b2) ;
+justify-content: var(--horizontalAxis-08a64b79d89049a48829ce8649a891b2) ;
+}
 @media (max-width: 480px) {main.Stay1[custom-agua-item="screen"] {
-	--83962c4a653c4532b9106ff871336bbd_visible: flex;
-	--50ff35a88eb84c78a38b4763d3876886_visible: none;
-	--min-34bcaa723184410a90651b51d1e554d8_margin-right: 20px;
-	--34bcaa723184410a90651b51d1e554d8_margin-right: 20px;
-	--min-ee6303d5a9934195a7ead2573a82a568_margin-right: 20px;
-	--ee6303d5a9934195a7ead2573a82a568_margin-right: 20px;
-	--min-162abce11d8f4711926f33e30cb4524e_margin-left: 50px;
-	--162abce11d8f4711926f33e30cb4524e_margin-left: 50px;
-	--7f3d80ddd52449a6b95a201c2f4c1420_visible: none;
-	--9c5fd20557da4daca833b113c7edb806_visible: flex;
-	--min-7f3d80ddd52449a6b95a201c2f4c1420_valuewidth: unset;
-	--7f3d80ddd52449a6b95a201c2f4c1420_valuewidth: fit-content;
-	--min-34bcaa723184410a90651b51d1e554d8_margin-left: 35px;
-	--34bcaa723184410a90651b51d1e554d8_margin-left: 35px;
-	--min-ae76d2b644d545dcb58d67c85844e03d_margin-left: 20px;
-	--ae76d2b644d545dcb58d67c85844e03d_margin-left: 20px;
-	--min-ae76d2b644d545dcb58d67c85844e03d_margin-right: 35px;
-	--ae76d2b644d545dcb58d67c85844e03d_margin-right: 35px;
-	--min-ee6303d5a9934195a7ead2573a82a568_margin-left: 35px;
-	--ee6303d5a9934195a7ead2573a82a568_margin-left: 35px;
-	--1b8a39828f554858ba9ec8f7ca94ffe2_visible: none;
-	--ac097c14da654cec94ac4fcc45c7d6fb_visible: flex;
+	--47c86274e3aa43b79dc772af0aae837c_visible: flex;
+	--14ea60a1e5394fd3b64f241987796183_visible: none;
+	--min-af32518f09594fbc8b5f6ed6906880c0_margin-right: 50px;
+	--af32518f09594fbc8b5f6ed6906880c0_margin-right: 50px;
+	--min-91e2ecae338f4ae099000088afd505e9_margin-left: 50px;
+	--91e2ecae338f4ae099000088afd505e9_margin-left: 50px;
+	--min-b8051c3320444987bb498f55d0f16f89_margin-right: 50px;
+	--b8051c3320444987bb498f55d0f16f89_margin-right: 50px;
+	--min-2d595ea778c44ab59be83b582d4c0f1f_margin-left: 50px;
+	--2d595ea778c44ab59be83b582d4c0f1f_margin-left: 50px;
+	--2b89c5b4f4a340d4b02dc16f7fa9ef7c_visible: flex;
+	--04f30793750a4d819d2522fd3ec65096_visible: none;
+	--06ceac522d384b268f184682a8d637c8_visible: flex;
+	--min-04f30793750a4d819d2522fd3ec65096_valuewidth: unset;
+	--04f30793750a4d819d2522fd3ec65096_valuewidth: fit-content;
+	--min-af32518f09594fbc8b5f6ed6906880c0_margin-left: 35px;
+	--af32518f09594fbc8b5f6ed6906880c0_margin-left: 35px;
+	--min-91e2ecae338f4ae099000088afd505e9_margin-right: 35px;
+	--91e2ecae338f4ae099000088afd505e9_margin-right: 35px;
+	--min-daa79b10554648999609c352de8adfa3_margin-left: 35px;
+	--daa79b10554648999609c352de8adfa3_margin-left: 35px;
+	--min-daa79b10554648999609c352de8adfa3_margin-right: 35px;
+	--daa79b10554648999609c352de8adfa3_margin-right: 35px;
+	--min-b8051c3320444987bb498f55d0f16f89_margin-left: 35px;
+	--b8051c3320444987bb498f55d0f16f89_margin-left: 35px;
+	--2d106df261844b08b305a6086c150d42_visible: flex;
+	--99dc8d3ac0524561b4b9fb2457230fdf_visible: none;
+	--f253d3f8914c4f18b72b320a58cdb9f5_visible: none;
+	--a1033c2f2c794aa9adebe4f6b3f7395b_visible: none;
+	--08a64b79d89049a48829ce8649a891b2_orientation: row;
+	--min-99206100fe6042abbab5055788d2155e_fontSize: 12px;
+	--99206100fe6042abbab5055788d2155e_fontSize: 12px;
+	--min-6fee72ced52346d9b3bc6d2af197ff23_fontSize: 12px;
+	--6fee72ced52346d9b3bc6d2af197ff23_fontSize: 12px;
+	--min-0bc2060702ea4cd29abe8b13b5f6b62a_fontSize: 12px;
+	--0bc2060702ea4cd29abe8b13b5f6b62a_fontSize: 12px;
+	--min-d60b75a3b71144389c182414d9637811_fontSize: 12px;
+	--d60b75a3b71144389c182414d9637811_fontSize: 12px;
+	--min-0a48dda0eda54e8391c3264d6aa21c17_fontSize: 12px;
+	--0a48dda0eda54e8391c3264d6aa21c17_fontSize: 12px;
+	--min-cf218ea1776544eb846915fe9461a0ad_fontSize: 12px;
+	--cf218ea1776544eb846915fe9461a0ad_fontSize: 12px;
+	--min-ee33ab22dfb548c8ba0ddb546b370528_fontSize: 12px;
+	--ee33ab22dfb548c8ba0ddb546b370528_fontSize: 12px;
+	--min-8bd747505ba94912832b3f4de22d9fa6_fontSize: 12px;
+	--8bd747505ba94912832b3f4de22d9fa6_fontSize: 12px;
+	--min-74b76beb323b40adb626d4200d022fa6_fontSize: 12px;
+	--74b76beb323b40adb626d4200d022fa6_fontSize: 12px;
+	--min-e676a0791f9a44dc9a780f4153bdc0ca_fontSize: 12px;
+	--e676a0791f9a44dc9a780f4153bdc0ca_fontSize: 12px;
+	--min-6aa71ae359f04fca86987a6b72c7ff18_fontSize: 12px;
+	--6aa71ae359f04fca86987a6b72c7ff18_fontSize: 12px;
+	--min-24716c02c34d4a6cb718c33291143df3_fontSize: 12px;
+	--24716c02c34d4a6cb718c33291143df3_fontSize: 12px;
+	--89655f6545c24de7a5c55170287c2e60_visible: none;
+	--8e223583fce740af9ab41b5207172eb9_visible: flex;
+	--275d4ffb4e5947ce8b20ff2c27a814cc_visible: flex;
+	--2454b2ddce4c4efaa2f228626a57aaa8_visible: none;
+	--781e52cc221d46e9bf687efaa65cb9bb_visible: none;
+	--min-781e52cc221d46e9bf687efaa65cb9bb_valuewidth: unset;
+	--781e52cc221d46e9bf687efaa65cb9bb_valuewidth: fit-content;
+	--1a3daa203a3743a8aec22598742a67db_visible: flex;
+	--1bd7c4475a694e0a96fb3f8f42ca38bf_visible: flex;
+	--438e189315364b1b8c961a04f4837a4a_visible: none;
+	--dbb9a8b89ea049db9243b2caf58e8bd2_visible: none;
+	--min-dbb9a8b89ea049db9243b2caf58e8bd2_valuewidth: unset;
+	--dbb9a8b89ea049db9243b2caf58e8bd2_valuewidth: fit-content;
+	--581f759f11794464830e950e1ec2ac63_visible: flex;
+	--min-eecc558197f343a387f38a07ef7f2846_fontSize: 16px;
+	--eecc558197f343a387f38a07ef7f2846_fontSize: 16px;
+	--min-9f2bb3a0f2824606ac843169dc1489ce_fontSize: 16px;
+	--9f2bb3a0f2824606ac843169dc1489ce_fontSize: 16px;
+	--min-0d7b7d64dece4991b04b5ce504b3feea_fontSize: 16px;
+	--0d7b7d64dece4991b04b5ce504b3feea_fontSize: 16px;
+	--min-b22d1a72069044468d2af44451c11dfc_fontSize: 16px;
+	--b22d1a72069044468d2af44451c11dfc_fontSize: 16px;
+	--min-9f2bb3a0f2824606ac843169dc1489ce_valuewidth: unset;
+	--9f2bb3a0f2824606ac843169dc1489ce_valuewidth: fit-content;
+	--min-0d7b7d64dece4991b04b5ce504b3feea_valuewidth: unset;
+	--0d7b7d64dece4991b04b5ce504b3feea_valuewidth: fit-content;
+	--min-b22d1a72069044468d2af44451c11dfc_valuewidth: unset;
+	--b22d1a72069044468d2af44451c11dfc_valuewidth: fit-content;
+	--min-7feccf43b6654ed58df9a522e754a01d_margin-left: 15px;
+	--7feccf43b6654ed58df9a522e754a01d_margin-left: 15px;
+	--min-f7acd7fa52f845a78969026b25593e18_margin-right: 15px;
+	--f7acd7fa52f845a78969026b25593e18_margin-right: 15px;
+	--min-41cc87881ffc4acaaaa4a0cb522d2271_margin-left: 15px;
+	--41cc87881ffc4acaaaa4a0cb522d2271_margin-left: 15px;
+	--min-b22d1a72069044468d2af44451c11dfc_margin-left: 10px;
+	--b22d1a72069044468d2af44451c11dfc_margin-left: 10px;
+	--min-b22d1a72069044468d2af44451c11dfc_margin-right: 10px;
+	--b22d1a72069044468d2af44451c11dfc_margin-right: 10px;
+	--min-4aec1795d0b943f799e8384f0c7d2cca_margin-left: 10px;
+	--4aec1795d0b943f799e8384f0c7d2cca_margin-left: 10px;
+	--min-4aec1795d0b943f799e8384f0c7d2cca_margin-right: 10px;
+	--4aec1795d0b943f799e8384f0c7d2cca_margin-right: 10px;
+	--588c5c7c4fd1412d9324e49614e05308_visible: flex;
 
 }
 
+section.layer-282-08a64b79d89049a48829ce8649a891b2-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-08a64b79d89049a48829ce8649a891b2) ;
+justify-content: var(--horizontalAxis-08a64b79d89049a48829ce8649a891b2) ;
+}
 }
 @media (min-width: 1020px) {main.Stay1[custom-agua-item="screen"]{
-	--83962c4a653c4532b9106ff871336bbd_visible: none;
-	--50ff35a88eb84c78a38b4763d3876886_visible: flex;
-	--min-34bcaa723184410a90651b51d1e554d8_margin-right: 20px;
-	--34bcaa723184410a90651b51d1e554d8_margin-right: 20px;
-	--min-ee6303d5a9934195a7ead2573a82a568_margin-right: 20px;
-	--ee6303d5a9934195a7ead2573a82a568_margin-right: 20px;
-	--min-162abce11d8f4711926f33e30cb4524e_margin-left: 20px;
-	--162abce11d8f4711926f33e30cb4524e_margin-left: 20px;
-	--7f3d80ddd52449a6b95a201c2f4c1420_visible: flex;
-	--9c5fd20557da4daca833b113c7edb806_visible: none;
-	--min-7f3d80ddd52449a6b95a201c2f4c1420_valuewidth: unset;
-	--7f3d80ddd52449a6b95a201c2f4c1420_valuewidth: fit-content;
-	--min-34bcaa723184410a90651b51d1e554d8_margin-left: 20px;
-	--34bcaa723184410a90651b51d1e554d8_margin-left: 20px;
-	--min-ae76d2b644d545dcb58d67c85844e03d_margin-left: 20px;
-	--ae76d2b644d545dcb58d67c85844e03d_margin-left: 20px;
-	--min-ae76d2b644d545dcb58d67c85844e03d_margin-right: 20px;
-	--ae76d2b644d545dcb58d67c85844e03d_margin-right: 20px;
-	--min-ee6303d5a9934195a7ead2573a82a568_margin-left: 20px;
-	--ee6303d5a9934195a7ead2573a82a568_margin-left: 20px;
-	--1b8a39828f554858ba9ec8f7ca94ffe2_visible: none;
-	--ac097c14da654cec94ac4fcc45c7d6fb_visible: flex;
+	--47c86274e3aa43b79dc772af0aae837c_visible: none;
+	--14ea60a1e5394fd3b64f241987796183_visible: flex;
+	--min-af32518f09594fbc8b5f6ed6906880c0_margin-right: 65px;
+	--af32518f09594fbc8b5f6ed6906880c0_margin-right: 65px;
+	--min-91e2ecae338f4ae099000088afd505e9_margin-left: 65px;
+	--91e2ecae338f4ae099000088afd505e9_margin-left: 65px;
+	--min-b8051c3320444987bb498f55d0f16f89_margin-right: 65px;
+	--b8051c3320444987bb498f55d0f16f89_margin-right: 65px;
+	--min-2d595ea778c44ab59be83b582d4c0f1f_margin-left: 60px;
+	--2d595ea778c44ab59be83b582d4c0f1f_margin-left: 60px;
+	--2b89c5b4f4a340d4b02dc16f7fa9ef7c_visible: flex;
+	--04f30793750a4d819d2522fd3ec65096_visible: flex;
+	--06ceac522d384b268f184682a8d637c8_visible: none;
+	--min-04f30793750a4d819d2522fd3ec65096_valuewidth: unset;
+	--04f30793750a4d819d2522fd3ec65096_valuewidth: fit-content;
+	--min-af32518f09594fbc8b5f6ed6906880c0_margin-left: 25px;
+	--af32518f09594fbc8b5f6ed6906880c0_margin-left: 25px;
+	--min-91e2ecae338f4ae099000088afd505e9_margin-right: 45px;
+	--91e2ecae338f4ae099000088afd505e9_margin-right: 45px;
+	--min-daa79b10554648999609c352de8adfa3_margin-left: 45px;
+	--daa79b10554648999609c352de8adfa3_margin-left: 45px;
+	--min-daa79b10554648999609c352de8adfa3_margin-right: 45px;
+	--daa79b10554648999609c352de8adfa3_margin-right: 45px;
+	--min-b8051c3320444987bb498f55d0f16f89_margin-left: 45px;
+	--b8051c3320444987bb498f55d0f16f89_margin-left: 45px;
+	--2d106df261844b08b305a6086c150d42_visible: flex;
+	--99dc8d3ac0524561b4b9fb2457230fdf_visible: none;
+	--f253d3f8914c4f18b72b320a58cdb9f5_visible: flex;
+	--a1033c2f2c794aa9adebe4f6b3f7395b_visible: flex;
+	--08a64b79d89049a48829ce8649a891b2_orientation: row;
+	--min-99206100fe6042abbab5055788d2155e_fontSize: 12px;
+	--99206100fe6042abbab5055788d2155e_fontSize: 12px;
+	--min-6fee72ced52346d9b3bc6d2af197ff23_fontSize: 12px;
+	--6fee72ced52346d9b3bc6d2af197ff23_fontSize: 12px;
+	--min-0bc2060702ea4cd29abe8b13b5f6b62a_fontSize: 12px;
+	--0bc2060702ea4cd29abe8b13b5f6b62a_fontSize: 12px;
+	--min-d60b75a3b71144389c182414d9637811_fontSize: 12px;
+	--d60b75a3b71144389c182414d9637811_fontSize: 12px;
+	--min-0a48dda0eda54e8391c3264d6aa21c17_fontSize: 12px;
+	--0a48dda0eda54e8391c3264d6aa21c17_fontSize: 12px;
+	--min-cf218ea1776544eb846915fe9461a0ad_fontSize: 12px;
+	--cf218ea1776544eb846915fe9461a0ad_fontSize: 12px;
+	--min-ee33ab22dfb548c8ba0ddb546b370528_fontSize: 12px;
+	--ee33ab22dfb548c8ba0ddb546b370528_fontSize: 12px;
+	--min-8bd747505ba94912832b3f4de22d9fa6_fontSize: 12px;
+	--8bd747505ba94912832b3f4de22d9fa6_fontSize: 12px;
+	--min-74b76beb323b40adb626d4200d022fa6_fontSize: 12px;
+	--74b76beb323b40adb626d4200d022fa6_fontSize: 12px;
+	--min-e676a0791f9a44dc9a780f4153bdc0ca_fontSize: 12px;
+	--e676a0791f9a44dc9a780f4153bdc0ca_fontSize: 12px;
+	--min-6aa71ae359f04fca86987a6b72c7ff18_fontSize: 12px;
+	--6aa71ae359f04fca86987a6b72c7ff18_fontSize: 12px;
+	--min-24716c02c34d4a6cb718c33291143df3_fontSize: 12px;
+	--24716c02c34d4a6cb718c33291143df3_fontSize: 12px;
+	--89655f6545c24de7a5c55170287c2e60_visible: none;
+	--8e223583fce740af9ab41b5207172eb9_visible: flex;
+	--275d4ffb4e5947ce8b20ff2c27a814cc_visible: flex;
+	--2454b2ddce4c4efaa2f228626a57aaa8_visible: none;
+	--781e52cc221d46e9bf687efaa65cb9bb_visible: flex;
+	--min-781e52cc221d46e9bf687efaa65cb9bb_valuewidth: unset;
+	--781e52cc221d46e9bf687efaa65cb9bb_valuewidth: fit-content;
+	--1a3daa203a3743a8aec22598742a67db_visible: none;
+	--1bd7c4475a694e0a96fb3f8f42ca38bf_visible: none;
+	--438e189315364b1b8c961a04f4837a4a_visible: flex;
+	--dbb9a8b89ea049db9243b2caf58e8bd2_visible: none;
+	--min-dbb9a8b89ea049db9243b2caf58e8bd2_valuewidth: unset;
+	--dbb9a8b89ea049db9243b2caf58e8bd2_valuewidth: fit-content;
+	--581f759f11794464830e950e1ec2ac63_visible: flex;
+	--min-eecc558197f343a387f38a07ef7f2846_fontSize: 16px;
+	--eecc558197f343a387f38a07ef7f2846_fontSize: 16px;
+	--min-9f2bb3a0f2824606ac843169dc1489ce_fontSize: 16px;
+	--9f2bb3a0f2824606ac843169dc1489ce_fontSize: 16px;
+	--min-0d7b7d64dece4991b04b5ce504b3feea_fontSize: 16px;
+	--0d7b7d64dece4991b04b5ce504b3feea_fontSize: 16px;
+	--min-b22d1a72069044468d2af44451c11dfc_fontSize: 16px;
+	--b22d1a72069044468d2af44451c11dfc_fontSize: 16px;
+	--min-9f2bb3a0f2824606ac843169dc1489ce_valuewidth: unset;
+	--9f2bb3a0f2824606ac843169dc1489ce_valuewidth: fit-content;
+	--min-0d7b7d64dece4991b04b5ce504b3feea_valuewidth: unset;
+	--0d7b7d64dece4991b04b5ce504b3feea_valuewidth: fit-content;
+	--min-b22d1a72069044468d2af44451c11dfc_valuewidth: unset;
+	--b22d1a72069044468d2af44451c11dfc_valuewidth: fit-content;
+	--min-7feccf43b6654ed58df9a522e754a01d_margin-left: 15px;
+	--7feccf43b6654ed58df9a522e754a01d_margin-left: 15px;
+	--min-f7acd7fa52f845a78969026b25593e18_margin-right: 15px;
+	--f7acd7fa52f845a78969026b25593e18_margin-right: 15px;
+	--min-41cc87881ffc4acaaaa4a0cb522d2271_margin-left: 15px;
+	--41cc87881ffc4acaaaa4a0cb522d2271_margin-left: 15px;
+	--min-b22d1a72069044468d2af44451c11dfc_margin-left: 10px;
+	--b22d1a72069044468d2af44451c11dfc_margin-left: 10px;
+	--min-b22d1a72069044468d2af44451c11dfc_margin-right: 10px;
+	--b22d1a72069044468d2af44451c11dfc_margin-right: 10px;
+	--min-4aec1795d0b943f799e8384f0c7d2cca_margin-left: 10px;
+	--4aec1795d0b943f799e8384f0c7d2cca_margin-left: 10px;
+	--min-4aec1795d0b943f799e8384f0c7d2cca_margin-right: 10px;
+	--4aec1795d0b943f799e8384f0c7d2cca_margin-right: 10px;
+	--588c5c7c4fd1412d9324e49614e05308_visible: none;
 
 }
 
+section.layer-282-08a64b79d89049a48829ce8649a891b2-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-08a64b79d89049a48829ce8649a891b2) ;
+justify-content: var(--horizontalAxis-08a64b79d89049a48829ce8649a891b2) ;
+}
 }
 @media (max-width: 1019px) and (min-width: 481px) {main.Stay1[custom-agua-item="screen"] {
-	--83962c4a653c4532b9106ff871336bbd_visible: none;
-	--50ff35a88eb84c78a38b4763d3876886_visible: flex;
-	--min-34bcaa723184410a90651b51d1e554d8_margin-right: 10px;
-	--34bcaa723184410a90651b51d1e554d8_margin-right: 10px;
-	--min-ee6303d5a9934195a7ead2573a82a568_margin-right: 10px;
-	--ee6303d5a9934195a7ead2573a82a568_margin-right: 10px;
-	--min-162abce11d8f4711926f33e30cb4524e_margin-left: 10px;
-	--162abce11d8f4711926f33e30cb4524e_margin-left: 10px;
-	--7f3d80ddd52449a6b95a201c2f4c1420_visible: flex;
-	--9c5fd20557da4daca833b113c7edb806_visible: none;
-	--min-7f3d80ddd52449a6b95a201c2f4c1420_valuewidth: unset;
-	--7f3d80ddd52449a6b95a201c2f4c1420_valuewidth: 100%;
-	--min-34bcaa723184410a90651b51d1e554d8_margin-left: 25px;
-	--34bcaa723184410a90651b51d1e554d8_margin-left: 25px;
-	--min-ae76d2b644d545dcb58d67c85844e03d_margin-left: 10px;
-	--ae76d2b644d545dcb58d67c85844e03d_margin-left: 10px;
-	--min-ae76d2b644d545dcb58d67c85844e03d_margin-right: 10px;
-	--ae76d2b644d545dcb58d67c85844e03d_margin-right: 10px;
-	--min-ee6303d5a9934195a7ead2573a82a568_margin-left: 10px;
-	--ee6303d5a9934195a7ead2573a82a568_margin-left: 10px;
-	--1b8a39828f554858ba9ec8f7ca94ffe2_visible: flex;
-	--ac097c14da654cec94ac4fcc45c7d6fb_visible: none;
+	--47c86274e3aa43b79dc772af0aae837c_visible: none;
+	--14ea60a1e5394fd3b64f241987796183_visible: flex;
+	--min-af32518f09594fbc8b5f6ed6906880c0_margin-right: 25px;
+	--af32518f09594fbc8b5f6ed6906880c0_margin-right: 25px;
+	--min-91e2ecae338f4ae099000088afd505e9_margin-left: 25px;
+	--91e2ecae338f4ae099000088afd505e9_margin-left: 25px;
+	--min-b8051c3320444987bb498f55d0f16f89_margin-right: 25px;
+	--b8051c3320444987bb498f55d0f16f89_margin-right: 25px;
+	--min-2d595ea778c44ab59be83b582d4c0f1f_margin-left: 25px;
+	--2d595ea778c44ab59be83b582d4c0f1f_margin-left: 25px;
+	--2b89c5b4f4a340d4b02dc16f7fa9ef7c_visible: none;
+	--04f30793750a4d819d2522fd3ec65096_visible: flex;
+	--06ceac522d384b268f184682a8d637c8_visible: none;
+	--min-04f30793750a4d819d2522fd3ec65096_valuewidth: unset;
+	--04f30793750a4d819d2522fd3ec65096_valuewidth: 100%;
+	--min-af32518f09594fbc8b5f6ed6906880c0_margin-left: 25px;
+	--af32518f09594fbc8b5f6ed6906880c0_margin-left: 25px;
+	--min-91e2ecae338f4ae099000088afd505e9_margin-right: 25px;
+	--91e2ecae338f4ae099000088afd505e9_margin-right: 25px;
+	--min-daa79b10554648999609c352de8adfa3_margin-left: 25px;
+	--daa79b10554648999609c352de8adfa3_margin-left: 25px;
+	--min-daa79b10554648999609c352de8adfa3_margin-right: 25px;
+	--daa79b10554648999609c352de8adfa3_margin-right: 25px;
+	--min-b8051c3320444987bb498f55d0f16f89_margin-left: 25px;
+	--b8051c3320444987bb498f55d0f16f89_margin-left: 25px;
+	--2d106df261844b08b305a6086c150d42_visible: flex;
+	--99dc8d3ac0524561b4b9fb2457230fdf_visible: flex;
+	--f253d3f8914c4f18b72b320a58cdb9f5_visible: flex;
+	--a1033c2f2c794aa9adebe4f6b3f7395b_visible: flex;
+	--08a64b79d89049a48829ce8649a891b2_orientation: row;
+	--min-99206100fe6042abbab5055788d2155e_fontSize: 13px;
+	--99206100fe6042abbab5055788d2155e_fontSize: 13px;
+	--min-6fee72ced52346d9b3bc6d2af197ff23_fontSize: 13px;
+	--6fee72ced52346d9b3bc6d2af197ff23_fontSize: 13px;
+	--min-0bc2060702ea4cd29abe8b13b5f6b62a_fontSize: 13px;
+	--0bc2060702ea4cd29abe8b13b5f6b62a_fontSize: 13px;
+	--min-d60b75a3b71144389c182414d9637811_fontSize: 13px;
+	--d60b75a3b71144389c182414d9637811_fontSize: 13px;
+	--min-0a48dda0eda54e8391c3264d6aa21c17_fontSize: 13px;
+	--0a48dda0eda54e8391c3264d6aa21c17_fontSize: 13px;
+	--min-cf218ea1776544eb846915fe9461a0ad_fontSize: 13px;
+	--cf218ea1776544eb846915fe9461a0ad_fontSize: 13px;
+	--min-ee33ab22dfb548c8ba0ddb546b370528_fontSize: 13px;
+	--ee33ab22dfb548c8ba0ddb546b370528_fontSize: 13px;
+	--min-8bd747505ba94912832b3f4de22d9fa6_fontSize: 13px;
+	--8bd747505ba94912832b3f4de22d9fa6_fontSize: 13px;
+	--min-74b76beb323b40adb626d4200d022fa6_fontSize: 13px;
+	--74b76beb323b40adb626d4200d022fa6_fontSize: 13px;
+	--min-e676a0791f9a44dc9a780f4153bdc0ca_fontSize: 13px;
+	--e676a0791f9a44dc9a780f4153bdc0ca_fontSize: 13px;
+	--min-6aa71ae359f04fca86987a6b72c7ff18_fontSize: 13px;
+	--6aa71ae359f04fca86987a6b72c7ff18_fontSize: 13px;
+	--min-24716c02c34d4a6cb718c33291143df3_fontSize: 13px;
+	--24716c02c34d4a6cb718c33291143df3_fontSize: 13px;
+	--89655f6545c24de7a5c55170287c2e60_visible: flex;
+	--8e223583fce740af9ab41b5207172eb9_visible: none;
+	--275d4ffb4e5947ce8b20ff2c27a814cc_visible: none;
+	--2454b2ddce4c4efaa2f228626a57aaa8_visible: flex;
+	--781e52cc221d46e9bf687efaa65cb9bb_visible: flex;
+	--min-781e52cc221d46e9bf687efaa65cb9bb_valuewidth: unset;
+	--781e52cc221d46e9bf687efaa65cb9bb_valuewidth: fit-content;
+	--1a3daa203a3743a8aec22598742a67db_visible: none;
+	--1bd7c4475a694e0a96fb3f8f42ca38bf_visible: none;
+	--438e189315364b1b8c961a04f4837a4a_visible: flex;
+	--dbb9a8b89ea049db9243b2caf58e8bd2_visible: flex;
+	--min-dbb9a8b89ea049db9243b2caf58e8bd2_valuewidth: unset;
+	--dbb9a8b89ea049db9243b2caf58e8bd2_valuewidth: fit-content;
+	--581f759f11794464830e950e1ec2ac63_visible: none;
+	--min-eecc558197f343a387f38a07ef7f2846_fontSize: 14px;
+	--eecc558197f343a387f38a07ef7f2846_fontSize: 14px;
+	--min-9f2bb3a0f2824606ac843169dc1489ce_fontSize: 14px;
+	--9f2bb3a0f2824606ac843169dc1489ce_fontSize: 14px;
+	--min-0d7b7d64dece4991b04b5ce504b3feea_fontSize: 14px;
+	--0d7b7d64dece4991b04b5ce504b3feea_fontSize: 14px;
+	--min-b22d1a72069044468d2af44451c11dfc_fontSize: 14px;
+	--b22d1a72069044468d2af44451c11dfc_fontSize: 14px;
+	--min-9f2bb3a0f2824606ac843169dc1489ce_valuewidth: 68px;
+	--9f2bb3a0f2824606ac843169dc1489ce_valuewidth: 68px;
+	--min-0d7b7d64dece4991b04b5ce504b3feea_valuewidth: 74px;
+	--0d7b7d64dece4991b04b5ce504b3feea_valuewidth: 74px;
+	--min-b22d1a72069044468d2af44451c11dfc_valuewidth: 124px;
+	--b22d1a72069044468d2af44451c11dfc_valuewidth: 124px;
+	--min-7feccf43b6654ed58df9a522e754a01d_margin-left: 10px;
+	--7feccf43b6654ed58df9a522e754a01d_margin-left: 10px;
+	--min-f7acd7fa52f845a78969026b25593e18_margin-right: 10px;
+	--f7acd7fa52f845a78969026b25593e18_margin-right: 10px;
+	--min-41cc87881ffc4acaaaa4a0cb522d2271_margin-left: 10px;
+	--41cc87881ffc4acaaaa4a0cb522d2271_margin-left: 10px;
+	--min-b22d1a72069044468d2af44451c11dfc_margin-left: 5px;
+	--b22d1a72069044468d2af44451c11dfc_margin-left: 5px;
+	--min-b22d1a72069044468d2af44451c11dfc_margin-right: 5px;
+	--b22d1a72069044468d2af44451c11dfc_margin-right: 5px;
+	--min-4aec1795d0b943f799e8384f0c7d2cca_margin-left: 5px;
+	--4aec1795d0b943f799e8384f0c7d2cca_margin-left: 5px;
+	--min-4aec1795d0b943f799e8384f0c7d2cca_margin-right: 5px;
+	--4aec1795d0b943f799e8384f0c7d2cca_margin-right: 5px;
+	--588c5c7c4fd1412d9324e49614e05308_visible: none;
 
 }
 
-section.layer-192-7f3d80ddd52449a6b95a201c2f4c1420[custom-agua-item="layer"] {
-width: calc(var(--7f3d80ddd52449a6b95a201c2f4c1420_valuewidth) - calc(10px + 10px));
+section.layer-282-08a64b79d89049a48829ce8649a891b2-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-08a64b79d89049a48829ce8649a891b2) ;
+justify-content: var(--horizontalAxis-08a64b79d89049a48829ce8649a891b2) ;
+}
+section.layer-192-04f30793750a4d819d2522fd3ec65096[custom-agua-item="layer"] {
+width: calc(var(--04f30793750a4d819d2522fd3ec65096_valuewidth) - calc(10px + 10px));
 
 }
 }

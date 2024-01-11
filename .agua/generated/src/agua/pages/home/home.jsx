@@ -193,6 +193,18 @@ const Home = () =>{
 <span custom-agua-item="icon" className={styles['icon-10211-44c3cad2e1f541009cd939c43dec89f9']}  >beach_access</span>
 <p custom-agua-item="text" className={styles['text-19211-f2b81e2bea0047f9a80e5ad75ebda671']}   >Beachfront</p>
 </section>
+<section custom-agua-item="layer" className={styles['layer-292112-04811954dcf34e2fbc3d40bcfbc81ef0']}   >
+<span custom-agua-item="icon" className={styles['icon-102112-69956c0a31794de7b7f0ee40d4c32dae']}  >sports_golf</span>
+<p custom-agua-item="text" className={styles['text-192112-5888a2d0cb3645089ab41621661d4b42']}   >Golfing</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-292113-64327c2f35e543c59c379f8961b38204']}   >
+<span custom-agua-item="icon" className={styles['icon-102113-d3655fe314be4d188d90495e5b39b4b3']}  >ac_unit</span>
+<p custom-agua-item="text" className={styles['text-192113-1882a0410a154c8dadfc37c258aaaef5']}   >Artic</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-292114-7aa898568c014286ad907540c39ff99c']}   >
+<span custom-agua-item="icon" className={styles['icon-102114-8e4614d06b6c4eb18f24034a483014af']}  >coffee</span>
+<p custom-agua-item="text" className={styles['text-192114-ffabb913cf624601880eda5c40969883']}   >Bed & breakfast</p>
+</section>
 </section>
 <section custom-agua-item="layer" className={styles['layer-31-cdb8b474184e408b9ec40eb681a785fc']}   >
 <span custom-agua-item="icon" className={styles['icon-12-d7dd5510f8b34a8996a18c791fb0751b']}  >tune</span>
@@ -204,14 +216,22 @@ const Home = () =>{
 </section>
 </section>
 </header>
-<section custom-agua-item="layer" className={styles.homecontent}   >
+<section custom-agua-item="layer" className={styles.hombebody}   >
 <section custom-agua-item="layer" className={styles['layer-168-6f84dae05c4744478750e5a6416519fa']}   >
 <section custom-agua-item="layer" className={styles['layer-322-598f1d895e394cdab81418f0fc57eadd']}   >
 <p custom-agua-item="text" className={styles['text-202-26304c80a7f0413789616609c6af6abc']}   >Display total before taxes</p>
 <span custom-agua-item="icon" className={styles['icon-112-f9a4150d09e149f693260f41bd958675']}  >toggle_off</span>
 </section>
 </section>
-<section custom-agua-item="layer" className={styles.hombebody}   >
+<section custom-agua-item="layer" className={styles['layer-509-6f334f4adc0e46c386832608f8764e64']}   >
+<p custom-agua-item="text" className={styles['text-419-310e90442fb54af48792cf7e2c12da8f']}   >Show map</p>
+<span custom-agua-item="icon" className={styles['icon-124-3419876093b34e3d8376d346d00dc364']}  >map</span>
+</section>
+<section custom-agua-item="layer" className={styles['layer-748-c2a3ce2daf2244628c798bac351b8f9d']}   >
+<p custom-agua-item="text" className={styles['text-621-3fbbdab5a3324f648eefa5e334f45b45']}   >Map</p>
+<span custom-agua-item="icon" className={styles['icon-177-9ba41c091f9349d4bc53e919f8de8a83']}  >map</span>
+</section>
+<section custom-agua-item="layer" className={styles['layer-508-3d6075d98850441caaab48c03cef523c']}   >
 <section custom-agua-item="layer" className={styles['layer-145-dba48d0d38f2443ca0597d6a44faaec2']}   >
 <section custom-agua-item="layer" className={styles['layer-152-b5fd4305cef14db89f938518186b284d']}   >
 <p custom-agua-item="text" className={styles['text-195-53f2368cbc2245c6b3ce8aa6c1b452a3']}   >Guest favorite</p>
@@ -517,6 +537,13 @@ const Home = () =>{
 </section>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-510-382b901d5f154fffada6c296f790257f']}   >
+<p custom-agua-item="text" className={styles['text-421-49196adee82c41fd885321b6a792a88f']}   >Continue exploring cabins</p>
+<section custom-agua-item="layer" className={styles['layer-511-0e44ba6420d94ecfb465cd8c7ba1d439']}   >
+<p custom-agua-item="text" className={styles['text-422-65219850dc18446bb0b1e4fe83ae0655']}   >Show more</p>
+</section>
+</section>
+</section>
 <section custom-agua-item="layer" className={styles.homefooter}   >
 <section custom-agua-item="layer" className={styles['layer-212-d3389f3288924f3cbc9e12a0f77e8eaf']}   >
 <p custom-agua-item="text" className={styles['text-191-58d143ed16ca4e2fbe171be416ec898e']}   >Inspiration for future getaways</p>
@@ -652,7 +679,6 @@ const Home = () =>{
 <img custom-agua-item="imageView" className={styles['imageview-11-1bcb4cd8534147e99d8fc0fbbdae47fc']}  alt="imageview-11" src='https://i.ibb.co/5ndGgWv/image-43.png'  />
 <img custom-agua-item="imageView" className={styles['imageview-12-174e869c8dae444aae00248f5b03e7fd']}  alt="imageview-12" src='https://i.ibb.co/5ndGgWv/image-43.png'  />
 <img custom-agua-item="imageView" className={styles['imageview-13-fec44917293049aba8e78cc38c8d6588']}  alt="imageview-13" src='https://i.ibb.co/5ndGgWv/image-43.png'  />
-</section>
 </section>
 </section>
 </section>
