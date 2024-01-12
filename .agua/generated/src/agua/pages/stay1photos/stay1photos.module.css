@@ -5,3 +5,210 @@ overflow-y: scroll ;
 scrollbar-width: none ;
 -ms-overflow-style: none ;
 }
+section.layer-3364-161f611c9f59482f890fe0644eb5794d[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+justify-content: space-between ;
+
+margin-left: 24px ;
+margin-right: 24px ;
+box-sizing: border-box ;
+height: 80px ;min-height: 80px ;
+min-width: unset;
+width: calc(100% - calc(24px + 24px));
+
+}
+.icon-832-23fdbf4cae8c4310a90b42d0e9dd72c8[custom-agua-item="icon"] {
+    
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+section.layer-3521-25008d3003164fd8afea5bda81f5fca2[custom-agua-item="layer"] {
+    flex-direction: row ;
+justify-content: space-between ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+section.layer-3522-0a972640c86342f4adbf9d10411be8c4[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: flex-end ;
+
+margin-right: 20px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-830-48514a58ca5e49c38e35bd02708b75ff[custom-agua-item="icon"] {
+    
+margin-right: 8px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-2803-b3b11190452148f48a64a0810e90442b[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-3523-4a7c527c320f4e7a86b191b2ef3d1288[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: flex-end ;
+
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;
+}
+.icon-831-a5e38f8b8a664921951704131ca2597f[custom-agua-item="icon"] {
+    
+margin-right: 8px ;
+box-sizing: border-box ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+p.text-2804-189a510a3cca4dcfaae5369c4b416acd[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
+
+
+}
+section.layer-3365-45a7ed80420d443195ca228af7f861e5[custom-agua-item="layer"] {
+    
+
+padding-top: 40px ;
+padding-bottom: 72px ;
+padding-left: 254px ;
+padding-right: 254px ;
+box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;flex-shrink: 0;
+
+min-width: unset;
+width: 100%;
+
+}
+section.layer-3366-796698a4a5f04df2982a838aef7819f6[custom-agua-item="layer"] {
+    
+
+margin-top: 8px ;
+margin-bottom: 4px ;
+margin-left: 8px ;
+margin-right: 8px ;
+box-sizing: border-box ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_1.png') ;
+height: 500px ;min-height: 500px ;
+min-width: unset;
+width: calc(100% - calc(8px + 8px));
+
+}
+section.layer-3367-6c3c594a754241759f8187232e9f3237[custom-agua-item="layer"] {
+    flex-direction: row ;
+
+height: 350px ;min-height: 350px ;
+min-width: unset;
+width: 100%;
+
+}
+section.layer-3370-3e9c711d8a36429eb426f505e60175ad[custom-agua-item="layer"] {
+    
+
+margin-top: 4px ;
+margin-bottom: 4px ;
+margin-left: 8px ;
+margin-right: 4px ;
+box-sizing: border-box ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_2.png') ;
+min-height: unset;
+height: calc(100% - calc(4px + 4px));
+
+min-width: unset;
+width: calc(100% - calc(8px + 4px));
+
+}
+section.layer-3371-b9e13ff4c2124bd38b91ada8df632f63[custom-agua-item="layer"] {
+    
+
+margin-top: 4px ;
+margin-bottom: 4px ;
+margin-left: 4px ;
+margin-right: 8px ;
+box-sizing: border-box ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_3.png') ;
+min-height: unset;
+height: calc(100% - calc(4px + 4px));
+
+min-width: unset;
+width: calc(100% - calc(4px + 8px));
+
+}
+section.layer-3368-8807282ddedd42638a141d0fe66cad16[custom-agua-item="layer"] {
+    
+
+margin-top: 4px ;
+margin-bottom: 4px ;
+margin-left: 8px ;
+margin-right: 8px ;
+box-sizing: border-box ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_4.png') ;
+height: 500px ;min-height: 500px ;
+min-width: unset;
+width: calc(100% - calc(8px + 8px));
+
+}
+section.layer-3369-3214f264c4124d2cb1ce629aa1ca99bc[custom-agua-item="layer"] {
+    flex-direction: row ;
+
+height: 350px ;min-height: 350px ;
+min-width: unset;
+width: 100%;
+
+}
+section.layer-3372-1915ced301d04680b1ea28a5e33fffe0[custom-agua-item="layer"] {
+    
+
+margin-top: 4px ;
+margin-bottom: 4px ;
+margin-left: 8px ;
+margin-right: 4px ;
+box-sizing: border-box ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_5.png') ;
+min-height: unset;
+height: calc(100% - calc(4px + 4px));
+
+min-width: unset;
+width: calc(100% - calc(8px + 4px));
+
+}
+section.layer-3373-f49e1296e9a94752b784736b7d0a8bf8[custom-agua-item="layer"] {
+    
+
+margin-top: 4px ;
+margin-bottom: 4px ;
+margin-left: 4px ;
+margin-right: 8px ;
+box-sizing: border-box ;background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_6.png') ;
+min-height: unset;
+height: calc(100% - calc(4px + 4px));
+
+min-width: unset;
+width: calc(100% - calc(4px + 8px));
+
+}

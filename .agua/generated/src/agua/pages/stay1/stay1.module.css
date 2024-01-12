@@ -8,14 +8,12 @@ scrollbar-width: none ;
 section.saty1header[custom-agua-item="layer"] {
     
 
-padding-left: 160px ;
-padding-right: 160px ;
-box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;flex-shrink: 0;
 
 min-width: unset;
 width: 100%;
-
+padding-left: var(--saty1header_padding-left) ; 
+padding-right: var(--saty1header_padding-right) ; 
 }
 section.stay1navbar[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -28,7 +26,7 @@ width: 100%;
 
 position: relative;display: var(--stay1navbar_visible) ; 
 }
-section.stay1headerdesktopsitemap[custom-agua-item="layer"] {
+section.stay1headerdesktopsearch[custom-agua-item="layer"] {
     
 justify-content: center ;
 align-items: center ;
@@ -38,7 +36,7 @@ min-width: unset;
 width: 100%;
 
 position: absolute;
-z-index: 0;display: var(--stay1headerdesktopsitemap_visible) ; 
+z-index: 0;display: var(--stay1headerdesktopsearch_visible) ; 
 }
 section.layer-951-d4974d6ba1994226a8890c7ff51c04e5[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -132,6 +130,7 @@ width: 20px ;min-width: 20px ; font-size: 20px ;
 }
 section.layer-953-c219a9ba0e044f9a97c62594ade83a46[custom-agua-item="layer"] {
     flex-direction: row ;
+cursor: pointer;
 
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
@@ -140,14 +139,14 @@ z-index: 1;
 .imageview-49-f67136a724de478a95251170c29fd7f8[custom-agua-item="imageView"] {
     
 height: 30px ;min-height: 30px ;
-width: 100px ;min-width: 100px ;
+width: 100px ;min-width: 100px ;display: var(--f67136a724de478a95251170c29fd7f8_visible) ; 
 }
 .imageview-50-e4c71d821e7041098d10ac500eb31e8a[custom-agua-item="imageView"] {
     
 height: 30px ;min-height: 30px ;
-width: 30px ;min-width: 30px ;
+width: 30px ;min-width: 30px ;display: var(--e4c71d821e7041098d10ac500eb31e8a_visible) ; 
 }
-section.layer-9512-a63a27f56f574029ba06eab51c0ff444[custom-agua-item="layer"] {
+section.stay1headermobilesearch[custom-agua-item="layer"] {
     flex-direction: row ;
 align-items: center ;
 justify-content: center ;
@@ -160,16 +159,14 @@ padding-left: 6px ;
 padding-right: 6px ;
 box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;display: var(--a63a27f56f574029ba06eab51c0ff444_visible) ; 
+min-width:  unset ;width: fit-content ;display: var(--stay1headermobilesearch_visible) ; 
 }
 section.layer-9552-246c62c436aa48c6809b7ea08f098aee[custom-agua-item="layer"] {
     
 
-margin-left: 15px ;
-margin-right: 15px ;
-box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
+min-width:  unset ;width: fit-content ;margin-left: var(--246c62c436aa48c6809b7ea08f098aee_margin-left) ; 
+margin-right: var(--246c62c436aa48c6809b7ea08f098aee_margin-right) ; 
 }
 p.text-7692-7b63600f12c24ca38632fcec075a382f[custom-agua-item="text"] {
      
@@ -183,11 +180,9 @@ font-size: 14px ;
 section.layer-9562-341463264ec844759c2ef291b93ab593[custom-agua-item="layer"] {
     
 
-margin-left: 15px ;
-margin-right: 15px ;
-box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
+min-width:  unset ;width: fit-content ;margin-left: var(--341463264ec844759c2ef291b93ab593_margin-left) ; 
+margin-right: var(--341463264ec844759c2ef291b93ab593_margin-right) ; 
 }
 p.text-7702-88e44514b2ae4a2db50e060ccb87b592[custom-agua-item="text"] {
      
@@ -201,11 +196,9 @@ font-size: 14px ;
 section.layer-9572-a7867cd68082429187a6728f94f445a5[custom-agua-item="layer"] {
     
 
-margin-left: 15px ;
-margin-right: 15px ;
-box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
+min-width:  unset ;width: fit-content ;margin-left: var(--a7867cd68082429187a6728f94f445a5_margin-left) ; 
+margin-right: var(--a7867cd68082429187a6728f94f445a5_margin-right) ; 
 }
 p.text-7712-3e963082dd654da99deacc62e560ab4b[custom-agua-item="text"] {
      
@@ -225,11 +218,10 @@ padding-top: 8px ;
 padding-bottom: 8px ;
 padding-left: 8px ;
 padding-right: 8px ;
-margin-left: 15px ;
 box-sizing: border-box ;
 background-color: #FF385C ;
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
+min-width:  unset ;width: fit-content ;margin-left: var(--a754195977894adb838e15381b0b8467_margin-left) ; 
 }
 .icon-2262-d370e6ef7d0e40eb91198200c0389ac2[custom-agua-item="icon"] {
     
@@ -252,19 +244,15 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 font-size: 14px ;
 
 
-margin-left: 10px ;
-margin-right: 10px ;
-box-sizing: border-box ;
 
-
+margin-left: var(--17484228a32843c3ae292aa04d4758a8_margin-left) ; 
+margin-right: var(--17484228a32843c3ae292aa04d4758a8_margin-right) ; 
 }
 .icon-303-f083601f70ca46b39e2abb8ecaa77dc0[custom-agua-item="icon"] {
     
-margin-left: 10px ;
-margin-right: 10px ;
-box-sizing: border-box ;
 height: 24px ;min-height: 24px ;
-width: 24px ;min-width: 24px ; font-size: 24px ;
+width: 24px ;min-width: 24px ; font-size: 24px ;margin-left: var(--f083601f70ca46b39e2abb8ecaa77dc0_margin-left) ; 
+margin-right: var(--f083601f70ca46b39e2abb8ecaa77dc0_margin-right) ; 
 }
 section.layer-1285-15ba41e2f7a34ca49c803583f26caf48[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -293,6 +281,15 @@ box-sizing: border-box ;
 height: 24px ;min-height: 24px ;
 width: 24px ;min-width: 24px ; font-size: 24px ;
 }
+section.stay1mobilesection1[custom-agua-item="layer"] {
+    
+
+height: 260px ;min-height: 260px ;
+min-width: unset;
+width: 100%;
+
+position: relative;display: var(--stay1mobilesection1_visible) ; 
+}
 section.stay1navbarmobile[custom-agua-item="layer"] {
     flex-direction: row ;
 justify-content: space-between ;
@@ -300,29 +297,156 @@ justify-content: space-between ;
 min-height:  unset ;height: fit-content ;
 min-width: unset;
 width: 100%;
-display: var(--stay1navbarmobile_visible) ; 
-}
 
+position: absolute;
+top: 24px;display: var(--stay1navbarmobile_visible) ; 
+padding-left: var(--stay1navbarmobile_padding-left) ; 
+padding-right: var(--stay1navbarmobile_padding-right) ; 
+}
+section.layer-739-803a53e8e26142c189fe9ddaf87807fa[custom-agua-item="layer"] {
+    
+justify-content: center ;
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;align-items: var(--803a53e8e26142c189fe9ddaf87807fa_horizontalAlignment) ; 
+padding-left: var(--803a53e8e26142c189fe9ddaf87807fa_padding-left) ; 
+padding-right: var(--803a53e8e26142c189fe9ddaf87807fa_padding-right) ; 
+padding-top: var(--803a53e8e26142c189fe9ddaf87807fa_padding-top) ; 
+padding-bottom: var(--803a53e8e26142c189fe9ddaf87807fa_padding-bottom) ; 
+border-radius: var(--803a53e8e26142c189fe9ddaf87807fa_radiusAbsolute) ; 
+}
+.icon-335-e71e7fa7a81d4be2a1729f9fff0d2812[custom-agua-item="icon"] {
+    
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;margin-left: var(--e71e7fa7a81d4be2a1729f9fff0d2812_margin-left) ; 
+}
 section.layer-1384-96be9692846c4967bef2ca5e2fa64634[custom-agua-item="layer"] {
     flex-direction: row ;
 
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
-
-
+section.layer-740-b68dac83b10a46709dd063d4552d028f[custom-agua-item="layer"] {
+    
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;padding-top: var(--b68dac83b10a46709dd063d4552d028f_padding-top) ; 
+padding-left: var(--b68dac83b10a46709dd063d4552d028f_padding-left) ; 
+padding-right: var(--b68dac83b10a46709dd063d4552d028f_padding-right) ; 
+padding-bottom: var(--b68dac83b10a46709dd063d4552d028f_padding-bottom) ; 
+border-radius: var(--b68dac83b10a46709dd063d4552d028f_radiusAbsolute) ; 
+margin-right: var(--b68dac83b10a46709dd063d4552d028f_margin-right) ; 
+}
+.icon-336-153099c13e6449e1ad47b3673171d8c0[custom-agua-item="icon"] {
+    
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+section.layer-741-e31b260143c74ccfbf09d6c63f751d2d[custom-agua-item="layer"] {
+    
+background-color: #FFFFFF ;
+min-height:  unset ;height: fit-content ;
+min-width:  unset ;width: fit-content ;padding-top: var(--e31b260143c74ccfbf09d6c63f751d2d_padding-top) ; 
+padding-left: var(--e31b260143c74ccfbf09d6c63f751d2d_padding-left) ; 
+padding-right: var(--e31b260143c74ccfbf09d6c63f751d2d_padding-right) ; 
+padding-bottom: var(--e31b260143c74ccfbf09d6c63f751d2d_padding-bottom) ; 
+border-radius: var(--e31b260143c74ccfbf09d6c63f751d2d_radiusAbsolute) ; 
+}
+.icon-337-3e502967c27346c5ab0490758ff80a13[custom-agua-item="icon"] {
+    
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
+section.layer-745-6f363da22bf34fbc92f541c560fad301[custom-agua-item="layer"] {
+    flex-direction: row ;
+overflow-x: scroll ;
+scrollbar-width: none ;
+-ms-overflow-style: none ;
+min-height:  unset ;height: fit-content ;min-width: var(--min-6f363da22bf34fbc92f541c560fad301_valuewidth) ; 
+width: var(--6f363da22bf34fbc92f541c560fad301_valuewidth); 
+}
+section.layer-1909-741b332503324be9bc0576504158ce2e[custom-agua-item="layer"] {
+    
+background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_1.png') ;
+height: 260px ;min-height: 260px ;
+width: 390px ;min-width: 390px ;
+}
+section.layer-1910-b65d38cfa79640aca9a4ae2d855b62f8[custom-agua-item="layer"] {
+    
+background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_2.png') ;
+height: 260px ;min-height: 260px ;
+width: 390px ;min-width: 390px ;
+}
+section.layer-1911-820eb6b75c8440589c7c6c66365419a5[custom-agua-item="layer"] {
+    
+background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_3.png') ;
+height: 260px ;min-height: 260px ;
+width: 390px ;min-width: 390px ;
+}
+section.layer-1912-1af5a21d6ba94af9a9b5922221d88f47[custom-agua-item="layer"] {
+    
+background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_4.png') ;
+height: 290px ;min-height: 290px ;
+width: 360px ;min-width: 360px ;
+}
+section.layer-1913-0c48bdb7146f42008ec611ea8f58cf73[custom-agua-item="layer"] {
+    
+background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_5.png') ;
+height: 290px ;min-height: 290px ;
+width: 360px ;min-width: 360px ;
+}
+section.layer-1914-937ac44ca6eb47a1bb078347dd4cfada[custom-agua-item="layer"] {
+    
+background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_6.png') ;
+height: 290px ;min-height: 290px ;
+width: 360px ;min-width: 360px ;
+}
+section.layer-1915-24194c74e9f444eab3f215b149c5f736[custom-agua-item="layer"] {
+    
+background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_7.png') ;
+height: 290px ;min-height: 290px ;
+width: 360px ;min-width: 360px ;
+}
+section.layer-1916-bb5d351db8fe47a1a600b36b5826d373[custom-agua-item="layer"] {
+    
+background-repeat: no-repeat ;
+background-size: cover ;
+background-position: center ;
+background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_8.png') ;
+height: 290px ;min-height: 290px ;
+width: 360px ;min-width: 360px ;
+}
 section.stay1body[custom-agua-item="layer"] {
     
 
-padding-left: 160px ;
-padding-right: 160px ;
-box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;flex-shrink: 0;
 
 min-width: unset;
 width: 100%;
 
-position: relative;
+position: relative;padding-left: var(--stay1body_padding-left) ; 
+padding-right: var(--stay1body_padding-right) ; 
 }
 section.stay1bodysection1[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -339,25 +463,22 @@ width: 100%;
 p.text-2870-23b2b7a8982441f3b906c254626c821e[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
 
-
-
-
+font-size: var(--23b2b7a8982441f3b906c254626c821e_fontSize) ; 
 }
 section.layer-3497-38b3574aba0d4b7cafa7dbbab23bdd54[custom-agua-item="layer"] {
     flex-direction: row ;
 
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
+min-width:  unset ;width: fit-content ;display: var(--38b3574aba0d4b7cafa7dbbab23bdd54_visible) ; 
 }
 section.layer-3498-9f1a877f1a7443be952d6f2bcb7a3751[custom-agua-item="layer"] {
     flex-direction: row ;
-align-items: center ;
+align-items: flex-end ;
 justify-content: center ;
 
-padding-top: 8px ;
-padding-bottom: 8px ;
 padding-left: 8px ;
 padding-right: 8px ;
 box-sizing: border-box ;
@@ -368,13 +489,13 @@ min-width:  unset ;width: fit-content ;
     
 margin-right: 8px ;
 box-sizing: border-box ;
-
-
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
 }
 p.text-2872-82c01c58d00a4d718d88a62a317c24c5[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
+font-size: 14px ;
 
 
 
@@ -385,8 +506,6 @@ section.layer-3499-209d212ada094dbea87eb2993992f5a2[custom-agua-item="layer"] {
 align-items: center ;
 justify-content: center ;
 
-padding-top: 8px ;
-padding-bottom: 8px ;
 padding-left: 8px ;
 padding-right: 8px ;
 box-sizing: border-box ;
@@ -397,13 +516,13 @@ min-width:  unset ;width: fit-content ;
     
 margin-right: 8px ;
 box-sizing: border-box ;
-
-
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
 }
 p.text-2873-0d9df87c4ac44204b3925523d85e2330[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
+font-size: 14px ;
 
 
 
@@ -411,7 +530,6 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 }
 section.stay1bodysection2[custom-agua-item="layer"] {
     flex-direction: row ;
-cursor: pointer;
 border-radius: 24px ;
 margin-top: 24px ;
 box-sizing: border-box ;
@@ -419,6 +537,19 @@ min-height:  unset ;height: fit-content ;
 min-width: unset;
 width: 100%;
 
+position: relative;display: var(--stay1bodysection2_visible) ; 
+}
+section.layer-3363-2c4c53621be4423a816cece6de378c83[custom-agua-item="layer"] {
+    
+cursor: pointer;
+
+min-height: unset;
+height: 100%;
+
+min-width: unset;
+width: 100%;
+
+position: absolute;
 }
 section.layer-1385-66dc975440ef4fed940f585d0c7a5e20[custom-agua-item="layer"] {
     
@@ -558,27 +689,26 @@ width: 100%;
 p.text-2896-5ac63062baf646358cccd5c4920e68a1[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
 
-
-
-
+font-size: var(--5ac63062baf646358cccd5c4920e68a1_fontSize) ; 
 }
 p.text-2897-321ffcbe3cbf4877b18993926cbbf7e0[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+margin-top: 4px ;
+box-sizing: border-box ;
 
-
-
+font-size: var(--321ffcbe3cbf4877b18993926cbbf7e0_fontSize) ; 
 }
 section.layer-3530-bf1dc9ea573c42b8893781527a3fed37[custom-agua-item="layer"] {
     flex-direction: row ;
 align-items: center ;
 justify-content: space-between ;
-border-width: 1px;
-border-style: solid;
+border: 1px solid #E0E0E0;
 border-radius: 12px ;
 padding-top: 22px ;
 padding-bottom: 22px ;
@@ -601,37 +731,39 @@ min-width:  unset ;width: fit-content ;
 }
 .imageview-173-b942ad5860024973bf8da643fbba05a0[custom-agua-item="imageView"] {
     
-height: 50px ;min-height: 50px ;
-width: 50px ;min-width: 50px ;
+height: 32px ;min-height: 32px ;
+width: 20px ;min-width: 20px ;
 }
 p.text-2898-1bc20ba714af41a683fdc63bfac28fef[custom-agua-item="text"] {
-     
+     text-align: center ;
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
+margin-left: 4px ;
+margin-right: 4px ;
+box-sizing: border-box ;
 
-
-
-
+width: 60px ;min-width: 60px ;font-size: var(--1bc20ba714af41a683fdc63bfac28fef_fontSize) ; 
 }
 .imageview-174-d14a4502ffaf4cfeb1cf485a4a25addf[custom-agua-item="imageView"] {
     
-height: 50px ;min-height: 50px ;
-width: 50px ;min-width: 50px ;
+height: 32px ;min-height: 32px ;
+width: 20px ;min-width: 20px ;
 }
 section.layer-3532-340ec82e123f457fb38b68229a8689c3[custom-agua-item="layer"] {
     
 
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
+min-width:  unset ;width: fit-content ;display: var(--340ec82e123f457fb38b68229a8689c3_visible) ; 
 }
 p.text-2899-c66d91d75dc14a05a1516fb8d1e66104[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
 
 
 
-
-width: 250px ;min-width: 250px ;
+width: 250px ;min-width: 250px ;display: var(--c66d91d75dc14a05a1516fb8d1e66104_visible) ; 
 }
 section.layer-3533-d406227d14334e0b918ca97669920676[custom-agua-item="layer"] {
     
@@ -644,11 +776,10 @@ min-width:  unset ;width: fit-content ;
 p.text-2900-4f9253ea0bfb4a68af2cc3062281a38d[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
 
-
-
-
+font-size: var(--4f9253ea0bfb4a68af2cc3062281a38d_fontSize) ; 
 }
 section.layer-3534-29dc014097884864981b7e3ca4092386[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -656,11 +787,36 @@ section.layer-3534-29dc014097884864981b7e3ca4092386[custom-agua-item="layer"] {
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
-
-
-
-
-
+.icon-990-64089a0df5204e6cb4d2d136e17136cc[custom-agua-item="icon"] {
+    
+width: 12px ;min-width: 12px ;
+font-size: var(--64089a0df5204e6cb4d2d136e17136cc_valueheight) ;min-height: var(--min-64089a0df5204e6cb4d2d136e17136cc_valueheight) ; 
+height: var(--64089a0df5204e6cb4d2d136e17136cc_valueheight); 
+}
+.icon-991-f4e9ec5f2dd040f8b4b1136ff6b2349a[custom-agua-item="icon"] {
+    
+width: 12px ;min-width: 12px ;
+font-size: var(--f4e9ec5f2dd040f8b4b1136ff6b2349a_valueheight) ;min-height: var(--min-f4e9ec5f2dd040f8b4b1136ff6b2349a_valueheight) ; 
+height: var(--f4e9ec5f2dd040f8b4b1136ff6b2349a_valueheight); 
+}
+.icon-992-fb11eb72c52141e381e1d6723a78876a[custom-agua-item="icon"] {
+    
+width: 12px ;min-width: 12px ;
+font-size: var(--fb11eb72c52141e381e1d6723a78876a_valueheight) ;min-height: var(--min-fb11eb72c52141e381e1d6723a78876a_valueheight) ; 
+height: var(--fb11eb72c52141e381e1d6723a78876a_valueheight); 
+}
+.icon-993-2d01de86f04c4d10a16409064f67c8c7[custom-agua-item="icon"] {
+    
+width: 12px ;min-width: 12px ;
+font-size: var(--2d01de86f04c4d10a16409064f67c8c7_valueheight) ;min-height: var(--min-2d01de86f04c4d10a16409064f67c8c7_valueheight) ; 
+height: var(--2d01de86f04c4d10a16409064f67c8c7_valueheight); 
+}
+.icon-994-ff34230059124b9e808756144e9a677e[custom-agua-item="icon"] {
+    
+width: 12px ;min-width: 12px ;
+font-size: var(--ff34230059124b9e808756144e9a677e_valueheight) ;min-height: var(--min-ff34230059124b9e808756144e9a677e_valueheight) ; 
+height: var(--ff34230059124b9e808756144e9a677e_valueheight); 
+}
 section.layer-3535-3c0e1ef243a74ec39e696ec9a276181d[custom-agua-item="layer"] {
     
 justify-content: center ;
@@ -672,11 +828,10 @@ min-width:  unset ;width: fit-content ;
 p.text-2901-f8fd75f1e40d4437b01f9e93b418b95e[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
 
-
-
-
+font-size: var(--f8fd75f1e40d4437b01f9e93b418b95e_fontSize) ; 
 }
 p.text-2902-c4662fb47f5b4e6ab50ff6cb196bf069[custom-agua-item="text"] {
      
@@ -684,27 +839,57 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
+font-size: var(--c4662fb47f5b4e6ab50ff6cb196bf069_fontSize) ; 
+}
+section.stay1mobilesection2[custom-agua-item="layer"] {
+    flex-direction: row ;
+align-items: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+display: var(--stay1mobilesection2_visible) ; 
+margin-top: var(--stay1mobilesection2_margin-top) ; 
+margin-bottom: var(--stay1mobilesection2_margin-bottom) ; 
+}
+.icon-9882-fb2b4611eef1482cba4cdf000457c51a[custom-agua-item="icon"] {
+    
+margin-left: 8px ;
+margin-right: 8px ;
+box-sizing: border-box ;
+background: #FF385C ;
+height: 24px ;min-height: 24px ;
+width: 24px ;min-width: 24px ; font-size: 24px ;
+}
+p.text-1606-c1e06e7fd9dc40d7b200b7522e6de55f[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+margin-left: 24px ;
+box-sizing: border-box ;
+
+font-size: var(--c1e06e7fd9dc40d7b200b7522e6de55f_fontSize) ; 
 }
 section.layer-659-78ff4775db784a11adfc5b2910e63d11[custom-agua-item="layer"] {
     flex-direction: row ;
+align-items: center ;
 
 padding-top: 24px ;
 padding-bottom: 24px ;
 box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
-min-width: unset;
-width: 100%;
-
+min-width:  unset ;width: fit-content ;
 }
 section.layer-656-c8fab256bb144316bfdda5eb32a900d0[custom-agua-item="layer"] {
     
 justify-content: flex-end ;
 align-items: flex-end ;
 
+margin-left: 8px ;
+box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
+width: 40px ;min-width: 40px ;
 position: relative;
 }
 section.layer-658-60164aa96be7432f94abd0f426f95095[custom-agua-item="layer"] {
@@ -718,8 +903,8 @@ z-index: 1;
 .icon-182-e70af49b854b448ba1f7982a63760dc2[custom-agua-item="icon"] {
     
 background: #FF385C ;
-height: 25px ;min-height: 25px ;
-width: 25px ;min-width: 25px ; font-size: 25px ;
+height: 20px ;min-height: 20px ;
+width: 20px ;min-width: 20px ; font-size: 20px ;
 }
 section.layer-657-099701a7ce844399b41ce766b96f2c4a[custom-agua-item="layer"] {
     
@@ -731,33 +916,36 @@ box-sizing: border-box ;background-repeat: no-repeat ;
 background-size: cover ;
 background-position: center ;
 background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_hosts.png') ;
-height: 50px ;min-height: 50px ;
-width: 50px ;min-width: 50px ;
+height: 30px ;min-height: 30px ;
+width: 30px ;min-width: 30px ;
 position: relative;
 }
 section.layer-660-6b7cc8dbdcce413b94509e7a1ee9b896[custom-agua-item="layer"] {
     
 
+margin-left: 16px ;
+box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
 p.text-533-c1084c9db9d8494e98a4475f722944f4[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
+margin-bottom: 4px ;
+box-sizing: border-box ;
 
-
-
-
+font-size: var(--c1084c9db9d8494e98a4475f722944f4_fontSize) ; 
 }
 p.text-534-24c4618b35464e63abdf58f9ce9a3522[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+background: #717171 ;
 
-
-
+font-size: var(--24c4618b35464e63abdf58f9ce9a3522_fontSize) ; 
 }
 section.layer-993-f6b11c4c9b9c4485907fb93b18511415[custom-agua-item="layer"] {
     
@@ -772,108 +960,134 @@ width: 100%;
 }
 section.layer-994-c7e126a8a3c046b4977e6d695177918b[custom-agua-item="layer"] {
     flex-direction: row ;
+align-items: center ;
 
+margin-bottom: 24px ;
+box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
 .icon-274-b88f8e5631f244eda5d2098c63e8846b[custom-agua-item="icon"] {
     
-height: 50px ;min-height: 50px ;
-width: 50px ;min-width: 50px ; font-size: 50px ;
+margin-left: 8px ;
+margin-right: 8px ;
+box-sizing: border-box ;
+width: 24px ;min-width: 24px ;
+font-size: var(--b88f8e5631f244eda5d2098c63e8846b_valueheight) ;min-height: var(--min-b88f8e5631f244eda5d2098c63e8846b_valueheight) ; 
+height: var(--b88f8e5631f244eda5d2098c63e8846b_valueheight); 
 }
 section.layer-1001-bf9743b26c7d49b581518304744cfe23[custom-agua-item="layer"] {
     
 
+margin-left: 24px ;
+box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
 p.text-807-38d621adce6a4061b8bd6b9aa8424fb2[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
+margin-bottom: 4px ;
+box-sizing: border-box ;
 
-
-
-
+font-size: var(--38d621adce6a4061b8bd6b9aa8424fb2_fontSize) ; 
 }
 p.text-808-71048d3c486c49d6a9f7dfc244f5166d[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+background: #717171 ;
 
-
-
+font-size: var(--71048d3c486c49d6a9f7dfc244f5166d_fontSize) ; 
 }
 section.layer-995-1831c4299c5a4dee8f712288430cbd70[custom-agua-item="layer"] {
     flex-direction: row ;
+align-items: center ;
 
+margin-bottom: 24px ;
+box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
 .icon-275-ab33b21371464411b05b62abf67c23f8[custom-agua-item="icon"] {
     
-height: 50px ;min-height: 50px ;
-width: 50px ;min-width: 50px ; font-size: 50px ;
+margin-left: 8px ;
+margin-right: 8px ;
+box-sizing: border-box ;
+height: 24px ;min-height: 24px ;
+width: 24px ;min-width: 24px ; font-size: 24px ;
 }
 section.layer-999-33d2a4d2b54e470d9d94687942eb86fd[custom-agua-item="layer"] {
     
 
+margin-left: 24px ;
+box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
 p.text-805-72e95f3a4ce84e2191a29d9908455cb5[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
+margin-bottom: 4px ;
+box-sizing: border-box ;
 
-
-
-
+font-size: var(--72e95f3a4ce84e2191a29d9908455cb5_fontSize) ; 
 }
 p.text-806-d9d3e0f318c64bd8921b3ce0bc261664[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+background: #717171 ;
 
-
-
+font-size: var(--d9d3e0f318c64bd8921b3ce0bc261664_fontSize) ; 
 }
 section.layer-996-54393bf12f0d4054853e0478e9ae7ede[custom-agua-item="layer"] {
     flex-direction: row ;
+align-items: center ;
 
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
 .icon-276-7a0509a5b3284a0489020b866fd51dd9[custom-agua-item="icon"] {
     
-height: 50px ;min-height: 50px ;
-width: 50px ;min-width: 50px ; font-size: 50px ;
+margin-left: 8px ;
+margin-right: 8px ;
+box-sizing: border-box ;
+height: 24px ;min-height: 24px ;
+width: 24px ;min-width: 24px ; font-size: 24px ;
 }
 section.layer-1000-04587e82078948e3acc5bf4cdaf91488[custom-agua-item="layer"] {
     
 
+margin-left: 24px ;
+box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
 p.text-803-c33c6dd30db94349aef0c9092a82519e[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
+margin-bottom: 4px ;
+box-sizing: border-box ;
 
-
-
-
+font-size: var(--c33c6dd30db94349aef0c9092a82519e_fontSize) ; 
 }
 p.text-804-84668652748e43acba44ea62a1903586[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
+background: #717171 ;
 
-
-
+font-size: var(--84668652748e43acba44ea62a1903586_fontSize) ; 
 }
 section.layer-1002-a2a88c1fc86b4066b6b2bffb5c985be2[custom-agua-item="layer"] {
     
@@ -891,22 +1105,22 @@ p.text-809-9ef93498e72b4681a16ef92bcdf8eb44[custom-agua-item="text"] {
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-
 margin-bottom: 9px ;
 box-sizing: border-box ;
+background: #222222 ;
 
-
+font-size: var(--9ef93498e72b4681a16ef92bcdf8eb44_fontSize) ; 
 }
 p.text-1098-ba41f8b1fa884d13b2470b938b4e22d1[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-
 margin-top: 9px ;
 box-sizing: border-box ;
+background: #222222 ;
 
-
+font-size: var(--ba41f8b1fa884d13b2470b938b4e22d1_fontSize) ; 
 }
 section.layer-1385-d070f4d52b394389b5856bac1176fab7[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -921,13 +1135,17 @@ min-width:  unset ;width: fit-content ;
 p.text-1099-194cb286a7184d1093310211d38e9a6e[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
 
-
-
-
+font-size: var(--194cb286a7184d1093310211d38e9a6e_fontSize) ; 
 }
-
+.icon-338-a74885f96cd144bdb32165e13b373d0b[custom-agua-item="icon"] {
+    
+width: 18px ;min-width: 18px ;
+font-size: var(--a74885f96cd144bdb32165e13b373d0b_valueheight) ;min-height: var(--min-a74885f96cd144bdb32165e13b373d0b_valueheight) ; 
+height: var(--a74885f96cd144bdb32165e13b373d0b_valueheight); 
+}
 section.layer-1003-3b5107f2e97c4235846249551be79ef9[custom-agua-item="layer"] {
     
 
@@ -942,11 +1160,10 @@ width: 100%;
 p.text-1108-856b17a122f74a5089b691b39c251569[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
 
-
-
-
+font-size: var(--856b17a122f74a5089b691b39c251569_fontSize) ; 
 }
 section.layer-1378-8f12c259b93d465684b677f2d43e45e0[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -955,8 +1172,8 @@ scrollbar-width: none ;
 -ms-overflow-style: none ;
 padding-top: 24px ;
 box-sizing: border-box ;
-min-height:  unset ;height: fit-content ;
-width: 672px ;min-width: 672px ;
+min-height:  unset ;height: fit-content ;min-width: var(--min-8f12c259b93d465684b677f2d43e45e0_valuewidth) ; 
+width: var(--8f12c259b93d465684b677f2d43e45e0_valuewidth); 
 }
 section.layer-1380-195dc783a93148d18164be8e5ce9b27c[custom-agua-item="layer"] {
     
@@ -981,24 +1198,23 @@ width: 320px ;min-width: 320px ;
 p.text-1111-65dd588b5a2c4799b57d56cd01c0a60d[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
-
+font-weight: bold ;
 
 margin-top: 16px ;
 box-sizing: border-box ;
 
-
+font-size: var(--65dd588b5a2c4799b57d56cd01c0a60d_fontSize) ; 
 }
 p.text-1109-d28d7be627514774b1cfec1d53ddf49c[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-
 margin-top: 4px ;
 box-sizing: border-box ;
+background: #222222 ;
 
-
+font-size: var(--d28d7be627514774b1cfec1d53ddf49c_fontSize) ; 
 }
 section.layer-1379-018a4477727c45a7965eed3de23ca205[custom-agua-item="layer"] {
     
@@ -1023,24 +1239,23 @@ width: 320px ;min-width: 320px ;
 p.text-1110-b62e9c06bb6241a89fef7870518e3cfc[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
-
+font-weight: bold ;
 
 margin-top: 16px ;
 box-sizing: border-box ;
 
-
+font-size: var(--b62e9c06bb6241a89fef7870518e3cfc_fontSize) ; 
 }
 p.text-1112-f07bc849e4264f678274c61d9f48a046[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-
 margin-top: 4px ;
 box-sizing: border-box ;
+background: #222222 ;
 
-
+font-size: var(--f07bc849e4264f678274c61d9f48a046_fontSize) ; 
 }
 section.layer-1381-950c5b3877b2472da9e0412087a297d3[custom-agua-item="layer"] {
     
@@ -1065,24 +1280,23 @@ width: 320px ;min-width: 320px ;
 p.text-1114-a9284d39681146dcb03bdc522558a344[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
-
+font-weight: bold ;
 
 margin-top: 16px ;
 box-sizing: border-box ;
 
-
+font-size: var(--a9284d39681146dcb03bdc522558a344_fontSize) ; 
 }
 p.text-1113-19c754ab790847b58429ef678944593f[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-
 margin-top: 4px ;
 box-sizing: border-box ;
+background: #222222 ;
 
-
+font-size: var(--19c754ab790847b58429ef678944593f_fontSize) ; 
 }
 section.layer-1004-2bb06f6e372442339897ad8e80667119[custom-agua-item="layer"] {
     
@@ -1096,19 +1310,18 @@ min-width:  unset ;width: fit-content ;
 p.text-810-7e373014235e4864addf3e8f4e548e0f[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
-
+font-weight: bold ;
 
 margin-bottom: 24px ;
 box-sizing: border-box ;
 
-
+font-size: var(--7e373014235e4864addf3e8f4e548e0f_fontSize) ; 
 }
 section.layer-1005-26d31bc5b1034e02816f222dd8feab0f[custom-agua-item="layer"] {
-    flex-direction: row ;
+    
 
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
+min-width:  unset ;width: fit-content ;flex-direction: var(--26d31bc5b1034e02816f222dd8feab0f_orientation) ; 
 }
 section.layer-1010-26d586fc6f874285a9c9c2aae575731d[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1133,8 +1346,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
-
-
+font-size: var(--6b0df01ae9444c75a39288a9de2b72b9_fontSize) ; 
 }
 section.layer-1011-90961c9b1969430884a3da5e56d0dece[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1159,14 +1371,13 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
-
-
+font-size: var(--3910d24bae164deeb46bb14cc3764f76_fontSize) ; 
 }
 section.layer-1006-1508c606a6184c68ac04fe710183dd15[custom-agua-item="layer"] {
-    flex-direction: row ;
+    
 
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
+min-width:  unset ;width: fit-content ;flex-direction: var(--1508c606a6184c68ac04fe710183dd15_orientation) ; 
 }
 section.layer-1012-8b5866d50ba2404196264a9318be1c6b[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1191,8 +1402,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
-
-
+font-size: var(--43d9c84270b048aea76d6a1501a1a293_fontSize) ; 
 }
 section.layer-1013-e082b09e0fa3404eb8dafa6829c1a149[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1217,14 +1427,13 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
-
-
+font-size: var(--d3d03740ead1411e8e560494e147ca96_fontSize) ; 
 }
 section.layer-1007-d00860f868614c13836e9138699c4302[custom-agua-item="layer"] {
-    flex-direction: row ;
+    
 
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
+min-width:  unset ;width: fit-content ;flex-direction: var(--d00860f868614c13836e9138699c4302_orientation) ; 
 }
 section.layer-1014-5ba6038092cd479486f4a37f62eb01b6[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1249,8 +1458,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
-
-
+font-size: var(--52b43d505d9f4f9fba5bfac5aec27c66_fontSize) ; 
 }
 section.layer-1015-a270f66c3e7341658b4ca0ffda4e6cf7[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1275,14 +1483,13 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
-
-
+font-size: var(--a29d0218a2c942f09ea7ed903a405cd7_fontSize) ; 
 }
 section.layer-1008-5f96c11ad57c44c7a94aa570f90d13bf[custom-agua-item="layer"] {
-    flex-direction: row ;
+    
 
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
+min-width:  unset ;width: fit-content ;flex-direction: var(--5f96c11ad57c44c7a94aa570f90d13bf_orientation) ; 
 }
 section.layer-1016-bafe2c5841294a0bbf4ea779dea1947c[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1307,8 +1514,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
-
-
+font-size: var(--db36862f5909495a8ffa322a1f18a90f_fontSize) ; 
 }
 section.layer-1017-845e81cb16404d29af8316489bfa9572[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1333,14 +1539,13 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
-
-
+font-size: var(--e2acc881573f4dfe8d2141a99065d446_fontSize) ; 
 }
 section.layer-1009-6703562d38d24144a901f21e8e38d9d4[custom-agua-item="layer"] {
-    flex-direction: row ;
+    
 
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;
+min-width:  unset ;width: fit-content ;flex-direction: var(--6703562d38d24144a901f21e8e38d9d4_orientation) ; 
 }
 section.layer-1018-4749c41989dc4655868fc662933af5ad[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1365,8 +1570,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
-
-
+font-size: var(--606ed6d42de74bb5b1f52d21ee5f98e0_fontSize) ; 
 }
 section.layer-1019-10280e222afb488c94ecf90de9b4e5b7[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1391,8 +1595,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
-
-
+font-size: var(--5625339adbb74ada8cd340a3dd63780e_fontSize) ; 
 }
 section.layer-1377-14133f0b433d4641a5fe88ad4db45f8e[custom-agua-item="layer"] {
     
@@ -1410,29 +1613,31 @@ min-width:  unset ;width: fit-content ;
 p.text-1107-d1704ccc781d4620a91a8d70654f8673[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
 
-
-
-
+font-size: var(--d1704ccc781d4620a91a8d70654f8673_fontSize) ; 
 }
 section.stay1bodysection3b[custom-agua-item="layer"] {
     
 align-items: center ;
 border-radius: 0px ;
-margin-left: 86px ;
-box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
-width: 350px ;min-width: 350px ;
 position: sticky;
 top: 32px;
-z-index: 0;
+bottom: 48px;
+z-index: 0;min-width: var(--min-stay1bodysection3b_valuewidth) ; 
+width: var(--stay1bodysection3b_valuewidth); 
+
+--margin-left: var(--stay1bodysection3b_margin-left);
+margin-left: var(--margin-left) ;
+display: var(--stay1bodysection3b_visible) ; 
 }
 section.layer-3513-86f6deabeb974118b8536a58b3a67538[custom-agua-item="layer"] {
     
-border-width: 1px;
-border-style: solid;
+border: 1px solid #E0E0E0;
 border-radius: 12px ;
+box-shadow: 0px 0px 5px #E0E0E0 ;
 padding-top: 24px ;
 padding-bottom: 24px ;
 padding-left: 24px ;
@@ -1445,6 +1650,7 @@ width: 100%;
 }
 section.layer-3527-d44a0735f356448fa36428af87748052[custom-agua-item="layer"] {
     flex-direction: row ;
+align-items: flex-end ;
 
 margin-bottom: 24px ;
 box-sizing: border-box ;
@@ -1454,16 +1660,18 @@ min-width:  unset ;width: fit-content ;
 p.text-2876-fbc1aeaefd514ecb8513a17d7ad5730d[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 20px ;
+font-weight: bold ;
 
-
-
+margin-right: 4px ;
+box-sizing: border-box ;
 
 
 }
 p.text-2893-253e082909ee4b69ad0b763082110d06[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
+font-size: 16px ;
 
 
 
@@ -1471,8 +1679,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 }
 section.layer-3516-9743622e1b994c61837d9fb16d23b934[custom-agua-item="layer"] {
     
-border-width: 1px;
-border-style: solid;
+border: 1px solid #E0E0E0;
 border-radius: 8px ;
 margin-bottom: 26px ;
 box-sizing: border-box ;
@@ -1504,16 +1711,18 @@ min-width:  unset ;width: fit-content ;
 p.text-2877-897053c32813499e8bbf80ae8ef46950[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 10px ;
+font-weight: bold ;
 
-
-
+margin-bottom: 2px ;
+box-sizing: border-box ;
 
 
 }
 p.text-2878-1d105c1f227c4f8d94e99d23b5c0af9e[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
+font-size: 14px ;
 
 
 
@@ -1533,16 +1742,18 @@ min-width:  unset ;width: fit-content ;
 p.text-2879-b392572f4d3341688a4b2cfa82b3c1a8[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 10px ;
+font-weight: bold ;
 
-
-
+margin-bottom: 2px ;
+box-sizing: border-box ;
 
 
 }
 p.text-2880-e5ccec8c65e745689696c83d59decb3c[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
+font-size: 14px ;
 
 
 
@@ -1573,16 +1784,18 @@ min-width:  unset ;width: fit-content ;
 p.text-2881-52e43a77004540dfa1925650cb870304[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 10px ;
+font-weight: bold ;
 
-
-
+margin-bottom: 2px ;
+box-sizing: border-box ;
 
 
 }
 p.text-2882-d03de843450f4179b80b7d58f5639e02[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
+font-size: 14px ;
 
 
 
@@ -1595,11 +1808,12 @@ margin-bottom: 10px ;
 margin-left: 12px ;
 margin-right: 12px ;
 box-sizing: border-box ;
-
-
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
 }
 section.layer-3522-73ddf5c8ad0843c889f171746867a3dc[custom-agua-item="layer"] {
     
+cursor: pointer;
 justify-content: center ;
 align-items: center ;
 border-radius: 8px ;
@@ -1617,21 +1831,31 @@ width: 100%;
 p.text-2883-34ecd72a04984497b39d138ca2c4b309[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
-
+font-size: 16px ;
+font-weight: bold ;
 
 background: #FFFFFF ;
 
 
 }
-p.text-2884-fad7af4892364c4b9cbbaaaa1c170581[custom-agua-item="text"] {
-     
-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
-
+section.layer-1492-757dd44ba2b2467d85ee48bd05075724[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
 
 margin-top: 8px ;
 box-sizing: border-box ;
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
+
+}
+p.text-2884-fad7af4892364c4b9cbbaaaa1c170581[custom-agua-item="text"] {
+     
+font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
+
+
 
 
 }
@@ -1647,6 +1871,7 @@ width: 100%;
 }
 section.layer-3523-5ef4cb76ef5a43489e63a8fd3a69a6f1[custom-agua-item="layer"] {
     flex-direction: row ;
+align-items: center ;
 justify-content: space-between ;
 
 min-height:  unset ;height: fit-content ;
@@ -1657,23 +1882,24 @@ width: 100%;
 p.text-2891-10bbacb2cabc48f88ad6d8042b3bbd78[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
+font-size: 16px ;
 
 
 
 
 }
 p.text-2892-2e22cbeee233406bbb128329373d9eef[custom-agua-item="text"] {
-     
+     text-align: right ;
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
 
 
 
-
-
+width: 80px ;min-width: 80px ;
 }
 section.layer-3524-1c717e17fd3f416abb368955542a79da[custom-agua-item="layer"] {
     flex-direction: row ;
+align-items: center ;
 justify-content: space-between ;
 
 margin-top: 16px ;
@@ -1686,23 +1912,24 @@ width: 100%;
 p.text-2889-5d964f12dcc041f99d369ddef1380404[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
+font-size: 16px ;
 
 
 
 
 }
 p.text-2890-5b4d766ef0d7464780d181203f1396ac[custom-agua-item="text"] {
-     
+     text-align: right ;
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
 
 
 
-
-
+width: 80px ;min-width: 80px ;
 }
 section.layer-3525-718b8057cd454c89b531e3355937c4ff[custom-agua-item="layer"] {
     flex-direction: row ;
+align-items: center ;
 justify-content: space-between ;
 
 margin-top: 16px ;
@@ -1715,20 +1942,20 @@ width: 100%;
 p.text-2885-227b3fdf3a4e476f8b6fe9449b007be2[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
+font-size: 16px ;
 
 
 
 
 }
 p.text-2888-5fdcf6bde6b34bff84d151906131836a[custom-agua-item="text"] {
-     
+     text-align: right ;
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
 
 
 
-
-
+width: 80px ;min-width: 80px ;
 }
 section.layer-3528-551a8c880c5942c795aa2aa263af76dc[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1744,26 +1971,26 @@ width: 100%;
 p.text-2894-e2b0438b9de149eaa00c6fa532dbd670[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
-
+font-size: 16px ;
+font-weight: bold ;
 
 
 
 }
 p.text-2895-fd25fa4ec1ef406f9ca82451ea035b9a[custom-agua-item="text"] {
-     
+     text-align: right ;
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 16px ;
+font-weight: bold ;
 
 
-
-
-
+width: 80px ;min-width: 80px ;
 }
 section.layer-3514-155ed48ee892470e8c1ab32778885387[custom-agua-item="layer"] {
     flex-direction: row ;
-border-width: 1px;
-border-style: solid;
+border: 1px solid #E0E0E0;
 border-radius: 12px ;
+box-shadow: 0px 0px 0px #E0E0E0 ;
 padding-top: 24px ;
 padding-bottom: 24px ;
 padding-left: 24px ;
@@ -1778,33 +2005,44 @@ width: 100%;
 p.text-2875-53fabede94094f45a2e4f4a4357751ac[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 14px ;
 
 
-
+margin-right: 16px ;
+box-sizing: border-box ;
 
 
 }
 .icon-988-76089dd48d034190a5b0636ef156b707[custom-agua-item="icon"] {
     
 background: #FF385C ;
-
-
+height: 32px ;min-height: 32px ;
+width: 32px ;min-width: 32px ; font-size: 32px ;
 }
 section.layer-3515-063f3d0d6630490093e0c2f54b2727a0[custom-agua-item="layer"] {
     flex-direction: row ;
+align-items: flex-end ;
 
 margin-top: 24px ;
 box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
-
+.icon-987-d4615ab8e0664832b6603dd589d494d2[custom-agua-item="icon"] {
+    
+margin-right: 16px ;
+box-sizing: border-box ;
+background: #222222 ;
+height: 16px ;min-height: 16px ;
+width: 16px ;min-width: 16px ; font-size: 16px ;
+}
 p.text-2874-cdeea66e9b2a450097c330989d3c1b6f[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-size: 12px ;
 
 
-
+background: #222222 ;
 
 
 }
@@ -1822,12 +2060,21 @@ width: 100%;
 p.text-732-9230b0e0094f4124a00a1aa9d0a1da2c[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
-
+font-weight: bold ;
 
 margin-bottom: 24px ;
 box-sizing: border-box ;
 
+font-size: var(--9230b0e0094f4124a00a1aa9d0a1da2c_fontSize) ; 
+}
+section.layer-2311-40a9e7fbbd0243b1bb08ab280c2f6c18[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+
+min-height:  unset ;height: fit-content ;
+min-width: unset;
+width: 100%;
 
 }
 section.layer-3512-b8aa8dba8c074b86a3208ccd1f03c2e4[custom-agua-item="layer"] {
@@ -1835,22 +2082,32 @@ section.layer-3512-b8aa8dba8c074b86a3208ccd1f03c2e4[custom-agua-item="layer"] {
 justify-content: center ;
 align-items: center ;
 
-height: 500px ;min-height: 500px ;
 min-width: unset;
 width: 100%;
-
+min-height: var(--min-b8aa8dba8c074b86a3208ccd1f03c2e4_valueheight) ; 
+height: var(--b8aa8dba8c074b86a3208ccd1f03c2e4_valueheight); 
+display: var(--b8aa8dba8c074b86a3208ccd1f03c2e4_visible) ; 
+}
+section.layer-35122-57eb42295d0d49109e9d18aed619e492[custom-agua-item="layer"] {
+    
+justify-content: center ;
+align-items: center ;
+min-height: var(--min-57eb42295d0d49109e9d18aed619e492_valueheight) ; 
+height: var(--57eb42295d0d49109e9d18aed619e492_valueheight); 
+display: var(--57eb42295d0d49109e9d18aed619e492_visible) ; 
+min-width: var(--min-57eb42295d0d49109e9d18aed619e492_valuewidth) ; 
+width: var(--57eb42295d0d49109e9d18aed619e492_valuewidth); 
 }
 p.text-733-05071f2e6d2f408a99bf2a79fa03f1a1[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
-
-
+font-weight: bold ;
 
 margin-top: 24px ;
 margin-bottom: 16px ;
 box-sizing: border-box ;
 
-
+font-size: var(--05071f2e6d2f408a99bf2a79fa03f1a1_fontSize) ; 
 }
 p.text-734-072ca6f254f641d7b3237aed1e8b626c[custom-agua-item="text"] {
      
@@ -1858,8 +2115,7 @@ font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif 
 
 
 
-
-
+font-size: var(--072ca6f254f641d7b3237aed1e8b626c_fontSize) ; 
 }
 section.layer-13852-6e29ef54ed01478c90fe3c8396d6d0e3[custom-agua-item="layer"] {
     flex-direction: row ;
@@ -1874,13 +2130,17 @@ min-width:  unset ;width: fit-content ;
 p.text-10992-dbfa15ccbec84521bea5aa614dc63f0f[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
+font-weight: bold ;
 
 
-
-
-
+font-size: var(--dbfa15ccbec84521bea5aa614dc63f0f_fontSize) ; 
 }
-
+.icon-3382-22326b1c2f52496f89b679483effcb5f[custom-agua-item="icon"] {
+    
+width: 18px ;min-width: 18px ;
+font-size: var(--22326b1c2f52496f89b679483effcb5f_valueheight) ;min-height: var(--min-22326b1c2f52496f89b679483effcb5f_valueheight) ; 
+height: var(--22326b1c2f52496f89b679483effcb5f_valueheight); 
+}
 section.stay1footer[custom-agua-item="layer"] {
     
 
@@ -1904,13 +2164,13 @@ section.layer-2132-5dd3a4819f6a4417b59fe707ca3c4edc[custom-agua-item="layer"] {
 
 padding-top: 48px ;
 padding-bottom: 48px ;
-padding-left: 80px ;
 box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width: unset;
 width: 100%;
 padding-right: var(--5dd3a4819f6a4417b59fe707ca3c4edc_padding-right) ; 
 flex-direction: var(--5dd3a4819f6a4417b59fe707ca3c4edc_orientation) ; 
+padding-left: var(--5dd3a4819f6a4417b59fe707ca3c4edc_padding-left) ; 
 }
 section.layer-2152-9bcc8da4827445338b2cb6a679a4a35c[custom-agua-item="layer"] {
     
@@ -2179,49 +2439,48 @@ background: #222222 ;
 
 font-size: var(--6219b671ada74d5db2db4c10b88104a0_fontSize) ; 
 }
-section.layer-2142-29b500f1902640faae5bd58a40682d87[custom-agua-item="layer"] {
+section.layer-2143-33b3ebf2450143a5ad8d3358427363a2[custom-agua-item="layer"] {
     
 justify-content: center ;
 align-items: center ;
 
-padding-top: 15px ;
-padding-bottom: 15px ;
-padding-left: 75px ;
+padding-top: 24px ;
+padding-bottom: 24px ;
 box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width: unset;
 width: 100%;
-padding-right: var(--29b500f1902640faae5bd58a40682d87_padding-right) ; 
+padding-right: var(--33b3ebf2450143a5ad8d3358427363a2_padding-right) ; 
+padding-left: var(--33b3ebf2450143a5ad8d3358427363a2_padding-left) ; 
 }
-section.layer-4662-83c58c0b30d24c248f4c601a45cb9426[custom-agua-item="layer"] {
+section.layer-4663-04666eff5f7e4eb8a51f9eae4fc40d1d[custom-agua-item="layer"] {
     
 justify-content: center ;
 
+margin-bottom: 16px ;
+box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width: unset;
 width: 100%;
-display: var(--83c58c0b30d24c248f4c601a45cb9426_visible) ; 
-align-items: var(--83c58c0b30d24c248f4c601a45cb9426_horizontalAlignment) ; 
+display: var(--04666eff5f7e4eb8a51f9eae4fc40d1d_visible) ; 
+align-items: var(--04666eff5f7e4eb8a51f9eae4fc40d1d_horizontalAlignment) ; 
 }
-section.layer-46122-4eaca9cd3a544a769945568e98f5aa8a[custom-agua-item="layer"] {
+section.layer-46123-038d45afcbcc4132970621024fbcbd73[custom-agua-item="layer"] {
     flex-direction: row ;
 align-items: center ;
 justify-content: center ;
 
-margin-top: 15px ;
-margin-bottom: 15px ;
-box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
-.icon-20622-ca8b40a326d940d58ba743e3065c238a[custom-agua-item="icon"] {
+.icon-20623-07a5ce44a3be46e0a625a3113537716a[custom-agua-item="icon"] {
     
 background: #222222 ;
 width: 18px ;min-width: 18px ;
-font-size: var(--ca8b40a326d940d58ba743e3065c238a_valueheight) ;min-height: var(--min-ca8b40a326d940d58ba743e3065c238a_valueheight) ; 
-height: var(--ca8b40a326d940d58ba743e3065c238a_valueheight); 
+font-size: var(--07a5ce44a3be46e0a625a3113537716a_valueheight) ;min-height: var(--min-07a5ce44a3be46e0a625a3113537716a_valueheight) ; 
+height: var(--07a5ce44a3be46e0a625a3113537716a_valueheight); 
 }
-p.text-52022-3989dcaafa0b47479f5bd31f8a98619b[custom-agua-item="text"] {
+p.text-52023-c6ab3aec34a84e4b9f9d60ccd074da09[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
@@ -2231,9 +2490,9 @@ margin-right: 10px ;
 box-sizing: border-box ;
 background: #222222 ;
 
-font-size: var(--3989dcaafa0b47479f5bd31f8a98619b_fontSize) ; 
+font-size: var(--c6ab3aec34a84e4b9f9d60ccd074da09_fontSize) ; 
 }
-p.text-52122-395572f0546741f5a0434ba7307cda85[custom-agua-item="text"] {
+p.text-52123-fb821f07e169474582c0c6ee84f11868[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
@@ -2243,15 +2502,15 @@ margin-right: 10px ;
 box-sizing: border-box ;
 background: #222222 ;
 
-font-size: var(--395572f0546741f5a0434ba7307cda85_fontSize) ; 
+font-size: var(--fb821f07e169474582c0c6ee84f11868_fontSize) ; 
 }
-section.layer-46322-aea2bfdedb214b92918ad464b8f048e9[custom-agua-item="layer"] {
+section.layer-46323-9ca3659470344c5f83c4aae1f9105188[custom-agua-item="layer"] {
     flex-direction: row ;
 
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;display: var(--aea2bfdedb214b92918ad464b8f048e9_visible) ; 
+min-width:  unset ;width: fit-content ;display: var(--9ca3659470344c5f83c4aae1f9105188_visible) ; 
 }
-.imageview-1122-f1580c0336f64f60a4adb530344307ae[custom-agua-item="imageView"] {
+.imageview-1123-b505c0f0698c447d9ca6cd4bbd5d1f86[custom-agua-item="imageView"] {
     
 margin-left: 10px ;
 margin-right: 5px ;
@@ -2260,7 +2519,7 @@ box-sizing: border-box ;
 height: 25px ;min-height: 25px ;
 width: 25px ;min-width: 25px ;
 }
-.imageview-1222-a98518c5bca44c70bcecf1a26d1af5cb[custom-agua-item="imageView"] {
+.imageview-1223-8a4426d872c1464caba5aa597dd669b9[custom-agua-item="imageView"] {
     
 margin-left: 5px ;
 margin-right: 5px ;
@@ -2269,7 +2528,7 @@ box-sizing: border-box ;
 height: 25px ;min-height: 25px ;
 width: 25px ;min-width: 25px ;
 }
-.imageview-1322-bc75588ea5ab4f6184c2492f29716a68[custom-agua-item="imageView"] {
+.imageview-1323-f189c79dfa494883a7ccac2509b92918[custom-agua-item="imageView"] {
     
 margin-left: 5px ;
 cursor: pointer;
@@ -2277,58 +2536,55 @@ box-sizing: border-box ;
 height: 25px ;min-height: 25px ;
 width: 25px ;min-width: 25px ;
 }
-section.layer-4652-bf9e918a47f8474aa9f491ea221342bb[custom-agua-item="layer"] {
+section.layer-4653-31fcfc7874e44f44bc3e2bc8713d3e6a[custom-agua-item="layer"] {
     
---verticalAxis-bf9e918a47f8474aa9f491ea221342bb: center;
---horizontalAxis-bf9e918a47f8474aa9f491ea221342bb: space-between;
+--verticalAxis-31fcfc7874e44f44bc3e2bc8713d3e6a: center;
+--horizontalAxis-31fcfc7874e44f44bc3e2bc8713d3e6a: space-between;
 
 min-height:  unset ;height: fit-content ;
 min-width: unset;
 width: 100%;
-flex-direction: var(--bf9e918a47f8474aa9f491ea221342bb_orientation) ; 
+flex-direction: var(--31fcfc7874e44f44bc3e2bc8713d3e6a_orientation) ; 
 }
-section.layer-4602-4a2d10e8f9354bf8803fb22179e5b918[custom-agua-item="layer"] {
+section.layer-4603-6a751f68a630456d8044746a53fef1ad[custom-agua-item="layer"] {
     
---verticalAxis-4a2d10e8f9354bf8803fb22179e5b918: center;
+--verticalAxis-6a751f68a630456d8044746a53fef1ad: center;
 
-min-height:  unset ;height: fit-content ;flex-direction: var(--4a2d10e8f9354bf8803fb22179e5b918_orientation) ; 
-min-width: var(--min-4a2d10e8f9354bf8803fb22179e5b918_valuewidth) ; 
-width: var(--4a2d10e8f9354bf8803fb22179e5b918_valuewidth); 
---horizontalAxis-4a2d10e8f9354bf8803fb22179e5b918: var(--4a2d10e8f9354bf8803fb22179e5b918_horizontalAlignment); 
+min-height:  unset ;height: fit-content ;flex-direction: var(--6a751f68a630456d8044746a53fef1ad_orientation) ; 
+min-width: var(--min-6a751f68a630456d8044746a53fef1ad_valuewidth) ; 
+width: var(--6a751f68a630456d8044746a53fef1ad_valuewidth); 
+--horizontalAxis-6a751f68a630456d8044746a53fef1ad: var(--6a751f68a630456d8044746a53fef1ad_horizontalAlignment); 
 }
-p.text-5152-2b754cc5238b42f7b4b1773a3a5d7399[custom-agua-item="text"] {
+p.text-5153-c1074ec1385a49ceaad329fbc8aa5454[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-margin-top: 15px ;
-margin-bottom: 15px ;
+margin-bottom: 2px ;
 margin-right: 10px ;
 box-sizing: border-box ;
 background: #222222 ;
 
-font-size: var(--2b754cc5238b42f7b4b1773a3a5d7399_fontSize) ; 
+font-size: var(--c1074ec1385a49ceaad329fbc8aa5454_fontSize) ; 
 }
-section.layer-4642-da8293fe31eb42549c32a55004d281f7[custom-agua-item="layer"] {
+section.layer-4643-533e3ea346cf4597b57d9297add6b618[custom-agua-item="layer"] {
     
---verticalAxis-da8293fe31eb42549c32a55004d281f7: center;
+--verticalAxis-533e3ea346cf4597b57d9297add6b618: center;
 
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;flex-direction: var(--da8293fe31eb42549c32a55004d281f7_orientation) ; 
---horizontalAxis-da8293fe31eb42549c32a55004d281f7: var(--da8293fe31eb42549c32a55004d281f7_horizontalAlignment); 
+min-width:  unset ;width: fit-content ;flex-direction: var(--533e3ea346cf4597b57d9297add6b618_orientation) ; 
+--horizontalAxis-533e3ea346cf4597b57d9297add6b618: var(--533e3ea346cf4597b57d9297add6b618_horizontalAlignment); 
 }
-section.layer-4622-06b1df034e8644638c0523c137f55b8e[custom-agua-item="layer"] {
+section.layer-4623-836504a660464f6ca89ae54ec8511c25[custom-agua-item="layer"] {
     
---verticalAxis-06b1df034e8644638c0523c137f55b8e: center;
---horizontalAxis-06b1df034e8644638c0523c137f55b8e: center;
+--verticalAxis-836504a660464f6ca89ae54ec8511c25: center;
+--horizontalAxis-836504a660464f6ca89ae54ec8511c25: center;
 
-margin-bottom: 15px ;
-box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;flex-direction: var(--06b1df034e8644638c0523c137f55b8e_orientation) ; 
-margin-top: var(--06b1df034e8644638c0523c137f55b8e_margin-top) ; 
+min-width:  unset ;width: fit-content ;flex-direction: var(--836504a660464f6ca89ae54ec8511c25_orientation) ; 
+margin-bottom: var(--836504a660464f6ca89ae54ec8511c25_margin-bottom) ; 
 }
-p.text-5162-4e34bd8962de42c99aed57f2b90bf739[custom-agua-item="text"] {
+p.text-5163-c7d8c44ecbef4efeb92d1cc4d4f55000[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
@@ -2338,10 +2594,10 @@ margin-right: 10px ;
 box-sizing: border-box ;
 background: #222222 ;
 
-font-size: var(--4e34bd8962de42c99aed57f2b90bf739_fontSize) ; 
-margin-left: var(--4e34bd8962de42c99aed57f2b90bf739_margin-left) ; 
+font-size: var(--c7d8c44ecbef4efeb92d1cc4d4f55000_fontSize) ; 
+margin-left: var(--c7d8c44ecbef4efeb92d1cc4d4f55000_margin-left) ; 
 }
-p.text-5172-a4bda0e1d3bc46749294be620cb1889f[custom-agua-item="text"] {
+p.text-5173-9a2998c030bd4716acbe8902d45fac40[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
@@ -2352,9 +2608,9 @@ margin-right: 10px ;
 box-sizing: border-box ;
 background: #222222 ;
 
-font-size: var(--a4bda0e1d3bc46749294be620cb1889f_fontSize) ; 
+font-size: var(--9a2998c030bd4716acbe8902d45fac40_fontSize) ; 
 }
-p.text-5182-5d8748ffd2a747848f7fa989b82fe951[custom-agua-item="text"] {
+p.text-5183-50dd775644484e2ab776bf8dcad4a732[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
@@ -2365,39 +2621,33 @@ margin-right: 10px ;
 box-sizing: border-box ;
 background: #222222 ;
 
-font-size: var(--5d8748ffd2a747848f7fa989b82fe951_fontSize) ; 
+font-size: var(--50dd775644484e2ab776bf8dcad4a732_fontSize) ; 
 }
-p.text-5192-8695cc75068e486588331b390462c86a[custom-agua-item="text"] {
+p.text-5193-269cdd14118147adb7c6970ed170348c[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 
 
-margin-top: 15px ;
-margin-bottom: 15px ;
-box-sizing: border-box ;
 background: #222222 ;
 
-margin-left: var(--8695cc75068e486588331b390462c86a_margin-left) ; 
-font-size: var(--8695cc75068e486588331b390462c86a_fontSize) ; 
+margin-left: var(--269cdd14118147adb7c6970ed170348c_margin-left) ; 
+font-size: var(--269cdd14118147adb7c6970ed170348c_fontSize) ; 
 }
-section.layer-4612-4eb4b5be77a4462492b665edb1c878bf[custom-agua-item="layer"] {
+section.layer-4613-6dcfa51291b84c9f994d9466330070d6[custom-agua-item="layer"] {
     flex-direction: row ;
 align-items: center ;
 justify-content: center ;
 
-margin-top: 15px ;
-margin-bottom: 15px ;
-box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;display: var(--4eb4b5be77a4462492b665edb1c878bf_visible) ; 
+min-width:  unset ;width: fit-content ;display: var(--6dcfa51291b84c9f994d9466330070d6_visible) ; 
 }
-.icon-2062-e3fbeb9d79004a89a7c5f936bb8d62d8[custom-agua-item="icon"] {
+.icon-2063-bc1d7824af174910b63118c65531902a[custom-agua-item="icon"] {
     
 background: #222222 ;
 height: 18px ;min-height: 18px ;
 width: 18px ;min-width: 18px ; font-size: 18px ;
 }
-p.text-5202-aa99ff30296b498ba38380d4d82873f4[custom-agua-item="text"] {
+p.text-5203-db26142e95ab48868cbba7f21e060f09[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 font-size: 14px ;
@@ -2410,7 +2660,7 @@ background: #222222 ;
 
 
 }
-p.text-5212-1246fb6ff36e4949adc780b3809af505[custom-agua-item="text"] {
+p.text-5213-75324ad9987e431489b9e498b3c39c08[custom-agua-item="text"] {
      
 font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto', sans-serif ;
 font-size: 14px ;
@@ -2423,13 +2673,13 @@ background: #222222 ;
 
 
 }
-section.layer-4632-f79e98a27f0a49e3a21a0a3055fd8b63[custom-agua-item="layer"] {
+section.layer-4633-aa35acc206734cf99e5ae64f75dda606[custom-agua-item="layer"] {
     flex-direction: row ;
 
 min-height:  unset ;height: fit-content ;
 min-width:  unset ;width: fit-content ;
 }
-.imageview-112-a23a996615b44e2ba96a80d18a068a11[custom-agua-item="imageView"] {
+.imageview-113-823148b827d842a5af2aa71344b922e1[custom-agua-item="imageView"] {
     
 margin-left: 10px ;
 margin-right: 5px ;
@@ -2438,7 +2688,7 @@ box-sizing: border-box ;
 height: 20px ;min-height: 20px ;
 width: 20px ;min-width: 20px ;
 }
-.imageview-122-c47db4c191914bdcb7819d730265ce94[custom-agua-item="imageView"] {
+.imageview-123-50afb0991ccb4a0b8e54780d219f509d[custom-agua-item="imageView"] {
     
 margin-left: 5px ;
 margin-right: 5px ;
@@ -2447,7 +2697,7 @@ box-sizing: border-box ;
 height: 20px ;min-height: 20px ;
 width: 20px ;min-width: 20px ;
 }
-.imageview-132-bc982b0a6da241ffb25b758971289d09[custom-agua-item="imageView"] {
+.imageview-133-360c93a51e2c485489578d0343fb3802[custom-agua-item="imageView"] {
     
 margin-left: 5px ;
 cursor: pointer;
@@ -2457,29 +2707,47 @@ width: 20px ;min-width: 20px ;
 }
 
 
+section.layer-1005-26d31bc5b1034e02816f222dd8feab0f-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-26d31bc5b1034e02816f222dd8feab0f) ;
+justify-content: var(--horizontalAxis-26d31bc5b1034e02816f222dd8feab0f) ;
+}
+section.layer-1006-1508c606a6184c68ac04fe710183dd15-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-1508c606a6184c68ac04fe710183dd15) ;
+justify-content: var(--horizontalAxis-1508c606a6184c68ac04fe710183dd15) ;
+}
+section.layer-1007-d00860f868614c13836e9138699c4302-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-d00860f868614c13836e9138699c4302) ;
+justify-content: var(--horizontalAxis-d00860f868614c13836e9138699c4302) ;
+}
+section.layer-1008-5f96c11ad57c44c7a94aa570f90d13bf-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-5f96c11ad57c44c7a94aa570f90d13bf) ;
+justify-content: var(--horizontalAxis-5f96c11ad57c44c7a94aa570f90d13bf) ;
+}
+section.layer-1009-6703562d38d24144a901f21e8e38d9d4-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-6703562d38d24144a901f21e8e38d9d4) ;
+justify-content: var(--horizontalAxis-6703562d38d24144a901f21e8e38d9d4) ;
+}
 section.layer-2132-5dd3a4819f6a4417b59fe707ca3c4edc-orientation[custom-agua-item="layer"] {
 align-items: var(--verticalAxis-5dd3a4819f6a4417b59fe707ca3c4edc) ;
 justify-content: var(--horizontalAxis-5dd3a4819f6a4417b59fe707ca3c4edc) ;
 }
-section.layer-4652-bf9e918a47f8474aa9f491ea221342bb-orientation[custom-agua-item="layer"] {
-align-items: var(--verticalAxis-bf9e918a47f8474aa9f491ea221342bb) ;
-justify-content: var(--horizontalAxis-bf9e918a47f8474aa9f491ea221342bb) ;
+section.layer-4653-31fcfc7874e44f44bc3e2bc8713d3e6a-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-31fcfc7874e44f44bc3e2bc8713d3e6a) ;
+justify-content: var(--horizontalAxis-31fcfc7874e44f44bc3e2bc8713d3e6a) ;
 }
-section.layer-4602-4a2d10e8f9354bf8803fb22179e5b918-orientation[custom-agua-item="layer"] {
-align-items: var(--verticalAxis-4a2d10e8f9354bf8803fb22179e5b918) ;
-justify-content: var(--horizontalAxis-4a2d10e8f9354bf8803fb22179e5b918) ;
+section.layer-4603-6a751f68a630456d8044746a53fef1ad-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-6a751f68a630456d8044746a53fef1ad) ;
+justify-content: var(--horizontalAxis-6a751f68a630456d8044746a53fef1ad) ;
 }
-section.layer-4642-da8293fe31eb42549c32a55004d281f7-orientation[custom-agua-item="layer"] {
-align-items: var(--verticalAxis-da8293fe31eb42549c32a55004d281f7) ;
-justify-content: var(--horizontalAxis-da8293fe31eb42549c32a55004d281f7) ;
+section.layer-4643-533e3ea346cf4597b57d9297add6b618-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-533e3ea346cf4597b57d9297add6b618) ;
+justify-content: var(--horizontalAxis-533e3ea346cf4597b57d9297add6b618) ;
 }
-section.layer-4622-06b1df034e8644638c0523c137f55b8e-orientation[custom-agua-item="layer"] {
-align-items: var(--verticalAxis-06b1df034e8644638c0523c137f55b8e) ;
-justify-content: var(--horizontalAxis-06b1df034e8644638c0523c137f55b8e) ;
+section.layer-4623-836504a660464f6ca89ae54ec8511c25-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-836504a660464f6ca89ae54ec8511c25) ;
+justify-content: var(--horizontalAxis-836504a660464f6ca89ae54ec8511c25) ;
 }
 @media (max-width: 480px) {main.Stay1[custom-agua-item="screen"] {
-	--stay1headerdesktopsitemap_visible: flex;
-	--a63a27f56f574029ba06eab51c0ff444_visible: none;
 	--stay1navbar_visible: none;
 	--stay1navbarmobile_visible: flex;
 	--min-5dd3a4819f6a4417b59fe707ca3c4edc_padding-left: 24px;
@@ -2529,77 +2797,315 @@ justify-content: var(--horizontalAxis-06b1df034e8644638c0523c137f55b8e) ;
 	--34ccdd7d1afa461a930b111776a865da_fontSize: 12px;
 	--min-6219b671ada74d5db2db4c10b88104a0_fontSize: 12px;
 	--6219b671ada74d5db2db4c10b88104a0_fontSize: 12px;
-	--83c58c0b30d24c248f4c601a45cb9426_visible: flex;
-	--4eb4b5be77a4462492b665edb1c878bf_visible: none;
-	--4a2d10e8f9354bf8803fb22179e5b918_orientation: column;
-	--min-4a2d10e8f9354bf8803fb22179e5b918_valuewidth: unset;
-	--4a2d10e8f9354bf8803fb22179e5b918_valuewidth: fit-content;
-	--min-29b500f1902640faae5bd58a40682d87_padding-left: 24px;
-	--29b500f1902640faae5bd58a40682d87_padding-left: 24px;
-	--min-29b500f1902640faae5bd58a40682d87_padding-right: 24px;
-	--29b500f1902640faae5bd58a40682d87_padding-right: 24px;
-	--aea2bfdedb214b92918ad464b8f048e9_visible: none;
-	--83c58c0b30d24c248f4c601a45cb9426_horizontalAlignment: flex-start ;;
-	--bf9e918a47f8474aa9f491ea221342bb_orientation: column;
-	--06b1df034e8644638c0523c137f55b8e_orientation: row;
-	--da8293fe31eb42549c32a55004d281f7_orientation: column;
-	--min-8695cc75068e486588331b390462c86a_margin-top: 0px;
-	--8695cc75068e486588331b390462c86a_margin-top: 0px;
-	--da8293fe31eb42549c32a55004d281f7_horizontalAlignment: flex-start ;;
-	--min-06b1df034e8644638c0523c137f55b8e_margin-top: 0px;
-	--06b1df034e8644638c0523c137f55b8e_margin-top: 0px;
-	--min-3989dcaafa0b47479f5bd31f8a98619b_fontSize: 12px;
-	--3989dcaafa0b47479f5bd31f8a98619b_fontSize: 12px;
-	--min-395572f0546741f5a0434ba7307cda85_fontSize: 12px;
-	--395572f0546741f5a0434ba7307cda85_fontSize: 12px;
-	--min-2b754cc5238b42f7b4b1773a3a5d7399_fontSize: 12px;
-	--2b754cc5238b42f7b4b1773a3a5d7399_fontSize: 12px;
-	--min-4e34bd8962de42c99aed57f2b90bf739_fontSize: 12px;
-	--4e34bd8962de42c99aed57f2b90bf739_fontSize: 12px;
-	--min-a4bda0e1d3bc46749294be620cb1889f_fontSize: 12px;
-	--a4bda0e1d3bc46749294be620cb1889f_fontSize: 12px;
-	--min-5d8748ffd2a747848f7fa989b82fe951_fontSize: 12px;
-	--5d8748ffd2a747848f7fa989b82fe951_fontSize: 12px;
-	--min-8695cc75068e486588331b390462c86a_fontSize: 12px;
-	--8695cc75068e486588331b390462c86a_fontSize: 12px;
-	--4a2d10e8f9354bf8803fb22179e5b918_horizontalAlignment: flex-start ;;
-	--min-8695cc75068e486588331b390462c86a_margin-left: 0px;
-	--8695cc75068e486588331b390462c86a_margin-left: 0px;
-	--min-4e34bd8962de42c99aed57f2b90bf739_margin-left: 0px;
-	--4e34bd8962de42c99aed57f2b90bf739_margin-left: 0px;
 	--min-9bcc8da4827445338b2cb6a679a4a35c_valuewidth: unset;
 	--9bcc8da4827445338b2cb6a679a4a35c_valuewidth: fit-content;
 	--min-8a9b870e05424c5fb1d32bab0e31916e_valuewidth: unset;
 	--8a9b870e05424c5fb1d32bab0e31916e_valuewidth: fit-content;
-	--min-ca8b40a326d940d58ba743e3065c238a_valueheight: 18px;
-	--ca8b40a326d940d58ba743e3065c238a_valueheight: 18px;
+	--min-saty1header_padding-left: 24px;
+	--saty1header_padding-left: 24px;
+	--min-saty1header_padding-right: 24px;
+	--saty1header_padding-right: 24px;
+	--min-stay1body_padding-left: 24px;
+	--stay1body_padding-left: 24px;
+	--min-stay1body_padding-right: 24px;
+	--stay1body_padding-right: 24px;
+	--04666eff5f7e4eb8a51f9eae4fc40d1d_visible: flex;
+	--6dcfa51291b84c9f994d9466330070d6_visible: none;
+	--6a751f68a630456d8044746a53fef1ad_orientation: column;
+	--min-6a751f68a630456d8044746a53fef1ad_valuewidth: unset;
+	--6a751f68a630456d8044746a53fef1ad_valuewidth: fit-content;
+	--min-33b3ebf2450143a5ad8d3358427363a2_padding-left: 24px;
+	--33b3ebf2450143a5ad8d3358427363a2_padding-left: 24px;
+	--min-33b3ebf2450143a5ad8d3358427363a2_padding-right: 24px;
+	--33b3ebf2450143a5ad8d3358427363a2_padding-right: 24px;
+	--9ca3659470344c5f83c4aae1f9105188_visible: none;
+	--04666eff5f7e4eb8a51f9eae4fc40d1d_horizontalAlignment: flex-start ;;
+	--31fcfc7874e44f44bc3e2bc8713d3e6a_orientation: column;
+	--836504a660464f6ca89ae54ec8511c25_orientation: row;
+	--533e3ea346cf4597b57d9297add6b618_orientation: column;
+	--min-269cdd14118147adb7c6970ed170348c_margin-top: 0px;
+	--269cdd14118147adb7c6970ed170348c_margin-top: 0px;
+	--533e3ea346cf4597b57d9297add6b618_horizontalAlignment: flex-start ;;
+	--min-836504a660464f6ca89ae54ec8511c25_margin-top: 0px;
+	--836504a660464f6ca89ae54ec8511c25_margin-top: 0px;
+	--min-c6ab3aec34a84e4b9f9d60ccd074da09_fontSize: 12px;
+	--c6ab3aec34a84e4b9f9d60ccd074da09_fontSize: 12px;
+	--min-fb821f07e169474582c0c6ee84f11868_fontSize: 12px;
+	--fb821f07e169474582c0c6ee84f11868_fontSize: 12px;
+	--min-c1074ec1385a49ceaad329fbc8aa5454_fontSize: 12px;
+	--c1074ec1385a49ceaad329fbc8aa5454_fontSize: 12px;
+	--min-c7d8c44ecbef4efeb92d1cc4d4f55000_fontSize: 12px;
+	--c7d8c44ecbef4efeb92d1cc4d4f55000_fontSize: 12px;
+	--min-9a2998c030bd4716acbe8902d45fac40_fontSize: 12px;
+	--9a2998c030bd4716acbe8902d45fac40_fontSize: 12px;
+	--min-50dd775644484e2ab776bf8dcad4a732_fontSize: 12px;
+	--50dd775644484e2ab776bf8dcad4a732_fontSize: 12px;
+	--min-269cdd14118147adb7c6970ed170348c_fontSize: 12px;
+	--269cdd14118147adb7c6970ed170348c_fontSize: 12px;
+	--6a751f68a630456d8044746a53fef1ad_horizontalAlignment: flex-start ;;
+	--min-269cdd14118147adb7c6970ed170348c_margin-left: 0px;
+	--269cdd14118147adb7c6970ed170348c_margin-left: 0px;
+	--min-c7d8c44ecbef4efeb92d1cc4d4f55000_margin-left: 0px;
+	--c7d8c44ecbef4efeb92d1cc4d4f55000_margin-left: 0px;
+	--min-07a5ce44a3be46e0a625a3113537716a_valueheight: 18px;
+	--07a5ce44a3be46e0a625a3113537716a_valueheight: 18px;
+	--min-836504a660464f6ca89ae54ec8511c25_margin-bottom: 2px;
+	--836504a660464f6ca89ae54ec8511c25_margin-bottom: 2px;
+	--min-stay1bodysection3b_valuewidth: 350px;
+	--stay1bodysection3b_valuewidth: 350px;
+	--340ec82e123f457fb38b68229a8689c3_visible: flex;
+	--min-8f12c259b93d465684b677f2d43e45e0_valuewidth: unset;
+	--8f12c259b93d465684b677f2d43e45e0_valuewidth: 100%;
+	--26d31bc5b1034e02816f222dd8feab0f_orientation: column;
+	--1508c606a6184c68ac04fe710183dd15_orientation: column;
+	--d00860f868614c13836e9138699c4302_orientation: column;
+	--5f96c11ad57c44c7a94aa570f90d13bf_orientation: column;
+	--6703562d38d24144a901f21e8e38d9d4_orientation: column;
+	--min-stay1bodysection3b_margin-left: 86px;
+	--stay1bodysection3b_margin-left: 86px;
+	--stay1bodysection3b_visible: none;
+	--38b3574aba0d4b7cafa7dbbab23bdd54_visible: none;
+	--stay1bodysection2_visible: none;
+	--c66d91d75dc14a05a1516fb8d1e66104_visible: none;
+	--stay1mobilesection1_visible: flex;
+	--stay1mobilesection2_visible: flex;
+	--min-b8aa8dba8c074b86a3208ccd1f03c2e4_valueheight: 218px;
+	--b8aa8dba8c074b86a3208ccd1f03c2e4_valueheight: 218px;
+	--min-57eb42295d0d49109e9d18aed619e492_valueheight: 218px;
+	--57eb42295d0d49109e9d18aed619e492_valueheight: 218px;
+	--b8aa8dba8c074b86a3208ccd1f03c2e4_visible: none;
+	--57eb42295d0d49109e9d18aed619e492_visible: flex;
+	--min-57eb42295d0d49109e9d18aed619e492_valuewidth: unset;
+	--57eb42295d0d49109e9d18aed619e492_valuewidth: 100%;
+	--min-stay1navbarmobile_padding-left: 24px;
+	--stay1navbarmobile_padding-left: 24px;
+	--min-stay1navbarmobile_padding-right: 24px;
+	--stay1navbarmobile_padding-right: 24px;
+	--803a53e8e26142c189fe9ddaf87807fa_horizontalAlignment: flex-end ;;
+	--min-e71e7fa7a81d4be2a1729f9fff0d2812_margin-left: 0px;
+	--e71e7fa7a81d4be2a1729f9fff0d2812_margin-left: 0px;
+	--e71e7fa7a81d4be2a1729f9fff0d2812_icon: ;
+	--min-803a53e8e26142c189fe9ddaf87807fa_padding-left: 10px;
+	--803a53e8e26142c189fe9ddaf87807fa_padding-left: 10px;
+	--min-803a53e8e26142c189fe9ddaf87807fa_padding-right: 10px;
+	--803a53e8e26142c189fe9ddaf87807fa_padding-right: 10px;
+	--min-803a53e8e26142c189fe9ddaf87807fa_padding-top: 10px;
+	--803a53e8e26142c189fe9ddaf87807fa_padding-top: 10px;
+	--min-803a53e8e26142c189fe9ddaf87807fa_padding-bottom: 10px;
+	--803a53e8e26142c189fe9ddaf87807fa_padding-bottom: 10px;
+	--min-b68dac83b10a46709dd063d4552d028f_padding-top: 10px;
+	--b68dac83b10a46709dd063d4552d028f_padding-top: 10px;
+	--min-b68dac83b10a46709dd063d4552d028f_padding-left: 10px;
+	--b68dac83b10a46709dd063d4552d028f_padding-left: 10px;
+	--min-b68dac83b10a46709dd063d4552d028f_padding-right: 10px;
+	--b68dac83b10a46709dd063d4552d028f_padding-right: 10px;
+	--min-b68dac83b10a46709dd063d4552d028f_padding-bottom: 10px;
+	--b68dac83b10a46709dd063d4552d028f_padding-bottom: 10px;
+	--min-803a53e8e26142c189fe9ddaf87807fa_radiusAbsolute: 18px;
+	--803a53e8e26142c189fe9ddaf87807fa_radiusAbsolute: 18px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_padding-top: 10px;
+	--e31b260143c74ccfbf09d6c63f751d2d_padding-top: 10px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_padding-left: 10px;
+	--e31b260143c74ccfbf09d6c63f751d2d_padding-left: 10px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_padding-right: 10px;
+	--e31b260143c74ccfbf09d6c63f751d2d_padding-right: 10px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_padding-bottom: 10px;
+	--e31b260143c74ccfbf09d6c63f751d2d_padding-bottom: 10px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_radiusAbsolute: 18px;
+	--e31b260143c74ccfbf09d6c63f751d2d_radiusAbsolute: 18px;
+	--min-b68dac83b10a46709dd063d4552d028f_radiusAbsolute: 18px;
+	--b68dac83b10a46709dd063d4552d028f_radiusAbsolute: 18px;
+	--min-b68dac83b10a46709dd063d4552d028f_margin-right: 12px;
+	--b68dac83b10a46709dd063d4552d028f_margin-right: 12px;
+	--stay1headerdesktopsearch_visible: flex;
+	--stay1headermobilesearch_visible: none;
+	--min-246c62c436aa48c6809b7ea08f098aee_margin-left: 15px;
+	--246c62c436aa48c6809b7ea08f098aee_margin-left: 15px;
+	--min-246c62c436aa48c6809b7ea08f098aee_margin-right: 15px;
+	--246c62c436aa48c6809b7ea08f098aee_margin-right: 15px;
+	--min-341463264ec844759c2ef291b93ab593_margin-left: 15px;
+	--341463264ec844759c2ef291b93ab593_margin-left: 15px;
+	--min-341463264ec844759c2ef291b93ab593_margin-right: 15px;
+	--341463264ec844759c2ef291b93ab593_margin-right: 15px;
+	--min-a7867cd68082429187a6728f94f445a5_margin-left: 15px;
+	--a7867cd68082429187a6728f94f445a5_margin-left: 15px;
+	--min-a7867cd68082429187a6728f94f445a5_margin-right: 15px;
+	--a7867cd68082429187a6728f94f445a5_margin-right: 15px;
+	--min-a754195977894adb838e15381b0b8467_margin-left: 15px;
+	--a754195977894adb838e15381b0b8467_margin-left: 15px;
+	--e4c71d821e7041098d10ac500eb31e8a_visible: none;
+	--f67136a724de478a95251170c29fd7f8_visible: flex;
+	--min-17484228a32843c3ae292aa04d4758a8_margin-left: 10px;
+	--17484228a32843c3ae292aa04d4758a8_margin-left: 10px;
+	--min-17484228a32843c3ae292aa04d4758a8_margin-right: 10px;
+	--17484228a32843c3ae292aa04d4758a8_margin-right: 10px;
+	--min-f083601f70ca46b39e2abb8ecaa77dc0_margin-left: 10px;
+	--f083601f70ca46b39e2abb8ecaa77dc0_margin-left: 10px;
+	--min-f083601f70ca46b39e2abb8ecaa77dc0_margin-right: 10px;
+	--f083601f70ca46b39e2abb8ecaa77dc0_margin-right: 10px;
+	--min-6f363da22bf34fbc92f541c560fad301_valuewidth: unset;
+	--6f363da22bf34fbc92f541c560fad301_valuewidth: 100%;
+	--min-5ac63062baf646358cccd5c4920e68a1_fontSize: 16px;
+	--5ac63062baf646358cccd5c4920e68a1_fontSize: 16px;
+	--min-23b2b7a8982441f3b906c254626c821e_fontSize: 24px;
+	--23b2b7a8982441f3b906c254626c821e_fontSize: 24px;
+	--min-321ffcbe3cbf4877b18993926cbbf7e0_fontSize: 14px;
+	--321ffcbe3cbf4877b18993926cbbf7e0_fontSize: 14px;
+	--min-1bc20ba714af41a683fdc63bfac28fef_fontSize: 14px;
+	--1bc20ba714af41a683fdc63bfac28fef_fontSize: 14px;
+	--min-c4662fb47f5b4e6ab50ff6cb196bf069_fontSize: 10px;
+	--c4662fb47f5b4e6ab50ff6cb196bf069_fontSize: 10px;
+	--min-f8fd75f1e40d4437b01f9e93b418b95e_fontSize: 14px;
+	--f8fd75f1e40d4437b01f9e93b418b95e_fontSize: 14px;
+	--min-4f9253ea0bfb4a68af2cc3062281a38d_fontSize: 14px;
+	--4f9253ea0bfb4a68af2cc3062281a38d_fontSize: 14px;
+	--min-64089a0df5204e6cb4d2d136e17136cc_valueheight: 10px;
+	--64089a0df5204e6cb4d2d136e17136cc_valueheight: 10px;
+	--min-f4e9ec5f2dd040f8b4b1136ff6b2349a_valueheight: 10px;
+	--f4e9ec5f2dd040f8b4b1136ff6b2349a_valueheight: 10px;
+	--min-fb11eb72c52141e381e1d6723a78876a_valueheight: 10px;
+	--fb11eb72c52141e381e1d6723a78876a_valueheight: 10px;
+	--min-ff34230059124b9e808756144e9a677e_valueheight: 10px;
+	--ff34230059124b9e808756144e9a677e_valueheight: 10px;
+	--min-2d01de86f04c4d10a16409064f67c8c7_valueheight: 10px;
+	--2d01de86f04c4d10a16409064f67c8c7_valueheight: 10px;
+	--min-c1e06e7fd9dc40d7b200b7522e6de55f_fontSize: 14px;
+	--c1e06e7fd9dc40d7b200b7522e6de55f_fontSize: 14px;
+	--min-stay1mobilesection2_margin-top: 24px;
+	--stay1mobilesection2_margin-top: 24px;
+	--min-stay1mobilesection2_margin-bottom: 24px;
+	--stay1mobilesection2_margin-bottom: 24px;
+	--min-c1084c9db9d8494e98a4475f722944f4_fontSize: 14px;
+	--c1084c9db9d8494e98a4475f722944f4_fontSize: 14px;
+	--min-24c4618b35464e63abdf58f9ce9a3522_fontSize: 12px;
+	--24c4618b35464e63abdf58f9ce9a3522_fontSize: 12px;
+	--min-38d621adce6a4061b8bd6b9aa8424fb2_fontSize: 14px;
+	--38d621adce6a4061b8bd6b9aa8424fb2_fontSize: 14px;
+	--min-71048d3c486c49d6a9f7dfc244f5166d_fontSize: 12px;
+	--71048d3c486c49d6a9f7dfc244f5166d_fontSize: 12px;
+	--min-72e95f3a4ce84e2191a29d9908455cb5_fontSize: 14px;
+	--72e95f3a4ce84e2191a29d9908455cb5_fontSize: 14px;
+	--min-d9d3e0f318c64bd8921b3ce0bc261664_fontSize: 12px;
+	--d9d3e0f318c64bd8921b3ce0bc261664_fontSize: 12px;
+	--min-c33c6dd30db94349aef0c9092a82519e_fontSize: 14px;
+	--c33c6dd30db94349aef0c9092a82519e_fontSize: 14px;
+	--min-84668652748e43acba44ea62a1903586_fontSize: 12px;
+	--84668652748e43acba44ea62a1903586_fontSize: 12px;
+	--min-9ef93498e72b4681a16ef92bcdf8eb44_fontSize: 14px;
+	--9ef93498e72b4681a16ef92bcdf8eb44_fontSize: 14px;
+	--min-ba41f8b1fa884d13b2470b938b4e22d1_fontSize: 14px;
+	--ba41f8b1fa884d13b2470b938b4e22d1_fontSize: 14px;
+	--min-194cb286a7184d1093310211d38e9a6e_fontSize: 14px;
+	--194cb286a7184d1093310211d38e9a6e_fontSize: 14px;
+	--min-a74885f96cd144bdb32165e13b373d0b_valueheight: 16px;
+	--a74885f96cd144bdb32165e13b373d0b_valueheight: 16px;
+	--min-856b17a122f74a5089b691b39c251569_fontSize: 16px;
+	--856b17a122f74a5089b691b39c251569_fontSize: 16px;
+	--min-65dd588b5a2c4799b57d56cd01c0a60d_fontSize: 14px;
+	--65dd588b5a2c4799b57d56cd01c0a60d_fontSize: 14px;
+	--min-d28d7be627514774b1cfec1d53ddf49c_fontSize: 12px;
+	--d28d7be627514774b1cfec1d53ddf49c_fontSize: 12px;
+	--min-b62e9c06bb6241a89fef7870518e3cfc_fontSize: 16px;
+	--b62e9c06bb6241a89fef7870518e3cfc_fontSize: 16px;
+	--min-f07bc849e4264f678274c61d9f48a046_fontSize: 12px;
+	--f07bc849e4264f678274c61d9f48a046_fontSize: 12px;
+	--min-a9284d39681146dcb03bdc522558a344_fontSize: 14px;
+	--a9284d39681146dcb03bdc522558a344_fontSize: 14px;
+	--min-19c754ab790847b58429ef678944593f_fontSize: 12px;
+	--19c754ab790847b58429ef678944593f_fontSize: 12px;
+	--min-7e373014235e4864addf3e8f4e548e0f_fontSize: 16px;
+	--7e373014235e4864addf3e8f4e548e0f_fontSize: 16px;
+	--min-b88f8e5631f244eda5d2098c63e8846b_valueheight: 24px;
+	--b88f8e5631f244eda5d2098c63e8846b_valueheight: 24px;
+	--min-6b0df01ae9444c75a39288a9de2b72b9_fontSize: 14px;
+	--6b0df01ae9444c75a39288a9de2b72b9_fontSize: 14px;
+	--min-3910d24bae164deeb46bb14cc3764f76_fontSize: 14px;
+	--3910d24bae164deeb46bb14cc3764f76_fontSize: 14px;
+	--min-43d9c84270b048aea76d6a1501a1a293_fontSize: 14px;
+	--43d9c84270b048aea76d6a1501a1a293_fontSize: 14px;
+	--min-d3d03740ead1411e8e560494e147ca96_fontSize: 14px;
+	--d3d03740ead1411e8e560494e147ca96_fontSize: 14px;
+	--min-52b43d505d9f4f9fba5bfac5aec27c66_fontSize: 14px;
+	--52b43d505d9f4f9fba5bfac5aec27c66_fontSize: 14px;
+	--min-a29d0218a2c942f09ea7ed903a405cd7_fontSize: 14px;
+	--a29d0218a2c942f09ea7ed903a405cd7_fontSize: 14px;
+	--min-db36862f5909495a8ffa322a1f18a90f_fontSize: 14px;
+	--db36862f5909495a8ffa322a1f18a90f_fontSize: 14px;
+	--min-e2acc881573f4dfe8d2141a99065d446_fontSize: 14px;
+	--e2acc881573f4dfe8d2141a99065d446_fontSize: 14px;
+	--min-606ed6d42de74bb5b1f52d21ee5f98e0_fontSize: 14px;
+	--606ed6d42de74bb5b1f52d21ee5f98e0_fontSize: 14px;
+	--min-5625339adbb74ada8cd340a3dd63780e_fontSize: 14px;
+	--5625339adbb74ada8cd340a3dd63780e_fontSize: 14px;
+	--min-d1704ccc781d4620a91a8d70654f8673_fontSize: 14px;
+	--d1704ccc781d4620a91a8d70654f8673_fontSize: 14px;
+	--min-9230b0e0094f4124a00a1aa9d0a1da2c_fontSize: 16px;
+	--9230b0e0094f4124a00a1aa9d0a1da2c_fontSize: 16px;
+	--min-05071f2e6d2f408a99bf2a79fa03f1a1_fontSize: 14px;
+	--05071f2e6d2f408a99bf2a79fa03f1a1_fontSize: 14px;
+	--min-072ca6f254f641d7b3237aed1e8b626c_fontSize: 14px;
+	--072ca6f254f641d7b3237aed1e8b626c_fontSize: 14px;
+	--min-dbfa15ccbec84521bea5aa614dc63f0f_fontSize: 14px;
+	--dbfa15ccbec84521bea5aa614dc63f0f_fontSize: 14px;
+	--min-22326b1c2f52496f89b679483effcb5f_valueheight: 16px;
+	--22326b1c2f52496f89b679483effcb5f_valueheight: 16px;
 
 }
 
+section.layer-1005-26d31bc5b1034e02816f222dd8feab0f-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-26d31bc5b1034e02816f222dd8feab0f) ;
+justify-content: var(--verticalAxis-26d31bc5b1034e02816f222dd8feab0f) ;
+}
+section.layer-1006-1508c606a6184c68ac04fe710183dd15-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-1508c606a6184c68ac04fe710183dd15) ;
+justify-content: var(--verticalAxis-1508c606a6184c68ac04fe710183dd15) ;
+}
+section.layer-1007-d00860f868614c13836e9138699c4302-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-d00860f868614c13836e9138699c4302) ;
+justify-content: var(--verticalAxis-d00860f868614c13836e9138699c4302) ;
+}
+section.layer-1008-5f96c11ad57c44c7a94aa570f90d13bf-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-5f96c11ad57c44c7a94aa570f90d13bf) ;
+justify-content: var(--verticalAxis-5f96c11ad57c44c7a94aa570f90d13bf) ;
+}
+section.layer-1009-6703562d38d24144a901f21e8e38d9d4-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-6703562d38d24144a901f21e8e38d9d4) ;
+justify-content: var(--verticalAxis-6703562d38d24144a901f21e8e38d9d4) ;
+}
 section.layer-2132-5dd3a4819f6a4417b59fe707ca3c4edc-orientation[custom-agua-item="layer"] {
 align-items: var(--horizontalAxis-5dd3a4819f6a4417b59fe707ca3c4edc) ;
 justify-content: var(--verticalAxis-5dd3a4819f6a4417b59fe707ca3c4edc) ;
 }
-section.layer-4652-bf9e918a47f8474aa9f491ea221342bb-orientation[custom-agua-item="layer"] {
-align-items: var(--horizontalAxis-bf9e918a47f8474aa9f491ea221342bb) ;
-justify-content: var(--verticalAxis-bf9e918a47f8474aa9f491ea221342bb) ;
+section.layer-4653-31fcfc7874e44f44bc3e2bc8713d3e6a-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-31fcfc7874e44f44bc3e2bc8713d3e6a) ;
+justify-content: var(--verticalAxis-31fcfc7874e44f44bc3e2bc8713d3e6a) ;
 }
-section.layer-4602-4a2d10e8f9354bf8803fb22179e5b918-orientation[custom-agua-item="layer"] {
-align-items: var(--horizontalAxis-4a2d10e8f9354bf8803fb22179e5b918) ;
-justify-content: var(--verticalAxis-4a2d10e8f9354bf8803fb22179e5b918) ;
+section.layer-4603-6a751f68a630456d8044746a53fef1ad-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-6a751f68a630456d8044746a53fef1ad) ;
+justify-content: var(--verticalAxis-6a751f68a630456d8044746a53fef1ad) ;
 }
-section.layer-4642-da8293fe31eb42549c32a55004d281f7-orientation[custom-agua-item="layer"] {
-align-items: var(--horizontalAxis-da8293fe31eb42549c32a55004d281f7) ;
-justify-content: var(--verticalAxis-da8293fe31eb42549c32a55004d281f7) ;
+section.layer-4643-533e3ea346cf4597b57d9297add6b618-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-533e3ea346cf4597b57d9297add6b618) ;
+justify-content: var(--verticalAxis-533e3ea346cf4597b57d9297add6b618) ;
 }
-section.layer-4622-06b1df034e8644638c0523c137f55b8e-orientation[custom-agua-item="layer"] {
-align-items: var(--verticalAxis-06b1df034e8644638c0523c137f55b8e) ;
-justify-content: var(--horizontalAxis-06b1df034e8644638c0523c137f55b8e) ;
+section.layer-4623-836504a660464f6ca89ae54ec8511c25-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-836504a660464f6ca89ae54ec8511c25) ;
+justify-content: var(--horizontalAxis-836504a660464f6ca89ae54ec8511c25) ;
+}
+section.layer-745-6f363da22bf34fbc92f541c560fad301[custom-agua-item="layer"] {
+width: var(--6f363da22bf34fbc92f541c560fad301_valuewidth);
+
+}
+section.layer-1378-8f12c259b93d465684b677f2d43e45e0[custom-agua-item="layer"] {
+width: var(--8f12c259b93d465684b677f2d43e45e0_valuewidth);
+
+}
+section.layer-35122-57eb42295d0d49109e9d18aed619e492[custom-agua-item="layer"] {
+width: var(--57eb42295d0d49109e9d18aed619e492_valuewidth);
+
 }
 }
 @media (min-width: 1020px) {main.Stay1[custom-agua-item="screen"]{
-	--stay1headerdesktopsitemap_visible: flex;
-	--a63a27f56f574029ba06eab51c0ff444_visible: none;
 	--stay1navbar_visible: flex;
 	--stay1navbarmobile_visible: none;
 	--min-5dd3a4819f6a4417b59fe707ca3c4edc_padding-left: 80px;
@@ -2649,83 +3155,313 @@ justify-content: var(--horizontalAxis-06b1df034e8644638c0523c137f55b8e) ;
 	--34ccdd7d1afa461a930b111776a865da_fontSize: 14px;
 	--min-6219b671ada74d5db2db4c10b88104a0_fontSize: 14px;
 	--6219b671ada74d5db2db4c10b88104a0_fontSize: 14px;
-	--83c58c0b30d24c248f4c601a45cb9426_visible: none;
-	--4eb4b5be77a4462492b665edb1c878bf_visible: flex;
-	--4a2d10e8f9354bf8803fb22179e5b918_orientation: row;
-	--min-4a2d10e8f9354bf8803fb22179e5b918_valuewidth: unset;
-	--4a2d10e8f9354bf8803fb22179e5b918_valuewidth: fit-content;
-	--min-29b500f1902640faae5bd58a40682d87_padding-left: 75px;
-	--29b500f1902640faae5bd58a40682d87_padding-left: 75px;
-	--min-29b500f1902640faae5bd58a40682d87_padding-right: 75px;
-	--29b500f1902640faae5bd58a40682d87_padding-right: 75px;
-	--aea2bfdedb214b92918ad464b8f048e9_visible: flex;
-	--83c58c0b30d24c248f4c601a45cb9426_horizontalAlignment: center ;;
-	--bf9e918a47f8474aa9f491ea221342bb_orientation: row;
-	--06b1df034e8644638c0523c137f55b8e_orientation: row;
-	--da8293fe31eb42549c32a55004d281f7_orientation: row;
-	--min-8695cc75068e486588331b390462c86a_margin-top: 15px;
-	--8695cc75068e486588331b390462c86a_margin-top: 15px;
-	--da8293fe31eb42549c32a55004d281f7_horizontalAlignment: center ;;
-	--min-06b1df034e8644638c0523c137f55b8e_margin-top: 15px;
-	--06b1df034e8644638c0523c137f55b8e_margin-top: 15px;
-	--min-3989dcaafa0b47479f5bd31f8a98619b_fontSize: 15px;
-	--3989dcaafa0b47479f5bd31f8a98619b_fontSize: 15px;
-	--min-395572f0546741f5a0434ba7307cda85_fontSize: 15px;
-	--395572f0546741f5a0434ba7307cda85_fontSize: 15px;
-	--min-2b754cc5238b42f7b4b1773a3a5d7399_fontSize: 14px;
-	--2b754cc5238b42f7b4b1773a3a5d7399_fontSize: 14px;
-	--min-4e34bd8962de42c99aed57f2b90bf739_fontSize: 14px;
-	--4e34bd8962de42c99aed57f2b90bf739_fontSize: 14px;
-	--min-a4bda0e1d3bc46749294be620cb1889f_fontSize: 14px;
-	--a4bda0e1d3bc46749294be620cb1889f_fontSize: 14px;
-	--min-5d8748ffd2a747848f7fa989b82fe951_fontSize: 14px;
-	--5d8748ffd2a747848f7fa989b82fe951_fontSize: 14px;
-	--min-8695cc75068e486588331b390462c86a_fontSize: 14px;
-	--8695cc75068e486588331b390462c86a_fontSize: 14px;
-	--4a2d10e8f9354bf8803fb22179e5b918_horizontalAlignment: center ;;
-	--min-8695cc75068e486588331b390462c86a_margin-left: 10px;
-	--8695cc75068e486588331b390462c86a_margin-left: 10px;
-	--min-4e34bd8962de42c99aed57f2b90bf739_margin-left: 10px;
-	--4e34bd8962de42c99aed57f2b90bf739_margin-left: 10px;
 	--min-9bcc8da4827445338b2cb6a679a4a35c_valuewidth: 500px;
 	--9bcc8da4827445338b2cb6a679a4a35c_valuewidth: 500px;
 	--min-8a9b870e05424c5fb1d32bab0e31916e_valuewidth: 500px;
 	--8a9b870e05424c5fb1d32bab0e31916e_valuewidth: 500px;
-	--min-ca8b40a326d940d58ba743e3065c238a_valueheight: 18px;
-	--ca8b40a326d940d58ba743e3065c238a_valueheight: 18px;
+	--min-saty1header_padding-left: 160px;
+	--saty1header_padding-left: 160px;
+	--min-saty1header_padding-right: 160px;
+	--saty1header_padding-right: 160px;
+	--min-stay1body_padding-left: 160px;
+	--stay1body_padding-left: 160px;
+	--min-stay1body_padding-right: 160px;
+	--stay1body_padding-right: 160px;
+	--04666eff5f7e4eb8a51f9eae4fc40d1d_visible: none;
+	--6dcfa51291b84c9f994d9466330070d6_visible: flex;
+	--6a751f68a630456d8044746a53fef1ad_orientation: row;
+	--min-6a751f68a630456d8044746a53fef1ad_valuewidth: unset;
+	--6a751f68a630456d8044746a53fef1ad_valuewidth: fit-content;
+	--min-33b3ebf2450143a5ad8d3358427363a2_padding-left: 80px;
+	--33b3ebf2450143a5ad8d3358427363a2_padding-left: 80px;
+	--min-33b3ebf2450143a5ad8d3358427363a2_padding-right: 80px;
+	--33b3ebf2450143a5ad8d3358427363a2_padding-right: 80px;
+	--9ca3659470344c5f83c4aae1f9105188_visible: flex;
+	--04666eff5f7e4eb8a51f9eae4fc40d1d_horizontalAlignment: center ;;
+	--31fcfc7874e44f44bc3e2bc8713d3e6a_orientation: row;
+	--836504a660464f6ca89ae54ec8511c25_orientation: row;
+	--533e3ea346cf4597b57d9297add6b618_orientation: row;
+	--min-269cdd14118147adb7c6970ed170348c_margin-top: 0px;
+	--269cdd14118147adb7c6970ed170348c_margin-top: 0px;
+	--533e3ea346cf4597b57d9297add6b618_horizontalAlignment: center ;;
+	--min-836504a660464f6ca89ae54ec8511c25_margin-top: 0px;
+	--836504a660464f6ca89ae54ec8511c25_margin-top: 0px;
+	--min-c6ab3aec34a84e4b9f9d60ccd074da09_fontSize: 15px;
+	--c6ab3aec34a84e4b9f9d60ccd074da09_fontSize: 15px;
+	--min-fb821f07e169474582c0c6ee84f11868_fontSize: 15px;
+	--fb821f07e169474582c0c6ee84f11868_fontSize: 15px;
+	--min-c1074ec1385a49ceaad329fbc8aa5454_fontSize: 14px;
+	--c1074ec1385a49ceaad329fbc8aa5454_fontSize: 14px;
+	--min-c7d8c44ecbef4efeb92d1cc4d4f55000_fontSize: 14px;
+	--c7d8c44ecbef4efeb92d1cc4d4f55000_fontSize: 14px;
+	--min-9a2998c030bd4716acbe8902d45fac40_fontSize: 14px;
+	--9a2998c030bd4716acbe8902d45fac40_fontSize: 14px;
+	--min-50dd775644484e2ab776bf8dcad4a732_fontSize: 14px;
+	--50dd775644484e2ab776bf8dcad4a732_fontSize: 14px;
+	--min-269cdd14118147adb7c6970ed170348c_fontSize: 14px;
+	--269cdd14118147adb7c6970ed170348c_fontSize: 14px;
+	--6a751f68a630456d8044746a53fef1ad_horizontalAlignment: center ;;
+	--min-269cdd14118147adb7c6970ed170348c_margin-left: 10px;
+	--269cdd14118147adb7c6970ed170348c_margin-left: 10px;
+	--min-c7d8c44ecbef4efeb92d1cc4d4f55000_margin-left: 10px;
+	--c7d8c44ecbef4efeb92d1cc4d4f55000_margin-left: 10px;
+	--min-07a5ce44a3be46e0a625a3113537716a_valueheight: 18px;
+	--07a5ce44a3be46e0a625a3113537716a_valueheight: 18px;
+	--min-836504a660464f6ca89ae54ec8511c25_margin-bottom: 0px;
+	--836504a660464f6ca89ae54ec8511c25_margin-bottom: 0px;
+	--min-stay1bodysection3b_valuewidth: 350px;
+	--stay1bodysection3b_valuewidth: 350px;
+	--340ec82e123f457fb38b68229a8689c3_visible: flex;
+	--min-8f12c259b93d465684b677f2d43e45e0_valuewidth: 672px;
+	--8f12c259b93d465684b677f2d43e45e0_valuewidth: 672px;
+	--26d31bc5b1034e02816f222dd8feab0f_orientation: row;
+	--1508c606a6184c68ac04fe710183dd15_orientation: row;
+	--d00860f868614c13836e9138699c4302_orientation: row;
+	--5f96c11ad57c44c7a94aa570f90d13bf_orientation: row;
+	--6703562d38d24144a901f21e8e38d9d4_orientation: row;
+	--min-stay1bodysection3b_margin-left: 86px;
+	--stay1bodysection3b_margin-left: 86px;
+	--stay1bodysection3b_visible: flex;
+	--38b3574aba0d4b7cafa7dbbab23bdd54_visible: flex;
+	--stay1bodysection2_visible: flex;
+	--c66d91d75dc14a05a1516fb8d1e66104_visible: flex;
+	--stay1mobilesection1_visible: none;
+	--stay1mobilesection2_visible: none;
+	--min-b8aa8dba8c074b86a3208ccd1f03c2e4_valueheight: 500px;
+	--b8aa8dba8c074b86a3208ccd1f03c2e4_valueheight: 500px;
+	--min-57eb42295d0d49109e9d18aed619e492_valueheight: 218px;
+	--57eb42295d0d49109e9d18aed619e492_valueheight: 218px;
+	--b8aa8dba8c074b86a3208ccd1f03c2e4_visible: flex;
+	--57eb42295d0d49109e9d18aed619e492_visible: none;
+	--min-57eb42295d0d49109e9d18aed619e492_valuewidth: 342px;
+	--57eb42295d0d49109e9d18aed619e492_valuewidth: 342px;
+	--min-stay1navbarmobile_padding-left: 160px;
+	--stay1navbarmobile_padding-left: 160px;
+	--min-stay1navbarmobile_padding-right: 160px;
+	--stay1navbarmobile_padding-right: 160px;
+	--803a53e8e26142c189fe9ddaf87807fa_horizontalAlignment: center ;;
+	--min-e71e7fa7a81d4be2a1729f9fff0d2812_margin-left: 0px;
+	--e71e7fa7a81d4be2a1729f9fff0d2812_margin-left: 0px;
+	--e71e7fa7a81d4be2a1729f9fff0d2812_icon: ;
+	--min-803a53e8e26142c189fe9ddaf87807fa_padding-left: 8px;
+	--803a53e8e26142c189fe9ddaf87807fa_padding-left: 8px;
+	--min-803a53e8e26142c189fe9ddaf87807fa_padding-right: 8px;
+	--803a53e8e26142c189fe9ddaf87807fa_padding-right: 8px;
+	--min-803a53e8e26142c189fe9ddaf87807fa_padding-top: 8px;
+	--803a53e8e26142c189fe9ddaf87807fa_padding-top: 8px;
+	--min-803a53e8e26142c189fe9ddaf87807fa_padding-bottom: 8px;
+	--803a53e8e26142c189fe9ddaf87807fa_padding-bottom: 8px;
+	--min-b68dac83b10a46709dd063d4552d028f_padding-top: 8px;
+	--b68dac83b10a46709dd063d4552d028f_padding-top: 8px;
+	--min-b68dac83b10a46709dd063d4552d028f_padding-left: 8px;
+	--b68dac83b10a46709dd063d4552d028f_padding-left: 8px;
+	--min-b68dac83b10a46709dd063d4552d028f_padding-right: 8px;
+	--b68dac83b10a46709dd063d4552d028f_padding-right: 8px;
+	--min-b68dac83b10a46709dd063d4552d028f_padding-bottom: 8px;
+	--b68dac83b10a46709dd063d4552d028f_padding-bottom: 8px;
+	--min-803a53e8e26142c189fe9ddaf87807fa_radiusAbsolute: 16px;
+	--803a53e8e26142c189fe9ddaf87807fa_radiusAbsolute: 16px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_padding-top: 8px;
+	--e31b260143c74ccfbf09d6c63f751d2d_padding-top: 8px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_padding-left: 8px;
+	--e31b260143c74ccfbf09d6c63f751d2d_padding-left: 8px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_padding-right: 8px;
+	--e31b260143c74ccfbf09d6c63f751d2d_padding-right: 8px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_padding-bottom: 8px;
+	--e31b260143c74ccfbf09d6c63f751d2d_padding-bottom: 8px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_radiusAbsolute: 16px;
+	--e31b260143c74ccfbf09d6c63f751d2d_radiusAbsolute: 16px;
+	--min-b68dac83b10a46709dd063d4552d028f_radiusAbsolute: 16px;
+	--b68dac83b10a46709dd063d4552d028f_radiusAbsolute: 16px;
+	--min-b68dac83b10a46709dd063d4552d028f_margin-right: 0px;
+	--b68dac83b10a46709dd063d4552d028f_margin-right: 0px;
+	--stay1headerdesktopsearch_visible: flex;
+	--stay1headermobilesearch_visible: none;
+	--min-246c62c436aa48c6809b7ea08f098aee_margin-left: 15px;
+	--246c62c436aa48c6809b7ea08f098aee_margin-left: 15px;
+	--min-246c62c436aa48c6809b7ea08f098aee_margin-right: 15px;
+	--246c62c436aa48c6809b7ea08f098aee_margin-right: 15px;
+	--min-341463264ec844759c2ef291b93ab593_margin-left: 15px;
+	--341463264ec844759c2ef291b93ab593_margin-left: 15px;
+	--min-341463264ec844759c2ef291b93ab593_margin-right: 15px;
+	--341463264ec844759c2ef291b93ab593_margin-right: 15px;
+	--min-a7867cd68082429187a6728f94f445a5_margin-left: 15px;
+	--a7867cd68082429187a6728f94f445a5_margin-left: 15px;
+	--min-a7867cd68082429187a6728f94f445a5_margin-right: 15px;
+	--a7867cd68082429187a6728f94f445a5_margin-right: 15px;
+	--min-a754195977894adb838e15381b0b8467_margin-left: 15px;
+	--a754195977894adb838e15381b0b8467_margin-left: 15px;
+	--e4c71d821e7041098d10ac500eb31e8a_visible: none;
+	--f67136a724de478a95251170c29fd7f8_visible: flex;
+	--min-17484228a32843c3ae292aa04d4758a8_margin-left: 10px;
+	--17484228a32843c3ae292aa04d4758a8_margin-left: 10px;
+	--min-17484228a32843c3ae292aa04d4758a8_margin-right: 10px;
+	--17484228a32843c3ae292aa04d4758a8_margin-right: 10px;
+	--min-f083601f70ca46b39e2abb8ecaa77dc0_margin-left: 10px;
+	--f083601f70ca46b39e2abb8ecaa77dc0_margin-left: 10px;
+	--min-f083601f70ca46b39e2abb8ecaa77dc0_margin-right: 10px;
+	--f083601f70ca46b39e2abb8ecaa77dc0_margin-right: 10px;
+	--min-6f363da22bf34fbc92f541c560fad301_valuewidth: unset;
+	--6f363da22bf34fbc92f541c560fad301_valuewidth: 100%;
+	--min-5ac63062baf646358cccd5c4920e68a1_fontSize: 20px;
+	--5ac63062baf646358cccd5c4920e68a1_fontSize: 20px;
+	--min-23b2b7a8982441f3b906c254626c821e_fontSize: 22px;
+	--23b2b7a8982441f3b906c254626c821e_fontSize: 22px;
+	--min-321ffcbe3cbf4877b18993926cbbf7e0_fontSize: 16px;
+	--321ffcbe3cbf4877b18993926cbbf7e0_fontSize: 16px;
+	--min-1bc20ba714af41a683fdc63bfac28fef_fontSize: 16px;
+	--1bc20ba714af41a683fdc63bfac28fef_fontSize: 16px;
+	--min-c4662fb47f5b4e6ab50ff6cb196bf069_fontSize: 12px;
+	--c4662fb47f5b4e6ab50ff6cb196bf069_fontSize: 12px;
+	--min-f8fd75f1e40d4437b01f9e93b418b95e_fontSize: 16px;
+	--f8fd75f1e40d4437b01f9e93b418b95e_fontSize: 16px;
+	--min-4f9253ea0bfb4a68af2cc3062281a38d_fontSize: 16px;
+	--4f9253ea0bfb4a68af2cc3062281a38d_fontSize: 16px;
+	--min-64089a0df5204e6cb4d2d136e17136cc_valueheight: 12px;
+	--64089a0df5204e6cb4d2d136e17136cc_valueheight: 12px;
+	--min-f4e9ec5f2dd040f8b4b1136ff6b2349a_valueheight: 12px;
+	--f4e9ec5f2dd040f8b4b1136ff6b2349a_valueheight: 12px;
+	--min-fb11eb72c52141e381e1d6723a78876a_valueheight: 12px;
+	--fb11eb72c52141e381e1d6723a78876a_valueheight: 12px;
+	--min-ff34230059124b9e808756144e9a677e_valueheight: 12px;
+	--ff34230059124b9e808756144e9a677e_valueheight: 12px;
+	--min-2d01de86f04c4d10a16409064f67c8c7_valueheight: 12px;
+	--2d01de86f04c4d10a16409064f67c8c7_valueheight: 12px;
+	--min-c1e06e7fd9dc40d7b200b7522e6de55f_fontSize: 16px;
+	--c1e06e7fd9dc40d7b200b7522e6de55f_fontSize: 16px;
+	--min-stay1mobilesection2_margin-top: 0px;
+	--stay1mobilesection2_margin-top: 0px;
+	--min-stay1mobilesection2_margin-bottom: 0px;
+	--stay1mobilesection2_margin-bottom: 0px;
+	--min-c1084c9db9d8494e98a4475f722944f4_fontSize: 16px;
+	--c1084c9db9d8494e98a4475f722944f4_fontSize: 16px;
+	--min-24c4618b35464e63abdf58f9ce9a3522_fontSize: 14px;
+	--24c4618b35464e63abdf58f9ce9a3522_fontSize: 14px;
+	--min-38d621adce6a4061b8bd6b9aa8424fb2_fontSize: 16px;
+	--38d621adce6a4061b8bd6b9aa8424fb2_fontSize: 16px;
+	--min-71048d3c486c49d6a9f7dfc244f5166d_fontSize: 14px;
+	--71048d3c486c49d6a9f7dfc244f5166d_fontSize: 14px;
+	--min-72e95f3a4ce84e2191a29d9908455cb5_fontSize: 16px;
+	--72e95f3a4ce84e2191a29d9908455cb5_fontSize: 16px;
+	--min-d9d3e0f318c64bd8921b3ce0bc261664_fontSize: 14px;
+	--d9d3e0f318c64bd8921b3ce0bc261664_fontSize: 14px;
+	--min-c33c6dd30db94349aef0c9092a82519e_fontSize: 16px;
+	--c33c6dd30db94349aef0c9092a82519e_fontSize: 16px;
+	--min-84668652748e43acba44ea62a1903586_fontSize: 14px;
+	--84668652748e43acba44ea62a1903586_fontSize: 14px;
+	--min-9ef93498e72b4681a16ef92bcdf8eb44_fontSize: 16px;
+	--9ef93498e72b4681a16ef92bcdf8eb44_fontSize: 16px;
+	--min-ba41f8b1fa884d13b2470b938b4e22d1_fontSize: 16px;
+	--ba41f8b1fa884d13b2470b938b4e22d1_fontSize: 16px;
+	--min-194cb286a7184d1093310211d38e9a6e_fontSize: 16px;
+	--194cb286a7184d1093310211d38e9a6e_fontSize: 16px;
+	--min-a74885f96cd144bdb32165e13b373d0b_valueheight: 18px;
+	--a74885f96cd144bdb32165e13b373d0b_valueheight: 18px;
+	--min-856b17a122f74a5089b691b39c251569_fontSize: 18px;
+	--856b17a122f74a5089b691b39c251569_fontSize: 18px;
+	--min-65dd588b5a2c4799b57d56cd01c0a60d_fontSize: 16px;
+	--65dd588b5a2c4799b57d56cd01c0a60d_fontSize: 16px;
+	--min-d28d7be627514774b1cfec1d53ddf49c_fontSize: 14px;
+	--d28d7be627514774b1cfec1d53ddf49c_fontSize: 14px;
+	--min-b62e9c06bb6241a89fef7870518e3cfc_fontSize: 18px;
+	--b62e9c06bb6241a89fef7870518e3cfc_fontSize: 18px;
+	--min-f07bc849e4264f678274c61d9f48a046_fontSize: 14px;
+	--f07bc849e4264f678274c61d9f48a046_fontSize: 14px;
+	--min-a9284d39681146dcb03bdc522558a344_fontSize: 16px;
+	--a9284d39681146dcb03bdc522558a344_fontSize: 16px;
+	--min-19c754ab790847b58429ef678944593f_fontSize: 14px;
+	--19c754ab790847b58429ef678944593f_fontSize: 14px;
+	--min-7e373014235e4864addf3e8f4e548e0f_fontSize: 18px;
+	--7e373014235e4864addf3e8f4e548e0f_fontSize: 18px;
+	--min-b88f8e5631f244eda5d2098c63e8846b_valueheight: 24px;
+	--b88f8e5631f244eda5d2098c63e8846b_valueheight: 24px;
+	--min-6b0df01ae9444c75a39288a9de2b72b9_fontSize: 16px;
+	--6b0df01ae9444c75a39288a9de2b72b9_fontSize: 16px;
+	--min-3910d24bae164deeb46bb14cc3764f76_fontSize: 16px;
+	--3910d24bae164deeb46bb14cc3764f76_fontSize: 16px;
+	--min-43d9c84270b048aea76d6a1501a1a293_fontSize: 16px;
+	--43d9c84270b048aea76d6a1501a1a293_fontSize: 16px;
+	--min-d3d03740ead1411e8e560494e147ca96_fontSize: 16px;
+	--d3d03740ead1411e8e560494e147ca96_fontSize: 16px;
+	--min-52b43d505d9f4f9fba5bfac5aec27c66_fontSize: 16px;
+	--52b43d505d9f4f9fba5bfac5aec27c66_fontSize: 16px;
+	--min-a29d0218a2c942f09ea7ed903a405cd7_fontSize: 16px;
+	--a29d0218a2c942f09ea7ed903a405cd7_fontSize: 16px;
+	--min-db36862f5909495a8ffa322a1f18a90f_fontSize: 16px;
+	--db36862f5909495a8ffa322a1f18a90f_fontSize: 16px;
+	--min-e2acc881573f4dfe8d2141a99065d446_fontSize: 16px;
+	--e2acc881573f4dfe8d2141a99065d446_fontSize: 16px;
+	--min-606ed6d42de74bb5b1f52d21ee5f98e0_fontSize: 16px;
+	--606ed6d42de74bb5b1f52d21ee5f98e0_fontSize: 16px;
+	--min-5625339adbb74ada8cd340a3dd63780e_fontSize: 16px;
+	--5625339adbb74ada8cd340a3dd63780e_fontSize: 16px;
+	--min-d1704ccc781d4620a91a8d70654f8673_fontSize: 16px;
+	--d1704ccc781d4620a91a8d70654f8673_fontSize: 16px;
+	--min-9230b0e0094f4124a00a1aa9d0a1da2c_fontSize: 18px;
+	--9230b0e0094f4124a00a1aa9d0a1da2c_fontSize: 18px;
+	--min-05071f2e6d2f408a99bf2a79fa03f1a1_fontSize: 16px;
+	--05071f2e6d2f408a99bf2a79fa03f1a1_fontSize: 16px;
+	--min-072ca6f254f641d7b3237aed1e8b626c_fontSize: 16px;
+	--072ca6f254f641d7b3237aed1e8b626c_fontSize: 16px;
+	--min-dbfa15ccbec84521bea5aa614dc63f0f_fontSize: 16px;
+	--dbfa15ccbec84521bea5aa614dc63f0f_fontSize: 16px;
+	--min-22326b1c2f52496f89b679483effcb5f_valueheight: 18px;
+	--22326b1c2f52496f89b679483effcb5f_valueheight: 18px;
 
 }
 
+section.layer-1005-26d31bc5b1034e02816f222dd8feab0f-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-26d31bc5b1034e02816f222dd8feab0f) ;
+justify-content: var(--horizontalAxis-26d31bc5b1034e02816f222dd8feab0f) ;
+}
+section.layer-1006-1508c606a6184c68ac04fe710183dd15-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-1508c606a6184c68ac04fe710183dd15) ;
+justify-content: var(--horizontalAxis-1508c606a6184c68ac04fe710183dd15) ;
+}
+section.layer-1007-d00860f868614c13836e9138699c4302-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-d00860f868614c13836e9138699c4302) ;
+justify-content: var(--horizontalAxis-d00860f868614c13836e9138699c4302) ;
+}
+section.layer-1008-5f96c11ad57c44c7a94aa570f90d13bf-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-5f96c11ad57c44c7a94aa570f90d13bf) ;
+justify-content: var(--horizontalAxis-5f96c11ad57c44c7a94aa570f90d13bf) ;
+}
+section.layer-1009-6703562d38d24144a901f21e8e38d9d4-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-6703562d38d24144a901f21e8e38d9d4) ;
+justify-content: var(--horizontalAxis-6703562d38d24144a901f21e8e38d9d4) ;
+}
 section.layer-2132-5dd3a4819f6a4417b59fe707ca3c4edc-orientation[custom-agua-item="layer"] {
 align-items: var(--verticalAxis-5dd3a4819f6a4417b59fe707ca3c4edc) ;
 justify-content: var(--horizontalAxis-5dd3a4819f6a4417b59fe707ca3c4edc) ;
 }
-section.layer-4652-bf9e918a47f8474aa9f491ea221342bb-orientation[custom-agua-item="layer"] {
-align-items: var(--verticalAxis-bf9e918a47f8474aa9f491ea221342bb) ;
-justify-content: var(--horizontalAxis-bf9e918a47f8474aa9f491ea221342bb) ;
+section.layer-4653-31fcfc7874e44f44bc3e2bc8713d3e6a-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-31fcfc7874e44f44bc3e2bc8713d3e6a) ;
+justify-content: var(--horizontalAxis-31fcfc7874e44f44bc3e2bc8713d3e6a) ;
 }
-section.layer-4602-4a2d10e8f9354bf8803fb22179e5b918-orientation[custom-agua-item="layer"] {
-align-items: var(--verticalAxis-4a2d10e8f9354bf8803fb22179e5b918) ;
-justify-content: var(--horizontalAxis-4a2d10e8f9354bf8803fb22179e5b918) ;
+section.layer-4603-6a751f68a630456d8044746a53fef1ad-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-6a751f68a630456d8044746a53fef1ad) ;
+justify-content: var(--horizontalAxis-6a751f68a630456d8044746a53fef1ad) ;
 }
-section.layer-4642-da8293fe31eb42549c32a55004d281f7-orientation[custom-agua-item="layer"] {
-align-items: var(--verticalAxis-da8293fe31eb42549c32a55004d281f7) ;
-justify-content: var(--horizontalAxis-da8293fe31eb42549c32a55004d281f7) ;
+section.layer-4643-533e3ea346cf4597b57d9297add6b618-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-533e3ea346cf4597b57d9297add6b618) ;
+justify-content: var(--horizontalAxis-533e3ea346cf4597b57d9297add6b618) ;
 }
-section.layer-4622-06b1df034e8644638c0523c137f55b8e-orientation[custom-agua-item="layer"] {
-align-items: var(--verticalAxis-06b1df034e8644638c0523c137f55b8e) ;
-justify-content: var(--horizontalAxis-06b1df034e8644638c0523c137f55b8e) ;
+section.layer-4623-836504a660464f6ca89ae54ec8511c25-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-836504a660464f6ca89ae54ec8511c25) ;
+justify-content: var(--horizontalAxis-836504a660464f6ca89ae54ec8511c25) ;
+}
+section.layer-745-6f363da22bf34fbc92f541c560fad301[custom-agua-item="layer"] {
+width: var(--6f363da22bf34fbc92f541c560fad301_valuewidth);
+
 }
 }
 @media (max-width: 1019px) and (min-width: 481px) {main.Stay1[custom-agua-item="screen"] {
-	--stay1headerdesktopsitemap_visible: none;
-	--a63a27f56f574029ba06eab51c0ff444_visible: flex;
 	--stay1navbar_visible: flex;
 	--stay1navbarmobile_visible: none;
-	--min-5dd3a4819f6a4417b59fe707ca3c4edc_padding-left: 50px;
-	--5dd3a4819f6a4417b59fe707ca3c4edc_padding-left: 50px;
-	--min-5dd3a4819f6a4417b59fe707ca3c4edc_padding-right: 50px;
-	--5dd3a4819f6a4417b59fe707ca3c4edc_padding-right: 50px;
+	--min-5dd3a4819f6a4417b59fe707ca3c4edc_padding-left: 40px;
+	--5dd3a4819f6a4417b59fe707ca3c4edc_padding-left: 40px;
+	--min-5dd3a4819f6a4417b59fe707ca3c4edc_padding-right: 40px;
+	--5dd3a4819f6a4417b59fe707ca3c4edc_padding-right: 40px;
 	--5dd3a4819f6a4417b59fe707ca3c4edc_orientation: column;
 	--min-922e8b3bd69e45e78fb5994e5d651304_fontSize: 14px;
 	--922e8b3bd69e45e78fb5994e5d651304_fontSize: 14px;
@@ -2769,75 +3505,307 @@ justify-content: var(--horizontalAxis-06b1df034e8644638c0523c137f55b8e) ;
 	--34ccdd7d1afa461a930b111776a865da_fontSize: 14px;
 	--min-6219b671ada74d5db2db4c10b88104a0_fontSize: 14px;
 	--6219b671ada74d5db2db4c10b88104a0_fontSize: 14px;
-	--83c58c0b30d24c248f4c601a45cb9426_visible: flex;
-	--4eb4b5be77a4462492b665edb1c878bf_visible: none;
-	--4a2d10e8f9354bf8803fb22179e5b918_orientation: column;
-	--min-4a2d10e8f9354bf8803fb22179e5b918_valuewidth: unset;
-	--4a2d10e8f9354bf8803fb22179e5b918_valuewidth: 100%;
-	--min-29b500f1902640faae5bd58a40682d87_padding-left: 75px;
-	--29b500f1902640faae5bd58a40682d87_padding-left: 75px;
-	--min-29b500f1902640faae5bd58a40682d87_padding-right: 75px;
-	--29b500f1902640faae5bd58a40682d87_padding-right: 75px;
-	--aea2bfdedb214b92918ad464b8f048e9_visible: flex;
-	--83c58c0b30d24c248f4c601a45cb9426_horizontalAlignment: center ;;
-	--bf9e918a47f8474aa9f491ea221342bb_orientation: row;
-	--06b1df034e8644638c0523c137f55b8e_orientation: row;
-	--da8293fe31eb42549c32a55004d281f7_orientation: row;
-	--min-8695cc75068e486588331b390462c86a_margin-top: 15px;
-	--8695cc75068e486588331b390462c86a_margin-top: 15px;
-	--da8293fe31eb42549c32a55004d281f7_horizontalAlignment: center ;;
-	--min-06b1df034e8644638c0523c137f55b8e_margin-top: 15px;
-	--06b1df034e8644638c0523c137f55b8e_margin-top: 15px;
-	--min-3989dcaafa0b47479f5bd31f8a98619b_fontSize: 14px;
-	--3989dcaafa0b47479f5bd31f8a98619b_fontSize: 14px;
-	--min-395572f0546741f5a0434ba7307cda85_fontSize: 14px;
-	--395572f0546741f5a0434ba7307cda85_fontSize: 14px;
-	--min-2b754cc5238b42f7b4b1773a3a5d7399_fontSize: 14px;
-	--2b754cc5238b42f7b4b1773a3a5d7399_fontSize: 14px;
-	--min-4e34bd8962de42c99aed57f2b90bf739_fontSize: 14px;
-	--4e34bd8962de42c99aed57f2b90bf739_fontSize: 14px;
-	--min-a4bda0e1d3bc46749294be620cb1889f_fontSize: 14px;
-	--a4bda0e1d3bc46749294be620cb1889f_fontSize: 14px;
-	--min-5d8748ffd2a747848f7fa989b82fe951_fontSize: 14px;
-	--5d8748ffd2a747848f7fa989b82fe951_fontSize: 14px;
-	--min-8695cc75068e486588331b390462c86a_fontSize: 14px;
-	--8695cc75068e486588331b390462c86a_fontSize: 14px;
-	--4a2d10e8f9354bf8803fb22179e5b918_horizontalAlignment: center ;;
-	--min-8695cc75068e486588331b390462c86a_margin-left: 10px;
-	--8695cc75068e486588331b390462c86a_margin-left: 10px;
-	--min-4e34bd8962de42c99aed57f2b90bf739_margin-left: 10px;
-	--4e34bd8962de42c99aed57f2b90bf739_margin-left: 10px;
 	--min-9bcc8da4827445338b2cb6a679a4a35c_valuewidth: 500px;
 	--9bcc8da4827445338b2cb6a679a4a35c_valuewidth: 500px;
 	--min-8a9b870e05424c5fb1d32bab0e31916e_valuewidth: 500px;
 	--8a9b870e05424c5fb1d32bab0e31916e_valuewidth: 500px;
-	--min-ca8b40a326d940d58ba743e3065c238a_valueheight: 16px;
-	--ca8b40a326d940d58ba743e3065c238a_valueheight: 16px;
+	--min-saty1header_padding-left: 40px;
+	--saty1header_padding-left: 40px;
+	--min-saty1header_padding-right: 40px;
+	--saty1header_padding-right: 40px;
+	--min-stay1body_padding-left: 40px;
+	--stay1body_padding-left: 40px;
+	--min-stay1body_padding-right: 40px;
+	--stay1body_padding-right: 40px;
+	--04666eff5f7e4eb8a51f9eae4fc40d1d_visible: flex;
+	--6dcfa51291b84c9f994d9466330070d6_visible: none;
+	--6a751f68a630456d8044746a53fef1ad_orientation: column;
+	--min-6a751f68a630456d8044746a53fef1ad_valuewidth: unset;
+	--6a751f68a630456d8044746a53fef1ad_valuewidth: 100%;
+	--min-33b3ebf2450143a5ad8d3358427363a2_padding-left: 80px;
+	--33b3ebf2450143a5ad8d3358427363a2_padding-left: 80px;
+	--min-33b3ebf2450143a5ad8d3358427363a2_padding-right: 75px;
+	--33b3ebf2450143a5ad8d3358427363a2_padding-right: 75px;
+	--9ca3659470344c5f83c4aae1f9105188_visible: flex;
+	--04666eff5f7e4eb8a51f9eae4fc40d1d_horizontalAlignment: center ;;
+	--31fcfc7874e44f44bc3e2bc8713d3e6a_orientation: row;
+	--836504a660464f6ca89ae54ec8511c25_orientation: row;
+	--533e3ea346cf4597b57d9297add6b618_orientation: row;
+	--min-269cdd14118147adb7c6970ed170348c_margin-top: 0px;
+	--269cdd14118147adb7c6970ed170348c_margin-top: 0px;
+	--533e3ea346cf4597b57d9297add6b618_horizontalAlignment: center ;;
+	--min-836504a660464f6ca89ae54ec8511c25_margin-top: 0px;
+	--836504a660464f6ca89ae54ec8511c25_margin-top: 0px;
+	--min-c6ab3aec34a84e4b9f9d60ccd074da09_fontSize: 14px;
+	--c6ab3aec34a84e4b9f9d60ccd074da09_fontSize: 14px;
+	--min-fb821f07e169474582c0c6ee84f11868_fontSize: 14px;
+	--fb821f07e169474582c0c6ee84f11868_fontSize: 14px;
+	--min-c1074ec1385a49ceaad329fbc8aa5454_fontSize: 14px;
+	--c1074ec1385a49ceaad329fbc8aa5454_fontSize: 14px;
+	--min-c7d8c44ecbef4efeb92d1cc4d4f55000_fontSize: 14px;
+	--c7d8c44ecbef4efeb92d1cc4d4f55000_fontSize: 14px;
+	--min-9a2998c030bd4716acbe8902d45fac40_fontSize: 14px;
+	--9a2998c030bd4716acbe8902d45fac40_fontSize: 14px;
+	--min-50dd775644484e2ab776bf8dcad4a732_fontSize: 14px;
+	--50dd775644484e2ab776bf8dcad4a732_fontSize: 14px;
+	--min-269cdd14118147adb7c6970ed170348c_fontSize: 14px;
+	--269cdd14118147adb7c6970ed170348c_fontSize: 14px;
+	--6a751f68a630456d8044746a53fef1ad_horizontalAlignment: center ;;
+	--min-269cdd14118147adb7c6970ed170348c_margin-left: 10px;
+	--269cdd14118147adb7c6970ed170348c_margin-left: 10px;
+	--min-c7d8c44ecbef4efeb92d1cc4d4f55000_margin-left: 10px;
+	--c7d8c44ecbef4efeb92d1cc4d4f55000_margin-left: 10px;
+	--min-07a5ce44a3be46e0a625a3113537716a_valueheight: 16px;
+	--07a5ce44a3be46e0a625a3113537716a_valueheight: 16px;
+	--min-836504a660464f6ca89ae54ec8511c25_margin-bottom: 0px;
+	--836504a660464f6ca89ae54ec8511c25_margin-bottom: 0px;
+	--min-stay1bodysection3b_valuewidth: 230px;
+	--stay1bodysection3b_valuewidth: 230px;
+	--340ec82e123f457fb38b68229a8689c3_visible: none;
+	--min-8f12c259b93d465684b677f2d43e45e0_valuewidth: 328px;
+	--8f12c259b93d465684b677f2d43e45e0_valuewidth: 328px;
+	--26d31bc5b1034e02816f222dd8feab0f_orientation: column;
+	--1508c606a6184c68ac04fe710183dd15_orientation: column;
+	--d00860f868614c13836e9138699c4302_orientation: column;
+	--5f96c11ad57c44c7a94aa570f90d13bf_orientation: column;
+	--6703562d38d24144a901f21e8e38d9d4_orientation: column;
+	--min-stay1bodysection3b_margin-left: 58px;
+	--stay1bodysection3b_margin-left: 58px;
+	--stay1bodysection3b_visible: flex;
+	--38b3574aba0d4b7cafa7dbbab23bdd54_visible: flex;
+	--stay1bodysection2_visible: flex;
+	--c66d91d75dc14a05a1516fb8d1e66104_visible: flex;
+	--stay1mobilesection1_visible: none;
+	--stay1mobilesection2_visible: none;
+	--min-b8aa8dba8c074b86a3208ccd1f03c2e4_valueheight: 500px;
+	--b8aa8dba8c074b86a3208ccd1f03c2e4_valueheight: 500px;
+	--min-57eb42295d0d49109e9d18aed619e492_valueheight: 500px;
+	--57eb42295d0d49109e9d18aed619e492_valueheight: 500px;
+	--b8aa8dba8c074b86a3208ccd1f03c2e4_visible: flex;
+	--57eb42295d0d49109e9d18aed619e492_visible: none;
+	--min-57eb42295d0d49109e9d18aed619e492_valuewidth: 342px;
+	--57eb42295d0d49109e9d18aed619e492_valuewidth: 342px;
+	--min-stay1navbarmobile_padding-left: 160px;
+	--stay1navbarmobile_padding-left: 160px;
+	--min-stay1navbarmobile_padding-right: 160px;
+	--stay1navbarmobile_padding-right: 160px;
+	--803a53e8e26142c189fe9ddaf87807fa_horizontalAlignment: center ;;
+	--min-e71e7fa7a81d4be2a1729f9fff0d2812_margin-left: 0px;
+	--e71e7fa7a81d4be2a1729f9fff0d2812_margin-left: 0px;
+	--e71e7fa7a81d4be2a1729f9fff0d2812_icon: ;
+	--min-803a53e8e26142c189fe9ddaf87807fa_padding-left: 8px;
+	--803a53e8e26142c189fe9ddaf87807fa_padding-left: 8px;
+	--min-803a53e8e26142c189fe9ddaf87807fa_padding-right: 8px;
+	--803a53e8e26142c189fe9ddaf87807fa_padding-right: 8px;
+	--min-803a53e8e26142c189fe9ddaf87807fa_padding-top: 8px;
+	--803a53e8e26142c189fe9ddaf87807fa_padding-top: 8px;
+	--min-803a53e8e26142c189fe9ddaf87807fa_padding-bottom: 8px;
+	--803a53e8e26142c189fe9ddaf87807fa_padding-bottom: 8px;
+	--min-b68dac83b10a46709dd063d4552d028f_padding-top: 8px;
+	--b68dac83b10a46709dd063d4552d028f_padding-top: 8px;
+	--min-b68dac83b10a46709dd063d4552d028f_padding-left: 8px;
+	--b68dac83b10a46709dd063d4552d028f_padding-left: 8px;
+	--min-b68dac83b10a46709dd063d4552d028f_padding-right: 8px;
+	--b68dac83b10a46709dd063d4552d028f_padding-right: 8px;
+	--min-b68dac83b10a46709dd063d4552d028f_padding-bottom: 8px;
+	--b68dac83b10a46709dd063d4552d028f_padding-bottom: 8px;
+	--min-803a53e8e26142c189fe9ddaf87807fa_radiusAbsolute: 16px;
+	--803a53e8e26142c189fe9ddaf87807fa_radiusAbsolute: 16px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_padding-top: 8px;
+	--e31b260143c74ccfbf09d6c63f751d2d_padding-top: 8px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_padding-left: 8px;
+	--e31b260143c74ccfbf09d6c63f751d2d_padding-left: 8px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_padding-right: 8px;
+	--e31b260143c74ccfbf09d6c63f751d2d_padding-right: 8px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_padding-bottom: 8px;
+	--e31b260143c74ccfbf09d6c63f751d2d_padding-bottom: 8px;
+	--min-e31b260143c74ccfbf09d6c63f751d2d_radiusAbsolute: 16px;
+	--e31b260143c74ccfbf09d6c63f751d2d_radiusAbsolute: 16px;
+	--min-b68dac83b10a46709dd063d4552d028f_radiusAbsolute: 16px;
+	--b68dac83b10a46709dd063d4552d028f_radiusAbsolute: 16px;
+	--min-b68dac83b10a46709dd063d4552d028f_margin-right: 0px;
+	--b68dac83b10a46709dd063d4552d028f_margin-right: 0px;
+	--stay1headerdesktopsearch_visible: none;
+	--stay1headermobilesearch_visible: flex;
+	--min-246c62c436aa48c6809b7ea08f098aee_margin-left: 10px;
+	--246c62c436aa48c6809b7ea08f098aee_margin-left: 10px;
+	--min-246c62c436aa48c6809b7ea08f098aee_margin-right: 10px;
+	--246c62c436aa48c6809b7ea08f098aee_margin-right: 10px;
+	--min-341463264ec844759c2ef291b93ab593_margin-left: 10px;
+	--341463264ec844759c2ef291b93ab593_margin-left: 10px;
+	--min-341463264ec844759c2ef291b93ab593_margin-right: 10px;
+	--341463264ec844759c2ef291b93ab593_margin-right: 10px;
+	--min-a7867cd68082429187a6728f94f445a5_margin-left: 10px;
+	--a7867cd68082429187a6728f94f445a5_margin-left: 10px;
+	--min-a7867cd68082429187a6728f94f445a5_margin-right: 10px;
+	--a7867cd68082429187a6728f94f445a5_margin-right: 10px;
+	--min-a754195977894adb838e15381b0b8467_margin-left: 10px;
+	--a754195977894adb838e15381b0b8467_margin-left: 10px;
+	--e4c71d821e7041098d10ac500eb31e8a_visible: flex;
+	--f67136a724de478a95251170c29fd7f8_visible: none;
+	--min-17484228a32843c3ae292aa04d4758a8_margin-left: 5px;
+	--17484228a32843c3ae292aa04d4758a8_margin-left: 5px;
+	--min-17484228a32843c3ae292aa04d4758a8_margin-right: 5px;
+	--17484228a32843c3ae292aa04d4758a8_margin-right: 5px;
+	--min-f083601f70ca46b39e2abb8ecaa77dc0_margin-left: 5px;
+	--f083601f70ca46b39e2abb8ecaa77dc0_margin-left: 5px;
+	--min-f083601f70ca46b39e2abb8ecaa77dc0_margin-right: 5px;
+	--f083601f70ca46b39e2abb8ecaa77dc0_margin-right: 5px;
+	--min-6f363da22bf34fbc92f541c560fad301_valuewidth: unset;
+	--6f363da22bf34fbc92f541c560fad301_valuewidth: 100%;
+	--min-5ac63062baf646358cccd5c4920e68a1_fontSize: 20px;
+	--5ac63062baf646358cccd5c4920e68a1_fontSize: 20px;
+	--min-23b2b7a8982441f3b906c254626c821e_fontSize: 22px;
+	--23b2b7a8982441f3b906c254626c821e_fontSize: 22px;
+	--min-321ffcbe3cbf4877b18993926cbbf7e0_fontSize: 16px;
+	--321ffcbe3cbf4877b18993926cbbf7e0_fontSize: 16px;
+	--min-1bc20ba714af41a683fdc63bfac28fef_fontSize: 16px;
+	--1bc20ba714af41a683fdc63bfac28fef_fontSize: 16px;
+	--min-c4662fb47f5b4e6ab50ff6cb196bf069_fontSize: 12px;
+	--c4662fb47f5b4e6ab50ff6cb196bf069_fontSize: 12px;
+	--min-f8fd75f1e40d4437b01f9e93b418b95e_fontSize: 16px;
+	--f8fd75f1e40d4437b01f9e93b418b95e_fontSize: 16px;
+	--min-4f9253ea0bfb4a68af2cc3062281a38d_fontSize: 16px;
+	--4f9253ea0bfb4a68af2cc3062281a38d_fontSize: 16px;
+	--min-64089a0df5204e6cb4d2d136e17136cc_valueheight: 12px;
+	--64089a0df5204e6cb4d2d136e17136cc_valueheight: 12px;
+	--min-f4e9ec5f2dd040f8b4b1136ff6b2349a_valueheight: 12px;
+	--f4e9ec5f2dd040f8b4b1136ff6b2349a_valueheight: 12px;
+	--min-fb11eb72c52141e381e1d6723a78876a_valueheight: 12px;
+	--fb11eb72c52141e381e1d6723a78876a_valueheight: 12px;
+	--min-ff34230059124b9e808756144e9a677e_valueheight: 12px;
+	--ff34230059124b9e808756144e9a677e_valueheight: 12px;
+	--min-2d01de86f04c4d10a16409064f67c8c7_valueheight: 12px;
+	--2d01de86f04c4d10a16409064f67c8c7_valueheight: 12px;
+	--min-c1e06e7fd9dc40d7b200b7522e6de55f_fontSize: 16px;
+	--c1e06e7fd9dc40d7b200b7522e6de55f_fontSize: 16px;
+	--min-stay1mobilesection2_margin-top: 0px;
+	--stay1mobilesection2_margin-top: 0px;
+	--min-stay1mobilesection2_margin-bottom: 0px;
+	--stay1mobilesection2_margin-bottom: 0px;
+	--min-c1084c9db9d8494e98a4475f722944f4_fontSize: 16px;
+	--c1084c9db9d8494e98a4475f722944f4_fontSize: 16px;
+	--min-24c4618b35464e63abdf58f9ce9a3522_fontSize: 14px;
+	--24c4618b35464e63abdf58f9ce9a3522_fontSize: 14px;
+	--min-38d621adce6a4061b8bd6b9aa8424fb2_fontSize: 16px;
+	--38d621adce6a4061b8bd6b9aa8424fb2_fontSize: 16px;
+	--min-71048d3c486c49d6a9f7dfc244f5166d_fontSize: 14px;
+	--71048d3c486c49d6a9f7dfc244f5166d_fontSize: 14px;
+	--min-72e95f3a4ce84e2191a29d9908455cb5_fontSize: 16px;
+	--72e95f3a4ce84e2191a29d9908455cb5_fontSize: 16px;
+	--min-d9d3e0f318c64bd8921b3ce0bc261664_fontSize: 14px;
+	--d9d3e0f318c64bd8921b3ce0bc261664_fontSize: 14px;
+	--min-c33c6dd30db94349aef0c9092a82519e_fontSize: 16px;
+	--c33c6dd30db94349aef0c9092a82519e_fontSize: 16px;
+	--min-84668652748e43acba44ea62a1903586_fontSize: 14px;
+	--84668652748e43acba44ea62a1903586_fontSize: 14px;
+	--min-9ef93498e72b4681a16ef92bcdf8eb44_fontSize: 16px;
+	--9ef93498e72b4681a16ef92bcdf8eb44_fontSize: 16px;
+	--min-ba41f8b1fa884d13b2470b938b4e22d1_fontSize: 16px;
+	--ba41f8b1fa884d13b2470b938b4e22d1_fontSize: 16px;
+	--min-194cb286a7184d1093310211d38e9a6e_fontSize: 16px;
+	--194cb286a7184d1093310211d38e9a6e_fontSize: 16px;
+	--min-a74885f96cd144bdb32165e13b373d0b_valueheight: 18px;
+	--a74885f96cd144bdb32165e13b373d0b_valueheight: 18px;
+	--min-856b17a122f74a5089b691b39c251569_fontSize: 18px;
+	--856b17a122f74a5089b691b39c251569_fontSize: 18px;
+	--min-65dd588b5a2c4799b57d56cd01c0a60d_fontSize: 16px;
+	--65dd588b5a2c4799b57d56cd01c0a60d_fontSize: 16px;
+	--min-d28d7be627514774b1cfec1d53ddf49c_fontSize: 14px;
+	--d28d7be627514774b1cfec1d53ddf49c_fontSize: 14px;
+	--min-b62e9c06bb6241a89fef7870518e3cfc_fontSize: 18px;
+	--b62e9c06bb6241a89fef7870518e3cfc_fontSize: 18px;
+	--min-f07bc849e4264f678274c61d9f48a046_fontSize: 14px;
+	--f07bc849e4264f678274c61d9f48a046_fontSize: 14px;
+	--min-a9284d39681146dcb03bdc522558a344_fontSize: 16px;
+	--a9284d39681146dcb03bdc522558a344_fontSize: 16px;
+	--min-19c754ab790847b58429ef678944593f_fontSize: 14px;
+	--19c754ab790847b58429ef678944593f_fontSize: 14px;
+	--min-7e373014235e4864addf3e8f4e548e0f_fontSize: 18px;
+	--7e373014235e4864addf3e8f4e548e0f_fontSize: 18px;
+	--min-b88f8e5631f244eda5d2098c63e8846b_valueheight: 24px;
+	--b88f8e5631f244eda5d2098c63e8846b_valueheight: 24px;
+	--min-6b0df01ae9444c75a39288a9de2b72b9_fontSize: 16px;
+	--6b0df01ae9444c75a39288a9de2b72b9_fontSize: 16px;
+	--min-3910d24bae164deeb46bb14cc3764f76_fontSize: 16px;
+	--3910d24bae164deeb46bb14cc3764f76_fontSize: 16px;
+	--min-43d9c84270b048aea76d6a1501a1a293_fontSize: 16px;
+	--43d9c84270b048aea76d6a1501a1a293_fontSize: 16px;
+	--min-d3d03740ead1411e8e560494e147ca96_fontSize: 16px;
+	--d3d03740ead1411e8e560494e147ca96_fontSize: 16px;
+	--min-52b43d505d9f4f9fba5bfac5aec27c66_fontSize: 16px;
+	--52b43d505d9f4f9fba5bfac5aec27c66_fontSize: 16px;
+	--min-a29d0218a2c942f09ea7ed903a405cd7_fontSize: 16px;
+	--a29d0218a2c942f09ea7ed903a405cd7_fontSize: 16px;
+	--min-db36862f5909495a8ffa322a1f18a90f_fontSize: 16px;
+	--db36862f5909495a8ffa322a1f18a90f_fontSize: 16px;
+	--min-e2acc881573f4dfe8d2141a99065d446_fontSize: 16px;
+	--e2acc881573f4dfe8d2141a99065d446_fontSize: 16px;
+	--min-606ed6d42de74bb5b1f52d21ee5f98e0_fontSize: 16px;
+	--606ed6d42de74bb5b1f52d21ee5f98e0_fontSize: 16px;
+	--min-5625339adbb74ada8cd340a3dd63780e_fontSize: 16px;
+	--5625339adbb74ada8cd340a3dd63780e_fontSize: 16px;
+	--min-d1704ccc781d4620a91a8d70654f8673_fontSize: 16px;
+	--d1704ccc781d4620a91a8d70654f8673_fontSize: 16px;
+	--min-9230b0e0094f4124a00a1aa9d0a1da2c_fontSize: 18px;
+	--9230b0e0094f4124a00a1aa9d0a1da2c_fontSize: 18px;
+	--min-05071f2e6d2f408a99bf2a79fa03f1a1_fontSize: 16px;
+	--05071f2e6d2f408a99bf2a79fa03f1a1_fontSize: 16px;
+	--min-072ca6f254f641d7b3237aed1e8b626c_fontSize: 16px;
+	--072ca6f254f641d7b3237aed1e8b626c_fontSize: 16px;
+	--min-dbfa15ccbec84521bea5aa614dc63f0f_fontSize: 16px;
+	--dbfa15ccbec84521bea5aa614dc63f0f_fontSize: 16px;
+	--min-22326b1c2f52496f89b679483effcb5f_valueheight: 18px;
+	--22326b1c2f52496f89b679483effcb5f_valueheight: 18px;
 
 }
 
+section.layer-1005-26d31bc5b1034e02816f222dd8feab0f-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-26d31bc5b1034e02816f222dd8feab0f) ;
+justify-content: var(--verticalAxis-26d31bc5b1034e02816f222dd8feab0f) ;
+}
+section.layer-1006-1508c606a6184c68ac04fe710183dd15-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-1508c606a6184c68ac04fe710183dd15) ;
+justify-content: var(--verticalAxis-1508c606a6184c68ac04fe710183dd15) ;
+}
+section.layer-1007-d00860f868614c13836e9138699c4302-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-d00860f868614c13836e9138699c4302) ;
+justify-content: var(--verticalAxis-d00860f868614c13836e9138699c4302) ;
+}
+section.layer-1008-5f96c11ad57c44c7a94aa570f90d13bf-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-5f96c11ad57c44c7a94aa570f90d13bf) ;
+justify-content: var(--verticalAxis-5f96c11ad57c44c7a94aa570f90d13bf) ;
+}
+section.layer-1009-6703562d38d24144a901f21e8e38d9d4-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-6703562d38d24144a901f21e8e38d9d4) ;
+justify-content: var(--verticalAxis-6703562d38d24144a901f21e8e38d9d4) ;
+}
 section.layer-2132-5dd3a4819f6a4417b59fe707ca3c4edc-orientation[custom-agua-item="layer"] {
 align-items: var(--horizontalAxis-5dd3a4819f6a4417b59fe707ca3c4edc) ;
 justify-content: var(--verticalAxis-5dd3a4819f6a4417b59fe707ca3c4edc) ;
 }
-section.layer-4652-bf9e918a47f8474aa9f491ea221342bb-orientation[custom-agua-item="layer"] {
-align-items: var(--verticalAxis-bf9e918a47f8474aa9f491ea221342bb) ;
-justify-content: var(--horizontalAxis-bf9e918a47f8474aa9f491ea221342bb) ;
+section.layer-4653-31fcfc7874e44f44bc3e2bc8713d3e6a-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-31fcfc7874e44f44bc3e2bc8713d3e6a) ;
+justify-content: var(--horizontalAxis-31fcfc7874e44f44bc3e2bc8713d3e6a) ;
 }
-section.layer-4602-4a2d10e8f9354bf8803fb22179e5b918-orientation[custom-agua-item="layer"] {
-align-items: var(--horizontalAxis-4a2d10e8f9354bf8803fb22179e5b918) ;
-justify-content: var(--verticalAxis-4a2d10e8f9354bf8803fb22179e5b918) ;
+section.layer-4603-6a751f68a630456d8044746a53fef1ad-orientation[custom-agua-item="layer"] {
+align-items: var(--horizontalAxis-6a751f68a630456d8044746a53fef1ad) ;
+justify-content: var(--verticalAxis-6a751f68a630456d8044746a53fef1ad) ;
 }
-section.layer-4642-da8293fe31eb42549c32a55004d281f7-orientation[custom-agua-item="layer"] {
-align-items: var(--verticalAxis-da8293fe31eb42549c32a55004d281f7) ;
-justify-content: var(--horizontalAxis-da8293fe31eb42549c32a55004d281f7) ;
+section.layer-4643-533e3ea346cf4597b57d9297add6b618-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-533e3ea346cf4597b57d9297add6b618) ;
+justify-content: var(--horizontalAxis-533e3ea346cf4597b57d9297add6b618) ;
 }
-section.layer-4622-06b1df034e8644638c0523c137f55b8e-orientation[custom-agua-item="layer"] {
-align-items: var(--verticalAxis-06b1df034e8644638c0523c137f55b8e) ;
-justify-content: var(--horizontalAxis-06b1df034e8644638c0523c137f55b8e) ;
+section.layer-4623-836504a660464f6ca89ae54ec8511c25-orientation[custom-agua-item="layer"] {
+align-items: var(--verticalAxis-836504a660464f6ca89ae54ec8511c25) ;
+justify-content: var(--horizontalAxis-836504a660464f6ca89ae54ec8511c25) ;
 }
-section.layer-4602-4a2d10e8f9354bf8803fb22179e5b918[custom-agua-item="layer"] {
-width: var(--4a2d10e8f9354bf8803fb22179e5b918_valuewidth);
+section.layer-745-6f363da22bf34fbc92f541c560fad301[custom-agua-item="layer"] {
+width: var(--6f363da22bf34fbc92f541c560fad301_valuewidth);
+
+}
+section.layer-4603-6a751f68a630456d8044746a53fef1ad[custom-agua-item="layer"] {
+width: var(--6a751f68a630456d8044746a53fef1ad_valuewidth);
 
 }
 }

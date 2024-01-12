@@ -633,7 +633,7 @@ const Home = () =>{
 </section>
 </section>
 <section custom-agua-item="layer" className={styles.homefootershared}   >
-<section custom-agua-item="layer" className={`${styles['layer-213-6be24c0bb0064bb6a88a32abbac66514-orientation']} ${styles['layer-213-6be24c0bb0064bb6a88a32abbac66514']}`}   >
+<section custom-agua-item="layer" className={`${styles['homefootersitemap-orientation']} ${styles['homefootersitemap']}`}   >
 <section custom-agua-item="layer" className={styles['layer-215-440097adf19b49fe8321cd4c99852599']}   >
 <p custom-agua-item="text" className={styles['text-170-b3445468b0fc4613bccbea4d1a55b550']}   >Support</p>
 <p custom-agua-item="text" className={styles['text-171-67e4e7710f1049828b67d1fefc28032d']}   onClick={() => openInNewTab("https://www.airbnb.com/help/home")}>Help Center</p>
