@@ -98,7 +98,7 @@ const Stay1 = () =>{
 </section>
 </section>
 </section>
-<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles.stay1bodysection2}   >
+<section custom-agua-item="layer" className={styles.stay1bodysection2}   >
 <section custom-agua-item="layer" className={styles['layer-1385-66dc975440ef4fed940f585d0c7a5e20']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-3502-f8abebfd46c543768080ffdae2236baf']}   >
 <section custom-agua-item="layer" className={styles['layer-3503-0774a13e57e443e9b28011f6c841c2b9']}   >
@@ -110,7 +110,7 @@ const Stay1 = () =>{
 <section custom-agua-item="layer" className={styles['layer-3505-56990def86994e6baaf4486f5580fbb1']}   ></section>
 </section>
 </section>
-</section></Link>
+</section>
 <section custom-agua-item="layer" className={styles.stay1bodysection3}   >
 <section custom-agua-item="layer" className={styles.stay1bodysection3a}   >
 <section custom-agua-item="layer" className={styles['layer-3529-dce4057f731c418cb0d01dc2632c4d9b']}   >
@@ -331,7 +331,7 @@ favorite</p>
 <section custom-agua-item="layer" className={styles['layer-973-70df4f14ed5f46128d53a7008ba05c80']}   >
 <p custom-agua-item="text" className={styles['text-732-9230b0e0094f4124a00a1aa9d0a1da2c']}   >Where you’ll be</p>
 <section custom-agua-item="layer" className={styles['layer-3512-b8aa8dba8c074b86a3208ccd1f03c2e4']}   >
-<IframeHTMLStringComponent title={""} sourcedoc={"<iframe id=\"map-canvas\" class=\"map_part\" width=\"1200\"  height=\"480\"  frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=41.35003,-74.86325,&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed\">Powered by <a href=\"https://embedgooglemaps.com\">how to embed google maps generator</a> and <a href=\"https://gamstopcancel.com/\">can you cancel gamstop</a></iframe>"} width={"100%"} height={"100%"}  />
+<IframeHTMLStringComponent title={""} sourcedoc={"<iframe id=\"map-canvas\" class=\"map_part\" width=\"1600\"  height=\"480\"  frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" src=\"https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=41.35003,-74.86325,&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed\">Powered by <a href=\"https://embedgooglemaps.com\">how to embed google maps generator</a> and <a href=\"https://gamstopcancel.com/\">can you cancel gamstop</a></iframe>"} width={"100%"} height={"100%"}  />
 </section>
 <p custom-agua-item="text" className={styles['text-733-05071f2e6d2f408a99bf2a79fa03f1a1']}   >Milford, Pennsylvania, United States
 </p>
