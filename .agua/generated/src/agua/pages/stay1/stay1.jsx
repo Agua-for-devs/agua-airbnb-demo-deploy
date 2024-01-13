@@ -168,10 +168,9 @@ favorite</p>
 </section>
 <section custom-agua-item="layer" className={styles['layer-659-78ff4775db784a11adfc5b2910e63d11']}   >
 <section custom-agua-item="layer" className={styles['layer-656-c8fab256bb144316bfdda5eb32a900d0']}   >
-<section custom-agua-item="layer" className={styles['layer-658-60164aa96be7432f94abd0f426f95095']}   >
+<section custom-agua-item="layer" className={styles['layer-657-099701a7ce844399b41ce766b96f2c4a']}   >
 <span custom-agua-item="icon" className={styles['icon-182-e70af49b854b448ba1f7982a63760dc2']}  >workspace_premium</span>
 </section>
-<section custom-agua-item="layer" className={styles['layer-657-099701a7ce844399b41ce766b96f2c4a']}   ></section>
 </section>
 <section custom-agua-item="layer" className={styles['layer-660-6b7cc8dbdcce413b94509e7a1ee9b896']}   >
 <p custom-agua-item="text" className={styles['text-533-c1084c9db9d8494e98a4475f722944f4']}   >Hosted by Stacy And Matt
@@ -354,7 +353,197 @@ favorite</p>
 </section>
 </section>
 </section>
-<section custom-agua-item="layer" className={styles['layer-973-70df4f14ed5f46128d53a7008ba05c80']}   >
+<section custom-agua-item="layer" className={styles.stay1bodysection4}   >
+<section custom-agua-item="layer" className={styles['layer-4059-f08dd1f9a8054487a10b765aa881caca']}   >
+<section custom-agua-item="layer" className={styles['layer-4079-2e0a38b700c5499b937f9d51c83334a9']}   >
+<section custom-agua-item="layer" className={styles['layer-897-3f4e56b2649a48b3be0655213af568fe']}   ></section>
+<p custom-agua-item="text" className={styles['text-725-4b130d55fe2b4f7385f5ab821d692b6a']}   >4.94</p>
+<section custom-agua-item="layer" className={styles['layer-898-2278a8defaf34efb93cd78469fad45a9']}   ></section>
+</section>
+<p custom-agua-item="text" className={styles['text-3225-6b0fb7f1606d46df84365bb79a387dbc']}   >Guest favorite</p>
+<p custom-agua-item="text" className={styles['text-3226-105cd1f85d2f4149b3157985fca11730']}   >One of the most loved homes on Airbnb based on ratings, reviews, and reliability
+</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-4060-773639d1fd284067a3c04458f39e610c']}   >
+<section custom-agua-item="layer" className={styles['layer-4061-f68eaea69f1f49329c27a226a5e62297']}   >
+<p custom-agua-item="text" className={styles['text-3227-b500430db16d4f09a39a883b788f8eea']}   >Cleanliness</p>
+<p custom-agua-item="text" className={styles['text-3228-bb799112b31b441f97eb15b6a78e58a6']}   >4.9</p>
+<span custom-agua-item="icon" className={styles['icon-964-49d4dc53b8f04e7c99750b4dba254c7a']}  >clean_hands</span>
+</section>
+<section custom-agua-item="layer" className={styles['layer-4062-8f15e43228fa4f0bb8225b8adbfbfe3c']}   >
+<p custom-agua-item="text" className={styles['text-3229-7922baa81f73423ab6000db1d7f63722']}   >Accuracy</p>
+<p custom-agua-item="text" className={styles['text-3230-5432cdb80db44fa1927c0ca41b2b9694']}   >4.9
+</p>
+<span custom-agua-item="icon" className={styles['icon-965-ac026e6197024786b5350f541bebf060']}  >check_circle_outline</span>
+</section>
+<section custom-agua-item="layer" className={styles['layer-4063-aff4e3000bf94db1acf37eacffc90f71']}   >
+<p custom-agua-item="text" className={styles['text-3231-cef2b1a24f7e43539de767568ba53166']}   >Check-in
+</p>
+<p custom-agua-item="text" className={styles['text-3232-b3f10584566047b7b35963983266dd03']}   >5.0</p>
+<span custom-agua-item="icon" className={styles['icon-966-c5ed273bdce04faf93972f77044f09eb']}  >key</span>
+</section>
+<section custom-agua-item="layer" className={styles['layer-4064-12d8a44780264c459ce1108802b729eb']}   >
+<p custom-agua-item="text" className={styles['text-3233-47e85bf2915043c49f76c864a4ca8de8']}   >Communication
+</p>
+<p custom-agua-item="text" className={styles['text-3234-3cda2407d72c4c01bbdea8c83c911287']}   >5.0
+</p>
+<span custom-agua-item="icon" className={styles['icon-967-05fb0446cadd4346b01fa63b103eedaf']}  >message</span>
+</section>
+<section custom-agua-item="layer" className={styles['layer-4065-89e5231ea66241ff9a6efb66fa62e382']}   >
+<p custom-agua-item="text" className={styles['text-3235-92b1606b05d24e4ba177b8bc932f370d']}   >Location</p>
+<p custom-agua-item="text" className={styles['text-3236-70b7180b6de748f88703a26248b4364b']}   >4.9
+</p>
+<span custom-agua-item="icon" className={styles['icon-968-2c9e47e41b414307a68b85f6e0d8332a']}  >map</span>
+</section>
+<section custom-agua-item="layer" className={styles['layer-4066-d7c8f20dd7ed4f7fb8f6634427d79b82']}   >
+<p custom-agua-item="text" className={styles['text-3237-afe6ee72ab674a81b02027fca2e70e6b']}   >Value</p>
+<p custom-agua-item="text" className={styles['text-3238-e74365849b234df9825ff6d8b18fa06e']}   >4.8</p>
+<span custom-agua-item="icon" className={styles['icon-969-5054dfde21f84044856af7bcd299ce16']}  >local_offer</span>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-4067-aa6c76f64cc546cb9ce1c3c6e9f48b85']}   >
+<section custom-agua-item="layer" className={styles['layer-4069-519cfb08335040fe82e61ee23c36ef45']}   >
+<section custom-agua-item="layer" className={`${styles['layer-4071-90c7a49f07884b40a66e826543759761-orientation']} ${styles['layer-4071-90c7a49f07884b40a66e826543759761']}`}   >
+<section custom-agua-item="layer" className={styles['layer-4073-9d861a80f47e4d83a216ec6477891900']}   >
+<section custom-agua-item="layer" className={styles['layer-4080-861be49f17f14fcd97b20222c8143b71']}   >
+<section custom-agua-item="layer" className={styles['layer-4081-e6c5cd9e38a94a35b0c8993018483635']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-4082-d9ec89ff99c74da6970129c49b8751f7']}   >
+<p custom-agua-item="text" className={styles['text-3239-3ed17248a3064b39950a44d6e7af6a3f']}   >Erin</p>
+<p custom-agua-item="text" className={styles['text-3240-cf7b5a2d861b40699f9a50e3f749a63c']}   >Northport, New York</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-4083-f324c3e3e3dc49f1a0be6df7533c5a51']}   >
+<section custom-agua-item="layer" className={styles['layer-4084-521fa7dc3e404e70b88b79711b41de48']}   >
+<span custom-agua-item="icon" className={styles['icon-970-a7654387ea784d18a52b4bb4933b816e']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-971-0af3919805554f9da3735e5968fd5a2e']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-972-b7d670bd612345049da8e827c56cd671']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-973-48248530b9c04be08ee31e7c6adcaf72']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-974-d060a724536c413ab82d8a3985b09957']}  >star_purple500</span>
+</section>
+<p custom-agua-item="text" className={styles['text-3242-93c1420e4a354fe780cc09197541c976']}   >1 week ago</p>
+<p custom-agua-item="text" className={styles['text-3243-6387c9d5a0e0465b91b1b1640b4e343b']}   > Stayed with a pet</p>
+</section>
+<p custom-agua-item="text" className={styles['text-3241-61865ea48d104e69bc05efccbb71ce67']}   >This house is in a great location close to Milford. Stacy and Matt were very responsive and helpful. The house was clean and tidy.</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-40732-db3137f882354d6ab72ae6186e5e1e13']}   >
+<section custom-agua-item="layer" className={styles['layer-40802-bb2d509c0bd744f4881c6ae9e726c761']}   >
+<section custom-agua-item="layer" className={styles['layer-40812-f7495a0242984bb98d69c6e4ba9eb0c5']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-40822-eb061c275104455dacecc0aaf2f0e8e7']}   >
+<p custom-agua-item="text" className={styles['text-32392-c9611dc9af9142b8b633d0d9bf987d23']}   >Chloe</p>
+<p custom-agua-item="text" className={styles['text-32402-ab105ccf7d2e4310aedcb0775745d369']}   >Northport, New York</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-40832-4d41b275850d4c25b18ce4e2f9849108']}   >
+<section custom-agua-item="layer" className={styles['layer-40842-00c5ea1bea654af199444b3730a6f22f']}   >
+<span custom-agua-item="icon" className={styles['icon-9702-30b5940861e349a08cd9414ad553349e']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-9712-fb3867fd774e4d43980ec75ce0a93578']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-9722-802655d5afe5410a92ba164f1405a10b']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-9732-eb4cac93fec3480dab3852a827708c52']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-9742-a8861f71fd40459fbea2aefd0d8c1c1e']}  >star_purple500</span>
+</section>
+<p custom-agua-item="text" className={styles['text-32422-e066f6a7f43e45bb8325415fdf2906e6']}   >2 weeks ago</p>
+<p custom-agua-item="text" className={styles['text-32432-e0c991ca13b64c9a873ffda441a54ddb']}   > Stayed with a pet</p>
+</section>
+<p custom-agua-item="text" className={styles['text-32412-ebc4e14ac1e1407ebcceef288a758f96']}   >We had a great stay at the rental property despite a few issues. The hot tub was not working, there were no paper towels, and only one extra roll of toilet paper was...</p>
+<p custom-agua-item="text" className={styles['text-977-ae62b15aa00d4014a74bb6cc3c59a7b7']}   >Show more</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={`${styles['layer-40712-5090f869457248568ef55318a2bbd301-orientation']} ${styles['layer-40712-5090f869457248568ef55318a2bbd301']}`}   >
+<section custom-agua-item="layer" className={styles['layer-40733-4c9403ad00594f248b32aedd6ce32d31']}   >
+<section custom-agua-item="layer" className={styles['layer-40803-5a5a9d921a2e4556b3287b7ef245fa80']}   >
+<section custom-agua-item="layer" className={styles['layer-40813-92548b624db24ad291979b5d6c0166a3']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-40823-3e3655aab4f6452c91ece52d0ec24425']}   >
+<p custom-agua-item="text" className={styles['text-32393-42320ddff7564361bc41abdbd36c7f72']}   >Erin</p>
+<p custom-agua-item="text" className={styles['text-32403-eaf27019b9974f7285a586563dc000d5']}   >6 years on Airbnb</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-40833-eb9e2cd4c66b4b849b904b07d9708643']}   >
+<section custom-agua-item="layer" className={styles['layer-40843-5f06271e370c44feb61c5a340c3e7cb1']}   >
+<span custom-agua-item="icon" className={styles['icon-9703-fa0888da843c4eacb11f6378345e7ed8']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-9713-77a8597820764b8a8d528200009a82d4']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-9723-2bc80e285f68477abae32f86f3c97931']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-9733-d30c3f4bfc764eba9bbed2afaa255242']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-9743-4bf66c2275fe484c9e8cdf982e859bca']}  >star_purple500</span>
+</section>
+<p custom-agua-item="text" className={styles['text-32423-0c8c37242ea14c6d888b2282282824fc']}   >December 2023</p>
+</section>
+<p custom-agua-item="text" className={styles['text-32413-71a45dc859e943a0b9fab77d1ef00a4e']}   >Stacy and Matt’s place is in a great location, very easy to get around to local shopping and restaurants. Their place is great, very clean and has everything you need. Matt..</p>
+<p custom-agua-item="text" className={styles['text-9772-fdb6bcd341174adabbf9df636f033798']}   >Show more</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-407322-5bcf75ff4454428688dcb5c798205855']}   >
+<section custom-agua-item="layer" className={styles['layer-408022-d40d23d26c7846cc8ddc658cd6c20c39']}   >
+<section custom-agua-item="layer" className={styles['layer-408122-5ec7652bb16d4aefb0125655a09d591c']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-408222-3348d8866acf4d70b401aaee4fcbe56b']}   >
+<p custom-agua-item="text" className={styles['text-323922-377b810dea644c6eb42e0d575485e77e']}   >Alfredo</p>
+<p custom-agua-item="text" className={styles['text-324022-292edc6a4f614e029f6d39140b14af65']}   > New York, New York</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-408322-202752614f224556b85c31c7c5577096']}   >
+<section custom-agua-item="layer" className={styles['layer-408422-656333defda14d04bad6870f8392e747']}   >
+<span custom-agua-item="icon" className={styles['icon-97022-9498da55938a4fd49917945ae0079076']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-97122-2128b55693e94b3eaf2976cbd6cf5589']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-97222-babbc9b8601d49f39d2b3cecdc7d1018']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-97322-a8ddfcf8f2714b1f95893b04d7902237']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-97422-efdef0dcd30943f5a6556ffc81f1751c']}  >star_purple500</span>
+</section>
+<p custom-agua-item="text" className={styles['text-324222-b12e17ff2e3a4791875b7a3c11aa5a3a']}   >November 2023</p>
+</section>
+<p custom-agua-item="text" className={styles['text-324122-4999e973fa464634bc0ae2a4fd74e8fb']}   >Lugar hermoso cabaña acogedora y limpia creo q regresaré nuevamente me encanto
+</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={`${styles['layer-40713-b2ee4ea7565340e4bb78c41bd4f0993c-orientation']} ${styles['layer-40713-b2ee4ea7565340e4bb78c41bd4f0993c']}`}   >
+<section custom-agua-item="layer" className={styles['layer-40734-eaeb14596ebe40f5a6966a88b4517274']}   >
+<section custom-agua-item="layer" className={styles['layer-40804-b820ac0f04ef4297aec6567b75842e2c']}   >
+<section custom-agua-item="layer" className={styles['layer-40814-336142c5ee1d4c5b8ef73e6c1c04acd1']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-40824-7cd54809a5f948598027d77793358d98']}   >
+<p custom-agua-item="text" className={styles['text-32394-f867ff6cdf8345a88c706f39491fbd6e']}   >Erin</p>
+<p custom-agua-item="text" className={styles['text-32404-699098a561394803b5f2a0ae104474b7']}   >San Francisco, California</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-40834-34d388104df64330b36db70661c2fbb4']}   >
+<section custom-agua-item="layer" className={styles['layer-40844-dc6b7d1da3a348b3a773582f4086fbfe']}   >
+<span custom-agua-item="icon" className={styles['icon-9704-3661e33c60d44ae2b0bd905553469865']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-9714-48bf79cc9a194a3d91591097c9730d0c']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-9724-d8a2be290a64404b92613ed3e70223e9']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-9734-84f9a808729541488d4095f9de30aed8']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-9744-b760dd91707d4bddb855793925036b2c']}  >star_purple500</span>
+</section>
+<p custom-agua-item="text" className={styles['text-32424-e81186529daa451ca7d693d47a602b4c']}   >November 2023</p>
+</section>
+<p custom-agua-item="text" className={styles['text-32414-dc2967c790134ce78bad804f67e17875']}   >It’s ok, nothing more.
+The highlight is def the secluded location, we also enjoyed the ping pong table - we had a great time with it...</p>
+<p custom-agua-item="text" className={styles['text-9773-e9b77d14f0764cf3b37f5783fae34a31']}   >Show more</p>
+</section>
+<section custom-agua-item="layer" className={styles['layer-407323-df9fbcea62f447319f6aa523d4e41458']}   >
+<section custom-agua-item="layer" className={styles['layer-408023-74b0e11a4fb544c2bc0c4d190291bfc2']}   >
+<section custom-agua-item="layer" className={styles['layer-408123-a54093cd6bcc46189f96c46a9719c8e3']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-408223-7493c6cf17c646e9afedf45cb7622ea2']}   >
+<p custom-agua-item="text" className={styles['text-323923-a66fcf412eac4694a05f2a37d5390c6e']}   >Samantha</p>
+<p custom-agua-item="text" className={styles['text-324023-982094306b284a2fbb0dfa675e3762ff']}   >Frederick, Maryland</p>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-408323-5b05023b93914e74895fb99cb257ed39']}   >
+<section custom-agua-item="layer" className={styles['layer-408423-e9e223ba698246d9877beec9e7e74a43']}   >
+<span custom-agua-item="icon" className={styles['icon-97023-8260e645f69d488ca2cb2c2ea265eba4']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-97123-de52d04f81da41dc89394221b8de44bf']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-97223-f481c2299a804a60bf86b3ccc5cfad35']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-97323-ad149f49d93a4f40bf50bd46b6030e1b']}  >star_purple500</span>
+<span custom-agua-item="icon" className={styles['icon-97423-580ca391c2904069bf40817e6be616fc']}  >star_purple500</span>
+</section>
+<p custom-agua-item="text" className={styles['text-324223-c7d0071a19f541fcb2be00a5bad631f5']}   >November 2023</p>
+<p custom-agua-item="text" className={styles['text-324323-56bff804eee14aabba4ac44b95d043cc']}   > Stayed with a pet</p>
+</section>
+<p custom-agua-item="text" className={styles['text-324123-40eb2437080d45d1bc10d810d6fc53e6']}   >Beautiful property, my family and I stayed for Thanksgiving and it was a perfect getaway.</p>
+</section>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-4072-ad48ef8a6b3e471c94a7e9b732201750']}   >
+<p custom-agua-item="text" className={styles['text-3224-f87ef8ff1ff74b55bd43c1bd8e86564f']}   >Show all 101 reviews</p>
+</section>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles.stay1bodysection5}   >
 <p custom-agua-item="text" className={styles['text-732-9230b0e0094f4124a00a1aa9d0a1da2c']}   >Where you’ll be</p>
 <section custom-agua-item="layer" className={styles['layer-2311-40a9e7fbbd0243b1bb08ab280c2f6c18']}   >
 <section custom-agua-item="layer" className={styles['layer-3512-b8aa8dba8c074b86a3208ccd1f03c2e4']}   >
@@ -370,6 +559,49 @@ favorite</p>
 <section custom-agua-item="layer" className={styles['layer-13852-6e29ef54ed01478c90fe3c8396d6d0e3']}   >
 <p custom-agua-item="text" className={styles['text-10992-dbfa15ccbec84521bea5aa614dc63f0f']}   >Show more</p>
 <span custom-agua-item="icon" className={styles['icon-3382-22326b1c2f52496f89b679483effcb5f']}  >keyboard_arrow_right</span>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles.stay1bodysection6}   >
+<p custom-agua-item="text" className={styles['text-3209-12ee1d42ed2c4fdf8270b0001fcc2b90']}   >Things to know
+</p>
+<section custom-agua-item="layer" className={`${styles['layer-4057-07d2f06049454aa0a1f30a9ff0922879-orientation']} ${styles['layer-4057-07d2f06049454aa0a1f30a9ff0922879']}`}   >
+<section custom-agua-item="layer" className={styles['layer-4052-5e4fa43dff294c0dad3c265a8da1ea0d']}   >
+<p custom-agua-item="text" className={styles['text-3210-5f136eaba0b54a9ca2bf4dc2de19b82c']}   >House rules
+</p>
+<p custom-agua-item="text" className={styles['text-3211-a3e64787cb144ce580449208607992f9']}   >Check-in after 4:00 PM
+</p>
+<p custom-agua-item="text" className={styles['text-3212-a8aa8fe96cfa4c10acf5e6d908fca5c4']}   >Checkout before 10:00 AM</p>
+<p custom-agua-item="text" className={styles['text-3213-4dfb5e3a2d6f4a028bde9b814b22d2d4']}   >8 guests maximum</p>
+<section custom-agua-item="layer" className={styles['layer-4055-85d0165d831f4eed94b44b9fb750bc9e']}   >
+<p custom-agua-item="text" className={styles['text-3214-32b4c8f55ae04e67a8c9d9d24a9ad154']}   >Show more</p>
+<span custom-agua-item="icon" className={styles['icon-961-47d99fba19774b63982c6028578e7dae']}  >navigate_next</span>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-4053-3fe660dc90b443249597a460fb489047']}   >
+<p custom-agua-item="text" className={styles['text-3215-a84108a4dbff442fa2d8693078d2d3e3']}   >Safety & property
+</p>
+<p custom-agua-item="text" className={styles['text-3216-41e1c6f2e8a747df8dffb05206c07f5a']}   >Nearby lake, river, other body of water
+</p>
+<p custom-agua-item="text" className={styles['text-3217-925c69ce24634a93a92c4cf7bbba0bae']}   >Carbon monoxide alarm
+</p>
+<p custom-agua-item="text" className={styles['text-3218-8d33e491cb1a48f69535ab7fd627cbb0']}   >Smoke alarm
+
+</p>
+<section custom-agua-item="layer" className={styles['layer-4056-2b8024c542b441f78f4ba1524f97e8f4']}   >
+<p custom-agua-item="text" className={styles['text-3219-9e4c52d6dd884426a2c59209ba2ee760']}   >Show more</p>
+<span custom-agua-item="icon" className={styles['icon-962-12de27ef16ca4745a7d5558438b66747']}  >navigate_next</span>
+</section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-4054-432896bb3b02475e8cc782ffcd6d3c3a']}   >
+<p custom-agua-item="text" className={styles['text-3220-76e00feccfa14e4bbfbce2ba44096654']}   >Cancellation policy
+</p>
+<p custom-agua-item="text" className={styles['text-3221-66064ee7f294494294681b5905b54d2b']}   >Cancel before Jan 15 for a partial refund.</p>
+<p custom-agua-item="text" className={styles['text-3222-d5a56adac1fa40e4a4aabba5b68a1e37']}   >Review the Host’s full cancellation policy which applies even if you cancel for illness or disruptions caused by COVID-19.</p>
+<section custom-agua-item="layer" className={styles['layer-4058-4ade7d4f61704ae1817cda55655bb9ec']}   >
+<p custom-agua-item="text" className={styles['text-3223-a0a13cea32664224a5f4082416a01be6']}   >Show more</p>
+<span custom-agua-item="icon" className={styles['icon-963-37a55f5b58804e1aac4d2908a2a980d3']}  >navigate_next</span>
+</section>
+</section>
 </section>
 </section>
 </section>
