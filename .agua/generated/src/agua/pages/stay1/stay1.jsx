@@ -178,6 +178,7 @@ favorite</p>
 <p custom-agua-item="text" className={styles['text-534-24c4618b35464e63abdf58f9ce9a3522']}   >Superhost | 3 years hosting</p>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-1127-c540440daff04d2d8206a4fb7f7a5bd6']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-993-f6b11c4c9b9c4485907fb93b18511415']}   >
 <section custom-agua-item="layer" className={styles['layer-994-c7e126a8a3c046b4977e6d695177918b']}   >
 <span custom-agua-item="icon" className={styles['icon-274-b88f8e5631f244eda5d2098c63e8846b']}  >wifi</span>
@@ -206,6 +207,7 @@ favorite</p>
 </section>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-112732223-1e0ddb5d392f450da7472407e9dd6de6']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-1002-a2a88c1fc86b4066b6b2bffb5c985be2']}   >
 <p custom-agua-item="text" className={styles['text-809-9ef93498e72b4681a16ef92bcdf8eb44']}   >Sawkill Creek Cottage is perched on a hillside overlooking thousands of acres of protected land and the confluence of two pristine creeks.</p>
 <p custom-agua-item="text" className={styles['text-1098-ba41f8b1fa884d13b2470b938b4e22d1']}   >Relax on the deck above the forested valley or splash around in the cool, clear creeks. Grab some great food or browse the shops in nearby Milford. Curl up with a book from our library or triumph in the family ping pong tournament. See the stars. Watch the birds. Breathe.</p>
@@ -214,6 +216,7 @@ favorite</p>
 <span custom-agua-item="icon" className={styles['icon-338-a74885f96cd144bdb32165e13b373d0b']}  >keyboard_arrow_right</span>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-11272-c134f2fa9d4b46969649b010c75471a1']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-1003-3b5107f2e97c4235846249551be79ef9']}   >
 <p custom-agua-item="text" className={styles['text-1108-856b17a122f74a5089b691b39c251569']}   >Where you'll sleep</p>
 <section custom-agua-item="layer" className={styles['layer-1378-8f12c259b93d465684b677f2d43e45e0']}   >
@@ -235,6 +238,8 @@ favorite</p>
 </section>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-11274-24ff72b13215417e8adb02c10b36d984']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-11273-45a3d4a9033f4b45ba1c6f45912f1d42']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-1004-2bb06f6e372442339897ad8e80667119']}   >
 <p custom-agua-item="text" className={styles['text-810-7e373014235e4864addf3e8f4e548e0f']}   >What this place offers</p>
 <section custom-agua-item="layer" className={`${styles['layer-1005-26d31bc5b1034e02816f222dd8feab0f-orientation']} ${styles['layer-1005-26d31bc5b1034e02816f222dd8feab0f']}`}   >
@@ -353,7 +358,9 @@ favorite</p>
 </section>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-11273222-e52dc915c2b94afdabf6791182e01d6d']}   ></section>
 <section custom-agua-item="layer" className={styles.stay1bodysection4}   >
+<section custom-agua-item="layer" className={styles['layer-3394-8da1f989d3e24fcdbc586c597e61ee0c']}   >
 <section custom-agua-item="layer" className={styles['layer-4059-f08dd1f9a8054487a10b765aa881caca']}   >
 <section custom-agua-item="layer" className={styles['layer-4079-2e0a38b700c5499b937f9d51c83334a9']}   >
 <section custom-agua-item="layer" className={styles['layer-897-3f4e56b2649a48b3be0655213af568fe']}   ></section>
@@ -401,6 +408,8 @@ favorite</p>
 <span custom-agua-item="icon" className={styles['icon-969-5054dfde21f84044856af7bcd299ce16']}  >local_offer</span>
 </section>
 </section>
+</section>
+<section custom-agua-item="layer" className={styles['layer-112732222-34ffb86e2fb147a1ba62bf5c42f9dbca']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-4067-aa6c76f64cc546cb9ce1c3c6e9f48b85']}   >
 <section custom-agua-item="layer" className={styles['layer-4069-519cfb08335040fe82e61ee23c36ef45']}   >
 <section custom-agua-item="layer" className={`${styles['layer-4071-90c7a49f07884b40a66e826543759761-orientation']} ${styles['layer-4071-90c7a49f07884b40a66e826543759761']}`}   >
@@ -543,6 +552,7 @@ The highlight is def the secluded location, we also enjoyed the ping pong table 
 </section>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-1127322-64e8fecafac94337a2ba9675eafb84cb']}   ></section>
 <section custom-agua-item="layer" className={styles.stay1bodysection5}   >
 <p custom-agua-item="text" className={styles['text-732-9230b0e0094f4124a00a1aa9d0a1da2c']}   >Where you’ll be</p>
 <section custom-agua-item="layer" className={styles['layer-2311-40a9e7fbbd0243b1bb08ab280c2f6c18']}   >
@@ -561,6 +571,7 @@ The highlight is def the secluded location, we also enjoyed the ping pong table 
 <span custom-agua-item="icon" className={styles['icon-3382-22326b1c2f52496f89b679483effcb5f']}  >keyboard_arrow_right</span>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-112732-adc537d0b29441bc94ec97720c831547']}   ></section>
 <section custom-agua-item="layer" className={styles.stay1bodysection6}   >
 <p custom-agua-item="text" className={styles['text-3209-12ee1d42ed2c4fdf8270b0001fcc2b90']}   >Things to know
 </p>
@@ -577,6 +588,7 @@ The highlight is def the secluded location, we also enjoyed the ping pong table 
 <span custom-agua-item="icon" className={styles['icon-961-47d99fba19774b63982c6028578e7dae']}  >navigate_next</span>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-1127324-5fa34d57f9cd41cba5c7fb5d19f026a6']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-4053-3fe660dc90b443249597a460fb489047']}   >
 <p custom-agua-item="text" className={styles['text-3215-a84108a4dbff442fa2d8693078d2d3e3']}   >Safety & property
 </p>
@@ -592,6 +604,7 @@ The highlight is def the secluded location, we also enjoyed the ping pong table 
 <span custom-agua-item="icon" className={styles['icon-962-12de27ef16ca4745a7d5558438b66747']}  >navigate_next</span>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-11273242-8cd9c4b347a34f2098d11d78270da313']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-4054-432896bb3b02475e8cc782ffcd6d3c3a']}   >
 <p custom-agua-item="text" className={styles['text-3220-76e00feccfa14e4bbfbce2ba44096654']}   >Cancellation policy
 </p>
@@ -619,6 +632,7 @@ The highlight is def the secluded location, we also enjoyed the ping pong table 
 <p custom-agua-item="text" className={styles['text-1752-f4972225293045d5b6d2939ba08c3429']}   onClick={() => openInNewTab("https://www.airbnb.com/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19")}>Cancellation options
 </p>
 <p custom-agua-item="text" className={styles['text-1762-3a1381f289b44533a94e00e940c36441']}   onClick={() => openInNewTab("https://www.airbnb.com/neighbors")}>Report neighborhood concern</p>
+<section custom-agua-item="layer" className={styles['layer-1127323-447ac6020b1d47938fda0bace0e5dfbf']}   ></section>
 </section>
 <section custom-agua-item="layer" className={styles['layer-2162-8a9b870e05424c5fb1d32bab0e31916e']}   >
 <p custom-agua-item="text" className={styles['text-1772-0a4c32a087634637a1ba884821624e2b']}   >Hosting</p>
@@ -634,6 +648,7 @@ The highlight is def the secluded location, we also enjoyed the ping pong table 
 </p>
 <p custom-agua-item="text" className={styles['text-1832-636dc2162eee4fc5b33f8f8706e86819']}   onClick={() => openInNewTab("https://www.airbnb.com/airbnb-friendly")}>Airbnb-friendly apartments
 </p>
+<section custom-agua-item="layer" className={styles['layer-11273232-b3648969254c4ea2a98b4c83c45011f1']}   ></section>
 </section>
 <section custom-agua-item="layer" className={styles['layer-2172-393dd8ca739f4a05b5d33c126b8e43f5']}   >
 <p custom-agua-item="text" className={styles['text-1842-990062b20bd544ceb8564a7aea30f158']}   >Airbnb</p>
@@ -647,8 +662,10 @@ The highlight is def the secluded location, we also enjoyed the ping pong table 
 </p>
 <p custom-agua-item="text" className={styles['text-1902-6219b671ada74d5db2db4c10b88104a0']}   onClick={() => openInNewTab("https://www.airbnb.org/")}>Airbnb.org emergency stays
 </p>
+<section custom-agua-item="layer" className={styles['layer-11273233-0f94f658483e49c6938070147e3c37b0']}   ></section>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-11273234-b3a6ba1f80b94d5da064f5c03fb4d924']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-2143-33b3ebf2450143a5ad8d3358427363a2']}   >
 <section custom-agua-item="layer" className={styles['layer-4663-04666eff5f7e4eb8a51f9eae4fc40d1d']}   >
 <section custom-agua-item="layer" className={styles['layer-46123-038d45afcbcc4132970621024fbcbd73']}   >

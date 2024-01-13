@@ -33,6 +33,7 @@ const Home = () =>{
 <section custom-agua-item="layer" className={styles.homebanner}   >
 <p custom-agua-item="text" className={styles['text-1-116f85e28fbe44e1ac1ed842a812aec1']}   onClick={() => openInNewTab("https://www.airbnb.com/release")}>Learn about Guest Favorites, the most loved homes on Airbnb</p>
 </section>
+<section custom-agua-item="layer" className={styles['layer-3634222-05a333b4861f45ddb765c9941c25042c']}   ></section>
 <section custom-agua-item="layer" className={styles.homeheader}   >
 <header custom-agua-item="layer" className={styles.homemenu}   >
 <section custom-agua-item="layer" className={styles.homemenuoption1}   >
@@ -132,6 +133,7 @@ const Home = () =>{
 </section>
 </section>
 </header>
+<section custom-agua-item="layer" className={styles['layer-363422-4999061054504b828718eb46a9786a2a']}   ></section>
 <section custom-agua-item="layer" className={`${styles['homenavbar-orientation']} ${styles['homenavbar']}`}   >
 <section custom-agua-item="layer" className={styles.homemobilesearch}   >
 <section custom-agua-item="layer" className={styles['layer-19-166785ec082f44338eabbc2382a3268b']}   >
@@ -586,6 +588,7 @@ const Home = () =>{
 <p custom-agua-item="text" className={styles['text-198-62497240c5e34f76bb4e1b78841c3b74']}   >Things to do</p>
 <p custom-agua-item="text" className={styles['text-200-62a43305a1774968bf56edf27d0d2aa4']}   >Airbnb-friendly apartments</p>
 </section>
+<section custom-agua-item="layer" className={styles['layer-36342-ce0b569b2adb46ba8773845d137db0ae']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-219-5589ec5df5bd4b5581e3647dd306c833']}   >
 <section custom-agua-item="layer" className={`${styles['layer-281-bfd89c7c9d5e47f3b4cb6fe63acfa829-orientation']} ${styles['layer-281-bfd89c7c9d5e47f3b4cb6fe63acfa829']}`}   >
 <section custom-agua-item="layer" className={styles['layer-282-9877c76d3a5d41c587f97c81dbb57078']}   >
@@ -632,6 +635,7 @@ const Home = () =>{
 </section>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-3634-4c73d3566fca4a64a2601ae706755b57']}   ></section>
 <section custom-agua-item="layer" className={styles.homefootershared}   >
 <section custom-agua-item="layer" className={`${styles['homefootersitemap-orientation']} ${styles['homefootersitemap']}`}   >
 <section custom-agua-item="layer" className={styles['layer-215-440097adf19b49fe8321cd4c99852599']}   >
