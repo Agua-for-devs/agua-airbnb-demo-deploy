@@ -68,7 +68,7 @@ const Stay1 = () =>{
 </section>
 </section>
 <section custom-agua-item="layer" className={styles['layer-1284-93acd8ed679e4d278b6ff6c230e38331']}   >
-<p custom-agua-item="text" className={styles['text-1032-17484228a32843c3ae292aa04d4758a8']}   >Airbnb your home</p>
+<p custom-agua-item="text" className={styles['text-1032-17484228a32843c3ae292aa04d4758a8']}   onClick={() => openInNewTab("https://www.airbnb.com/host/homes")}>Airbnb your home</p>
 <span custom-agua-item="icon" className={styles['icon-303-f083601f70ca46b39e2abb8ecaa77dc0']}  >language</span>
 <section custom-agua-item="layer" className={styles['layer-1285-15ba41e2f7a34ca49c803583f26caf48']}   >
 <span custom-agua-item="icon" className={styles['icon-304-e08103c0ed3c423592ffe8377c20f69d']}  >menu</span>
