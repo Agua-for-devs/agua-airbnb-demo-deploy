@@ -80,7 +80,7 @@ const Stay1 = () =>{
 <section custom-agua-item="layer" className={styles.stay1mobilesection1}   >
 <section custom-agua-item="layer" className={styles.stay1navbarmobile}   >
 <section custom-agua-item="layer" className={styles['layer-739-803a53e8e26142c189fe9ddaf87807fa']}   >
-<span custom-agua-item="icon" className={styles['icon-335-e71e7fa7a81d4be2a1729f9fff0d2812']}  >arrow_back_ios</span>
+<span custom-agua-item="icon" className={styles['icon-335-e71e7fa7a81d4be2a1729f9fff0d2812']}  >arrow_back_ios_new</span>
 </section>
 <section custom-agua-item="layer" className={styles['layer-1384-96be9692846c4967bef2ca5e2fa64634']}   >
 <section custom-agua-item="layer" className={styles['layer-740-b68dac83b10a46709dd063d4552d028f']}   >
@@ -377,18 +377,21 @@ favorite</p>
 <p custom-agua-item="text" className={styles['text-3228-bb799112b31b441f97eb15b6a78e58a6']}   >4.9</p>
 <span custom-agua-item="icon" className={styles['icon-964-49d4dc53b8f04e7c99750b4dba254c7a']}  >clean_hands</span>
 </section>
+<section custom-agua-item="layer" className={styles['layer-5029-770ff9c96a814ab9ba341bb636330ec0']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-4062-8f15e43228fa4f0bb8225b8adbfbfe3c']}   >
 <p custom-agua-item="text" className={styles['text-3229-7922baa81f73423ab6000db1d7f63722']}   >Accuracy</p>
 <p custom-agua-item="text" className={styles['text-3230-5432cdb80db44fa1927c0ca41b2b9694']}   >4.9
 </p>
 <span custom-agua-item="icon" className={styles['icon-965-ac026e6197024786b5350f541bebf060']}  >check_circle_outline</span>
 </section>
+<section custom-agua-item="layer" className={styles['layer-5029223-620c58a529aa42f9b17df081fed2d46b']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-4063-aff4e3000bf94db1acf37eacffc90f71']}   >
 <p custom-agua-item="text" className={styles['text-3231-cef2b1a24f7e43539de767568ba53166']}   >Check-in
 </p>
 <p custom-agua-item="text" className={styles['text-3232-b3f10584566047b7b35963983266dd03']}   >5.0</p>
 <span custom-agua-item="icon" className={styles['icon-966-c5ed273bdce04faf93972f77044f09eb']}  >key</span>
 </section>
+<section custom-agua-item="layer" className={styles['layer-50292-126b5e0e58404214a47325ca1429e569']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-4064-12d8a44780264c459ce1108802b729eb']}   >
 <p custom-agua-item="text" className={styles['text-3233-47e85bf2915043c49f76c864a4ca8de8']}   >Communication
 </p>
@@ -396,12 +399,14 @@ favorite</p>
 </p>
 <span custom-agua-item="icon" className={styles['icon-967-05fb0446cadd4346b01fa63b103eedaf']}  >message</span>
 </section>
+<section custom-agua-item="layer" className={styles['layer-5029222-0d74e3463ba148229b09e4cdfb065b56']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-4065-89e5231ea66241ff9a6efb66fa62e382']}   >
 <p custom-agua-item="text" className={styles['text-3235-92b1606b05d24e4ba177b8bc932f370d']}   >Location</p>
 <p custom-agua-item="text" className={styles['text-3236-70b7180b6de748f88703a26248b4364b']}   >4.9
 </p>
 <span custom-agua-item="icon" className={styles['icon-968-2c9e47e41b414307a68b85f6e0d8332a']}  >map</span>
 </section>
+<section custom-agua-item="layer" className={styles['layer-502922-8a035084c3cf4c3bbdb90096e42c38d7']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-4066-d7c8f20dd7ed4f7fb8f6634427d79b82']}   >
 <p custom-agua-item="text" className={styles['text-3237-afe6ee72ab674a81b02027fca2e70e6b']}   >Value</p>
 <p custom-agua-item="text" className={styles['text-3238-e74365849b234df9825ff6d8b18fa06e']}   >4.8</p>

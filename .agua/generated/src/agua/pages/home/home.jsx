@@ -649,6 +649,7 @@ const Home = () =>{
 <p custom-agua-item="text" className={styles['text-175-99b35fe8b6dd422fa763d9db299fa539']}   onClick={() => openInNewTab("https://www.airbnb.com/help/article/2701/extenuating-circumstances-policy-and-the-coronavirus-covid19")}>Cancellation options
 </p>
 <p custom-agua-item="text" className={styles['text-176-fc8c04f6dbf5499a8f3690373a20170b']}   onClick={() => openInNewTab("https://www.airbnb.com/neighbors")}>Report neighborhood concern</p>
+<section custom-agua-item="layer" className={styles['layer-1181-f264edf8e9074dce867421deb409822c']}   ></section>
 </section>
 <section custom-agua-item="layer" className={styles['layer-216-1bf446f3816c454f9f99c313f5c6c325']}   >
 <p custom-agua-item="text" className={styles['text-177-b37681cc5d25469aaae425e20d809d34']}   >Hosting</p>
@@ -664,6 +665,7 @@ const Home = () =>{
 </p>
 <p custom-agua-item="text" className={styles['text-183-16b4396c19b7477c88c15bbaeb21195c']}   onClick={() => openInNewTab("https://www.airbnb.com/airbnb-friendly")}>Airbnb-friendly apartments
 </p>
+<section custom-agua-item="layer" className={styles['layer-11813-7e68db60c4e4484a83c41c4e6b4d6405']}   ></section>
 </section>
 <section custom-agua-item="layer" className={styles['layer-217-ffb96241f77243d0b4fc27cdebdb00ea']}   >
 <p custom-agua-item="text" className={styles['text-184-28e7d5f569d54a11a7e5d4fd8dd9e264']}   >Airbnb</p>
@@ -677,8 +679,10 @@ const Home = () =>{
 </p>
 <p custom-agua-item="text" className={styles['text-190-2cd3a197b6c94c67b98ba9533a6426d6']}   onClick={() => openInNewTab("https://www.airbnb.org/")}>Airbnb.org emergency stays
 </p>
+<section custom-agua-item="layer" className={styles['layer-11812-3aea016d4bff4b6d8e1abd4cab029079']}   ></section>
 </section>
 </section>
+<section custom-agua-item="layer" className={styles['layer-11814-3c26cb7af5364accbcbf64ae1046d357']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-214-cd296d83cfef44df89d2f98ec73fdde4']}   >
 <section custom-agua-item="layer" className={styles['layer-466-0ddd1ba13dcc44809373b19b07580396']}   >
 <section custom-agua-item="layer" className={styles['layer-4612-8a555c6a292541b881ed5a6a6a9afcd9']}   >
