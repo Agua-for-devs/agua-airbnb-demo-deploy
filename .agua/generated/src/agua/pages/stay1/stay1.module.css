@@ -293,6 +293,7 @@ position: relative;display: var(--stay1mobilesection1_visible) ;
 }
 section.stay1navbarmobile[custom-agua-item="layer"] {
     flex-direction: row ;
+cursor: pointer;
 justify-content: space-between ;
 
 min-height:  unset ;height: fit-content ;
@@ -361,6 +362,7 @@ width: 16px ;min-width: 16px ; font-size: 16px ;
 }
 section.layer-745-6f363da22bf34fbc92f541c560fad301[custom-agua-item="layer"] {
     flex-direction: row ;
+cursor: pointer;
 overflow-x: scroll ;
 scrollbar-width: none ;
 -ms-overflow-style: none ;min-width: var(--min-6f363da22bf34fbc92f541c560fad301_valuewidth) ; 
