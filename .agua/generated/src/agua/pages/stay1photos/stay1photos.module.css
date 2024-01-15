@@ -10,13 +10,16 @@ section.layer-3364-161f611c9f59482f890fe0644eb5794d[custom-agua-item="layer"] {
 align-items: center ;
 justify-content: space-between ;
 
-margin-left: 24px ;
-margin-right: 24px ;
+padding-left: 24px ;
+padding-right: 24px ;
 box-sizing: border-box ;
-height: 80px ;min-height: 80px ;
+background-color: #FFFFFF ;
+height: 60px ;min-height: 60px ;
 min-width: unset;
-width: calc(100% - calc(24px + 24px));
+width: 100%;
 
+position: sticky;
+top: 1px;
 }
 .icon-832-23fdbf4cae8c4310a90b42d0e9dd72c8[custom-agua-item="icon"] {
     
@@ -81,7 +84,6 @@ font-size: 14px ;
 section.layer-3365-45a7ed80420d443195ca228af7f861e5[custom-agua-item="layer"] {
     
 
-padding-top: 40px ;
 padding-bottom: 72px ;
 box-sizing: border-box ;
 min-height:  unset ;height: fit-content ;flex-shrink: 0;
@@ -90,6 +92,7 @@ min-width: unset;
 width: 100%;
 padding-left: var(--45a7ed80420d443195ca228af7f861e5_padding-left) ; 
 padding-right: var(--45a7ed80420d443195ca228af7f861e5_padding-right) ; 
+padding-top: var(--45a7ed80420d443195ca228af7f861e5_padding-top) ; 
 }
 section.layer-3366-796698a4a5f04df2982a838aef7819f6[custom-agua-item="layer"] {
     
@@ -223,8 +226,8 @@ margin-right: var(--f49e1296e9a94752b784736b7d0a8bf8_margin-right) ;
 	--8807282ddedd42638a141d0fe66cad16_valueheight: 400px;
 	--min-796698a4a5f04df2982a838aef7819f6_valueheight: 400px;
 	--796698a4a5f04df2982a838aef7819f6_valueheight: 400px;
-	--min-796698a4a5f04df2982a838aef7819f6_margin-top: 8px;
-	--796698a4a5f04df2982a838aef7819f6_margin-top: 8px;
+	--min-796698a4a5f04df2982a838aef7819f6_margin-top: 0px;
+	--796698a4a5f04df2982a838aef7819f6_margin-top: 0px;
 	--min-796698a4a5f04df2982a838aef7819f6_margin-left: 0px;
 	--796698a4a5f04df2982a838aef7819f6_margin-left: 0px;
 	--min-796698a4a5f04df2982a838aef7819f6_margin-right: 0px;
@@ -249,6 +252,8 @@ margin-right: var(--f49e1296e9a94752b784736b7d0a8bf8_margin-right) ;
 	--f49e1296e9a94752b784736b7d0a8bf8_margin-left: 0px;
 	--min-f49e1296e9a94752b784736b7d0a8bf8_margin-right: 0px;
 	--f49e1296e9a94752b784736b7d0a8bf8_margin-right: 0px;
+	--min-45a7ed80420d443195ca228af7f861e5_padding-top: 0px;
+	--45a7ed80420d443195ca228af7f861e5_padding-top: 0px;
 
 }
 
@@ -266,8 +271,8 @@ margin-right: var(--f49e1296e9a94752b784736b7d0a8bf8_margin-right) ;
 	--8807282ddedd42638a141d0fe66cad16_valueheight: 650px;
 	--min-796698a4a5f04df2982a838aef7819f6_valueheight: 650px;
 	--796698a4a5f04df2982a838aef7819f6_valueheight: 650px;
-	--min-796698a4a5f04df2982a838aef7819f6_margin-top: 8px;
-	--796698a4a5f04df2982a838aef7819f6_margin-top: 8px;
+	--min-796698a4a5f04df2982a838aef7819f6_margin-top: 0px;
+	--796698a4a5f04df2982a838aef7819f6_margin-top: 0px;
 	--min-796698a4a5f04df2982a838aef7819f6_margin-left: 8px;
 	--796698a4a5f04df2982a838aef7819f6_margin-left: 8px;
 	--min-796698a4a5f04df2982a838aef7819f6_margin-right: 8px;
@@ -292,6 +297,8 @@ margin-right: var(--f49e1296e9a94752b784736b7d0a8bf8_margin-right) ;
 	--f49e1296e9a94752b784736b7d0a8bf8_margin-left: 4px;
 	--min-f49e1296e9a94752b784736b7d0a8bf8_margin-right: 8px;
 	--f49e1296e9a94752b784736b7d0a8bf8_margin-right: 8px;
+	--min-45a7ed80420d443195ca228af7f861e5_padding-top: 40px;
+	--45a7ed80420d443195ca228af7f861e5_padding-top: 40px;
 
 }
 
@@ -309,8 +316,8 @@ margin-right: var(--f49e1296e9a94752b784736b7d0a8bf8_margin-right) ;
 	--8807282ddedd42638a141d0fe66cad16_valueheight: 600px;
 	--min-796698a4a5f04df2982a838aef7819f6_valueheight: 600px;
 	--796698a4a5f04df2982a838aef7819f6_valueheight: 600px;
-	--min-796698a4a5f04df2982a838aef7819f6_margin-top: 8px;
-	--796698a4a5f04df2982a838aef7819f6_margin-top: 8px;
+	--min-796698a4a5f04df2982a838aef7819f6_margin-top: 0px;
+	--796698a4a5f04df2982a838aef7819f6_margin-top: 0px;
 	--min-796698a4a5f04df2982a838aef7819f6_margin-left: 8px;
 	--796698a4a5f04df2982a838aef7819f6_margin-left: 8px;
 	--min-796698a4a5f04df2982a838aef7819f6_margin-right: 8px;
@@ -335,6 +342,8 @@ margin-right: var(--f49e1296e9a94752b784736b7d0a8bf8_margin-right) ;
 	--f49e1296e9a94752b784736b7d0a8bf8_margin-left: 4px;
 	--min-f49e1296e9a94752b784736b7d0a8bf8_margin-right: 8px;
 	--f49e1296e9a94752b784736b7d0a8bf8_margin-right: 8px;
+	--min-45a7ed80420d443195ca228af7f861e5_padding-top: 40px;
+	--45a7ed80420d443195ca228af7f861e5_padding-top: 40px;
 
 }
 
