@@ -319,6 +319,7 @@ border-radius: var(--803a53e8e26142c189fe9ddaf87807fa_radiusAbsolute) ;
 }
 .icon-335-e71e7fa7a81d4be2a1729f9fff0d2812[custom-agua-item="icon"] {
     
+cursor: pointer;
 height: 16px ;min-height: 16px ;
 width: 16px ;min-width: 16px ; font-size: 16px ;margin-left: var(--e71e7fa7a81d4be2a1729f9fff0d2812_margin-left) ; 
 }
@@ -361,6 +362,7 @@ width: 16px ;min-width: 16px ; font-size: 16px ;
 }
 section.layer-745-6f363da22bf34fbc92f541c560fad301[custom-agua-item="layer"] {
     flex-direction: row ;
+cursor: pointer;
 overflow-x: scroll ;
 scrollbar-width: none ;
 -ms-overflow-style: none ;min-width: var(--min-6f363da22bf34fbc92f541c560fad301_valuewidth) ; 
@@ -439,15 +441,6 @@ background-position: center ;
 background-image: url('../../../Assets/Stays/Stay1_Main/Stay1_Main_8.png') ;
 width: 360px ;min-width: 360px ;min-height: var(--min-bb5d351db8fe47a1a600b36b5826d373_valueheight) ; 
 height: var(--bb5d351db8fe47a1a600b36b5826d373_valueheight); 
-}
-section.layer-3660-74ffde40597a4df9971f58982ed79160[custom-agua-item="layer"] {
-    
-cursor: pointer;
-
-position: absolute;min-width: var(--min-74ffde40597a4df9971f58982ed79160_valuewidth) ; 
-width: var(--74ffde40597a4df9971f58982ed79160_valuewidth); 
-min-height: var(--min-74ffde40597a4df9971f58982ed79160_valueheight) ; 
-height: var(--74ffde40597a4df9971f58982ed79160_valueheight); 
 }
 section.stay1body[custom-agua-item="layer"] {
     
@@ -4634,10 +4627,6 @@ justify-content: var(--horizontalAxis-836504a660464f6ca89ae54ec8511c25) ;
 	--24194c74e9f444eab3f215b149c5f736_valueheight: 100%;
 	--min-bb5d351db8fe47a1a600b36b5826d373_valueheight: unset;
 	--bb5d351db8fe47a1a600b36b5826d373_valueheight: 100%;
-	--min-74ffde40597a4df9971f58982ed79160_valuewidth: unset;
-	--74ffde40597a4df9971f58982ed79160_valuewidth: 100%;
-	--min-74ffde40597a4df9971f58982ed79160_valueheight: unset;
-	--74ffde40597a4df9971f58982ed79160_valueheight: 100%;
 	--90c7a49f07884b40a66e826543759761_orientation: column;
 	--min-9d861a80f47e4d83a216ec6477891900_valuewidth: 320px;
 	--9d861a80f47e4d83a216ec6477891900_valuewidth: 320px;
@@ -4914,14 +4903,6 @@ height: var(--24194c74e9f444eab3f215b149c5f736_valueheight);
 }
 section.layer-1916-bb5d351db8fe47a1a600b36b5826d373[custom-agua-item="layer"] {
 height: var(--bb5d351db8fe47a1a600b36b5826d373_valueheight);
-
-}
-section.layer-3660-74ffde40597a4df9971f58982ed79160[custom-agua-item="layer"] {
-width: var(--74ffde40597a4df9971f58982ed79160_valuewidth);
-
-}
-section.layer-3660-74ffde40597a4df9971f58982ed79160[custom-agua-item="layer"] {
-height: var(--74ffde40597a4df9971f58982ed79160_valueheight);
 
 }
 section.layer-1378-8f12c259b93d465684b677f2d43e45e0[custom-agua-item="layer"] {
@@ -5289,10 +5270,6 @@ width: var(--393dd8ca739f4a05b5d33c126b8e43f5_valuewidth);
 	--24194c74e9f444eab3f215b149c5f736_valueheight: 290px;
 	--min-bb5d351db8fe47a1a600b36b5826d373_valueheight: 290px;
 	--bb5d351db8fe47a1a600b36b5826d373_valueheight: 290px;
-	--min-74ffde40597a4df9971f58982ed79160_valuewidth: 300px;
-	--74ffde40597a4df9971f58982ed79160_valuewidth: 300px;
-	--min-74ffde40597a4df9971f58982ed79160_valueheight: 100px;
-	--74ffde40597a4df9971f58982ed79160_valueheight: 100px;
 	--90c7a49f07884b40a66e826543759761_orientation: row;
 	--min-9d861a80f47e4d83a216ec6477891900_valuewidth: 430px;
 	--9d861a80f47e4d83a216ec6477891900_valuewidth: 430px;
@@ -5872,10 +5849,6 @@ width: var(--b2ee4ea7565340e4bb78c41bd4f0993c_valuewidth);
 	--24194c74e9f444eab3f215b149c5f736_valueheight: 290px;
 	--min-bb5d351db8fe47a1a600b36b5826d373_valueheight: 290px;
 	--bb5d351db8fe47a1a600b36b5826d373_valueheight: 290px;
-	--min-74ffde40597a4df9971f58982ed79160_valuewidth: 300px;
-	--74ffde40597a4df9971f58982ed79160_valuewidth: 300px;
-	--min-74ffde40597a4df9971f58982ed79160_valueheight: 100px;
-	--74ffde40597a4df9971f58982ed79160_valueheight: 100px;
 	--90c7a49f07884b40a66e826543759761_orientation: column;
 	--min-9d861a80f47e4d83a216ec6477891900_valuewidth: unset;
 	--9d861a80f47e4d83a216ec6477891900_valuewidth: 100%;
