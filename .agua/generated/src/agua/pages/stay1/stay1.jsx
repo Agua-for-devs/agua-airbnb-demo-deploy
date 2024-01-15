@@ -101,7 +101,6 @@ const Stay1 = () =>{
 <section custom-agua-item="layer" className={styles['layer-1915-24194c74e9f444eab3f215b149c5f736']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-1916-bb5d351db8fe47a1a600b36b5826d373']}   ></section>
 </section></Link>
-<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-3660-74ffde40597a4df9971f58982ed79160']}   ></section></Link>
 </section>
 <section custom-agua-item="layer" className={styles.stay1body}   >
 <section custom-agua-item="layer" className={styles.stay1bodysection1}   >
