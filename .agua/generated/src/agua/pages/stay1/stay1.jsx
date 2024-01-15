@@ -96,13 +96,13 @@ const Stay1 = () =>{
 <section custom-agua-item="layer" className={styles['layer-1909-741b332503324be9bc0576504158ce2e']}   >
 <Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-946-e71b551ff99145eb82d792f3f721119a']}   ></section></Link>
 </section>
-<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-1910-b65d38cfa79640aca9a4ae2d855b62f8']}   ></section></Link>
-<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-1911-820eb6b75c8440589c7c6c66365419a5']}   ></section></Link>
-<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-1912-1af5a21d6ba94af9a9b5922221d88f47']}   ></section></Link>
-<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-1913-0c48bdb7146f42008ec611ea8f58cf73']}   ></section></Link>
-<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-1914-937ac44ca6eb47a1bb078347dd4cfada']}   ></section></Link>
-<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-1915-24194c74e9f444eab3f215b149c5f736']}   ></section></Link>
-<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-1916-bb5d351db8fe47a1a600b36b5826d373']}   ></section></Link>
+<section custom-agua-item="layer" className={styles['layer-1910-b65d38cfa79640aca9a4ae2d855b62f8']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1911-820eb6b75c8440589c7c6c66365419a5']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1912-1af5a21d6ba94af9a9b5922221d88f47']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1913-0c48bdb7146f42008ec611ea8f58cf73']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1914-937ac44ca6eb47a1bb078347dd4cfada']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1915-24194c74e9f444eab3f215b149c5f736']}   ></section>
+<section custom-agua-item="layer" className={styles['layer-1916-bb5d351db8fe47a1a600b36b5826d373']}   ></section>
 </section>
 </section>
 <section custom-agua-item="layer" className={styles.stay1body}   >

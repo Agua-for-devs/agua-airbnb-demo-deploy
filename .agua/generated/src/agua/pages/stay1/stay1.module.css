@@ -374,7 +374,6 @@ width: 16px ;min-width: 16px ; font-size: 16px ;
 }
 section.layer-745-6f363da22bf34fbc92f541c560fad301[custom-agua-item="layer"] {
     flex-direction: row ;
-cursor: pointer;
 overflow-x: scroll ;
 scrollbar-width: none ;
 -ms-overflow-style: none ;min-width: var(--min-6f363da22bf34fbc92f541c560fad301_valuewidth) ; 
@@ -393,7 +392,8 @@ height: var(--741b332503324be9bc0576504158ce2e_valueheight);
 }
 section.layer-946-e71b551ff99145eb82d792f3f721119a[custom-agua-item="layer"] {
     
-min-width: var(--min-e71b551ff99145eb82d792f3f721119a_valuewidth) ; 
+
+z-index: 1;min-width: var(--min-e71b551ff99145eb82d792f3f721119a_valuewidth) ; 
 width: var(--e71b551ff99145eb82d792f3f721119a_valuewidth); 
 min-height: var(--min-e71b551ff99145eb82d792f3f721119a_valueheight) ; 
 height: var(--e71b551ff99145eb82d792f3f721119a_valueheight); 
