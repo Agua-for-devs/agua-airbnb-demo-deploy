@@ -81,7 +81,7 @@ const Stay1 = () =>{
 <section custom-agua-item="layer" className={styles.stay1navbarmobile}   >
 <section custom-agua-item="layer" className={styles['layer-739-803a53e8e26142c189fe9ddaf87807fa']}   >
 <Link to="/Home"><section custom-agua-item="layer" className={styles['layer-944-e918ba5cdec140808468737301b383d5']}   ></section></Link>
-<span custom-agua-item="icon" className={styles['icon-335-e71e7fa7a81d4be2a1729f9fff0d2812']}  >arrow_back_ios</span>
+<span custom-agua-item="icon" className={styles['icon-258-30e8fbd7db35416990c7bd5e037a226b']}  >arrow_back_ios_new</span>
 </section>
 <section custom-agua-item="layer" className={styles['layer-1384-96be9692846c4967bef2ca5e2fa64634']}   >
 <section custom-agua-item="layer" className={styles['layer-740-b68dac83b10a46709dd063d4552d028f']}   >
@@ -92,6 +92,7 @@ const Stay1 = () =>{
 </section>
 </section>
 </section>
+<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-945-788e8ba3e8da43eeaa648316955e3bb6']}   ></section></Link>
 <section custom-agua-item="layer" className={styles['layer-745-6f363da22bf34fbc92f541c560fad301']}   >
 <section custom-agua-item="layer" className={styles['layer-1909-741b332503324be9bc0576504158ce2e']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-1910-b65d38cfa79640aca9a4ae2d855b62f8']}   ></section>
