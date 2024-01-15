@@ -93,7 +93,9 @@ const Stay1 = () =>{
 </section>
 </section>
 <section custom-agua-item="layer" className={styles['layer-745-6f363da22bf34fbc92f541c560fad301']}   >
-<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-1909-741b332503324be9bc0576504158ce2e']}   ></section></Link>
+<section custom-agua-item="layer" className={styles['layer-1909-741b332503324be9bc0576504158ce2e']}   >
+<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-946-e71b551ff99145eb82d792f3f721119a']}   ></section></Link>
+</section>
 <Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-1910-b65d38cfa79640aca9a4ae2d855b62f8']}   ></section></Link>
 <Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-1911-820eb6b75c8440589c7c6c66365419a5']}   ></section></Link>
 <Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-1912-1af5a21d6ba94af9a9b5922221d88f47']}   ></section></Link>
