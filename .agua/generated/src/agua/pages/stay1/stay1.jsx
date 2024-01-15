@@ -80,8 +80,8 @@ const Stay1 = () =>{
 <section custom-agua-item="layer" className={styles.stay1mobilesection1}   >
 <section custom-agua-item="layer" className={styles.stay1navbarmobile}   >
 <section custom-agua-item="layer" className={styles['layer-739-803a53e8e26142c189fe9ddaf87807fa']}   >
-<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-944-e918ba5cdec140808468737301b383d5']}   ></section></Link>
-<span custom-agua-item="icon" className={styles['icon-335-e71e7fa7a81d4be2a1729f9fff0d2812']}  >arrow_back_ios_new</span>
+<Link to="/Home"><section custom-agua-item="layer" className={styles['layer-944-e918ba5cdec140808468737301b383d5']}   ></section></Link>
+<span custom-agua-item="icon" className={styles['icon-335-e71e7fa7a81d4be2a1729f9fff0d2812']}  >arrow_back_ios</span>
 </section>
 <section custom-agua-item="layer" className={styles['layer-1384-96be9692846c4967bef2ca5e2fa64634']}   >
 <section custom-agua-item="layer" className={styles['layer-740-b68dac83b10a46709dd063d4552d028f']}   >
@@ -92,7 +92,7 @@ const Stay1 = () =>{
 </section>
 </section>
 </section>
-<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-745-6f363da22bf34fbc92f541c560fad301']}   >
+<section custom-agua-item="layer" className={styles['layer-745-6f363da22bf34fbc92f541c560fad301']}   >
 <section custom-agua-item="layer" className={styles['layer-1909-741b332503324be9bc0576504158ce2e']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-1910-b65d38cfa79640aca9a4ae2d855b62f8']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-1911-820eb6b75c8440589c7c6c66365419a5']}   ></section>
@@ -101,7 +101,7 @@ const Stay1 = () =>{
 <section custom-agua-item="layer" className={styles['layer-1914-937ac44ca6eb47a1bb078347dd4cfada']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-1915-24194c74e9f444eab3f215b149c5f736']}   ></section>
 <section custom-agua-item="layer" className={styles['layer-1916-bb5d351db8fe47a1a600b36b5826d373']}   ></section>
-</section></Link>
+</section>
 </section>
 <section custom-agua-item="layer" className={styles.stay1body}   >
 <section custom-agua-item="layer" className={styles.stay1bodysection1}   >
