@@ -293,7 +293,6 @@ position: relative;display: var(--stay1mobilesection1_visible) ;
 }
 section.stay1navbarmobile[custom-agua-item="layer"] {
     flex-direction: row ;
-cursor: pointer;
 justify-content: space-between ;
 
 min-height:  unset ;height: fit-content ;
@@ -308,6 +307,7 @@ padding-right: var(--stay1navbarmobile_padding-right) ;
 }
 section.layer-739-803a53e8e26142c189fe9ddaf87807fa[custom-agua-item="layer"] {
     
+cursor: pointer;
 justify-content: center ;
 background-color: #FFFFFF ;
 min-height:  unset ;height: fit-content ;
@@ -363,12 +363,11 @@ width: 16px ;min-width: 16px ; font-size: 16px ;
 section.layer-745-6f363da22bf34fbc92f541c560fad301[custom-agua-item="layer"] {
     flex-direction: row ;
 cursor: pointer;
-overflow-x: scroll ;
-scrollbar-width: none ;
--ms-overflow-style: none ;min-width: var(--min-6f363da22bf34fbc92f541c560fad301_valuewidth) ; 
+min-width: var(--min-6f363da22bf34fbc92f541c560fad301_valuewidth) ; 
 width: var(--6f363da22bf34fbc92f541c560fad301_valuewidth); 
 min-height: var(--min-6f363da22bf34fbc92f541c560fad301_valueheight) ; 
 height: var(--6f363da22bf34fbc92f541c560fad301_valueheight); 
+scrollable: var(--6f363da22bf34fbc92f541c560fad301_scrollable) ; 
 }
 section.layer-1909-741b332503324be9bc0576504158ce2e[custom-agua-item="layer"] {
     
@@ -4823,6 +4822,7 @@ justify-content: var(--horizontalAxis-836504a660464f6ca89ae54ec8511c25) ;
 	--min-393dd8ca739f4a05b5d33c126b8e43f5_valueheight: unset;
 	--393dd8ca739f4a05b5d33c126b8e43f5_valueheight: fit-content;
 	--b3a6ba1f80b94d5da064f5c03fb4d924_visible: none;
+	--6f363da22bf34fbc92f541c560fad301_scrollable: scroll;
 
 }
 
@@ -5478,6 +5478,7 @@ width: var(--393dd8ca739f4a05b5d33c126b8e43f5_valuewidth);
 	--min-393dd8ca739f4a05b5d33c126b8e43f5_valueheight: unset;
 	--393dd8ca739f4a05b5d33c126b8e43f5_valueheight: fit-content;
 	--b3a6ba1f80b94d5da064f5c03fb4d924_visible: flex;
+	--6f363da22bf34fbc92f541c560fad301_scrollable: scroll;
 
 }
 
@@ -6061,6 +6062,7 @@ width: var(--b2ee4ea7565340e4bb78c41bd4f0993c_valuewidth);
 	--min-393dd8ca739f4a05b5d33c126b8e43f5_valueheight: unset;
 	--393dd8ca739f4a05b5d33c126b8e43f5_valueheight: fit-content;
 	--b3a6ba1f80b94d5da064f5c03fb4d924_visible: none;
+	--6f363da22bf34fbc92f541c560fad301_scrollable: scroll;
 
 }
 
