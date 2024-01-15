@@ -310,16 +310,27 @@ section.layer-739-803a53e8e26142c189fe9ddaf87807fa[custom-agua-item="layer"] {
 justify-content: center ;
 background-color: #FFFFFF ;
 min-height:  unset ;height: fit-content ;
-min-width:  unset ;width: fit-content ;align-items: var(--803a53e8e26142c189fe9ddaf87807fa_horizontalAlignment) ; 
+min-width:  unset ;width: fit-content ;
+position: relative;
+z-index: 0;align-items: var(--803a53e8e26142c189fe9ddaf87807fa_horizontalAlignment) ; 
 padding-left: var(--803a53e8e26142c189fe9ddaf87807fa_padding-left) ; 
 padding-right: var(--803a53e8e26142c189fe9ddaf87807fa_padding-right) ; 
 padding-top: var(--803a53e8e26142c189fe9ddaf87807fa_padding-top) ; 
 padding-bottom: var(--803a53e8e26142c189fe9ddaf87807fa_padding-bottom) ; 
 border-radius: var(--803a53e8e26142c189fe9ddaf87807fa_radiusAbsolute) ; 
 }
-.icon-335-e71e7fa7a81d4be2a1729f9fff0d2812[custom-agua-item="icon"] {
+section.layer-944-e918ba5cdec140808468737301b383d5[custom-agua-item="layer"] {
     
 cursor: pointer;
+
+position: absolute;
+z-index: 2;min-width: var(--min-e918ba5cdec140808468737301b383d5_valuewidth) ; 
+width: var(--e918ba5cdec140808468737301b383d5_valuewidth); 
+min-height: var(--min-e918ba5cdec140808468737301b383d5_valueheight) ; 
+height: var(--e918ba5cdec140808468737301b383d5_valueheight); 
+}
+.icon-335-e71e7fa7a81d4be2a1729f9fff0d2812[custom-agua-item="icon"] {
+    
 height: 16px ;min-height: 16px ;
 width: 16px ;min-width: 16px ; font-size: 16px ;margin-left: var(--e71e7fa7a81d4be2a1729f9fff0d2812_margin-left) ; 
 }
@@ -4441,7 +4452,7 @@ justify-content: var(--horizontalAxis-836504a660464f6ca89ae54ec8511c25) ;
 	--stay1navbarmobile_padding-left: 24px;
 	--min-stay1navbarmobile_padding-right: 24px;
 	--stay1navbarmobile_padding-right: 24px;
-	--803a53e8e26142c189fe9ddaf87807fa_horizontalAlignment: flex-end ;;
+	--803a53e8e26142c189fe9ddaf87807fa_horizontalAlignment: center ;;
 	--min-e71e7fa7a81d4be2a1729f9fff0d2812_margin-left: 0px;
 	--e71e7fa7a81d4be2a1729f9fff0d2812_margin-left: 0px;
 	--e71e7fa7a81d4be2a1729f9fff0d2812_icon: ;
@@ -4810,6 +4821,10 @@ justify-content: var(--horizontalAxis-836504a660464f6ca89ae54ec8511c25) ;
 	--min-393dd8ca739f4a05b5d33c126b8e43f5_valueheight: unset;
 	--393dd8ca739f4a05b5d33c126b8e43f5_valueheight: fit-content;
 	--b3a6ba1f80b94d5da064f5c03fb4d924_visible: none;
+	--min-e918ba5cdec140808468737301b383d5_valuewidth: unset;
+	--e918ba5cdec140808468737301b383d5_valuewidth: 100%;
+	--min-e918ba5cdec140808468737301b383d5_valueheight: unset;
+	--e918ba5cdec140808468737301b383d5_valueheight: 100%;
 
 }
 
@@ -4868,6 +4883,14 @@ justify-content: var(--verticalAxis-533e3ea346cf4597b57d9297add6b618) ;
 section.layer-4623-836504a660464f6ca89ae54ec8511c25-orientation[custom-agua-item="layer"] {
 align-items: var(--verticalAxis-836504a660464f6ca89ae54ec8511c25) ;
 justify-content: var(--horizontalAxis-836504a660464f6ca89ae54ec8511c25) ;
+}
+section.layer-944-e918ba5cdec140808468737301b383d5[custom-agua-item="layer"] {
+width: var(--e918ba5cdec140808468737301b383d5_valuewidth);
+
+}
+section.layer-944-e918ba5cdec140808468737301b383d5[custom-agua-item="layer"] {
+height: var(--e918ba5cdec140808468737301b383d5_valueheight);
+
 }
 section.layer-745-6f363da22bf34fbc92f541c560fad301[custom-agua-item="layer"] {
 width: var(--6f363da22bf34fbc92f541c560fad301_valuewidth);
@@ -5453,6 +5476,10 @@ width: var(--393dd8ca739f4a05b5d33c126b8e43f5_valuewidth);
 	--min-393dd8ca739f4a05b5d33c126b8e43f5_valueheight: unset;
 	--393dd8ca739f4a05b5d33c126b8e43f5_valueheight: fit-content;
 	--b3a6ba1f80b94d5da064f5c03fb4d924_visible: flex;
+	--min-e918ba5cdec140808468737301b383d5_valuewidth: 300px;
+	--e918ba5cdec140808468737301b383d5_valuewidth: 300px;
+	--min-e918ba5cdec140808468737301b383d5_valueheight: 100px;
+	--e918ba5cdec140808468737301b383d5_valueheight: 100px;
 
 }
 
@@ -6032,6 +6059,10 @@ width: var(--b2ee4ea7565340e4bb78c41bd4f0993c_valuewidth);
 	--min-393dd8ca739f4a05b5d33c126b8e43f5_valueheight: unset;
 	--393dd8ca739f4a05b5d33c126b8e43f5_valueheight: fit-content;
 	--b3a6ba1f80b94d5da064f5c03fb4d924_visible: none;
+	--min-e918ba5cdec140808468737301b383d5_valuewidth: 300px;
+	--e918ba5cdec140808468737301b383d5_valuewidth: 300px;
+	--min-e918ba5cdec140808468737301b383d5_valueheight: 100px;
+	--e918ba5cdec140808468737301b383d5_valueheight: 100px;
 
 }
 

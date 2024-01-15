@@ -80,7 +80,8 @@ const Stay1 = () =>{
 <section custom-agua-item="layer" className={styles.stay1mobilesection1}   >
 <section custom-agua-item="layer" className={styles.stay1navbarmobile}   >
 <section custom-agua-item="layer" className={styles['layer-739-803a53e8e26142c189fe9ddaf87807fa']}   >
-<Link to="/Stay1photos"><span custom-agua-item="icon" className={styles['icon-335-e71e7fa7a81d4be2a1729f9fff0d2812']}  >arrow_back_ios_new</span></Link>
+<Link to="/Stay1photos"><section custom-agua-item="layer" className={styles['layer-944-e918ba5cdec140808468737301b383d5']}   ></section></Link>
+<span custom-agua-item="icon" className={styles['icon-335-e71e7fa7a81d4be2a1729f9fff0d2812']}  >arrow_back_ios_new</span>
 </section>
 <section custom-agua-item="layer" className={styles['layer-1384-96be9692846c4967bef2ca5e2fa64634']}   >
 <section custom-agua-item="layer" className={styles['layer-740-b68dac83b10a46709dd063d4552d028f']}   >
